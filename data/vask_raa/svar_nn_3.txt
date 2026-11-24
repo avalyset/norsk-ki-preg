@@ -1,0 +1,90 @@
+===SVAR 1===
+Diagnose
+- Lag 1: 0 forbodne ord, 0 forbodne frasar, 0 tankestrekar, 0 bindestrekar i samansetjingar, 0 formelprega overgangar, 0 svake verbkonstruksjonar.
+- Tretalsrekkja «høyrer bekken, kjenner vind, kjenner handa» er ikkje ei utbyteleg KI-triade. Kvart ledd gjer sitt eige arbeid (lyd, vêr, berøring) og ber rim og metrum.
+- Lag 2: Dette er eit rimt dikt. Diskurslaget er laga for prosa der skrivaren vel strukturen fritt. Her styrer verseform, rim og metrum, og den lukka slutten («Det skal alltid til meg smila») er sjangeren, ikkje eit KI-trekk. Lag 2 er derfor ikkje brukt.
+
+Omskriving
+Ord som då var ville, varme,
+står der stilt på blekna blad,
+men dei løyser seg frå arme
+gløymsla, gjer meg ung og glad.
+Eg ser vegen der me gjekk,
+høyrer bekken, kjenner vind,
+kjenner handa som eg fekk
+legd så varsamt mot mitt kinn.
+Lat det liggja, lat det kvila,
+gøymt i skrinet, trygt og lunt.
+Det skal alltid til meg smila,
+med sitt minne, ljost og sunt.
+
+Endringar
+- Ingen ordendringar. Teksten har ingen KI-preg å fjerne.
+- Sett verselinjene tilbake (fire takt per line, kryssrim abab). I fila stod diktet som ein samanhengande prosablokk, noko som skjuler rima.
+
+Merknader
+Diktet verkar skrive av ein menneskeleg forfattar, med eldre nynorsk («liggja», «ljost», «legd») og bunden form. Ei «retting» av ordparet «trygt og lunt» eller «ljost og sunt» ville øydelagt rima. Linjeinndelinga er mi rekonstruksjon ut frå rim og metrum. «legd» kan vere ei skrivemåte for «lagd» og er late stå.
+
+===SVAR 2===
+Diagnose
+- Lag 1: 0 forbodne ord, 0 forbodne frasar, 0 tankestrekar, 0 formelprega overgangar, 0 svake verbkonstruksjonar.
+- 2 orddelingsfeil, truleg frå skanning/OCR: «rein en» og «sli tasjen».
+- Lag 2 (lengdband 40 til 200 ord, vanane 1, 5, 6, 7, 8): ingen opning på stemning, inga rekonstruert forhistorie, ingen epilog. Siste setning forklarer ei årsak og er informasjon, ikkje ein moral. Teksten manglar namn og tal (vane 6), men å leggje dei til ville vere oppdikting.
+
+Omskriving
+Alt i haust kunne ein merke betring i levevilkåra for reinen. Under jakta vart og simler felt. Desse gav inntrykk av at dyra var i brukbart hald. Ein del simler var i år ikkje drektige. Desse hadde dermed høve til å ta seg opp att. Med mindre dyr vert og slitasjen på beita mindre. Det har vore ei av årsakene til den dårlege helsetilstanden for villreinstamma.
+
+Endringar
+- «rein en» → «reinen» (orddelingsfeil)
+- «sli tasjen» → «slitasjen» (orddelingsfeil)
+- «bruktbart» → «brukbart» (skrivefeil)
+- Elles inga endring. Teksten har ingen KI-preg.
+
+Merknader
+Dette les som ein vanleg nyheits- eller forvaltningsnotis, og stilen er ikkje maskinprega. Det manglar namn på område, tal felte dyr og årstal. Det er eit reelt hol i teksten, men det kan ikkje fyllast utan kjelde, så eg har ikkje lagt noko til. Siste setning er tvitydig: det går ikkje klart fram om «det» viser til slitasjen på beita eller til talet på dyr. Det kan vere verdt å sjekke mot originalen. «bruktbart» kan vere ein OCR-feil for «brukbart». Eg har retta det, men det bør stemmast av mot originalen.
+
+===SVAR 3===
+Diagnose
+- Lag 1: 0 forbodne ord, 0 forbodne frasar, 0 tankestrekar, 0 formelprega overgangar, 0 svake verbkonstruksjonar. Ordparet «tåke og regn» og «våt og sliten» er naturlege, ikkje utbyteleg pynt.
+- Lag 2 (lengdband 40 til 200 ord): opnar på innhaldet, har ein konkret detalj (fleire mil, omnen), ingen moral til slutt. Sluttsetninga gjengir kva eigaren sa, og er eit sitat, ikkje ei poengforklaring. Ingen namn, men det kan ikkje leggjast til utan kjelde.
+
+Omskriving
+Hunden hadde åleine funne vegen ned frå fjellet og heim, ein tur på fleire mil gjennom tåke og regn. Han var våt og sliten, men elles i god form, og la seg straks til ved omnen. Eigaren seier til avisa at han ikkje skjønar korleis hunden greidde å finne fram, men at han no har fått stor respekt for stadsansen hans.
+
+Endringar
+- Inga endring. Teksten har ingen KI-preg å fjerne.
+
+Merknader
+Kort, konkret avisprosa som verkar menneskeskriven. Alle endringar eg kunne gjort (til dømes å leggje til namn på hunden, eigaren eller fjellet) ville kravd opplysningar som ikkje står i teksten.
+
+===SVAR 4===
+Diagnose
+- Lag 1: 0 forbodne ord, 0 tankestrekar, 0 formelprega overgangar, 0 svake verbkonstruksjonar.
+- Nokre faste journalistfrasar: «tek saka alvorleg», «aldri har opplevd noko liknande», «reagerer med harme». Dei er klisjear i nyheitsspråk, men ikkje KI-spesifikke, og dei to første er gjengitt tale frå lensmannen og familien.
+- Lag 2 (lengdband 40 til 200 ord): ingen stemningsopning (teksten startar midt i saka og føreset at lesaren veit kva «samtalen» var), ingen moral. Sluttsetninga om bygda er ei generell reaksjonssetning utan namn eller kjelde (vane 6), men ho fortel noko nytt og er ikkje ein epilog.
+
+Omskriving
+Saka er meld til lensmannen, som tek henne alvorleg og vil prøve å finne ut kven som stod bak samtalen. Familien seier at dei aldri har opplevd noko liknande, og at dei slit med å forstå at nokon kan finne på noko slikt. Dottera sjølv visste ikkje om det som hadde hendt, og vart sterkt oppskaka då ho fekk høyre om det. Folk i bygda reagerer med harme.
+
+Endringar
+- «Det har no vorte meldt til lensmannen» → «Saka er meld til lensmannen» (eit konkret subjekt i staden for det formelle «det»; «no» var overflødig)
+- «var heilt uviss om det som hadde hendt» → «visste ikkje om det som hadde hendt» («uviss» tyder 'usikker', men meininga er at ho ikkje visste om det)
+- «reagerer med harme på det som har skjedd» → «reagerer med harme» (kutta ein hale som gjentek det lesaren alt veit)
+
+Merknader
+Teksten verkar menneskeskriven og har lite KI-preg. Endringane er små språkrettingar. Sitatprega setningar frå familien og lensmannen er late stå, sidan dei gjengir kva kjeldene sa. Sluttsetninga om bygda er vag. Ein namngitt person i bygda ville gjort ho sterkare, men eg har ikkje kjelde til det. Rettinga av «uviss» byggjer på det eg trur er meint. Vart dottera faktisk usikker på kva som hadde skjedd, bør den opphavlege ordlyden stå.
+
+===SVAR 5===
+Diagnose
+- Under 40 ord: berre tre kontrollar gjeld (inga stillas, ein konkret detalj, ingen moral). Alle tre er oppfylte.
+- Lag 1: 0 forbodne ord, 0 tankestrekar, 0 formelprega overgangar.
+- 1 orddelingsfeil, truleg frå OCR: «et ter».
+
+Omskriving
+Den andre kom seg unna, men politiet trur dei veit kven det er. Politiet ser ikkje bort frå at dei har vore på jakt etter narkotiske stoff, og dei vert båe rekna som gamle kjenningar av politiet.
+
+Endringar
+- «et ter» → «etter» (orddelingsfeil). Elles inga endring.
+
+Merknader
+Vanleg kort politinotis utan KI-preg. «Politiet» kjem tre gonger på to setningar. Det er typisk for sjangeren, og eg har late det stå for ikkje å endre stemma. Skal teksten strammast, kan den siste setninga byrje med «Dei ser ikkje bort frå».

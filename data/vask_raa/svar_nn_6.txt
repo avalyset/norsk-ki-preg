@@ -1,0 +1,116 @@
+===SVAR 1===
+Diagnose
+
+Overflate (lag 1):
+- 0 forbodne ord eller frasar, 0 tankestrekar, 0 bindestrekar
+- 1 tredeling: «betre kosthald, mindre røyking og ei betre helseteneste». Dei tre ledda seier kvar sitt, så tredelinga står.
+
+Diskurs (lag 2): Teksten er 38 ord, altså under 40. Då gjeld berre tre kontrollar: ingen stillas, éin konkret detalj og ingen uttalt lærdom. Alle tre er oppfylte. Teksten har tal («ti år», «eitt år»), og siste setninga er eit faktum, ikkje ei forklaring av kva teksten betyr. «Forskarane» står utan namn, men i dette bandet er det ikkje rom for tillegg.
+
+Omskriving
+
+For ti år sidan var levealderen for menn om lag eitt år lågare. Forskarane meiner at betre kosthald, mindre røyking og ei betre helseteneste er dei viktigaste årsakene til auken. Skilnaden mellom kvinner og menn held seg likevel stor.
+
+Endringar
+
+- Ingen. Teksten har ikkje dei kjenneteikna skillen ser etter, og ei endring ville berre vore endring for endringa si skuld.
+
+Merknader
+
+Eg har latt teksten stå urørd. Det einaste ein kunne lagt fram er kven «forskarane» er, men tekstar under 40 ord har null tillegg i budsjettet, og eg har ingen kjelde å henta namnet frå. Står teksten i ein lengre artikkel, bør skrivaren sjekka om forskarane eller institusjonen er namngjevne tidlegare.
+
+===SVAR 2===
+Diagnose
+
+Overflate (lag 1):
+- 0 forbodne ord eller frasar, 0 tankestrekar, 0 bindestrekar
+- 1 skrivefeil: «bus sen» (skal vera «bussen»). Det er ikkje noko KI-preg, men det må rettast.
+
+Diskurs (lag 2): Om lag 40 ord. Teksten opnar på innhald, han er konkret, og den siste setninga er ein tørr og litt ertande kommentar, ikkje ein moralsk lærdom. Det personlege «kanskje» peikar mot menneskeleg skrift, og det skal stå.
+
+Omskriving
+
+No kunne bussen hjelpast inn på fast grunn att utan noko skade å snakka om. Kanskje det er slike røynsler med dei norske vegkantane som gjer at utlendingane er så lite flinke til å køyra ut ved passering.
+
+Endringar
+
+- «bus sen» → «bussen» (skrivefeil)
+
+Merknader
+
+Utover skrivefeilen er det ikkje noko å ta tak i. Den siste setninga kunne ved første augekast sjå ut som ein uttalt lærdom, men ho er ein spekulativ og humoristisk tanke frå skrivaren og ikkje ei oppsummering av poenget. Difor står ho.
+
+===SVAR 3===
+Diagnose
+
+Overflate (lag 1):
+- 1 klisjé av typen innsamlingsretorikk: «Kvar krone tel, og kvar gåve, stor eller lita, er med og held målarbeidet levande»
+- 2 × «difor» med to setningar imellom. Det gjer at resonnementet verkar meir oppbygd enn det treng.
+- 0 tankestrekar, 0 bindestrekar
+- Opprekninga «Lønene til skrivarane, utgivingane, møta og reisene» har fire konkrete ledd og er ikkje noko problem.
+
+Diskurs (lag 2): Om lag 95 ord, altså bandet 40–200 ord.
+- Uttalt lærdom (vane 1): «Kvar krone tel …»-setninga fortel lesaren kva pengane betyr, når opprekninga av utgiftene allereie har sagt det.
+- Opninga, dei namngjevne utgiftene og bodet til slutt er gode. Teksten går ut frå at lesaren har lese det førre brevet og byggjer ikkje opp att bakgrunnen.
+
+Omskriving
+
+Det var sjølvsagt ikkje meininga. Det er sant at det kom inn mykje i ein periode, men behova er langt større enn det me har fått. Lønene til skrivarane, utgivingane, møta og reisene kring i bygdene kostar pengar kvar einaste veke. Difor må eg no skriva eit nytt brev, og dette er ikkje fullt så optimistisk. Eg vonar at målvenene ikkje let seg lura av det førre brevet mitt, men opnar lommeboka på nytt før året er omme.
+
+Endringar
+
+- Strauk «Kvar krone tel, og kvar gåve, stor eller lita, er med og held målarbeidet levande» (uttalt lærdom og innsamlingsklisjé, utgiftslista seier det same meir konkret)
+- «Eg vonar difor at» → «Eg vonar at» (det andre «difor» var bindeord utan funksjon)
+- «i ei periode» → «i ein periode» (periode er hankjønn på nynorsk)
+
+Merknader
+
+Bodet til slutt er sterkt fordi det er sjølvironisk («ikkje let seg lura av det førre brevet mitt»). Når klisjésetninga ikkje står framfor, kjem bodet tettare på utgiftene og treff betre. Kjønnsrettinga av «periode» er språkvask og har ingenting med KI-preg å gjera. Vil skrivaren ha «ei periode» som dialektval, kan det stå.
+
+===SVAR 4===
+Diagnose
+
+Overflate (lag 1):
+- 0 forbodne ord eller frasar, 0 tankestrekar, 0 bindestrekar
+- 1 litt omstendeleg vending: «på ein skikkeleg måte»
+
+Diskurs (lag 2): Om lag 95 ord, altså bandet 40–200 ord. Teksten opnar midt i handlinga, han har namngjevne aktørar (lensmannen, styret i Fram, ei sjukepleiarske), og han sluttar utan at noko er løyst: politiet skal «sjå på saka». Den siste setninga er eit konkret framlegg og ikkje ein epilog. Eg finn ingen av vanane.
+
+Omskriving
+
+Han fekk berre skjellsord til svar, og gjengen heldt fram med å rope og syngje heilt til langt ut på morgonkvisten. Pasientar på sjukehuset vart vekte, og ei sjukepleiarske seier at det var vanskeleg å få ro på avdelinga etterpå. Lensmannen fortel at politiet ikkje har folk nok til å vere til stades kvar laurdagsnatt, men at dei skal sjå på saka. Han meiner også at styret i Fram bør ta eit større ansvar for at festane vert avslutta skikkeleg. Det kan til dømes vere aktuelt med vakter som følgjer med når folk går heim.
+
+Endringar
+
+- «vert avslutta på ein skikkeleg måte» → «vert avslutta skikkeleg» (kortare, same tyding)
+
+Merknader
+
+Dette er vanleg nyheitsprosa og har lite KI-preg. Eg har med vilje gjort berre éi lita endring. Ein gjengjeven framlegg frå ei kjelde, som at lensmannen meiner noko, høyrer til sjangeren og skal ikkje strykast som om det var ein uttalt lærdom.
+
+===SVAR 5===
+Diagnose
+
+Overflate (lag 1):
+- 1 kontrastformel som grensar mot klisjé: «bak det som såg ut som kaos, låg det nøye planlegging»
+- 0 forbodne ord, 0 tankestrekar, 0 bindestrekar
+- «Røde Kors og folka frå sjukehuset … medan politiet» er éi opprekning med konkrete aktørar og er ikkje noko problem.
+
+Diskurs (lag 2): Om lag 95 ord, altså bandet 40–200 ord.
+- Det vage i slutten (vane 6): «nokre ting kan gjerast betre neste gong» seier ikkje kva ting.
+- Slutten er rolig og avrunda (vane 8), men han har ei innrømming og er dermed ikkje ein tom epilog.
+- Teksten byrjar med «Men», så han held fram frå noko før. Opninga er ei tolking og ikkje stemning, så ho er ikkje ein stemningsopnar.
+
+Omskriving
+
+Men det som såg ut som kaos, var nøye planlagt. Kvar etat hadde sine faste oppgåver, og alle visste kven som skulle gjera kva. Brannvesenet var på staden etter få minutt og tok seg av slokkinga. Røde Kors og folka frå sjukehuset sorterte dei «skadde» etter kor alvorleg tilstanden var, medan politiet sperra av området og registrerte alle som var med. Etter øvinga samla leiarane seg for å gå gjennom korleis det heile hadde gått. Dei var i hovudsak nøgde, men nokre ting kan gjerast betre neste gong.
+
+Endringar
+
+- «bak det som såg ut som kaos, låg det nøye planlegging» → «det som såg ut som kaos, var nøye planlagt» (mjukar opp kontrastformelen og brukar verb i staden for substantiv)
+- «samla seg til eit møte for å gå gjennom» → «samla seg for å gå gjennom» (møtet ligg alt i at dei samla seg)
+- Slutten står med vilje
+
+Merknader
+
+Den siste setninga er vag, men eg har ingen kjelde for kva leiarane ville gjera betre. Difor har eg ikkje lagt noko til, for eit oppdikta døme hadde vore verre enn det vage. Har skrivaren notatar frå møtet, bør éin konkret ting (til dømes kor lang tid registreringa tok) erstatta «nokre ting». Innrømminga i slutten er eit menneskeleg trekk og bør ikkje strykast.

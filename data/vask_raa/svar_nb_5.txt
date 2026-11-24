@@ -1,0 +1,136 @@
+===SVAR 1===
+Diagnose
+
+- 0 forbudte ord eller fraser (sjekket mot den norske ekvivalenten til lista: «navigere», «styrke», «fremme», «sømløs», «robust», «avgjørende», «nøkkel-» osv.)
+- 0 tankestreker, 0 bindestreker i sammensetninger
+- 0 formelpregede overganger, 0 svake verbkonstruksjoner
+- Ingen standard tretall: oppramsingen av skader (ruter, speil, hjul og radio, seter, panser) er konkret og ulik, ikke utbyttbar pynt
+
+Diskursnivå (55 ord, båndet 40 til 200):
+- Åpner på innhold (hva som er ødelagt), ikke på stemning
+- Navngitte spesifikke: person, politiet, kommunen, bekken
+- Ingen oppsummerende moral i siste setning; teksten slutter på en konkret bekymring
+- Ingen epilog
+- Ingen funn å rette
+
+Omskriving
+
+Noen har knust samtlige ruter, revet av speilene og tatt med seg både hjul og radio. Setene ligger strødd utover skogbunnen, og i panseret er det fullt av søppel. Kjelsberg Jonas har ringt både politiet og kommunen flere ganger uten at noe har skjedd. Hun frykter nå at bilen kan lekke olje og forurense bekken som renner like ved.
+
+Endringer
+
+- Ingen endringer. Teksten har ingen KI-preg å fjerne, og å endre den ville bare byttet forfatterens stemme mot redaktørens.
+
+Merknader
+
+Teksten leser som vanlig lokaljournalistikk. Én ting å sjekke før publisering, som ikke er et KI-trekk: navnet står som «Kjelsberg Jonas» (etternavn først) og etterfølges av «Hun». Enten er navnet snudd, eller pronomenet feil. Jeg har ikke rørt det fordi jeg ikke vet hva som er riktig.
+
+===SVAR 2===
+Diagnose
+
+- 0 forbudte ord eller fraser
+- 0 tankestreker, 0 bindestreker i sammensetninger
+- 0 formelpregede overganger, 0 svake verbkonstruksjoner, ingen tretall
+
+Diskursnivå (50 ord, båndet 40 til 200):
+- Mild uttalt slutning i siste setning: «så det er god tid til å vurdere dommen nøye» forklarer leseren hva ankefristen betyr, i stedet for å la faktumet stå
+- Ellers: åpner på innhold, navngir formannskapet og kommuneadvokaten, ingen epilog
+
+Omskriving
+
+Saken skal nå legges fram for formannskapet, som tar stilling til spørsmålet på sitt neste møte. Før den tid vil kommuneadvokaten ikke uttale seg om hvorvidt kommunen kommer til å anke. Ankefristen er én måned.
+
+Endringer
+
+- «Ankefristen er en måned, så det er god tid til å vurdere dommen nøye» → «Ankefristen er én måned.» (kuttet tolkningen; leseren regner selv ut at en måned rekker til et formannskapsmøte)
+- «en måned» → «én måned» (aksent markerer tallordet, så setningen ikke leses som «omtrent en måned»)
+
+Merknader
+
+Kuttet kan diskuteres. Hvis «god tid» er kommuneadvokatens eller kommunens egen vurdering, er det informasjon og ikke en journalistisk moral, og da bør den stå med kilde: «Ankefristen er én måned, og kommunen mener det gir god tid.» Det vet jeg ikke ut fra teksten, så jeg valgte den korte versjonen. Resten av teksten er nøktern nyhetsprosa uten KI-preg.
+
+===SVAR 3===
+Diagnose
+
+- 0 forbudte ord eller fraser
+- 0 tankestreker i løpende tekst. Bindestreken foran «Slik saken står nå» er norsk sitatstrek, ikke tegnsetting midt i setningen, og står
+- 0 formelpregede overganger, ingen tretall
+- Ikke KI-trekk, men feil som bør rettes: to doble punktum («ute anlegg..», «Nyland..»), særskriving («ute anlegg», «plan saker»), «årsskifte» uten bestemt form
+
+Diskursnivå (80 ord, båndet 40 til 200):
+- Ingen uttalt moral, ingen stemningsåpning, ingen epilog
+- Navngitte spesifikke: Nyland, august 2011, årsskiftet 2010/2011
+- Siste setning er tung og byråkratisk («komme i gang med vedtak og saksgangen for selve byggesaken»), men det er forvaltningsspråk gjengitt fra en saksbehandler, ikke et KI-fingeravtrykk
+
+Omskriving
+
+Det er lagt inn ekstra kostnader til dette, samt inventar og uteanlegg. Den opprinnelige planen var at den nye barnehagen skulle stå ferdig til årsskiftet 2010/2011. Så fort går det ikke.
+
+- Slik saken står nå, er det ikke mulig å få den ferdig før august 2011, skriver Nyland.
+
+Han trenger likevel at politikerne godtar prisen og et større låneopptak, slik at det faste utvalget for plansaker kan komme i gang med vedtak og saksgangen for selve byggesaken.
+
+Endringer
+
+- «ute anlegg..» og «Nyland..» → «uteanlegg.» og «Nyland.» (særskriving og dobbelt punktum rettet)
+- «årsskifte» → «årsskiftet»; «plan saker» → «plansaker»; «det faste utvalg» → «det faste utvalget» (rettskriving)
+- «Han har likevel behov for at politikerne gir sin aksept for prisen, og for økt låneopptak, for at ... skal få komme i gang» → «Han trenger likevel at politikerne godtar prisen og et større låneopptak, slik at ... kan komme i gang» (to nominaliseringer erstattet med verb, og den doble «for at»-konstruksjonen løst opp)
+- Sitatet satt i eget avsnitt, slik norsk avissats normalt gjør med sitatstrek
+
+Merknader
+
+Det var ingen KI-preg her; det som trakk ned var tastefeil og tung saksbehandlerprosa. «Så fort går det ikke» er forfatterens egen stemme og står. «Dette» i første setning viser til noe utenfor utdraget; jeg har latt det stå fordi konteksten mangler. Hvis teksten skal være helt urørt bortsett fra rene feil, kan siste setning beholdes i original form med bare «plansaker» og «utvalget» rettet.
+
+===SVAR 4===
+Diagnose
+
+- 0 forbudte ord eller fraser
+- 0 tankestreker, 0 bindestreker i sammensetninger
+- 0 formelpregede overganger (det kausale «derfor» i siste setning bærer en reell begrunnelse og er ikke lim)
+- 0 svake verbkonstruksjoner, ingen tretall
+
+Diskursnivå (44 ord, båndet 40 til 200):
+- Åpner på innhold (brannvesenets behov)
+- Ingen uttalt moral, ingen epilog
+- «andre løsninger» er uspesifikt, men det gjengir det kilden ber om, og jeg kan ikke legge til noe teksten ikke sier
+- Ingen funn å rette
+
+Omskriving
+
+Brannvesenet trenger hallen på kort varsel, og utstyret må være rengjort og klart til enhver tid. Skal vi dele den med kommunens andre etater, blir det kø og konflikter om hvem som har forrang. Han ber derfor politikerne se på andre løsninger.
+
+Endringer
+
+- Ingen endringer. Teksten er kort, konkret og uten KI-preg.
+
+Merknader
+
+Hvis artikkelen et annet sted sier hvilke løsninger han ser for seg, bør «andre løsninger» erstattes med dem. Det ville vært den eneste forbedringen, og den krever kildemateriale jeg ikke har. Ellers står teksten som den er.
+
+===SVAR 5===
+Diagnose
+
+- 1 tolkende signalord: «Paradoksalt nok» (forteller leseren hvordan situasjonen skal oppfattes før den er beskrevet; tilsvarer engelsk «ironically» brukt som ramme)
+- 0 tankestreker i løpende tekst. Bindestreken foran sitatet er norsk sitatstrek og står
+- 0 formelpregede overganger, ingen tretall
+- Ikke KI-trekk, men feil i sitatet som ser ut som skanne- eller orddelingsfeil: «duk ket», «nar koman»
+
+Diskursnivå (70 ord, båndet 40 til 200):
+- Uttalt tolkning foran stoffet (vane 1, flyttet til starten): journalisten merker motsetningen som paradoks i stedet for å la sitatet vise den
+- Ellers sterk: konkrete steder (Skaidi, Alta), kildens egne ord, ingen epilog
+
+Omskriving
+
+Dette gjør det vanskelig for han å få hjelpa han ber om:
+
+- Når jeg ba om hjelp fra NAV til et tak over hodet fram til det dukket opp noe jeg hadde råd til å leie, så fikk jeg til svar at jeg kunne få en bolig på Skaidi. Det hadde kanskje gått greit om jeg var en rotløs narkoman, men jeg har livet mitt her i Alta, både barn og jobb er her.
+
+Endringer
+
+- «Paradoksalt nok gjør dette» → «Dette gjør» (kuttet merkelappen; sitatet om Skaidi mot Alta viser motsetningen selv)
+- «duk ket» → «dukket», «nar koman» → «narkoman» (orddelingsfeil rettet; ordlyden i sitatet ellers urørt)
+- Sitatet satt i eget avsnitt etter kolon
+
+Merknader
+
+Sitatet er gjengitt ordrett bortsett fra de to ødelagte ordene, som tydelig er tekniske feil og ikke kildens ordvalg. «han» som objektsform og «hjelpa» er forfatterens valg innenfor bokmål og står. Uten «Paradoksalt nok» mister setningen litt av sin forklarende funksjon; hvis det som gjør situasjonen paradoksal står i avsnittet før (for eksempel at han har jobb, men ikke bolig), bærer den sammenhengen poenget alene.

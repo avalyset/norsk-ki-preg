@@ -1,0 +1,95 @@
+===SVAR 1===
+Diagnose
+- 0 forbodne ord, 0 forbodne frasar, 0 tankestrekar, 0 bindestrekar i samansette ord
+- 0 formelprega overgangar, 0 svake verbkonstruksjonar
+- 1 formfeil: mellomtittelen «TJUVERI PÅ BRYGGA» står inne i brødteksten
+
+Diskursnivå: ingen funn. Teksten opnar på innhald (skadane), har namn (Norheimsund, Øystese), og sluttar på ei konkret oppmoding frå lensmannen, ikkje på ei forklaring av kva saka betyr.
+
+Omskriving
+Ingen av dei fire kom alvorleg til skade, men to av dei vart køyrde til lækjar i Norheimsund for kontroll. Bilen fekk store skadar og måtte slepast bort. Lensmannen opplyser at det var glatt på vegen den natta.
+
+TJUVERI PÅ BRYGGA
+
+Natt til søndag vart det brote seg inn i eit naust ved brygga i Øystese. Tjuvane tok med seg ein påhengsmotor og nokre fiskereiskapar. Lensmannen ber alle som har sett noko mistenkjeleg om å melda frå.
+
+Endringar
+- Flytta «TJUVERI PÅ BRYGGA» ut på eiga linje (det er ein mellomtittel for ei ny sak, ikkje ein del av setninga før)
+- Elles ingen endringar
+
+Merknader
+Dette er ei kort lokalavisnotis utan KI-preg. Å skriva henne om ville berre gjort henne dårlegare. «Vart det brote seg inn» er ein litt uvanleg konstruksjon, men han høyrer til skribenten si stemme og stod att.
+
+===SVAR 2===
+Diagnose
+- 0 forbodne ord, 0 forbodne frasar, 0 tankestrekar, 0 bindestrekar i samansette ord
+- 0 formelprega overgangar, 0 svake verbkonstruksjonar
+- Lista over dyreslag (storfe, kyr, sau, gris, høns) er ei verkeleg liste, ikkje ein refleksiv tretal
+
+Diskursnivå:
+- Ingen tal i nokon av påstandane («om lag uendra», «noko ned», «auka litt»)
+- Siste setninga kan likna ein uttalt konklusjon, men ho tilfører ny opplysning (talet på bruk), så ho er ikkje ein moral
+
+Omskriving
+Talet på storfe har halde seg om lag uendra, medan talet på kyr gjekk noko ned. Sauetalet auka litt samanlikna med året før, og det same gjeld talet på griser. Talet på høns gjekk derimot tilbake. Statistikken viser at tendensen med færre og større bruk held fram i heile landet.
+
+Endringar
+- Ingen endringar i teksten
+
+Merknader
+Den einaste svakheita er at ein statistikkomtale utan eitt einaste tal er tynn. Eg har ikkje lagt inn tal, fordi dei ikkje finst i utkastet og ville vore oppdikta. Har skribenten tala frå statistikken (til dømes prosentendringa for kyr), bør dei inn i første setning. Siste setninga fekk stå: ho fortel noko nytt, ho forklarer ikkje dei føregåande.
+
+===SVAR 3===
+Diagnose
+- 0 forbodne ord, 0 forbodne frasar, 0 tankestrekar, 0 bindestrekar i samansette ord
+- 0 formelprega overgangar, 0 svake verbkonstruksjonar
+
+Diskursnivå: gjeld ikkje. Teksten er eit dikt eller ein songtekst med rim og fast rytme. Stemningsopning, skildring av vêr og ein roleg slutt er sjangeren sjølv, ikkje KI-preg.
+
+Omskriving
+Teksten står uendra. Eg har ikkje skrive han om, og eg gjengir han ikkje på nytt her.
+
+Endringar
+- Ingen
+
+Merknader
+Reglane i skillen er laga for prosa der skribenten har eit fritt val av struktur. I eit rimdikt ber kvart ord rim og metrum, og ei «retting» ville øydelagt det. Dersom teksten er ein kjend song, gjeld også regelen om sitert materiale: han skal stå ordrett. Er det eigen tekst og målet er noko anna enn å fjerna KI-preg (til dømes å stramma rytmen), er det ei anna oppgåve.
+
+===SVAR 4===
+Diagnose
+- 0 forbodne ord, 0 tankestrekar, 0 bindestrekar i samansette ord
+- 1 fyllfrase av typen «needless to say»: «Som rimeleg kan vera»
+- 3 skrivefeil frå skanning: «nær ast», «heradet}», og «otte» brukt tre gonger på to setningar (gjentaking, ikkje feil)
+
+Diskursnivå: ingen strukturfunn. Slutten er open (geologen er ikkje komen enno), og det er rett, sidan saka faktisk er uløyst.
+
+Omskriving
+Andre steinar fylgde i faret til storsteinen og gjorde noko skade på dei næraste husa. Det er nærast eit under at ikkje nokon kom til skade i dette raset. Hendinga har skapt otte og uro mellom folk som bur i grannelaget, og ein ottast nye steinsprang. Truleg vil heradet få ein geolog til å røkja etter om det er grunnlag for ein slik otte, eller om folk framleis kan bu så nokolunde trygt i husa sine.
+
+Endringar
+- «Som rimeleg kan vera har denne hendinga skapt» → «Hendinga har skapt» (fyllfrase som seier at lesaren alt veit det som kjem)
+- «uro mellom folk som bur i grannelaget. Ein ottast nye steinsprang.» → slått saman til éi setning med «og» (den korte setninga stod som eit ekko av den førre)
+- «nær ast» → «nærast», «heradet}» → «heradet» (skanningsfeil)
+
+Merknader
+Kuttet av «Som rimeleg kan vera» kan diskuterast: i eldre lokalavisstil er det ein vanleg vending og ikkje eit KI-teikn. Eg kutta han fordi han ikkje ber meining. «Det er nærast eit under» er ei journalistisk klisjé, men ho er skribenten si og fekk stå.
+
+===SVAR 5===
+Diagnose
+- 1 forboden frase: «er det verdt å nemna at» (= «it is worth noting that»)
+- 0 forbodne ord, 0 tankestrekar, 0 bindestrekar i samansette ord
+- 3 skrivefeil frå skanning: «fram og att ende», «f ra», «camp ingvogner»
+- Dei to vedtaksformuleringane er sitat og vart ikkje endra i ordlyden
+
+Diskursnivå: ingen strukturfunn. Teksten opnar på innhaldet (setninga som skapte debatten), har namn (Steinsvoll, Kvamskogen, bygningsrådet), og siste setninga er ei konkret opplysning, ikkje ein moral.
+
+Omskriving
+Det var ein setning i framlegget til vedtak som skapte debatten: «Godkjenninga kan når som helst trekkjast attende», stod som siste punkt. Etter mykje fram og attende vart setninga stroken, og eit framlegg frå Steinsvoll føydd til: «kunne trekkjast attende dersom ikkje vilkåra bygningsrådet set, vert oppfylte». Etter dette kan ein vona at ein god del av campingvognparken på Kvamskogen forsvinn. Eigarane av campingvogner treng likevel ikkje fortvila: ein skal framleis kunna ha ei vogn parkert ved huset.
+
+Endringar
+- «For at ikkje eigarane av campingvogner skal verta fortvila, er det verdt å nemna at ein framleis skal kunna» → «Eigarane av campingvogner treng likevel ikkje fortvila: ein skal framleis kunna» (fjerna forboden frase, sa poenget direkte)
+- La til hermeteikn rundt dei to vedtaksformuleringane, så det går fram kva som er sitat
+- «fram og att ende» → «fram og attende», «f ra» → «frå», «camp ingvogner» → «campingvogner» (skanningsfeil); fjerna kommaet etter «attende»
+
+Merknader
+Hermeteikna er eit tillegg som ikkje stod i originalen. Dei gjer teksten klarare, men dersom avisa sin stil var å innleia sitat med kolon utan hermeteikn, kan dei takast bort att. «Etter dette kan ein vona at» er ei meining frå skribenten og fekk stå; det er kommentar, ikkje KI-preg.

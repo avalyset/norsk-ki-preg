@@ -1,0 +1,84 @@
+===SVAR 1===
+Diagnose
+- 0 forbodne ord, 0 forbodne frasar
+- 0 tankestrekar, 0 bindestrekar i samansette ord
+- 0 tretal, 0 formelaktige overgangar, 0 svake verbkonstruksjonar
+
+Diskursnivå (42 ord, bandet 40 til 200): ingen funn. Teksten opnar på hendinga (vêret som årsak, så flaumen), har konkrete tidspunkt ("natt til søndag"), og sluttar på eit faktum utan å forklare kva det betyr.
+
+Omskriving
+Etter fleire døgn med steikjande sol kom det kraftige regnbyer i fjellet, og natt til søndag steig elva så brått at vatnet fløymde inn i teltet medan dei låg og sov. Dei kom seg i tryggleik, men mista mykje av utstyret.
+
+Endringar
+- Ingen. Teksten har ingen KI-preg å fjerne, og ei endring berre for å endre noko ville gjort han dårlegare.
+
+Merknader
+Dette er nøktern nyhendeprosa på nynorsk. Den forbodne lista i skillen er engelsk og spansk, så eg har sett etter dei norske motstykka (til dømes "avgjerande", "sømlaus", "utforske", "i dagens samfunn", "det er verdt å merke seg") og fann ingen. Eg har ikkje lagt til noko, fordi alt eg kunne lagt til (namn på fjellet, kven "dei" er) ikkje finst i teksten og ville vore oppdikta.
+
+===SVAR 2===
+Diagnose
+- 0 forbodne ord, 0 forbodne frasar, 0 strukturfunn
+
+Diskursnivå (39 ord, under 40): dei tre kontrollane held. Ingen innramming (helsing, avslutning), konkrete detaljar ("bakbeinet", "ein halvtime", "viltnemnda"), og ingen sluttsetning som tolkar hendinga.
+
+Omskriving
+Han stod mellom nokre bjørker ikkje langt frå der han hadde vorte påkøyrd. Det eine bakbeinet hang slapt, og han rørte seg nesten ikkje. Eg ringde straks til viltnemnda, og etter ein halvtime kom ein jeger og avliva dyret.
+
+Endringar
+- Ingen. Den fysiske skildringa av dyret er det som faktisk skjedde og er sjølve innhaldet, så det er ikkje ein kroppsrapport for kjensler som skal kuttast.
+
+Merknader
+Teksten sluttar brått på avlivinga utan å seie korleis forteljaren tok det. Det er ein styrke, ikkje noko som skal fyllast inn. Éin ting å vurdere sjølv: "viltnemnda" er ei eldre nemning. Skal teksten vere aktuell i dag, er det kommunen eller den kommunale viltvakta folk ringjer, men eg har ikkje endra det, sidan eg ikkje veit når hendinga fann stad.
+
+===SVAR 3===
+Diagnose
+- 0 forbodne ord, 0 forbodne frasar, 0 strukturfunn
+
+Diskursnivå (37 ord, under 40): dei tre kontrollane held. Opnar rett på meldinga, har tal ("fem", "to"), og sluttar på utfallet utan moral.
+
+Omskriving
+Seinare på kvelden kom det ny melding om bråk i resepsjonen. Fem unge menn hadde drukke mykje og ville ikkje roe seg. To av dei vart sette i arresten for natta, medan dei andre vart sende heim.
+
+Endringar
+- Ingen.
+
+Merknader
+Teksten liknar eit utdrag frå ein politilogg eller ei lokalavissak, og der er rett fram kronologi sjølve sjangeren. Han treng ikkje meir. "Seinare på kvelden" og "ny melding" viser til noko lesaren alt kjenner til, og det er slik det skal vere: teksten byggjer ikkje opp att forhistoria.
+
+===SVAR 4===
+Diagnose
+- 0 forbodne ord, 0 forbodne frasar
+- 0 tankestrekar, 0 bindestrekar
+- 1 omstendeleg konstruksjon: "Når han er klar, vil det bli langt enklare" (gjentek det setninga før nettopp sa, at vegen blir ferdig)
+
+Diskursnivå (47 ord, bandet 40 til 200):
+- Upresis kjelde: "ein reknar med" seier ikkje kven som reknar med det (vegvesenet, kommunen, entreprenøren)
+- Elles ingen funn. Siste setning er ny opplysning, ikkje eit etterord eller ei tolking.
+
+Omskriving
+Arbeidet går etter planen, og ein reknar med at vegen skal stå ferdig før jul. Då blir det langt enklare for fiskarane å kome til båtane sine med bil og utstyr. Seinare er det òg tanken at vegen skal førast vidare inn mot hamna.
+
+Endringar
+- "Når han er klar, vil det bli langt enklare" → "Då blir det langt enklare" (fjerna ei leddsetning som berre gjentok førre setning)
+
+Merknader
+Eg har latt "ein reknar med" og "det er tanken" stå, fordi eg ikkje veit kven som står bak. Skriv inn namnet på byggherren eller kommunen dersom du har det. Det er den eine endringa som verkeleg ville styrkt teksten, men eg kan ikkje gjere det utan å dikte opp ei kjelde. Sjølve opninga "Arbeidet går etter planen" er ein mykje brukt nyhendefrase, men han er kort og seier noko konkret, så eg let han stå.
+
+===SVAR 5===
+Diagnose
+- 0 forbodne ord, 0 forbodne frasar
+- 0 tankestrekar, 0 bindestrekar
+- 1 tung konstruksjon: "og særleg vil ein retta merksemda mot" (subjektet skiftar midt i setninga frå "Selskapet" til "ein", og "retta merksemda mot" er byråkratisk)
+
+Diskursnivå (54 ord, bandet 40 til 200):
+- Upresise påstandar: "dei fleste ulukkene" og "Mange av dei som drukna" har ingen tal eller periode
+- Elles ingen funn. Teksten opnar på innhaldet og sluttar på ei konkret opplysning om kampanjane.
+
+Omskriving
+Redningsselskapet minner om at dei fleste ulukkene skjer når folk er åleine på sjøen eller badar etter å ha drukke alkohol. Mange av dei som drukna, hadde heller ikkje redningsvest på seg. Selskapet vil difor halda fram med kampanjane sine også neste år, særleg retta mot unge menn og fritidsbåtfolket.
+
+Endringar
+- "og særleg vil ein retta merksemda mot" → "særleg retta mot" (eitt subjekt gjennom heile setninga, kortare og meir direkte)
+
+Merknader
+Den største svakheita er at teksten ikkje har eitt einaste tal. Har du drukningsstatistikken Redningsselskapet viser til (til dømes kor mange som drukna i fjor, og kor mange av dei som ikkje hadde vest), set han inn i staden for "dei fleste" og "mange". Eg har ikkje funne på tal. Infinitivane på -a ("halda", "retta") er heldt ved like, fordi teksten er konsekvent på det.

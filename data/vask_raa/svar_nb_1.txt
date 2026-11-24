@@ -1,0 +1,133 @@
+===SVAR 1===
+Diagnose
+
+Lag 1 (overflate):
+- 0 forbudte ord eller fraser
+- 3 frittstående bindestreker brukt som replikkstrek ("- Jeg blir", "- Hva vil", "- Det kan")
+- 1 skrivefeil i sitatet: "V har bygget" (skal være "Vi")
+
+Lag 2 (diskurs), lengdebånd 40 til 200 ord:
+- Oppsummerende slutt: siste setning ("Arild Byberg tror ikke at pelsdyrnæringen blir nedlagt") gjentar det sitatet allerede sa, og fungerer som en fasit for leseren
+- Etternavnet og bransjen kommer først i siste setning, etter at leseren har lest hele sitatet uten å vite hvem eller hva det gjelder
+
+Omskriving
+
+«Jeg blir veldig overrasket om pelsdyrnæringen blir lagt ned», sier Arild Byberg.
+
+«Hva vil dere gjøre dersom det allikevel skjer?»
+
+«Det kan vi ikke tenke på. Vi har bygget dette for å leve av det, og for å lage en fremtid for familien vår», sier Byberg.
+
+Endringer
+
+- "Arild Byberg tror ikke at pelsdyrnæringen blir nedlagt." → strøket (oppsummerte det sitatet allerede sier)
+- "sier Arild." → "sier Arild Byberg." og "næringen" → "pelsdyrnæringen" i første sitat (fullt navn og bransje ved første omtale, så ingenting går tapt når sluttsetningen strykes)
+- Replikkstreker → anførselstegn «» (regelen forbyr frittstående bindestrek som tegnsetting)
+- "V har bygget" → "Vi har bygget" (skrivefeil)
+- Andre omtale "sier Arild" → "sier Byberg" (vanlig pressenorm etter fullt navn)
+
+Merknader
+
+Selve sitatene er beholdt ordrett; bare tegnsettingen rundt dem er endret. Replikkstrek er en etablert norsk pressekonvensjon og ikke et KI-tegn i seg selv, så byttet til «» er et valg for å følge regelsettet. Vil du beholde strekene, er resten av omskrivingen like gyldig. "V" er rettet til "Vi" fordi det er en åpenbar tastefeil, ikke noe kilden sa. Teksten mangler dato og sted, men jeg har ikke lagt til noe som ikke står i utkastet.
+
+===SVAR 2===
+Diagnose
+
+Lag 1 (overflate):
+- 0 forbudte ord, 0 tankestreker, 0 bindestreker
+- 1 utslitt frase: "livet mitt ble aldri det samme"
+
+Lag 2 (diskurs), lengdebånd 40 til 200 ord:
+- Oppsummerende slutt: siste setning forteller leseren hva historien betydde ("livet mitt ble aldri det samme")
+- Rammefrase før innholdet: "Det er rart å tenke på at" utsetter selve opplysningen om annonsen
+- Ingen navn, årstall eller sted i teksten (kan ikke rettes uten å finne på noe)
+
+Omskriving
+
+Nå er de store, men de kommer fortsatt innom når de er i nærheten, og vi feirer bursdager sammen. Jeg har aldri fått egne barn, så for meg har dette betydd utrolig mye. Det hele startet med en annonse i avisa, der en ung mor søkte noen til å passe datteren sin noen timer om dagen. Jeg tok telefonen.
+
+Endringer
+
+- "og livet mitt ble aldri det samme" → strøket (moralen var allerede sagt i "betydd utrolig mye"; teksten slutter nå på handlingen)
+- "Det er rart å tenke på at det hele startet med" → "Det hele startet med" (rammefrasen sa ingenting nytt)
+
+Merknader
+
+Teksten var ellers sterk: "Jeg har aldri fått egne barn" sier følelsen rett ut, og det er nettopp det skillen vil ha. Derfor er nesten alt beholdt. Det mangler konkrete detaljer som navnet på jenta, hvilket år eller hvilken avis. Hvis du vet dem, ville ett slikt navn eller årstall gjort mer enn noen omskriving. Jeg har ikke lagt inn noe, fordi alt jeg skrev inn ville vært oppdiktet.
+
+===SVAR 3===
+Diagnose
+
+Lag 1 (overflate):
+- 0 forbudte ord eller fraser
+- 1 frittstående bindestrek brukt som replikkstrek ("- Jeg er kald")
+- 1 tredeling ("kald, våt og sliten"), men inne i et sitat, så den telles ikke og beholdes
+
+Lag 2 (diskurs), lengdebånd 40 til 200 ord:
+- Ingen funn. Teksten åpner på handling, har konkrete hendelser (kjedet hoppet av to ganger, bremsene nesten borte), og sluttsitatet er kildens egne ord, ikke en fasit fra skribenten.
+
+Omskriving
+
+Etter de første milene fant han rytmen, og han begynte å plukke opp ryttere som hadde gått for hardt ut. I de bratte motbakkene måtte han flere ganger av sykkelen og trille, men på nedkjøringene tok han igjen tapt tid. Kjedet hoppet av to ganger, og bremsene var nesten borte mot slutten. Likevel kom han i mål godt innenfor merketiden.
+
+«Jeg er kald, våt og sliten, men veldig fornøyd. Neste år blir det nok ny tur», sier en smilende Nilsen.
+
+Endringer
+
+- Replikkstrek → anførselstegn «» (regelen forbyr frittstående bindestrek som tegnsetting)
+- Sitatet flyttet til eget avsnitt (vanlig i reportasje, og det skiller skribentens tekst fra kildens)
+
+Merknader
+
+Dette er en tekst med få eller ingen KI-tegn, og jeg har latt den være nesten urørt. Å skrive om mer ville vært å bytte ut skribentens stemme med redaktørens. "En smilende Nilsen" er en kjent pressefrase, men den beskriver noe som faktisk skjedde og er beholdt. Teksten nevner verken rittets navn eller sluttiden; har du dem, ville én av dem gjort teksten mer presis.
+
+===SVAR 4===
+Diagnose
+
+Lag 1 (overflate):
+- 0 forbudte ord, 0 tankestreker, 0 bindestreker
+- 1 omstendelig konstruksjon: "i brevs form har gjort styret oppmerksom på" (tilsvarer en svak verbkonstruksjon: mange ord rundt verbet "skrive")
+- 1 uklar formulering: "kan være juridisk på sin plass"
+- Alt står i én lang setning på rundt 45 ord
+
+Lag 2 (diskurs), lengdebånd 40 til 200 ord:
+- Uklare henvisninger: "vedkommende" og "loven" uten navn. Hvilken lov det gjelder (trolig eierseksjonsloven), står ikke i utkastet.
+
+Omskriving
+
+«Styret må innse at det før eller senere vil kunne ramme sameiets økonomi å ikke ta denne typen spørsmål på alvor», sier vedkommende. I et brev til styret har vedkommende pekt på at loven er så klar at et krav om tilbakebetaling kan ha juridisk grunnlag.
+
+Endringer
+
+- Én setning på rundt 45 ord → to setninger (sitatet står for seg, brevet får sin egen setning)
+- "i brevs form har gjort styret oppmerksom på" → "i et brev til styret har pekt på" (direkte verb i stedet for omskrivning)
+- "kan være juridisk på sin plass" → "kan ha juridisk grunnlag" (sier hva som menes)
+- "loven er så sterk" → "loven er så klar" (en lov er klar eller tydelig, ikke sterk; sjekk at dette er det kilden mente)
+- Sitatet satt i «» slik at det er tydelig hvor kildens ord slutter
+
+Merknader
+
+Første del er behandlet som et direkte sitat fordi den etterfølges av "sier vedkommende", og ordlyden er derfor ikke endret, selv om den er tung. Hvis det egentlig er et referat, kan den gjøres mye enklere, for eksempel "Styret risikerer å skade sameiets økonomi hvis det ikke tar slike spørsmål på alvor." "Vedkommende" er beholdt fordi kilden kan være anonym med vilje. Navnet på loven er ikke lagt inn, fordi det ikke står i teksten; har du det, bør det stå der. Byttet fra "sterk" til "klar" endrer nyansen litt og bør bekreftes.
+
+===SVAR 5===
+Diagnose
+
+Lag 1 (overflate):
+- 0 forbudte ord, 0 fraser, 0 tankestreker eller bindestreker
+
+Lag 2 (diskurs), under 40 ord: bare tre kontroller gjelder.
+- Ingen stillas (hilsen, avslutning, avsnittsarkitektur): oppfylt
+- Minst én konkret detalj: oppfylt (bulkene, grøften)
+- Ingen oppsummerende moral: oppfylt
+
+Omskriving
+
+Heldigvis kom han fra det uten skader, og bilen fikk bare noen bulker. Pikene hjalp ham opp av grøften og ba om unnskyldning for oppstyret.
+
+Endringer
+
+- Ingen endringer. Teksten bestod alle kontrollene som gjelder for denne lengden.
+
+Merknader
+
+Teksten har ingen KI-tegn å fjerne. Under 40 ord tillater regelsettet ingen tillegg, så jeg har ikke lagt inn noe. "Pikene" er et gammeldags ord, men det er skribentens stemme og ikke et KI-tegn, så det står. Det samme gjelder "Heldigvis", som er en vurdering, men en kort og menneskelig en.

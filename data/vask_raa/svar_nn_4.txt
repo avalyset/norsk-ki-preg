@@ -1,0 +1,135 @@
+===SVAR 1===
+Diagnose
+
+Lag 1:
+- 1 frittståande bindestrek brukt som teiknsetjing: «- Vi har» (replikkstrek)
+- 0 forbodne ord, 0 forbodne frasar, 0 tankestrekar inne i setningar, 0 svake verbkonstruksjonar
+- Sitatet har eit kjent mønster: «Det er kanskje litt gammaldags, men det er nettopp det som gjer det til jul for meg». Det står i hermeteikn hjå ein namngjeven person, så det vert berre notert, ikkje endra.
+
+Lag 2 (55 ord, band 40 til 200: vanar 1, 5, 6, 7 og 8):
+- Ingen stemningsopning: teksten startar på innhaldet (julaftan, kvar, kva mat).
+- Konkrete ting finst: ribbe, pinnekjøt, kyrkja, juletreet.
+- Stadfest poeng i siste setning finst, men berre inne i sitatet. Det vert ikkje retta (sjå Merknader).
+- Ingen epilog, ingen framlasta kontekst.
+
+Omskriving
+
+Julaftan feirar familien heime hjå foreldra hans, med ribbe og pinnekjøt på bordet.
+
+«Vi har nokre tradisjonar som vi alltid held fast på. Vi går i kyrkja før middagen, og etterpå syng vi rundt juletreet. Det er kanskje litt gammaldags, men det er nettopp det som gjer det til jul for meg», seier han.
+
+Endringar
+
+- «- Vi har ...» → «Vi har ...» (replikkstreken bytt ut med hermeteikn, sitatet skilt ut i eige avsnitt)
+- Sitatet står ordrett. Ingen andre endringar.
+
+Merknader
+
+Replikkstrek er vanleg norsk pressekonvensjon, så bytet til hermeteikn er eit val du kan gå tilbake på utan at teksten vert dårlegare. Det einaste i teksten som verkeleg ber KI-preg, er slutten av sitatet: «kanskje litt gammaldags, men det er nettopp det som ...» er ei ferdig formel som forklarar poenget med heile avsnittet. Har han faktisk sagt det, skal det stå. Er sitatet sett saman eller pussa i etterkant, bør du kutte det ned til «Vi går i kyrkja før middagen, og etterpå syng vi rundt juletreet», seier han. Det står sterkare utan forklaringa.
+
+===SVAR 2===
+Diagnose
+
+Lag 1:
+- 0 forbodne ord, 0 forbodne frasar, 0 tankestrekar, 0 bindestrekar i samansetjingar, 0 formelovergangar, 0 svake verb
+- Ingen KI-preg på overflata. Det som skurrar, er skanne- og sats-feil: «kro ner», «ik kje», «radio apparat», «fjernsynsmottokorar», og eit avkorta institusjonsnamn i starten («K.» for «N. R. K.»).
+
+Lag 2 (om lag 80 ord, band 40 til 200: vanar 1, 5, 6, 7 og 8):
+- Ingen vanar funne. Teksten opnar på innhaldet, er full av tal og årstal, har ingen stadfest poeng og sluttar på eit konkret tal.
+
+Omskriving
+
+N. R. K. har kontrollørar ute kring i heile landet på jakt etter folk som lyder på radio eller ser fjernsyn utan at dei nokon gong har betalt den fastsette avgifta. Dei kom i 1964 over 1741 slike til felle, og det gav vel 62 000 kroner i kassa. 439 saker sende N. R. K. til politiet. Det vart bot til 6, 87 fekk åtvaring, 183 saker vart lagde bort, og 163 saker var ikkje avgjort enno ved årsskiftet. Det er kravt tvangssal av radioapparat og fjernsynsmottakarar i 87 tilfelle.
+
+Endringar
+
+- «K. har kontrollørar» → «N. R. K. har kontrollørar» (avkorta namn ført opp att i same form som lenger nede i teksten)
+- «kro ner», «ik kje», «radio apparat» → «kroner», «ikkje», «radioapparat» (orddelingar frå spalteskift)
+- «fjernsynsmottokorar» → «fjernsynsmottakarar» (truleg lesefeil i skanninga)
+- «tvangsal» → «tvangssal» (truleg ein s som fall ut)
+
+Merknader
+
+Dette er ei nyheitsmelding med statistikk, og ho ber ikkje KI-preg verken på overflata eller i oppbygginga. Eg har difor berre retta det som ser ut som skanne- og satsfeil, og latt språket frå 1960-åra stå (lyder, kom til felle, åtvaring). Sjekk «fjernsynsmottakarar» og «tvangssal» mot originalen. Talet 87 står to gonger (åtvaringar og tvangssal). Det kan vere rett, men er verdt å sjå på i kjelda. Summen 6 + 87 + 183 + 163 gjev 439, så saksfordelinga stemmer.
+
+===SVAR 3===
+Diagnose
+
+Lag 1:
+- 0 forbodne ord, 0 forbodne frasar, 0 tankestrekar, 0 svake verb
+- Mellomrom før «?» og «!» (eldre sats, ikkje KI-preg)
+- Orddelingar frå spalteskift: «fi re», «heim land», «presi sjon»
+
+Lag 2 (om lag 45 ord, band 40 til 200: vanar 1, 5, 6, 7 og 8):
+- Ingen vanar funne. Siste setning («Hatten av for ...») er ein utrop frå skribenten, ikkje ei forklaring av kva teksten betyr. Sveitsarane og dei fire språka er konkrete nok for eit lesarinnlegg av denne lengda.
+
+Omskriving
+
+Det er mest så ein får hug til å kjøpa produktet på flekken. Er det avdi sveitsarane har fire offisielle språk i eige heimland, at det fell heilt naturleg for deg å venda seg til folk i Noreg på deira eige mål? Hatten av for sveitsisk presisjon og rettferdssans!
+
+Endringar
+
+- «fi re», «heim land», «presi sjon» → «fire», «heimland», «presisjon» (orddelingar retta)
+- «mål ?» og «rettferdssans !» → «mål?» og «rettferdssans!» (mellomrom før teikn fjerna)
+
+Merknader
+
+Teksten har ein personleg, litt ironisk tone som ingen modell ville ha landa på, og han treng ingen redigering for KI-preg. Eg har ikkje rørt ordvala (avdi, på flekken, mål). «For deg» kan vere meint som «for dykk» om innlegget er retta til eit firma og ikkje ein person. Det ser eg ikkje av teksten, så det står som det står.
+
+===SVAR 4===
+Diagnose
+
+Lag 1:
+- 0 forbodne ord, 0 tankestrekar, 0 bindestrekar i samansetjingar
+- 1 tom verdipåstand: «har alle verdi» (seier at bileta er verdfulle i staden for å seie at dei er velkomne)
+- 1 formelaktig opning: «Det er difor viktig at» (bufferen før sjølve oppmodinga)
+- «Difor» står to gonger i sju setningar
+
+Lag 2 (om lag 120 ord, band 40 til 200: vanar 1, 5, 6, 7 og 8):
+- Stadfest poeng i siste setning: «Kvart einaste bilete kan fortelje noko om bygda vår som elles ville gått tapt.»
+- Epilog: den same siste setninga legg ingenting til etter oppmodinga om å ta kontakt.
+- Ingen namngjevne spesifikke ting: ingen stad, ingen dato for innsamlinga, ingen kontaktperson.
+- Flat vekt: alle setningane er like høge. Det viktigaste (opplysningane om kven, kvar og når) druknar midt i.
+
+Omskriving
+
+Sjå gjennom skuffer, album og pappeskjer på loftet, og ta med det de finn. Gamle portrett, bilete frå gardsarbeid, skulefoto, bryllaup og festar er like velkomne som nyare bilete av hus, vegar og folk i arbeid. Me skannar fotografia og leverer dei attende til eigaren, så ingen treng vere redd for å miste noko.
+
+Det viktigaste er likevel opplysningane. Kven er med på biletet, kvar er det teke, og når?
+
+Skriv ned det de veit, eller ta kontakt med oss, så kan me gå gjennom det saman.
+
+Endringar
+
+- «Det er difor viktig at folk ser gjennom ... og tek med seg» → «Sjå gjennom ... og ta med det de finn» (direkte oppmoding i staden for buffer, same «de» som lenger nede)
+- «har alle verdi, og det same gjeld nyare bilete» → «er like velkomne som nyare bilete» (tom verdipåstand bytt ut med det lesaren faktisk treng å vite)
+- «Fotografia vert skanna og levert attende» → «Me skannar fotografia og leverer dei attende» (aktiv form, nokon står ansvarleg)
+- Opplysningane er flytte til eige avsnitt og gjort til eit spørsmål, så det viktigaste står åleine
+- Kutta siste setning (stadfest poeng og epilog; oppmodinga står no sist)
+
+Merknader
+
+Eg har ikkje lagt til namn, stad eller dato, sidan teksten ikkje gjev noko å byggje på. Om innsamlinga har ein stad (biblioteket, grendehuset), ein dag og ein kontaktperson med telefonnummer, bør det inn i siste avsnitt. Det vil gjere meir for teksten enn nokon av endringane over. «Det er difor» i originalen viser attende til noko som står før dette utdraget. Har teksten ei innleiing, les omskrivinga saman med den og sjå at overgangen held.
+
+===SVAR 5===
+Diagnose
+
+Lag 1:
+- 0 forbodne ord, 0 forbodne frasar, 0 tankestrekar, 0 bindestrekar, 0 svake verb
+
+Lag 2 (35 ord, band under 40: berre stillas, éin konkret ting og stadfest poeng vert vurderte):
+- Ingen stillas.
+- Konkret ting finst: Fjellbu er namngjeven.
+- Ingen stadfest poeng frå skribenten. Siste ledd («for slike rørsler veks best ...») er Fjellbu sitt argument i indirekte tale, ikkje ei forklaring lagd til av den som skriv.
+
+Omskriving
+
+Dei som skriv, held fram med dei gamle tankane og ventar på ein ny sjanse. Me må ikkje tru at faren er over, sa Fjellbu, for slike rørsler veks best når folk sluttar å vera merksame.
+
+Endringar
+
+- Ingen endringar. Teksten ber ikkje KI-preg på nokon av dei punkta som gjeld for denne lengda.
+
+Merknader
+
+Under 40 ord er det ikkje rom for tillegg, og her er det heller ingenting å kutte. Det einaste som kan vere uklart, er «Dei som skriv»: utan resten av referatet veit ikkje lesaren kven det gjeld. Det er ein kontekstfeil i utdraget, ikkje eit KI-preg, og eg har ikkje gjetta på kven Fjellbu sikta til.

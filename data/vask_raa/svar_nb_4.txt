@@ -1,0 +1,141 @@
+===SVAR 1===
+Diagnose
+
+Lag 1 (overflaten):
+- 2 tankestreker («—») brukt som skille mellom notisene
+- 0 forbudte ord eller fraser (ingen norske motstykker til «delve», «unlock», «robust» o.l.)
+- 3 skannefeil, ikke KI-preg: «seiv», «lands styremøte», «sjømannskir ken»
+
+Lag 2 (diskursen):
+- Teksten er tre korte notiser, hver under 40 ord. Bare tre sjekker gjelder: ingen stillas, én konkret detalj, ingen uttalt poenglinje. Alle tre er oppfylt. Notisene åpner på saken, har navn og tid (Elverum, slutten av oktober, San Pedro) og slutter uten moral.
+
+Omskriving
+
+Hunder skal løse voksen billett enten de er store eller små. Kan hunden ikke løse billett selv, må den som har den løse billetten for den, ellers må hunden springe etter.
+
+Bondepartiet skal ha landsstyremøte i Elverum i slutten av oktober.
+
+Den nye norske sjømannskirken i San Pedro kommer under tak i begynnelsen av oktober.
+
+Endringer
+
+- «—» mellom notisene → eget avsnitt for hver notis (tankestreker er forbudt; avsnittsskift gjør samme jobb)
+- «seiv» → «selv», «lands styremøte» → «landsstyremøte», «sjømannskir ken» → «sjømannskirken» (rettet åpenbare skannefeil)
+
+Merknader
+
+Teksten har ikke KI-preg. Den leser som avisnotiser fra første halvdel av 1900-tallet, med en tørr spøk om hunden som må springe etter. Den skal ikke pyntes. Er dette et historisk kildeutdrag som skal siteres, bør det stå uendret, også tankestrekene, som var vanlig notisskille. Da retter du bare skannefeilene og merker det.
+
+===SVAR 2===
+Diagnose
+
+Lag 1 (overflaten):
+- 1 bindestrek brukt som replikkstrek («- Jeg var heldig ...»)
+- 0 forbudte ord, 0 formelfraser, 0 formeloverganger, ingen svake verbkonstruksjoner
+
+Lag 2 (diskursen), lengde ca. 85 ord (vane 1, 5, 6, 7 og 8 gjelder):
+- Ingen funn. Teksten åpner på handling, navngir kilden (Statens vegvesen), har mål (tretti meter), et sitat med navn (Linda) og slutter på et nytt faktum, ikke en poenglinje. Siste setning om at sikringen skal gjennomgås, er en nyhetsopplysning og ikke en epilog.
+
+Omskriving
+
+Sjåføren fikk ryddet et smalt felt gjennom rasmassene, slik at de kunne kjøre forsiktig videre i kolonne bak ham. Ifølge Statens vegvesen var raset omtrent tretti meter bredt og flere meter dypt på det verste. Vegen ble stengt for all trafikk resten av kvelden mens geologer vurderte faren for nye ras.
+
+«Jeg var heldig som kom fra det uten en skramme. Bilen har noen bulker i panseret, men det er småtteri», sier Linda.
+
+Vegvesenet varsler nå at sikringen i området skal gjennomgås på nytt.
+
+Endringer
+
+- «- Jeg var heldig ...» → «Jeg var heldig ...», sier Linda (strek som tegnsetting er forbudt; anførselstegn er like riktig norsk)
+- Sitatet og sluttsetningen fikk egne avsnitt, slik nyhetstekst vanligvis brytes
+
+Merknader
+
+Her er det nesten ingenting å fjerne, og jeg har ikke funnet på noe for å kompensere. Bruker publikasjonen replikkstrek som husstil, er det en malregel og ikke KI-preg. Da kan streken stå. Hvem «de» i første setning er, kommer fram tidligere i saken, regner jeg med. Står utdraget alene, mangler leseren den opplysningen.
+
+===SVAR 3===
+Diagnose
+
+Lag 1 (overflaten):
+- 1 innrømmelse som utsetter poenget: «Blandede klasser kan nok ha sine fordeler ..., Men ...» (norsk variant av mønsteret «selv om X er viktig, er Y viktigere»)
+- 1 tom omskrivning: «en ordning med særskilte klasser» (ordningen er klassene)
+- 1 tretall: «husstell, matlaging og barnestell». Det står, fordi det er tre konkrete skolefag og ikke utbyttbare ord.
+- 0 forbudte ord, 0 tankestreker
+
+Lag 2 (diskursen), lengde ca. 70 ord:
+- Ingen uttalt moral på slutten; siste setning er selve påstanden. Ingen stemningsåpning. Teksten mangler navn og tall, men det er et meningsinnlegg, og jeg har ingen kilde å hente konkrete detaljer fra.
+
+Omskriving
+
+Jentene trenger undervisning i husstell, matlaging og barnestell, guttene mer opplæring i sløyd og praktisk arbeid. På de lavere trinnene, der alle barna lærer de samme grunnleggende ferdighetene, kan blandede klasser gå an. Når elevene blir eldre, gir særskilte klasser læreren bedre høve til å tilpasse undervisningen til det hver enkelt skal møte senere i livet.
+
+Endringer
+
+- «Blandede klasser kan nok ha sine fordeler i de lavere trinn» → «På de lavere trinnene ... kan blandede klasser gå an» (fjernet den tomme innrømmelsen «kan nok ha sine fordeler»; vilkåret kommer først, så står påstanden rett ut)
+- «Men etter hvert som de blir eldre, vil en ordning med særskilte klasser gi» → «Når elevene blir eldre, gir særskilte klasser» (kuttet «Men», «en ordning med» og hjelpeverbet)
+- «etter de behov hver enkelt elev vil møte» → «til det hver enkelt skal møte» (kortere, samme innhold)
+- «mens guttene bør få» → «guttene» (parallellen bærer seg selv)
+
+Merknader
+
+Teksten har lite KI-preg. Den leser som et skoledebattinnlegg fra midten av 1900-tallet («høve», kjønnsdelt husstell og sløyd). Jeg har beholdt synet og ordvalget og bare strammet setningene. Redigering er ikke en sjekk av argumentet, så standpunktet er ikke rørt. Skal teksten brukes som historisk kilde, må originalen stå, og omskrivingen blir feil.
+
+===SVAR 4===
+Diagnose
+
+Lag 1 (overflaten):
+- 1 slagordåpning: «Vi har sett det skje før, og vi har ikke råd til at det skjer igjen»
+- 1 politisk floskel: «ta ansvar nå»
+- 1 ordpar som fyll: «ny og pålitelig»
+- 1 tretall: «legetimer, jobber og skoleskyss». Det får stå, fordi de tre tingene er konkrete og forskjellige.
+
+Lag 2 (diskursen), lengde ca. 45 ord (vane 1, 5, 6, 7 og 8 gjelder, budsjett på én tilføyelse):
+- Åpner på en stemning («Vi har sett det skje før») i stedet for saken; innholdet starter i setning to
+- Vage henvisninger: «det» som skjedde før, er ikke navngitt, og det er ingen ferge, ikke noe samband, ingen fylkeskommune, ikke noe tall og ingen dato
+- Ordføreren står uten navn
+
+Omskriving
+
+Når ferga står eller blir innstilt, mister folk legetimer, jobber og skoleskyss. Det har skjedd før, og vi har ikke råd til at det skjer igjen. Fylkeskommunen må sette inn en ny ferge som faktisk går, og den må være på plass før vinteren, sier ordføreren.
+
+Endringer
+
+- Flyttet slagordet ned og åpnet på følgene for folk (innholdet først, stemningen etterpå)
+- «Vi har sett det skje før» → «Det har skjedd før» (kortere; «det» viser nå bakover til innstillingene)
+- «ta ansvar nå og sette inn» → «sette inn» (kuttet floskelen; kravet er selve ansvaret)
+- «en ny og pålitelig ferge» → «en ny ferge som faktisk går» (byttet adjektivparet mot det ordføreren egentlig krever)
+
+Merknader
+
+Det svakeste punktet er at teksten ikke navngir noe: hvilket samband, hvor mange innstillinger i år, hvilken fylkeskommune, hvem ordføreren er. Jeg har ikke lagt inn noe av dette, fordi jeg ikke har en kilde for det. Én slik opplysning fra den som skrev saken, ville gjort mer enn alle de andre endringene til sammen. Er dette et ordrett sitat fra et opptak, skal ordlyden stå som ordføreren sa den, og da gjelder bare merknaden om manglende navn.
+
+===SVAR 5===
+Diagnose
+
+Lag 1 (overflaten):
+- 1 bindestrek brukt som replikkstrek, uten mellomrom («-Tidligere ...»)
+- 1 tom avslutning: «men nå er ting annerledes» (sier det samme som setningen før)
+- 1 slitt uttrykk: «tenkt i de baner»
+- 1 skannefeil, ikke KI-preg: «fer dig»
+
+Lag 2 (diskursen), lengde ca. 40 ord:
+- Uklar sammenligning: «Det er verre med de som er ferdig med master nå». Verre enn hva, og på hvilken måte, står ikke i utdraget.
+- Navn finnes (Oxholm, Kosberg), men ikke noe tall som støtter «mange» eller «veldig få».
+
+Omskriving
+
+Det er verre med dem som er ferdige med master nå, sier Oxholm.
+
+Kosberg forteller at mange av masterstudentene nå vurderer å ta doktorgrad.
+
+«Tidligere var det veldig få som tenkte på det», sier Kosberg.
+
+Endringer
+
+- «fer dig» → «ferdige» (rettet skannefeil og samsvarsbøying)
+- «det er mange av masterstudentene som nå vurderer» → «mange av masterstudentene nå vurderer» (kuttet utbrytningen «det er ... som»)
+- «-Tidligere har det vært veldig få som har tenkt i de baner, men nå er ting annerledes.» → «Tidligere var det veldig få som tenkte på det», sier Kosberg. (kuttet halvsetningen som gjentok forrige setning, byttet ut «i de baner», satte sitatet i anførselstegn i stedet for strek)
+
+Merknader
+
+Jeg har lagt til «sier Kosberg» for å vise hvem som snakker når replikkstreken blir borte. Bruker publikasjonen replikkstrek som husstil, kan streken stå, men da med mellomrom etter. Den første setningen henger løst uten det som står før i saken. Jeg har ikke gjettet hva «verre» viser til. Har du tall for hvor mange som søker doktorgrad nå mot før, gjør det «mange» og «veldig få» til noe leseren kan sjekke.

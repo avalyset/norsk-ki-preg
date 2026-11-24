@@ -1,0 +1,103 @@
+===SVAR 1===
+Diagnose
+- 0 forbudte ord, 0 forbudte fraser, 0 tankestreker
+- 1 bindestrek i sammensatt ord: «leie-streng» (inne i diktet, beholdes)
+- Teksten er et dikt signert «Bj. S.». Det regnes som sitert materiale med navngitt kilde og skal stå ordrett.
+
+Diskursnivået: gjelder ikke. Dette er lyrikk med oppgitt forfatter, ikke prosa skribenten kan bygge om.
+
+Omskriving
+Du såg ikkje veg for din fot, du famla dei fyrste steg. Og atter åleine med alt du valde ein ukjend veg. Då skein det ei stjerne blid, og ljos gjennom mørkret blenkte Langt bortafor rom og tid ho von i ditt hjarte skjersete. Ho sa: «Berre gå mot meg, eg gjev deg det ljos du treng! Frå himmel til jord det går ein levande leie-streng/» Bj. S.
+
+Endringer
+- Ingen endringer. Diktet er et attribuert sitat, og KI-preg (som det heller ikke har) skal ikke rettes inne i sitater.
+- «leie-streng» er notert, men står, fordi bindestreken er diktarens.
+
+Merknader
+Teksten ser ut til å være skannet (OCR) fra trykk. «skjersete» er trolig en lesefeil (kanskje «skjenkte»), «blenkte Langt» mangler trolig punktum eller linjeskift, og skråstreken etter «leie-streng» er trolig et anførselstegn eller utropstegn som er lest feil. Jeg har ikke rettet noe av dette, fordi det ville bety å gjette på diktarens ordlyd. Sjekk mot originalen hvis teksten skal brukes. Det er ingenting her som tyder på at en språkmodell har skrevet det.
+
+===SVAR 2===
+Diagnose
+- 0 forbudte ord, 0 forbudte fraser, 0 tankestreker, 0 bindestreker
+- 0 svake verbkonstruksjoner, 0 formelaktige overganger
+
+Diskursnivået (cirka 90 ord, båndet 40 til 200):
+- Ferdig tolket poeng i siste setning: «Då kan kyrkja endeleg få den plassen ho fortener» forteller leseren hva planene betyr
+- Ingen navn eller tall: verken kyrkja, smelteverket, beløpet eller datoen er nevnt. Jeg har ingen kilde å hente dem fra, så de er ikke lagt til.
+
+Omskriving
+Kyrkjelyden har no fått løyve og pengar til å måla kyrkja på nytt, og arbeidet skal etter planen ta til tidleg til sommaren. Smelteverket har sjølv lova å vera med og dekkja ein del av kostnadene, sidan det er røyken derifrå som har gjort skaden. Soknerådet håpar òg at kommunen vil sjå på plassen framfor kyrkja, slik at bilane kan få ein annan stad å stå. Det har vore snakk om å leggja ned grus og planta tre og blomar der.
+
+Endringer
+- Strøk siste setning («Då kan kyrkja endeleg få den plassen ho fortener midt i bygda»): den forklarte hva det hele betydde, mens grus, trær og blomster allerede sier det
+- «planta tre og blomar» → «planta tre og blomar der»: når den avsluttende setningen er borte, trengs et lite stedsord så det er klart at det er plassen foran kyrkja det gjelder
+
+Merknader
+Resten av teksten er vanlig lokalavisprosa og har ingen KI-preg. Den største svakheten er at ingenting er navngitt. Hvis skribenten vet hva kyrkja heter, hvilket smelteverk det er, hvor mye det koster eller hvilken måned arbeidet starter, bør ett av disse inn. Jeg har ikke funnet på noe. Den strøkne setningen kan forsvares i en bygdeavis som vil gi saken et varmt preg. Vil skribenten ha med «midt i bygda», går det an å legge det inn i forrige setning i stedet.
+
+===SVAR 3===
+Diagnose
+- 0 forbudte ord, 0 forbudte fraser, 0 tankestreker, 0 bindestreker
+- 0 svake verbkonstruksjoner
+
+Diskursnivået (cirka 48 ord, båndet 40 til 200): ingen funn. Teksten begynner på handlingen, slutter på handlingen og forklarer ikke hva noe betyr.
+
+Omskriving
+Det viser seg å vera ein satanistisk sekt som held på med ei ofring. Dei to vert oppdaga og må springa for livet attende til bubilen. Kort etter startar ei vill jakt etter vegane, der sektmedlemene ikkje skyr noko for å stogga dei som har sett for mykje.
+
+Endringer
+- Ingen endringer. Teksten er et handlingsreferat (film eller bok) og er fri for både overflatepreg og strukturpreg.
+
+Merknader
+«ikkje skyr noko» og «dei som har sett for mykje» er sjangerklisjeer, men slike som mennesker har skrevet i omtaler i flere tiår. De er ikke KI-preg, så de står. «Dei to» viser til noe tidligere i referatet. Det er riktig å ta for gitt at leseren kjenner det, og ikke en feil. Vil skribenten stramme inn, kan «Det viser seg å vera» bli «Det er», men da forsvinner avsløringen, og avsløringen er nettopp poenget med setningen.
+
+===SVAR 4===
+Diagnose
+- 0 forbudte ord, 0 forbudte fraser, 0 tankestreker
+- 1 bindestrek i sammensatt ord: «alve-land» (inne i en sitert sang- eller diktlinje, beholdes)
+- Linjene 1 til 9 er sitater fra sanger eller dikt som leseren skal kjenne igjen. De står ordrett.
+
+Diskursnivået: gjelder ikke. Dette er en konkurranseoppgave med instruks og sitater, en form der det ikke er noen struktur å bygge om.
+
+Omskriving
+Den fyrste rette løysinga som vert trekt ut, får bokpremie.
+
+1. dronning du var i mitt alve-land
+2. og visste eg berre kvar revane låg
+3. så køyrde han heim att til garden igjen
+4. frå det bratte fjell
+5. all mi ros du vel forstod
+6. å le åt alt som dei andre gjera
+7. om der er gras nok og groe
+8. på setervollen stod
+9. så det stundom er hugnad å sjå
+10.
+
+Endringer
+- Satte hver linje på egen rad. Innholdet er en ekte nummerert liste, og i løpende tekst gikk nummer og sitat i hverandre.
+- Ingen ord er endret. Sitatene står ordrett, med «alve-land» og «gjera» slik de er.
+
+Merknader
+Punkt 10 er tomt. Enten er linjen falt bort i skanningen, eller så er det meningen at leseren skal fylle ut. Jeg har latt det stå tomt. Sjekk originalen før trykk. «Den fyrste rette løysinga som vert trekt ut» er vanlig konkurransespråk og har ingen KI-preg.
+
+===SVAR 5===
+Diagnose
+- 0 forbudte ord, 0 forbudte fraser
+- 2 tankestreker: «helse pa Margrete — eg skal» og «motte Margrete — ikkje i si»
+- 1 kommaskjøt som skjuler en årsak: «der ho provde hjelpe til, husmora var ikkje heime»
+- Mange skannefeil (OCR): «pa», «hoyre», «sag», «Øog» (to ganger), «vo re», «motte», «granne stova», «provde», «Mar grete»
+
+Diskursnivået (cirka 75 ord, båndet 40 til 200): ingen funn. Teksten begynner på replikken, har navn og handling, nevner følelser rett ut («ho var so god», «vart svært glad») og avslutter uten å tolke noe.
+
+Omskriving
+«Nei», sa kona i huset, «du skal helse på Margrete. Eg skal fylgje deg.» På vegen fekk eg høyre om henne. Ho var ei eldre kvinne no, såg lite og kom ingen stad. Men ho var so god. Og ho hadde alltid vore hjelpsam, so langt ho rakk. Ja, vi møtte Margrete, men ikkje i si eiga stove. Ho var i grannestova og prøvde hjelpe til, for husmora var ikkje heime. Margrete vart svært glad for vitjinga.
+
+Endringer
+- «helse pa Margrete — eg skal fylgje deg» → «helse på Margrete. Eg skal fylgje deg.» (tankestreken erstattet med punktum, replikken blir to korte setninger)
+- «vi motte Margrete — ikkje i si eiga stove, men i granne stova» → «vi møtte Margrete, men ikkje i si eiga stove. Ho var i grannestova» (tankestreken fjernet, innskuddet blir egen setning)
+- «husmora var ikkje heime» → «for husmora var ikkje heime» (kommaskjøten fikk et «for», så årsaken kommer tydelig fram)
+- «Øog hadde alltid vo re hjelpsam» → «Og ho hadde alltid vore hjelpsam» (skannefeil rettet, «ho» lagt til så setningen står på egne bein)
+- Rettet de åpenbare skannefeilene: på, høyre, såg, og, vore, møtte, grannestova, prøvde, Margrete
+
+Merknader
+Rettingen av skannefeil går utover å fjerne KI-preg, men en rettet tekst med «Øog» og «vo re» i ville ikke vært brukbar. Jeg har bare rettet der det riktige ordet er opplagt, og latt skribentens eldre former stå («so», «fylgje», «prøvde hjelpe til» uten «å»). At «ho» er lagt til i «Og ho hadde», er det eneste stedet jeg har gjort et valg som kan diskuteres. Fjern det hvis originalen bevisst bruker setningsfragmentet. Tankestrekene er sannsynligvis originale fra trykket og ikke KI-preg, men regelsettet fjerner dem uansett. Jeg har ikke funnet noe i strukturen som tyder på en språkmodell.

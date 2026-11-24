@@ -1,0 +1,115 @@
+===SVAR 1===
+Diagnose
+
+Overflatelaget:
+- 1 innledende fyllfrase: «Dette er en alvorlig anklage som fortjener å bli tatt på største alvor» (sier det samme to ganger: alvorlig, alvor)
+- 0 forbudte ord, 0 tankestreker, 0 bindestreksord, 0 formelpregede overganger
+- 1 tretall: «både baner, utstyr og ledere». Hvert ledd er konkret og forskjellig, så det står.
+
+Diskurslaget (40 til 200 ord, vaner 1, 5, 6, 7, 8):
+- Åpner på en vurdering av saken i stedet for saken selv. Innholdet (hva mannen sier) kommer først i setning to.
+- Uklar kilde: «en mann som kjenner forholdene innenfra» er ikke navngitt. Kan ikke rettes uten opplysninger som ikke står i teksten.
+- Siste setning er en oppfordring, ikke en forklaring av hva teksten betydde. I en lederartikkel er det kravet som er poenget, så den står.
+
+Omskriving
+
+Anklagen er alvorlig. En mann som kjenner forholdene innenfra, sier at pengene forsvinner i kontorer og utvalg. Da har vi grunn til å spørre hvor lite som egentlig når fram til klubbene og de unge utøverne. Mange lag rundt om i bygdene mangler både baner, utstyr og ledere, og må klare seg med det medlemmene selv kan skrape sammen. Skal ungdommen få det godt, må støtten gå dit den trengs, og ikke bli brukt opp på veien.
+
+Endringer
+
+- «Dette er en alvorlig anklage som fortjener å bli tatt på største alvor» → «Anklagen er alvorlig.» (fjernet dobbeltsagt fyllfrase, beholdt vurderingen kort)
+- «Når en mann som kjenner forholdene innenfra, sier at ... har vi grunn til å spørre» → to setninger: påstanden først, så spørsmålet (anklagen kommer nå i setning to i stedet for å ligge gjemt i en leddsetning)
+- Resten uendret. Tretallet og sluttkravet gjør reelt arbeid.
+
+Merknader
+
+Teksten har lederartikkelens tone, og den beholdes. Det svakeste punktet er den anonyme kilden og «mange lag rundt om i bygdene»: begge ville stått sterkere med et navn, et sted eller et beløp, men slike opplysninger finnes ikke i teksten, og jeg har ikke lagt dem til. Har skribenten et navn eller et tall, hører det hjemme i setning to.
+
+===SVAR 2===
+Diagnose
+
+Overflatelaget:
+- 0 forbudte ord, 0 fyllfraser, 0 tankestreker, 0 bindestreksord
+- 0 svake verbkonstruksjoner av betydning. «vil ... kunne økes» er en forsiktig modal, men den uttrykker en reell betingelse («Kan utbyggingen gjennomføres»), så den står.
+
+Diskurslaget (under 40 ord: bare stillas, ett konkret holdepunkt, ingen uttalt lærdom):
+- Ingen stillas, konkret holdepunkt finnes (manilla og sisal), ingen uttalt lærdom. Ingenting å rette.
+
+Omskriving
+
+Tauverkfabrikkene våre har lenge hatt vansker med å skaffe nok råstoff, men tilførslene av manilla og sisal er nå bedre enn på mange år. Kan utbyggingen gjennomføres som planlagt, vil produksjonen kunne økes betydelig, og en større del kan gå til eksport.
+
+Endringer
+
+- Ingen endringer. Teksten har ingen KI-preg å fjerne.
+
+Merknader
+
+Teksten er nøktern nyhetsprosa med konkrete råvarer og en tydelig betingelse. Å skrive den om ville bare gitt den redaktørens stemme i stedet for skribentens. «betydelig» er den eneste vage biten; et tall ville vært bedre, men det finnes ikke i teksten.
+
+===SVAR 3===
+Diagnose
+
+Overflatelaget:
+- 0 forbudte ord, 0 fyllfraser, 0 tankestreker, 0 bindestreksord, 0 formelpregede overganger
+
+Diskurslaget (40 til 200 ord, vaner 1, 5, 6, 7, 8):
+- Ingen funn. Åpner på hendelsen, har stedsnavn (Storslett), tall (0,9 promille, 18 måneder), slutter på utfallet uten å forklare hva saken betyr.
+
+Omskriving
+
+Mannen ble stanset i en rutinekontroll ved Storslett, og alkotesten viste en promille på 0,9. I bilen fant politiet en halvtom flaske vodka. Retten la vekt på at kjøringen var svært farlig, ettersom han førte et tungt vogntog over lang strekning. Han tilsto forholdet og har fått førerkortet inndratt i 18 måneder.
+
+Endringer
+
+- Ingen endringer. Teksten er ren.
+
+Merknader
+
+Dette er rettsreferat, der nøkterne, avsluttede setninger er sjangeren og ikke et KI-trekk. Jeg har derfor ikke lagt til noe løst eller personlig. «over lang strekning» er vagt; en kilometerangivelse ville vært bedre om den finnes i kilden.
+
+===SVAR 4===
+Diagnose
+
+Overflatelaget:
+- 0 forbudte ord, 0 fyllfraser, 0 tankestreker, 0 bindestreksord, 0 formelpregede overganger
+- 2 tretall: «lite søvn, sjøsyke og konstant frykt for å bli oppdaget» og «hvem de var, hvor de kom fra og hvorfor de hadde flyktet». Begge har ledd som er konkrete og forskjellige fra hverandre, og det andre er en faktisk liste over spørsmål i avhøret. De står.
+
+Diskurslaget (40 til 200 ord, vaner 1, 5, 6, 7, 8):
+- Ingen funn. Følelsen er navngitt rett ut («Lettelsen var stor»), ikke oversatt til kroppsfornemmelser. Teksten slutter på et konkret faktum («Noen gikk til marinen, andre til handelsflåten»), ikke på en lærdom eller en varm avrunding.
+
+Omskriving
+
+Lettelsen var stor etter mange døgn med lite søvn, sjøsyke og konstant frykt for å bli oppdaget. Neste morgen ble de hentet av britiske offiserer og kjørt til et mottakssenter, der de ble grundig avhørt. Myndighetene ville forsikre seg om at ingen av dem var spioner sendt over av tyskerne. Avhørene tok flere dager, og deltakerne måtte gjøre rede for hvem de var, hvor de kom fra og hvorfor de hadde flyktet. Etter hvert ble de klarert, og de fleste meldte seg til tjeneste i de norske styrkene i Storbritannia. Noen gikk til marinen, andre til handelsflåten.
+
+Endringer
+
+- Ingen endringer. Teksten har ingen KI-preg å fjerne.
+
+Merknader
+
+To tretall i en kort tekst kan se ut som et mønster, men her er begge ekte opplistinger, så jeg har latt dem stå. Teksten mangler navn og dato (hvilken båt, hvilket mottakssenter, hvilket år), men de opplysningene står ikke i utdraget, og jeg har ikke funnet på dem. Har skribenten dem, er det første sted «mottakssenter», som kunne fått sitt egentlige navn.
+
+===SVAR 5===
+Diagnose
+
+Overflatelaget:
+- 0 forbudte ord, 0 tankestreker, 0 bindestreksord, 0 formelpregede overganger
+- 1 vag modererende frase: «en viss omlegging» (sier ikke hvor stor)
+- 1 omstendelig årsaksfrase: «særlig som følge av utgiftene til forsvaret»
+- 1 tretall: «tilgangen på materialer og arbeidskraft, og av prisutviklingen på verdensmarkedet». Leddene er forskjellige og reelle, så det står.
+
+Diskurslaget: gjelder ikke. Dette er offentlig økonomisk rapportering (nasjonalbudsjettets sjanger), der nøkternhet, passiv og forsiktige prognoser er sjangerkrav. Bare overflatelaget er brukt.
+
+Omskriving
+
+Det offentlige konsumet ventes å øke noe mer enn det private, særlig på grunn av forsvarsutgiftene. Investeringene i fast realkapital regnes å holde seg på omtrent samme nivå som i fjor, men det tas sikte på å flytte noe fra boligbygging til industri og kraftanlegg. Utviklingen vil i stor grad avhenge av tilgangen på materialer og arbeidskraft, og av prisutviklingen på verdensmarkedet.
+
+Endringer
+
+- «særlig som følge av utgiftene til forsvaret» → «særlig på grunn av forsvarsutgiftene» (kortere, samme innhold)
+- «det tas sikte på en viss omlegging fra boligbygging til industri» → «det tas sikte på å flytte noe fra boligbygging til industri» (verb i stedet for substantivkonstruksjon, «en viss» erstattet av det like forsiktige men enklere «noe»)
+
+Merknader
+
+Passiven («ventes», «regnes», «det tas sikte på») er beholdt fordi den hører til sjangeren, og fordi teksten ikke sier hvem som tar sikte på omleggingen. Å sette inn «regjeringen» ville vært en gjetning. Om omleggingen har et tall eller et beløp i kilden, bør det erstatte «noe».

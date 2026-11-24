@@ -1,0 +1,314 @@
+[
+ {
+  "fil": "tekster_nb_1.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "menneske",
+    "nb44"
+   ],
+   [
+    "claude",
+    "nb15"
+   ],
+   [
+    "claude",
+    "nb21"
+   ],
+   [
+    "menneske",
+    "nb20"
+   ],
+   [
+    "claude",
+    "nb29"
+   ]
+  ]
+ },
+ {
+  "fil": "tekster_nb_2.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "claude",
+    "nb48"
+   ],
+   [
+    "claude",
+    "nb32"
+   ],
+   [
+    "claude",
+    "nb07"
+   ],
+   [
+    "claude",
+    "nb08"
+   ],
+   [
+    "claude",
+    "nb42"
+   ]
+  ]
+ },
+ {
+  "fil": "tekster_nb_3.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "claude",
+    "nb16"
+   ],
+   [
+    "menneske",
+    "nb18"
+   ],
+   [
+    "menneske",
+    "nb23"
+   ],
+   [
+    "claude",
+    "nb10"
+   ],
+   [
+    "claude",
+    "nb39"
+   ]
+  ]
+ },
+ {
+  "fil": "tekster_nb_4.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "menneske",
+    "nb34"
+   ],
+   [
+    "claude",
+    "nb36"
+   ],
+   [
+    "claude",
+    "nb50"
+   ],
+   [
+    "claude",
+    "nb06"
+   ],
+   [
+    "menneske",
+    "nb05"
+   ]
+  ]
+ },
+ {
+  "fil": "tekster_nb_5.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "claude",
+    "nb27"
+   ],
+   [
+    "claude",
+    "nb33"
+   ],
+   [
+    "menneske",
+    "nb45"
+   ],
+   [
+    "claude",
+    "nb01"
+   ],
+   [
+    "menneske",
+    "nb02"
+   ]
+  ]
+ },
+ {
+  "fil": "tekster_nb_6.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "claude",
+    "nb41"
+   ],
+   [
+    "menneske",
+    "nb24"
+   ],
+   [
+    "menneske",
+    "nb12"
+   ],
+   [
+    "claude",
+    "nb37"
+   ],
+   [
+    "claude",
+    "nb40"
+   ]
+  ]
+ },
+ {
+  "fil": "tekster_nn_1.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "claude",
+    "nn15"
+   ],
+   [
+    "claude",
+    "nn49"
+   ],
+   [
+    "claude",
+    "nn48"
+   ],
+   [
+    "claude",
+    "nn32"
+   ],
+   [
+    "claude",
+    "nn39"
+   ]
+  ]
+ },
+ {
+  "fil": "tekster_nn_2.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "claude",
+    "nn16"
+   ],
+   [
+    "claude",
+    "nn28"
+   ],
+   [
+    "claude",
+    "nn26"
+   ],
+   [
+    "menneske",
+    "nn06"
+   ],
+   [
+    "menneske",
+    "nn13"
+   ]
+  ]
+ },
+ {
+  "fil": "tekster_nn_3.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "claude",
+    "nn17"
+   ],
+   [
+    "menneske",
+    "nn36"
+   ],
+   [
+    "claude",
+    "nn31"
+   ],
+   [
+    "claude",
+    "nn33"
+   ],
+   [
+    "menneske",
+    "nn23"
+   ]
+  ]
+ },
+ {
+  "fil": "tekster_nn_4.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "claude",
+    "nn08"
+   ],
+   [
+    "menneske",
+    "nn29"
+   ],
+   [
+    "menneske",
+    "nn40"
+   ],
+   [
+    "claude",
+    "nn34"
+   ],
+   [
+    "claude",
+    "nn02"
+   ]
+  ]
+ },
+ {
+  "fil": "tekster_nn_5.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "menneske",
+    "nn38"
+   ],
+   [
+    "claude",
+    "nn09"
+   ],
+   [
+    "claude",
+    "nn04"
+   ],
+   [
+    "menneske",
+    "nn10"
+   ],
+   [
+    "menneske",
+    "nn47"
+   ]
+  ]
+ },
+ {
+  "fil": "tekster_nn_6.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "claude",
+    "nn37"
+   ],
+   [
+    "menneske",
+    "nn24"
+   ],
+   [
+    "claude",
+    "nn44"
+   ],
+   [
+    "claude",
+    "nn07"
+   ],
+   [
+    "claude",
+    "nn27"
+   ]
+  ]
+ }
+]

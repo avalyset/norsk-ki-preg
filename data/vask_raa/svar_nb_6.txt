@@ -1,0 +1,141 @@
+===SVAR 1===
+Diagnose
+
+- 1 utvannet verb: «styrke» (norsk motstykke til «enhance»/«bolster», sier ikke hva som skal gjøres)
+- 1 gjentatt fyllord: «hver enkelt» (2), andre gang overflødig
+- 1 kontrastkonstruksjon: «med en gang, ikke etter flere år». Den gjør reelt arbeid her og blir stående.
+- Ingen tankestreker, ingen tretall, ingen formelaktige overganger.
+
+Diskursnivå (40 til 200 ord): Teksten åpner på innholdet og antar felles bakgrunn. Siste setning er et løfte om virkning, ikke en moral, og hører hjemme i et partiprogram. Ingen navngitte tall eller datoer, men det finnes ingenting i teksten å hente dem fra, så jeg legger ikke til noe.
+
+Omskriving
+
+Vi vil innføre en norm for lærertetthet som gjelder på hver skole, og vi vil satse mer på tidlig innsats i de første skoleårene. Elever som henger etter, skal få hjelp med en gang, ikke etter flere år. Da får lærerne mer tid til undervisning og til hver enkelt elev.
+
+Endringer
+
+- «styrke tidlig innsats» → «satse mer på tidlig innsats» (byttet et vagt forsterkerverb mot et som sier at det skal brukes mer)
+- «på hver enkelt skole» → «på hver skole» (fjernet den første av to «hver enkelt»; den andre, om elevene, har en poeng og blir stående)
+- «undervisning og hver enkelt elev» → «undervisning og til hver enkelt elev» (gjentatt preposisjon gjør det tydelig at det er to ting lærerne får tid til)
+
+Notater
+
+Teksten var nesten ren fra før. «Tidlig innsats» er et innarbeidet faguttrykk i norsk skolepolitikk og er beholdt. Et partiprogram skal være entydig og ha én linje, så de diskursreglene som ber om løse tråder og innrømmet tvil, gjelder ikke her. Vil dere ha mer tyngde, er det beste grepet å sette et tall på normen (for eksempel elever per lærer), men det tallet må komme fra dere.
+
+===SVAR 2===
+Diagnose
+
+- 0 KI-trekk på ordnivå. Ingen forbudte ord, fraser eller strukturer.
+- Teksten er ikke KI-skrevet. Det er en eldre skjønnlitterær eller dokumentarisk tekst (sjømannsmiljø, flagg på halv stang) som er ødelagt av OCR-feil: «ban» for «han» (3), «au» for «du», «tømmenmanns stem me» og «tøm mermann» for «tømmermanns stemme» og «tømmermann», «beist» for «heist», «»tille» for «stille», «vart» for «vårt», og en uleselig avslutning («dlank»lrurt« o»«).
+
+Diskursnivå: gjelder ikke. Teksten har allerede det menneskelige preget skillen prøver å gjenskape: brutte setninger, uløst sorg, følelsen sagt rett ut («En gråt uten tårer»). Jeg har ikke rørt stil, rytme eller ordvalg.
+
+Omskriving
+
+Ingen kan bebreide deg for det, kan du skjønne. Ja, men Oslo, tenk om han spurte etter meg .... kanskje en hilsen til dem hjemme, og ingen forsto ham. Kanskje han .... Her brister tømmermanns stemme, det rister i store, sterke tømmermann. En gråt uten tårer. Tørn til! Annenstyrmanns stemme er ikke så kvass i dag. Oppe på dekk har han heist flagget på halv stang. Vi går stille til arbeidet vårt. På stillinger sitter vi og mønjer og maler, der isen i Finnland [uleselig i kilden]
+
+Endringer
+
+- «ban» → «han» (tre steder, OCR har lest h som b)
+- «kan au skjønne» → «kan du skjønne» (mest rimelige lesning)
+- «tømmenmanns stem me» / «tøm mermann» → «tømmermanns stemme» / «tømmermann» (rettet feillest bokstav og falske mellomrom)
+- «beist» → «heist», «»tille» → «stille», «vart» → «vårt»
+- Den siste biten etter «Finnland» er erstattet med en markering, fordi den ikke lar seg tolke
+
+Notater
+
+Her er det ikke noe KI-preg å fjerne, så jeg har bare gjort en forsiktig OCR-retting. Den gamle formen er bevart («tømmermanns stemme» uten artikkel, «Finnland» med dobbel n, «stillinger» som i stillas om bord, punktumrekkene «....»). «Oslo» står som i kilden, og kan være et navn på en person, et skip eller byen. «kan du skjønne» og «vårt» er tolkninger. Har du originalen eller en bedre skanning, bør du sjekke dem og den uleselige slutten mot den.
+
+===SVAR 3===
+Diagnose
+
+- 2 formelle fyllord: «en rekke» (sier ikke hvor mange), «samt»
+- 1 stivt verb: «disponerer» (betyr bare «har»)
+- 1 fyllmarkør: «blant annet»
+- 1 omstendelig konstruksjon: «er inkludert i kulturskolen» (betyr «hører til»)
+- 2 orddelingsfeil fra linjeskift: «administra sjonsavdeling», «kultur skolen»
+- 1 mellomtittel som har havnet inne i brødteksten: «Uten dusj»
+- Tretallet «dans, drama og musikk» er tre reelle fag, ikke pynt. Det blir stående.
+
+Diskursnivå (40 til 200 ord): Ingen funn. Teksten åpner på et faktum, har konkrete tall (700 kvadratmeter, 30 grupper) og slutter på en følge, ikke en moral.
+
+Omskriving
+
+Uten dusj
+
+Sola kulturskole holder i dag til på cirka 700 kvadratmeter i kulturhuset. Skolen har flere mindre rom, en administrasjonsavdeling og et større øvingsrom. Rundt 30 store grupper i dans, drama og musikk hører til kulturskolen, og de må ofte leie rom andre steder i kulturhuset for å øve. Det går på bekostning av lag og foreninger som også vil leie rom der.
+
+Endringer
+
+- «disponerer en rekke mindre rom, samt» → «har flere mindre rom,» (rett verb, mindre kanselli)
+- «er inkludert i kultur skolen» → «hører til kulturskolen» (direkte uttrykk, rettet orddeling)
+- «Det går blant annet på bekostning av» → «Det går på bekostning av» (fjernet fyllmarkør)
+- «ønsker å leie rom i kulturhuset» → «vil leie rom der» (unngår å gjenta «kulturhuset» for tredje gang)
+- «Uten dusj» flyttet til egen linje som mellomtittel
+
+Notater
+
+Dette er vanlig avisprosa med lite KI-preg. Det meste er språkvask og retting av brudd fra linjeskift. Mellomtittelen «Uten dusj» peker trolig på noe som kommer senere i artikkelen (mangel på dusj). Jeg har latt den stå, men den henger ikke sammen med dette avsnittet alene. «Blant annet» kan settes tilbake hvis artikkelen senere nevner andre som også taper på ordningen.
+
+===SVAR 4===
+Diagnose
+
+- 1 replikkstrek brukt som sitatmarkør («- Vi er ikke imot...»)
+- 1 kontrastmønster («ikke imot endring, men vi krever ...»), men det står inne i et direkte sitat og blir ikke endret
+- 1 noe stivt adjektiv: «tilstrekkelig» (kan sies enklere)
+- Ingen forbudte ord eller formelaktige overganger.
+
+Diskursnivå (40 til 200 ord): Teksten åpner på innholdet og slutter på et sitat, ikke på en moral. Det eneste funnet er en uklar henvisning: «leder i foreldrerådet» har ikke navn.
+
+Omskriving
+
+Rådet mener også at foreldrene ikke har fått nok informasjon om hva endringen vil bety for de yngste barna. De ber derfor kommunen om å utsette saken til den er grundig utredet.
+
+«Vi er ikke imot endring, men vi krever å bli tatt på alvor», sier lederen i foreldrerådet.
+
+Endringer
+
+- «ikke har fått tilstrekkelig informasjon om hvilke konsekvenser endringen vil få for» → «ikke har fått nok informasjon om hva endringen vil bety for» (kortere, samme innhold)
+- «til det er gjennomført en grundig utredning» → «til den er grundig utredet» (verb i stedet for substantivkjede)
+- Replikkstreken er byttet med anførselstegn, og sitatet har fått eget avsnitt
+- «leder i» → «lederen i» (bestemt form, siden det er én bestemt person)
+
+Notater
+
+Sitatet er gjengitt ordrett, også kontrastmønsteret, fordi det er noen andres ord. Replikkstrek er vanlig i norske aviser. Følger avisen den stilen, kan den settes tilbake uten at teksten får mer KI-preg. Lederen i foreldrerådet bør navngis. Navnet finnes ikke i teksten, så jeg har ikke funnet på noe.
+
+===SVAR 5===
+Diagnose
+
+- 1 forbudt frase: «Først og fremst» (tilsvarer «first and foremost»)
+- 1 forbudt ord: «verdifull» (tilsvarer «valuable»)
+- 2 byråkratiske standarduttrykk: «kartlegge hva som allerede finnes av ressurser og kompetanse», «invitere til samarbeid»
+- 1 fyllpar: «både på kort og lang sikt»
+- 1 overgangsord som bare limer setninger sammen: «Deretter»
+- 2 replikkstreker som sitatmarkør
+
+Diskursnivå (40 til 200 ord):
+- Konklusjon på slutten: «og det er ingen tjent med» forteller leseren hva poenget var
+- Ingen navngitte personer, steder, tall eller datoer i noen av svarene (uklare henvisninger: «Mange», «lokalt», «folk»)
+
+Omskriving
+
+Hva bør stå øverst i et slikt program?
+
+Vi må finne ut hva som allerede finnes her av folk og kunnskap. Mange vet mye som ingen har spurt dem om. Så må vi sette oss mål vi faktisk kan nå. Det nytter ikke å love store resultater det første året.
+
+Hvordan skal dere få folk med på laget?
+
+Ved å være åpne og spørre folk fra første dag. Får vi ikke folk her med oss, blir dette bare et skrivebordsprosjekt.
+
+Endringer
+
+- «Først og fremst må vi kartlegge hva som allerede finnes av ressurser og kompetanse lokalt» → «Vi må finne ut hva som allerede finnes her av folk og kunnskap» (fjernet forbudt frase og byråkratspråk)
+- «Mange sitter på verdifull kunnskap uten at noen har spurt dem» → «Mange vet mye som ingen har spurt dem om» (fjernet «verdifull», sa det med vanlige ord)
+- «Deretter må vi sette oss realistiske mål, både på kort og lang sikt» → «Så må vi sette oss mål vi faktisk kan nå» (fjernet overgangsord og fyllpar)
+- «invitere til samarbeid» → «spørre folk», som også knytter an til «ingen har spurt dem» i første svar
+- Kuttet «og det er ingen tjent med» (konklusjonen var allerede sagt i «skrivebordsprosjekt»)
+
+Notater
+
+Spørsmålene er journalistens og står nesten urørt. Replikkstrekene er fjernet etter skillens regel. Hver replikk står i stedet på egen linje, og spørsmålene kjennes igjen på spørsmålstegnet. I en norsk avis er replikkstrek vanlig og kan settes tilbake. Det som veier mest, kan ikke jeg løse: Svarene nevner ikke ett eneste konkret navn, sted, tall eller dato. Ett eksempel fra intervjuobjektet selv (hvem som sitter på kunnskapen, eller hva målet for første år er) ville gjort mer enn all språkvask. Det må komme fra kilden, så jeg har ikke funnet på noe.

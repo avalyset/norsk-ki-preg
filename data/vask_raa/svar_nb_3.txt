@@ -1,0 +1,131 @@
+===SVAR 1===
+Diagnose
+
+Lag 1 (overflaten):
+- 1 klisjéuttrykk: «gikk i bresjen» (den norske varianten av «spearhead», som står på lista over forbudte ord)
+- 0 forbudte ord ellers, 0 tankestreker, 0 formelaktige overganger
+- Bindestrekene i «bai-hua» og «fjerde mai-bevegelsen» står. Det første er en translitterasjon, det andre er et egennavn, og egennavn er unntatt fra bindestrekregelen.
+- Treleddet «noveller, essays og dikt» står. Hvert ledd sier noe eget, så det er ikke en refleksmessig tretall-liste.
+
+Lag 2 (diskurs): Teksten er på rundt 50 ord, altså i båndet 40 til 200. Den åpner rett på innholdet, har navn og årstall (Lu Xun, Hu Shi, 1919), slutter på et faktum uten å forklare hva det betyr og har ingen epilog. Ingen vaner å kutte.
+
+Omskriving
+
+Folkemålet, bai-hua, fikk først etter fjerde mai-bevegelsen i 1919 plass som skriftspråk. Forfattere som Lu Xun og Hu Shi gikk foran og skrev noveller, essays og dikt på et språk vanlige lesere kjente igjen. Ti år senere var det nye skriftspråket enerådende i skolen og i pressen.
+
+Endringer
+
+- «gikk i bresjen» → «gikk foran» (oppbrukt metafor byttet med et enkelt verb)
+
+Merknader
+
+Teksten hadde nesten ikke KI-preg. Jeg har endret ett uttrykk og latt resten stå. «Gikk i bresjen» er vanlig i norsk sakprosa, så den endringen kan godt diskuteres. Vil skribenten beholde uttrykket, er det et forsvarlig valg. Jeg har ikke lagt til noe, fordi det ikke fantes noe i kilden å bygge et tillegg på.
+
+===SVAR 2===
+Diagnose
+
+Lag 1 (overflaten): 0 forbudte ord, 0 forbudte fraser, 0 tankestreker, 0 formelaktige overganger, 0 svake verbkonstruksjoner.
+
+Lag 2 (diskurs): Teksten er på rundt 65 ord, altså i båndet 40 til 200. Den åpner rett på påstanden, snakker ut fra felles erfaring («siden vi vokste opp der») og slutter med et åpent spørsmål og en personlig påstand, ikke med en innpakket konklusjon. Ingen vaner å kutte. Dette er et muntlig preget leserinnlegg med typisk menneskelig ujevnhet: tidsbøyning som skifter («har man vært borte … og kommer»), en tilnærmet tallangivelse og en uferdig tanke.
+
+Det jeg fant, er skannefeil (OCR) og orddeling, ikke KI-preg:
+- «skri ves» og «kom me» (ord delt midt i)
+- «kom mer» (delt ord)
+- «djedeler» (feillest)
+- «den dårlige an den» (ser ut som feillest «ånden»)
+
+Omskriving
+
+Bygda er jo betydelig avfolket siden vi vokste opp der, minska med sikkert to tredjedeler. Har man vært borte fra bygda og kommer dit nå, så merker man den dårlige ånden, en slags skyhet. Kanskje hjelper det bygda at dette skrives, kan det være mulig at noen kan komme til klarhet? Vi som skriver dette har aldri møtt en slik holdning noen steder hvor vi har vært.
+
+Endringer
+
+- «skri ves», «kom me», «kom mer» → «skrives», «komme», «kommer» (skjøtet ord som var delt i skanningen)
+- «to tre djedeler» → «to tredjedeler» (tolket som feillesing av «tredjedeler»)
+- «den dårlige an den» → «den dårlige ånden» (tolket som feillesing)
+- Ellers ingen endringer. Dialektformen «minska», den løse setningsbyggingen og spørsmålet mot slutten er skribentens egen stemme og står.
+
+Merknader
+
+Det er ikke KI-preg å fjerne her. Teksten leses som menneskeskrevet. Det eneste jeg har rettet, er skannefeil. To av rettelsene er tolkninger og bør sjekkes mot originalen: «to tredjedeler» (originalen kan ha sagt noe annet) og «den dårlige ånden». Jeg har med vilje ikke glattet ut grammatikken, fordi ujevnheten er en del av det som gjør innlegget troverdig.
+
+===SVAR 3===
+Diagnose
+
+Lag 1 (overflaten):
+- 0 forbudte ord, 0 tankestreker
+- 1 replikkstrek («- Også er det flott …»). Dette er vanlig norsk sitatmarkering i avistekst, ikke tankestrek som tegnsetting, og den står.
+- 1 svak innledning: «Frisk påpeker til sist at» («til sist» varsler at teksten er på vei mot slutten, uten at det tilfører noe)
+- Talemålsidiomet «finne opp kruttet» står inne i et sitat og blir stående.
+
+Lag 2 (diskurs): Teksten er på rundt 60 ord, altså i båndet 40 til 200. Den åpner på innhold, har et navngitt menneske (Frisk) og en konkret sak (kvinner til bedriftsstyrer). Den siste setningen er en konklusjon, men det er kildens egen påstand gjengitt som referat, ikke en moral fortelleren legger til. Ingen vaner å kutte.
+
+Skannefeil (ikke KI-preg): «seiv» (to ganger) for «selv», «gun stig» for «gunstig».
+
+Omskriving
+
+Det er også en trygghet å møte andre fra nettverket når man deltar på ulike arrangementer.
+
+- Også er det flott å slippe å finne opp kruttet selv hver gang. Det er alltid noen i nettverket som har kompetanse du selv ikke har.
+
+Frisk påpeker at i jakten på kvinner til bedriftsstyrene er det gunstig å ha et etablert kvinnenettverk.
+
+Endringer
+
+- «påpeker til sist at» → «påpeker at» (kuttet en signalfrase om at teksten avsluttes)
+- «er det å ha et etablert kvinnenettverk gunstig» → «er det gunstig å ha et etablert kvinnenettverk» (flyttet adjektivet frem, slik at setningen ikke slutter på et etterhengt ord)
+- «seiv» → «selv», «gun stig» → «gunstig» (skannefeil, også inne i sitatet, fordi feilen er skannerens og ikke den intervjuedes)
+- Satt sitatet på egen linje, slik norsk avisoppsett vanligvis gjør med replikkstrek
+
+Merknader
+
+Lite KI-preg. Sitatet er beholdt ordrett bortsett fra skannefeilene. Replikkstreken bryter med regelen mot frittstående bindestreker, men i norsk journalistikk er den sitattegnet, så å fjerne den ville vært feil for sjangeren. Flyttingen av «gunstig» er en stilendring som kan diskuteres. Originalens rekkefølge er grammatisk korrekt.
+
+===SVAR 4===
+Diagnose
+
+Lag 1 (overflaten): 0 forbudte ord, 0 forbudte fraser, 0 tankestreker, 0 formelaktige overganger, 0 svake verbkonstruksjoner.
+
+Lag 2 (diskurs): Teksten er på rundt 60 ord, altså i båndet 40 til 200. Den åpner på et faktum, har navn, sted og alder (Tanja, Murmansk, to år), og slutter på et konkret ønske fra barnet uten å forklare hva det betyr. Situasjonen er uløst, og det er riktig. Ingen vaner å kutte.
+
+Eneste mønster verdt å nevne: to av fire setninger har formen «X, men Y» («forsøkt å lese …, men datteren mister», «tilbudt morsmålsundervisning, men Tanja vil»). Det gjør rytmen litt jevn, men det er langt fra et tydelig KI-trekk.
+
+Omskriving
+
+Moren forteller at familien kom til Norge fra Murmansk da Tanja var to år gammel. Hjemme har de forsøkt å lese russiske barnebøker sammen, men datteren mister fort interessen. Besteforeldrene i Russland snakker ikke norsk, så samtalene på telefon blir korte. Skolen har tilbudt morsmålsundervisning, men Tanja vil helst være som de andre i klassen.
+
+Endringer
+
+- «og samtalene på telefon blir derfor korte» → «så samtalene på telefon blir korte» (byttet en litt stiv årsakskobling med en muntlig en)
+
+Merknader
+
+Teksten er i praksis fri for KI-preg, og jeg har bare endret én kobling. Slutten er god fordi den ikke forklarer noe, så den har jeg latt stå urørt. De to «men»-setningene kunne vært variert, men å skrive om dem ville vært å endre for endringens skyld.
+
+===SVAR 5===
+Diagnose
+
+Lag 1 (overflaten):
+- 0 forbudte ord, 0 forbudte fraser, 0 formelaktige overganger
+- 1 replikkstrek («- Det vil ramme …»). Dette er norsk sitatmarkering i avistekst og står.
+- Ingen svake verbkonstruksjoner som trenger endring. «blir holdt åpent» er passiv, men naturlig.
+
+Lag 2 (diskurs): Teksten er på rundt 75 ord, altså i båndet 40 til 200. Den åpner på et tall (over to hundre medlemmer), har en konkret tidsangivelse (i løpet av våren), og slutter på et nøkternt faktum uten epilog eller moral. Saken er uavklart, og teksten sier det. Ingen vaner å kutte.
+
+Omskriving
+
+Hun forteller at svømmeklubben har over to hundre medlemmer, og at mange av dem er barn som trener flere ganger i uka. Stenges bassenget, finnes det ikke noe annet anlegg i nærheten.
+
+- Det vil ramme både barna og alle de eldre som bruker bassenget til trening, sier hun.
+
+Kommunen har varslet at en ny rapport om inneklimaet skal legges fram for politikerne i løpet av våren. Inntil da holdes bassenget åpent som før.
+
+Endringer
+
+- «Dersom bassenget stenges, finnes det» → «Stenges bassenget, finnes det» (kortere og mer muntlig vilkårsledd)
+- «blir bassenget holdt åpent» → «holdes bassenget åpent» (strammet en omstendelig passivkonstruksjon)
+- Satt sitatet på egen linje, slik norsk avisoppsett gjør med replikkstrek
+
+Merknader
+
+Ingen tydelig KI-preg. Endringene er små stilgrep som kan diskuteres. Sitatet står ordrett. Teksten slutter på det uavklarte, og det er riktig for saken. Det ville vært feil å legge til en konklusjon om hva bassenget betyr for bygda.
