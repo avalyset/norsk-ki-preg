@@ -1,0 +1,56 @@
+{
+ "nb": {
+  "etter vask, alle": [
+   1.43,
+   0.69,
+   2.9
+  ],
+  "før vask, samme 20": [
+   1.5,
+   0.77,
+   3.01
+  ],
+  "etter vask, uten tredelt_oppramsing": [
+   1.43,
+   0.0,
+   NaN
+  ],
+  "etter vask, uten ikke_x_men_y": [
+   1.34,
+   0.59,
+   2.87
+  ],
+  "etter vask, bare Språkrådet-markører (a)": [
+   Infinity,
+   1.0,
+   1.0
+  ]
+ },
+ "nn": {
+  "etter vask, alle": [
+   3.7,
+   1.47,
+   8.56
+  ],
+  "før vask, samme 20": [
+   3.82,
+   1.56,
+   8.75
+  ],
+  "etter vask, uten tredelt_oppramsing": [
+   2.84,
+   0.58,
+   15.53
+  ],
+  "etter vask, uten ikke_x_men_y": [
+   4.06,
+   1.09,
+   12.24
+  ],
+  "etter vask, bare Språkrådet-markører (a)": [
+   0.0,
+   0.0,
+   1.0
+  ]
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "M1": {
+  "nb|Claude etter vask": {
+   "n": 20,
+   "treff": 9,
+   "ord": 1173,
+   "rate": 7.67
+  },
+  "nb|Claude før vask": {
+   "n": 50,
+   "treff": 30,
+   "ord": 3175,
+   "rate": 9.45
+  },
+  "nb|Claude før vask (vaskeutvalget)": {
+   "n": 20,
+   "treff": 10,
+   "ord": 1236,
+   "rate": 8.09
+  },
+  "nb|NorMistral før vask": {
+   "n": 50,
+   "treff": 27,
+   "ord": 4487,
+   "rate": 6.02
+  },
+  "nb|menneske (fasit)": {
+   "n": 50,
+   "treff": 18,
+   "ord": 3347,
+   "rate": 5.38
+  },
+  "nb|menneske etter vask": {
+   "n": 10,
+   "treff": 4,
+   "ord": 609,
+   "rate": 6.57
+  },
+  "nn|Claude etter vask": {
+   "n": 20,
+   "treff": 13,
+   "ord": 1159,
+   "rate": 11.22
+  },
+  "nn|Claude før vask": {
+   "n": 50,
+   "treff": 30,
+   "ord": 3219,
+   "rate": 9.32
+  },
+  "nn|Claude før vask (vaskeutvalget)": {
+   "n": 20,
+   "treff": 15,
+   "ord": 1293,
+   "rate": 11.6
+  },
+  "nn|NorMistral før vask": {
+   "n": 50,
+   "treff": 16,
+   "ord": 4168,
+   "rate": 3.84
+  },
+  "nn|menneske (fasit)": {
+   "n": 50,
+   "treff": 10,
+   "ord": 3297,
+   "rate": 3.03
+  },
+  "nn|menneske etter vask": {
+   "n": 10,
+   "treff": 1,
+   "ord": 657,
+   "rate": 1.52
+  }
+ },
+ "R": {
+  "nb": {
+   "R": 1.427,
+   "KI_nedre": 0.689,
+   "KI_ovre": 2.899,
+   "n_KI": 20,
+   "n_menneske": 50,
+   "fase_B": false
+  },
+  "nn": {
+   "R": 3.698,
+   "KI_nedre": 1.468,
+   "KI_ovre": 8.518,
+   "n_KI": 20,
+   "n_menneske": 50,
+   "fase_B": true
+  }
+ },
+ "M3_sammendrag": {
+  "nb|menneske": {
+   "n": 10,
+   "tegn_median": 0.109,
+   "tegn_snitt": 0.136,
+   "ord_median": 0.19,
+   "uendret": 0
+  },
+  "nb|claude": {
+   "n": 20,
+   "tegn_median": 0.0465,
+   "tegn_snitt": 0.118,
+   "ord_median": 0.0465,
+   "uendret": 6
+  },
+  "nn|claude": {
+   "n": 20,
+   "tegn_median": 0.017499999999999998,
+   "tegn_snitt": 0.094,
+   "ord_median": 0.0,
+   "uendret": 8
+  },
+  "nn|menneske": {
+   "n": 10,
+   "tegn_median": 0.022,
+   "tegn_snitt": 0.041,
+   "ord_median": 0.092,
+   "uendret": 1
+  }
+ }
+}
