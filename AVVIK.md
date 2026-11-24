@@ -46,3 +46,14 @@ Det er orddelingsfeil i den menneskelige teksten (for eksempel «spylevog nen»,
 
 ## A15 – Fase B-terskel
 «≥ 20» i ekstrapoleringen er tolket som samlet frekvens (KI + menneske) per lemma, i samsvar med telleterskelen i M4.
+
+# Fase B
+
+## B1 – claude -p kunne ikke måles
+CLI-en er ikke innlogget (OAuth utløpt), og `--bare` krever API-nøkkel. Mekanismen ble valgt mellom to subagenttyper: Explore (10,7k per tekst) mot general-purpose (16,5k per tekst). Explore har en systemprompt for kodesøk og bare lese-verktøy. Det er en annen kontekst enn i røyktesten (general-purpose), så fase A- og fase B-tekster er ikke helt sammenlignbare.
+
+## B2 – Språkrådet-PDF ut av git
+Flyttet til `~/data/kilder/sprakradet_2025.pdf` (sha256 73b84a52…a4702f), fjernet fra indeksen med `git rm --cached` og lagt i .gitignore. **Den ligger fortsatt i historikken (commit c6010e6 og eldre). Historikken må renskes (git filter-repo) før en eventuell push.** Teksten (`kilder/sprakradet_2025.txt`) er også et uttrekk av hele rapporten og er flyttet ut av git på samme måte.
+
+## B3 – NLOD-kildene utelatt
+NCC-kortet (kilder/ncc/NCC_README.md, lastet ned 2026-11-24) sier bare «Build date original corpus: 21012022» og «Build data revised corpus: 10032025». Det sier også «When year is undetermined it is set to 2021». Ingenting sier ordrett at en enkelt NLOD-kilde ble samlet inn før 30.11.2022. Den reviderte bygget fra 2025 gjør at innsamlingen kan være nyere. Kortet viser bare til «our papers» om innsamlingen. Artikkelen (arXiv 2104.09617) er ikke lest ordrett, så regelens krav er ikke oppfylt. Alle NLOD-kilder er utelatt.
