@@ -1,0 +1,327 @@
+{
+ "versjon": "v0",
+ "frosset": "2026-11-24",
+ "telleregel": "re.finditer per regex over NFC-tekst; hvert treff = 1; flagg 'i' = re.IGNORECASE",
+ "markorer": [
+  {
+   "id": "komplekst_og_viktig",
+   "gruppe": "stående frase",
+   "regex": "\\bkomplekse?t?\\s+og\\s+viktige?\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 14,
+   "sitat": "«Komplekst og viktig» og lignende er standardfraser som går igjen i de fleste tekstene.",
+   "merknad": ""
+  },
+  {
+   "id": "viktig_komponent",
+   "gruppe": "stående frase",
+   "regex": "\\bviktige?\\s+komponent\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«Viktig komponent», «innebærer» og «dette kan inkludere» er standardformuleringer",
+   "merknad": ""
+  },
+  {
+   "id": "innebærer",
+   "gruppe": "stående frase",
+   "regex": "\\binneb(?:ærer|er)\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«Viktig komponent», «innebærer» og «dette kan inkludere» er standardformuleringer",
+   "merknad": "nn-form «inneber» lagt til"
+  },
+  {
+   "id": "dette_kan_inkludere",
+   "gruppe": "stående frase",
+   "regex": "\\bdette\\s+kan\\s+inkludere\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«dette kan inkludere» er standardformuleringer",
+   "merknad": ""
+  },
+  {
+   "id": "dynamisk_felt",
+   "gruppe": "stående frase",
+   "regex": "\\bdynamiske?\\s+felt\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«Fiskeripolitikk er et dynamisk felt som krever kontinuerlig tilpasning og innovasjon.» … ordgyting",
+   "merknad": ""
+  },
+  {
+   "id": "kontinuerlig_tilpasning",
+   "gruppe": "stående frase",
+   "regex": "\\bkontinuerleg?\\s+tilpas\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«…krever kontinuerlig tilpasning og innovasjon.»",
+   "merknad": "nn «kontinuerleg» lagt til"
+  },
+  {
+   "id": "fleksibel_tilpasningsdyktig",
+   "gruppe": "stående frase",
+   "regex": "\\bfleksib\\w*\\s+og\\s+tilpasningsdykt\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "standardformuleringen «fleksibel og tilpasningsdyktig tilnærming» notert som et ordgytingsproblem",
+   "merknad": ""
+  },
+  {
+   "id": "aspekt",
+   "gruppe": "stående frase",
+   "regex": "\\baspekt(?:er|ene|a|ane)?\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«aspektene» og «kompleksiteten» i siste setning, som går igjen i mange tekster",
+   "merknad": ""
+  },
+  {
+   "id": "kompleksitet",
+   "gruppe": "stående frase",
+   "regex": "\\bkompleksitet(?:en|a)?\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«aspektene» og «kompleksiteten» … går igjen i mange tekster",
+   "merknad": ""
+  },
+  {
+   "id": "komplekst_felt",
+   "gruppe": "stående frase",
+   "regex": "\\bkomplekse?t?\\s+felt\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«I sammendrag er landbrukspolitikk et komplekst felt som krever et balansert syn …»",
+   "merknad": ""
+  },
+  {
+   "id": "balansert",
+   "gruppe": "stående frase",
+   "regex": "\\bbalanserte?\\s+(?:syn|linje|tilnærming)\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 14,
+   "sitat": "«Norge inntok en forsiktig og balansert linje» (s. 14); «et balansert syn» (s. 15)",
+   "merknad": ""
+  },
+  {
+   "id": "balansegang",
+   "gruppe": "stående frase",
+   "regex": "\\bbalansegang\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«Samlet sett er fiskeripolitikk en balansegang mellom ulike hensyn og interesser.»",
+   "merknad": ""
+  },
+  {
+   "id": "skjæringspunkt",
+   "gruppe": "stående frase",
+   "regex": "\\bskjæringspunkt\\w*\\s+mellom\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 14,
+   "sitat": "«Det er nettopp i skjæringspunktet mellom disse ulike målene at …»",
+   "merknad": ""
+  },
+  {
+   "id": "dypt_forankret",
+   "gruppe": "stående frase",
+   "regex": "\\bdj?y?u?pt\\s+forankr\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«Alt i alt er Norges forhold til NATO dypt forankret i landets historie …»",
+   "merknad": "nn «djupt» dekkes"
+  },
+  {
+   "id": "ikke_bare_ogsaa",
+   "gruppe": "stående frase",
+   "regex": "\\bikkj?e\\s+(?:bare|berre)\\b[^.!?]{0,80}?\\bogså\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«Fiskerinæringen er ikke bare en økonomisk aktivitet; den er også en kulturell bærebjelke …»",
+   "merknad": "nn «ikkje berre» dekkes"
+  },
+  {
+   "id": "alt_i_alt",
+   "gruppe": "avslutningsformel",
+   "regex": "\\balt\\s+i\\s+alt\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "Oppsummeringsformuleringen «alt i alt … forankret» er registrert som feil.",
+   "merknad": ""
+  },
+  {
+   "id": "samlet_sett",
+   "gruppe": "avslutningsformel",
+   "regex": "\\bsaml(?:et|a)\\s+sett\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "Oppsummeringsformuleringen «samlet sett … balansegang» er notert som en tekstfeil",
+   "merknad": "nn «samla sett» lagt til"
+  },
+  {
+   "id": "i_sammendrag",
+   "gruppe": "avslutningsformel",
+   "regex": "\\bi\\s+sam(?:m|)(?:endrag|andrag)\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "oppsummeringsformuleringen «[er] i sammendrag et komplekst felt» notert som feil",
+   "merknad": "nn «i samandrag» lagt til"
+  },
+  {
+   "id": "gjore_en_forskjell",
+   "gruppe": "kalk",
+   "regex": "\\bgj(?:ø|e)re?\\w*\\s+(?:en|ein|ei)\\s+(?:forskjell|skilnad)\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "gjøre en forskjell (av engelsk make a difference)",
+   "merknad": "fotnote 4; nn-former lagt til"
+  },
+  {
+   "id": "fanget_oyet",
+   "gruppe": "kalk",
+   "regex": "\\bfang\\w*\\s+(?:øyet|auget|blikket)\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "plutselig fanget øyet hans noe (ChatGPT)",
+   "merknad": ""
+  },
+  {
+   "id": "dypt_pust",
+   "gruppe": "kalk",
+   "regex": "\\b(?:et|eit)\\s+dj?y?u?pt\\s+pust\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "ho tok eit djupt pust (Copilot)",
+   "merknad": ""
+  },
+  {
+   "id": "tilfreds_med_aa",
+   "gruppe": "kalk",
+   "regex": "\\btilfreds\\s+med\\s+å\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "for no var han tilfreds med å vere i byen (Copilot)",
+   "merknad": ""
+  },
+  {
+   "id": "som_sine_egne_lommer",
+   "gruppe": "kalk",
+   "regex": "\\bsom\\s+sin(?:e)?\\s+eig?ne?\\s+lomm\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "begge kjente den [skogen] som sine egne lommer (Le Chat)",
+   "merknad": ""
+  },
+  {
+   "id": "med_en_x_stemme",
+   "gruppe": "kalk",
+   "regex": "\\bmed\\s+(?:en|ei|ein)\\s+\\w+\\s+stemme\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "sa hun med en stolt stemme (Le Chat)",
+   "merknad": ""
+  },
+  {
+   "id": "aktorene_involvert",
+   "gruppe": "kalk",
+   "regex": "\\b\\w+(?:ene|ane|a)\\s+involvert\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "de ulike aktørene involvert (Le Chat)",
+   "merknad": ""
+  },
+  {
+   "id": "ut_av_kontroll",
+   "gruppe": "kalk",
+   "regex": "\\but\\s+av\\s+kontroll\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "en kveld som hadde gått fullstendig ut av kontroll (NorMistral)",
+   "merknad": ""
+  },
+  {
+   "id": "ny_start",
+   "gruppe": "kalk",
+   "regex": "\\b(?:en|ein|ei)\\s+ny\\s+start\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "en kopp [kaffe] som kunne tilby henne en ny start (ChatGPT)",
+   "merknad": ""
+  },
+  {
+   "id": "tankestrek_uten_mellomrom",
+   "gruppe": "struktur",
+   "regex": "(?<=\\S)—(?=\\S)",
+   "flagg": "i",
+   "kilde": "oppgavespesifikasjon (strukturmarkør)",
+   "side": null,
+   "sitat": "tankestrek uten mellomrom (—)",
+   "merknad": "Norsk tankestrek med mellomrom ( – / — ) telles ikke"
+  },
+  {
+   "id": "title_case_overskrift",
+   "gruppe": "struktur",
+   "regex": "(?m)^(?=[^\\n]{3,80}$)(?:#+\\s*)?[A-ZÆØÅ][\\wæøå]*(?:\\s+(?:[A-ZÆØÅ][\\wæøå]*|og|i|for|av|på|til|med|eller|en|et|ei|ein|eit))*\\s+[A-ZÆØÅ][\\wæøå]+(?:\\s+[A-ZÆØÅ][\\wæøå]+)+\\s*$",
+   "flagg": "",
+   "kilde": "oppgavespesifikasjon (strukturmarkør)",
+   "side": null,
+   "sitat": "store forbokstaver i overskrifter etter engelsk mønster",
+   "merknad": "flagg uten i: egen linje, ≥3 ord med stor forbokstav, ingen sluttpunktum"
+  },
+  {
+   "id": "ikke_x_men_y",
+   "gruppe": "struktur",
+   "regex": "\\bikkj?e\\s+[^.,;!?\\n]{1,60},\\s*men\\b",
+   "flagg": "i",
+   "kilde": "oppgavespesifikasjon (strukturmarkør)",
+   "side": null,
+   "sitat": "«ikke X, men Y»",
+   "merknad": ""
+  },
+  {
+   "id": "tredelt_oppramsing",
+   "gruppe": "struktur",
+   "regex": "\\b[\\wæøå-]+(?:\\s[\\wæøå-]+){0,2},\\s[\\wæøå-]+(?:\\s[\\wæøå-]+){0,2},?\\s(?:og|eller)\\s[\\wæøå-]+",
+   "flagg": "i",
+   "kilde": "oppgavespesifikasjon (strukturmarkør)",
+   "side": null,
+   "sitat": "tredelte oppramsinger",
+   "merknad": "«A, B og C» med 1–3 ord per ledd"
+  },
+  {
+   "id": "punktliste_fet_tittel",
+   "gruppe": "struktur",
+   "regex": "(?m)^\\s*(?:[-*•]|\\d+[.)])\\s+\\*\\*[^*\\n]+\\*\\*",
+   "flagg": "i",
+   "kilde": "oppgavespesifikasjon (strukturmarkør)",
+   "side": null,
+   "sitat": "punktlister med fete titler",
+   "merknad": ""
+  }
+ ]
+}
