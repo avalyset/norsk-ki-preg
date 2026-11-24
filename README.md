@@ -2,7 +2,7 @@
 
 Spørsmål: fjerner anti-ai-writing v2.1.0 (avectats7, MIT) KI-preg i norsk tekst (bokmål og nynorsk), eller trengs en målt norsk markørliste?
 
-Status: røyktest (fase A). Beslutningsregelen er låst i `BESLUTNING.md` før datauttrekk.
+Status: fase A fullført 2026-11-24. Beslutning: fase B trengs (utløst av nynorsk). Se NKP-ROYK-RAPPORT_norsk-ki-preg_v1_2026-11-24.md.
 
 Struktur:
 - `BESLUTNING.md` – låst beslutningsregel (sha256 i `logg/kjorelogg.md`)
