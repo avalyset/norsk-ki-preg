@@ -1,0 +1,4 @@
+data/train-shard-0001-of-0046.jsonl passert {'no': 0, 'nn': 38} rå {'no': 0, 'nn': 163} json-feil 0
+data/train-shard-0002-of-0046.jsonl passert {'no': 0, 'nn': 88} rå {'no': 0, 'nn': 336} json-feil 0
+data/train-shard-0003-of-0046.jsonl passert {'no': 0, 'nn': 140} rå {'no': 0, 'nn': 514} json-feil 0
+data/train-shard-0004-of-0046.jsonl passert {'no': 0, 'nn': 198} rå {'no': 0, 'nn': 669} json-feil 0

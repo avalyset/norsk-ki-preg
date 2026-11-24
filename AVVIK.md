@@ -57,3 +57,19 @@ Flyttet til `~/data/kilder/sprakradet_2025.pdf` (sha256 73b84a52…a4702f), fjer
 
 ## B3 – NLOD-kildene utelatt
 NCC-kortet (kilder/ncc/NCC_README.md, lastet ned 2026-11-24) sier bare «Build date original corpus: 21012022» og «Build data revised corpus: 10032025». Det sier også «When year is undetermined it is set to 2021». Ingenting sier ordrett at en enkelt NLOD-kilde ble samlet inn før 30.11.2022. Den reviderte bygget fra 2025 gjør at innsamlingen kan være nyere. Kortet viser bare til «our papers» om innsamlingen. Artikkelen (arXiv 2104.09617) er ikke lest ordrett, så regelens krav er ikke oppfylt. Alle NLOD-kilder er utelatt.
+
+## B4 – Engelsk anker: bare lister, ingen fortsettelser
+Juzek-repoet (github.com/tjuzek/ai-34-languages, commit 0cf18ff2, klonet til ~/data/ekstern/) inneholder bare 10 menneskelige engelske halvdeler som eksempel (`examples/en_pregenhalves_2020-2021_example.jsonl`). Det er ingen KI-fortsettelser. De publiserte listene (`lexa-index/csv_files.7z`, 38 CSV-filer) har tellinger per lemma: `c_H`, `c_M` (antall par der lemmaet forekommer), `n_pairs` og `rank_LAS`. Rangeringen deres er etter **LAS = Δ-prevalens (ell_M − ell_H)**, ikke etter forholdet. Ankeret kjører derfor vår LPR-kode (`skript/lpr.py`) på deres tellinger og sammenligner rangeringen med `rank_LAS`. Det tester formelen og telleregelen, ikke genererings- og lemmatiseringsløypa. Ingen ny generering.
+
+## B5 – Nynorsk: 0 tekster 2000–2020 i validering
+Validering ga 473 bokmål og 0 nynorsk for 2000–2020 etter filteret. Nynorsk er utvidet til 1990–2020 og strømmer treningsshards 0001–0024 (PREREG §2), uten tak på antall shards. Oppgaven nevnte ingen grense her. Fase A hadde en grense på 2.
+
+## B6 – Emne = første «setning» etter OCR-splitting
+Mange NCC-avsnitt begynner midt i en setning. Emnet blir da et fragment, for eksempel «radarstasjonen i Kautokeino.». Regelen er låst i PREREG og brukes uendret.
+
+## B7 – Nynorskfilteret justert etter låsing (avvik fra PREREG §2)
+Diagnose på train-shard-0025 (`skript/diag_nn.py`): av 179 rå nn-avsnitt 1990–2020 (CC0) falt 172 på kriteriet «≥ 90 % kjente ord». simplemmas nynorskordliste kjenner median 79 % av ordene, kvartiler 0,73–0,84. I tillegg var 93 over 200 ord. Med det opprinnelige filteret ga shard 0001 0 treff og shard 0013 3, mens det trengs 275. Kriteriet måler altså ordlistedekning mer enn OCR-kvalitet for nynorsk. **Bare for nn:**
+- terskelen for kjente ord er 0,80
+- avsnitt over 200 ord kuttes ved siste setningsgrense før 200 ord (deretter gjelder kravene om ≥ 80 ord og ≥ 4 setninger)
+
+Strømmingen er satt til shards 0001–0008, ikke 0001–0024, fordi utbyttet nå er høyere. Kandidatsettet er alle treff i disse 8 shardene. Bokmål er uendret (0,90, ingen kutt, trukket før endringen). Følgen er at nynorsk-utvalget har mer OCR-støy og ordlistefremmede former enn bokmål.
