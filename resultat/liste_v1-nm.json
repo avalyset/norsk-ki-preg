@@ -1,0 +1,8354 @@
+{
+ "nb|lokal|T1": {
+  "n_KI": 239,
+  "n_M": 240,
+  "lemma": [
+   {
+    "e": "uttrykke_VERB",
+    "c_KI": 21,
+    "c_M": 0,
+    "lpr": 3.765,
+    "delta": 0.0879
+   },
+   {
+    "e": "ettersom_SCONJ",
+    "c_KI": 19,
+    "c_M": 1,
+    "lpr": 2.569,
+    "delta": 0.0753
+   },
+   {
+    "e": "imidlertid_ADV",
+    "c_KI": 35,
+    "c_M": 3,
+    "lpr": 2.321,
+    "delta": 0.1339
+   },
+   {
+    "e": "betydelig_ADJ",
+    "c_KI": 19,
+    "c_M": 2,
+    "lpr": 2.058,
+    "delta": 0.0712
+   },
+   {
+    "e": "merke_VERB",
+    "c_KI": 23,
+    "c_M": 3,
+    "lpr": 1.908,
+    "delta": 0.0837
+   },
+   {
+    "e": "tross_ADP",
+    "c_KI": 21,
+    "c_M": 3,
+    "lpr": 1.819,
+    "delta": 0.0754
+   },
+   {
+    "e": "oppleve_VERB",
+    "c_KI": 20,
+    "c_M": 3,
+    "lpr": 1.772,
+    "delta": 0.0712
+   },
+   {
+    "e": "sikre_VERB",
+    "c_KI": 25,
+    "c_M": 4,
+    "lpr": 1.739,
+    "delta": 0.0879
+   },
+   {
+    "e": "deres_PRON",
+    "c_KI": 24,
+    "c_M": 4,
+    "lpr": 1.699,
+    "delta": 0.0838
+   },
+   {
+    "e": "spesiell_ADJ",
+    "c_KI": 18,
+    "c_M": 3,
+    "lpr": 1.669,
+    "delta": 0.0628
+   },
+   {
+    "e": "dette_DET",
+    "c_KI": 28,
+    "c_M": 5,
+    "lpr": 1.649,
+    "delta": 0.0963
+   },
+   {
+    "e": "disse_DET",
+    "c_KI": 33,
+    "c_M": 6,
+    "lpr": 1.644,
+    "delta": 0.1131
+   },
+   {
+    "e": "holde_VERB",
+    "c_KI": 22,
+    "c_M": 4,
+    "lpr": 1.614,
+    "delta": 0.0754
+   },
+   {
+    "e": "sted_NOUN",
+    "c_KI": 31,
+    "c_M": 6,
+    "lpr": 1.582,
+    "delta": 0.1047
+   },
+   {
+    "e": "mulighet_NOUN",
+    "c_KI": 20,
+    "c_M": 4,
+    "lpr": 1.521,
+    "delta": 0.067
+   },
+   {
+    "e": "bety_VERB",
+    "c_KI": 19,
+    "c_M": 4,
+    "lpr": 1.47,
+    "delta": 0.0628
+   },
+   {
+    "e": "denne_DET",
+    "c_KI": 80,
+    "c_M": 20,
+    "lpr": 1.372,
+    "delta": 0.2514
+   },
+   {
+    "e": "jobbe_VERB",
+    "c_KI": 24,
+    "c_M": 6,
+    "lpr": 1.331,
+    "delta": 0.0754
+   },
+   {
+    "e": "grunn_NOUN",
+    "c_KI": 24,
+    "c_M": 6,
+    "lpr": 1.331,
+    "delta": 0.0754
+   },
+   {
+    "e": "tillegg_NOUN",
+    "c_KI": 20,
+    "c_M": 5,
+    "lpr": 1.32,
+    "delta": 0.0628
+   },
+   {
+    "e": "bidra_VERB",
+    "c_KI": 16,
+    "c_M": 4,
+    "lpr": 1.303,
+    "delta": 0.0503
+   },
+   {
+    "e": "føre_VERB",
+    "c_KI": 27,
+    "c_M": 7,
+    "lpr": 1.303,
+    "delta": 0.0838
+   },
+   {
+    "e": "ulik_ADJ",
+    "c_KI": 16,
+    "c_M": 5,
+    "lpr": 1.103,
+    "delta": 0.0461
+   },
+   {
+    "e": "måte_NOUN",
+    "c_KI": 16,
+    "c_M": 5,
+    "lpr": 1.103,
+    "delta": 0.0461
+   },
+   {
+    "e": "positiv_ADJ",
+    "c_KI": 16,
+    "c_M": 5,
+    "lpr": 1.103,
+    "delta": 0.0461
+   },
+   {
+    "e": "viktig_ADJ",
+    "c_KI": 48,
+    "c_M": 16,
+    "lpr": 1.082,
+    "delta": 0.1342
+   },
+   {
+    "e": "tidlig_ADJ",
+    "c_KI": 24,
+    "c_M": 8,
+    "lpr": 1.063,
+    "delta": 0.0671
+   },
+   {
+    "e": "person_NOUN",
+    "c_KI": 18,
+    "c_M": 6,
+    "lpr": 1.05,
+    "delta": 0.0503
+   },
+   {
+    "e": "sterk_ADJ",
+    "c_KI": 18,
+    "c_M": 6,
+    "lpr": 1.05,
+    "delta": 0.0503
+   },
+   {
+    "e": "lag_NOUN",
+    "c_KI": 16,
+    "c_M": 6,
+    "lpr": 0.936,
+    "delta": 0.0419
+   },
+   {
+    "e": "hvis_SCONJ",
+    "c_KI": 23,
+    "c_M": 9,
+    "lpr": 0.91,
+    "delta": 0.0587
+   },
+   {
+    "e": "ung_ADJ",
+    "c_KI": 15,
+    "c_M": 6,
+    "lpr": 0.873,
+    "delta": 0.0378
+   },
+   {
+    "e": "ønske_VERB",
+    "c_KI": 29,
+    "c_M": 12,
+    "lpr": 0.863,
+    "delta": 0.0713
+   },
+   {
+    "e": "finne_VERB",
+    "c_KI": 36,
+    "c_M": 15,
+    "lpr": 0.861,
+    "delta": 0.0881
+   },
+   {
+    "e": "møte_VERB",
+    "c_KI": 17,
+    "c_M": 7,
+    "lpr": 0.851,
+    "delta": 0.042
+   },
+   {
+    "e": "samme_DET",
+    "c_KI": 14,
+    "c_M": 6,
+    "lpr": 0.807,
+    "delta": 0.0336
+   },
+   {
+    "e": "hjelpe_VERB",
+    "c_KI": 14,
+    "c_M": 6,
+    "lpr": 0.807,
+    "delta": 0.0336
+   },
+   {
+    "e": "eller_CCONJ",
+    "c_KI": 34,
+    "c_M": 15,
+    "lpr": 0.804,
+    "delta": 0.0798
+   },
+   {
+    "e": "sin_PRON",
+    "c_KI": 62,
+    "c_M": 28,
+    "lpr": 0.789,
+    "delta": 0.1427
+   },
+   {
+    "e": "under_ADP",
+    "c_KI": 31,
+    "c_M": 14,
+    "lpr": 0.78,
+    "delta": 0.0714
+   },
+   {
+    "e": "ofte_ADJ",
+    "c_KI": 20,
+    "c_M": 9,
+    "lpr": 0.773,
+    "delta": 0.0462
+   },
+   {
+    "e": "alle_PRON",
+    "c_KI": 23,
+    "c_M": 11,
+    "lpr": 0.719,
+    "delta": 0.0504
+   },
+   {
+    "e": "vår_PRON",
+    "c_KI": 25,
+    "c_M": 12,
+    "lpr": 0.717,
+    "delta": 0.0546
+   },
+   {
+    "e": "noe_PRON",
+    "c_KI": 49,
+    "c_M": 24,
+    "lpr": 0.707,
+    "delta": 0.105
+   },
+   {
+    "e": "der_SCONJ",
+    "c_KI": 24,
+    "c_M": 12,
+    "lpr": 0.677,
+    "delta": 0.0504
+   },
+   {
+    "e": "blant_ADP",
+    "c_KI": 20,
+    "c_M": 10,
+    "lpr": 0.673,
+    "delta": 0.042
+   },
+   {
+    "e": "sammen_ADV",
+    "c_KI": 20,
+    "c_M": 10,
+    "lpr": 0.673,
+    "delta": 0.042
+   },
+   {
+    "e": "mene_VERB",
+    "c_KI": 36,
+    "c_M": 19,
+    "lpr": 0.631,
+    "delta": 0.0715
+   },
+   {
+    "e": "høy_ADJ",
+    "c_KI": 19,
+    "c_M": 10,
+    "lpr": 0.623,
+    "delta": 0.0378
+   },
+   {
+    "e": "fra_ADP",
+    "c_KI": 85,
+    "c_M": 46,
+    "lpr": 0.613,
+    "delta": 0.164
+   },
+   {
+    "e": "barn_NOUN",
+    "c_KI": 15,
+    "c_M": 8,
+    "lpr": 0.605,
+    "delta": 0.0294
+   },
+   {
+    "e": "bli_AUX",
+    "c_KI": 84,
+    "c_M": 46,
+    "lpr": 0.601,
+    "delta": 0.1598
+   },
+   {
+    "e": "forhold_NOUN",
+    "c_KI": 13,
+    "c_M": 7,
+    "lpr": 0.592,
+    "delta": 0.0252
+   },
+   {
+    "e": "bo_VERB",
+    "c_KI": 13,
+    "c_M": 7,
+    "lpr": 0.592,
+    "delta": 0.0252
+   },
+   {
+    "e": "skape_VERB",
+    "c_KI": 13,
+    "c_M": 7,
+    "lpr": 0.592,
+    "delta": 0.0252
+   },
+   {
+    "e": "derfor_ADV",
+    "c_KI": 22,
+    "c_M": 12,
+    "lpr": 0.592,
+    "delta": 0.0421
+   },
+   {
+    "e": "ved_ADP",
+    "c_KI": 36,
+    "c_M": 20,
+    "lpr": 0.581,
+    "delta": 0.0673
+   },
+   {
+    "e": "dette_PRON",
+    "c_KI": 87,
+    "c_M": 49,
+    "lpr": 0.574,
+    "delta": 0.1599
+   },
+   {
+    "e": "mellom_ADP",
+    "c_KI": 21,
+    "c_M": 12,
+    "lpr": 0.546,
+    "delta": 0.0379
+   },
+   {
+    "e": "lokal_ADJ",
+    "c_KI": 14,
+    "c_M": 8,
+    "lpr": 0.538,
+    "delta": 0.0252
+   },
+   {
+    "e": "uke_NOUN",
+    "c_KI": 14,
+    "c_M": 8,
+    "lpr": 0.538,
+    "delta": 0.0252
+   },
+   {
+    "e": "rundt_ADP",
+    "c_KI": 14,
+    "c_M": 8,
+    "lpr": 0.538,
+    "delta": 0.0252
+   },
+   {
+    "e": "for_ADP",
+    "c_KI": 190,
+    "c_M": 113,
+    "lpr": 0.522,
+    "delta": 0.3241
+   },
+   {
+    "e": "noen_DET",
+    "c_KI": 47,
+    "c_M": 28,
+    "lpr": 0.515,
+    "delta": 0.08
+   },
+   {
+    "e": "gi_VERB",
+    "c_KI": 47,
+    "c_M": 28,
+    "lpr": 0.515,
+    "delta": 0.08
+   },
+   {
+    "e": "kommune_NOUN",
+    "c_KI": 25,
+    "c_M": 15,
+    "lpr": 0.502,
+    "delta": 0.0421
+   },
+   {
+    "e": "hver_DET",
+    "c_KI": 15,
+    "c_M": 9,
+    "lpr": 0.494,
+    "delta": 0.0253
+   },
+   {
+    "e": "da_SCONJ",
+    "c_KI": 28,
+    "c_M": 17,
+    "lpr": 0.492,
+    "delta": 0.0463
+   },
+   {
+    "e": "som_ADP",
+    "c_KI": 73,
+    "c_M": 45,
+    "lpr": 0.484,
+    "delta": 0.1179
+   },
+   {
+    "e": "område_NOUN",
+    "c_KI": 18,
+    "c_M": 11,
+    "lpr": 0.48,
+    "delta": 0.0295
+   },
+   {
+    "e": "gjelde_VERB",
+    "c_KI": 13,
+    "c_M": 8,
+    "lpr": 0.467,
+    "delta": 0.0211
+   },
+   {
+    "e": "over_ADP",
+    "c_KI": 37,
+    "c_M": 24,
+    "lpr": 0.43,
+    "delta": 0.0548
+   },
+   {
+    "e": "menneske_NOUN",
+    "c_KI": 14,
+    "c_M": 9,
+    "lpr": 0.427,
+    "delta": 0.0211
+   },
+   {
+    "e": "land_NOUN",
+    "c_KI": 14,
+    "c_M": 9,
+    "lpr": 0.427,
+    "delta": 0.0211
+   },
+   {
+    "e": "kunne_AUX",
+    "c_KI": 108,
+    "c_M": 72,
+    "lpr": 0.407,
+    "delta": 0.1519
+   },
+   {
+    "e": "av_ADP",
+    "c_KI": 162,
+    "c_M": 109,
+    "lpr": 0.399,
+    "delta": 0.2237
+   },
+   {
+    "e": "mann_NOUN",
+    "c_KI": 15,
+    "c_M": 10,
+    "lpr": 0.394,
+    "delta": 0.0211
+   },
+   {
+    "e": "familie_NOUN",
+    "c_KI": 12,
+    "c_M": 8,
+    "lpr": 0.39,
+    "delta": 0.0169
+   },
+   {
+    "e": "den_DET",
+    "c_KI": 127,
+    "c_M": 87,
+    "lpr": 0.381,
+    "delta": 0.1689
+   },
+   {
+    "e": "stor_ADJ",
+    "c_KI": 48,
+    "c_M": 33,
+    "lpr": 0.374,
+    "delta": 0.0633
+   },
+   {
+    "e": "du_PRON",
+    "c_KI": 32,
+    "c_M": 22,
+    "lpr": 0.372,
+    "delta": 0.0422
+   },
+   {
+    "e": "klar_ADJ",
+    "c_KI": 16,
+    "c_M": 11,
+    "lpr": 0.365,
+    "delta": 0.0211
+   },
+   {
+    "e": "tid_NOUN",
+    "c_KI": 37,
+    "c_M": 26,
+    "lpr": 0.351,
+    "delta": 0.0465
+   },
+   {
+    "e": "ligge_VERB",
+    "c_KI": 18,
+    "c_M": 13,
+    "lpr": 0.319,
+    "delta": 0.0211
+   },
+   {
+    "e": "sette_VERB",
+    "c_KI": 22,
+    "c_M": 16,
+    "lpr": 0.314,
+    "delta": 0.0254
+   },
+   {
+    "e": "all_DET",
+    "c_KI": 34,
+    "c_M": 25,
+    "lpr": 0.306,
+    "delta": 0.0381
+   },
+   {
+    "e": "å_PART",
+    "c_KI": 201,
+    "c_M": 149,
+    "lpr": 0.303,
+    "delta": 0.2202
+   },
+   {
+    "e": "ville_AUX",
+    "c_KI": 81,
+    "c_M": 60,
+    "lpr": 0.302,
+    "delta": 0.0889
+   },
+   {
+    "e": "seg_PRON",
+    "c_KI": 82,
+    "c_M": 61,
+    "lpr": 0.298,
+    "delta": 0.0889
+   },
+   {
+    "e": "ut_ADV",
+    "c_KI": 27,
+    "c_M": 20,
+    "lpr": 0.298,
+    "delta": 0.0296
+   },
+   {
+    "e": "en_DET",
+    "c_KI": 207,
+    "c_M": 157,
+    "lpr": 0.28,
+    "delta": 0.2119
+   },
+   {
+    "e": "klare_VERB",
+    "c_KI": 12,
+    "c_M": 9,
+    "lpr": 0.279,
+    "delta": 0.0127
+   },
+   {
+    "e": "de_DET",
+    "c_KI": 78,
+    "c_M": 60,
+    "lpr": 0.265,
+    "delta": 0.0764
+   },
+   {
+    "e": "lang_ADJ",
+    "c_KI": 17,
+    "c_M": 13,
+    "lpr": 0.264,
+    "delta": 0.017
+   },
+   {
+    "e": "legge_VERB",
+    "c_KI": 26,
+    "c_M": 20,
+    "lpr": 0.261,
+    "delta": 0.0255
+   },
+   {
+    "e": "til_ADP",
+    "c_KI": 175,
+    "c_M": 137,
+    "lpr": 0.248,
+    "delta": 0.1614
+   },
+   {
+    "e": "vise_VERB",
+    "c_KI": 28,
+    "c_M": 22,
+    "lpr": 0.241,
+    "delta": 0.0255
+   },
+   {
+    "e": "kamp_NOUN",
+    "c_KI": 14,
+    "c_M": 11,
+    "lpr": 0.236,
+    "delta": 0.0127
+   },
+   {
+    "e": "mange_ADJ",
+    "c_KI": 63,
+    "c_M": 50,
+    "lpr": 0.233,
+    "delta": 0.0553
+   },
+   {
+    "e": "gjøre_VERB",
+    "c_KI": 51,
+    "c_M": 41,
+    "lpr": 0.22,
+    "delta": 0.0426
+   },
+   {
+    "e": "ny_ADJ",
+    "c_KI": 36,
+    "c_M": 29,
+    "lpr": 0.217,
+    "delta": 0.0298
+   },
+   {
+    "e": "med_ADP",
+    "c_KI": 146,
+    "c_M": 118,
+    "lpr": 0.216,
+    "delta": 0.1192
+   },
+   {
+    "e": "de_PRON",
+    "c_KI": 100,
+    "c_M": 81,
+    "lpr": 0.214,
+    "delta": 0.0809
+   },
+   {
+    "e": "mye_ADJ",
+    "c_KI": 64,
+    "c_M": 52,
+    "lpr": 0.21,
+    "delta": 0.0511
+   },
+   {
+    "e": "som_SCONJ",
+    "c_KI": 164,
+    "c_M": 134,
+    "lpr": 0.206,
+    "delta": 0.1279
+   },
+   {
+    "e": "hvordan_ADV",
+    "c_KI": 16,
+    "c_M": 13,
+    "lpr": 0.205,
+    "delta": 0.0128
+   },
+   {
+    "e": "på_ADP",
+    "c_KI": 189,
+    "c_M": 155,
+    "lpr": 0.202,
+    "delta": 0.145
+   },
+   {
+    "e": "om_ADP",
+    "c_KI": 72,
+    "c_M": 59,
+    "lpr": 0.202,
+    "delta": 0.0554
+   },
+   {
+    "e": "at_SCONJ",
+    "c_KI": 179,
+    "c_M": 147,
+    "lpr": 0.201,
+    "delta": 0.1365
+   },
+   {
+    "e": "liten_ADJ",
+    "c_KI": 24,
+    "c_M": 20,
+    "lpr": 0.182,
+    "delta": 0.0171
+   },
+   {
+    "e": "alt_PRON",
+    "c_KI": 12,
+    "c_M": 10,
+    "lpr": 0.179,
+    "delta": 0.0085
+   },
+   {
+    "e": "ha_AUX",
+    "c_KI": 134,
+    "c_M": 113,
+    "lpr": 0.174,
+    "delta": 0.0898
+   },
+   {
+    "e": "liv_NOUN",
+    "c_KI": 13,
+    "c_M": 11,
+    "lpr": 0.165,
+    "delta": 0.0086
+   },
+   {
+    "e": "jobb_NOUN",
+    "c_KI": 13,
+    "c_M": 11,
+    "lpr": 0.165,
+    "delta": 0.0086
+   },
+   {
+    "e": "enn_ADP",
+    "c_KI": 20,
+    "c_M": 17,
+    "lpr": 0.162,
+    "delta": 0.0128
+   },
+   {
+    "e": "mens_SCONJ",
+    "c_KI": 14,
+    "c_M": 12,
+    "lpr": 0.153,
+    "delta": 0.0086
+   },
+   {
+    "e": "første_ADJ",
+    "c_KI": 14,
+    "c_M": 12,
+    "lpr": 0.153,
+    "delta": 0.0086
+   },
+   {
+    "e": "spille_VERB",
+    "c_KI": 14,
+    "c_M": 12,
+    "lpr": 0.153,
+    "delta": 0.0086
+   },
+   {
+    "e": "slik_ADV",
+    "c_KI": 15,
+    "c_M": 13,
+    "lpr": 0.142,
+    "delta": 0.0086
+   },
+   {
+    "e": "i_ADP",
+    "c_KI": 220,
+    "c_M": 192,
+    "lpr": 0.14,
+    "delta": 0.1205
+   },
+   {
+    "e": "ta_VERB",
+    "c_KI": 57,
+    "c_M": 50,
+    "lpr": 0.134,
+    "delta": 0.0302
+   },
+   {
+    "e": "litt_ADJ",
+    "c_KI": 16,
+    "c_M": 14,
+    "lpr": 0.133,
+    "delta": 0.0086
+   },
+   {
+    "e": "også_ADV",
+    "c_KI": 59,
+    "c_M": 52,
+    "lpr": 0.129,
+    "delta": 0.0302
+   },
+   {
+    "e": "bruke_VERB",
+    "c_KI": 17,
+    "c_M": 15,
+    "lpr": 0.126,
+    "delta": 0.0086
+   },
+   {
+    "e": "være_AUX",
+    "c_KI": 221,
+    "c_M": 198,
+    "lpr": 0.114,
+    "delta": 0.0997
+   },
+   {
+    "e": "ha_VERB",
+    "c_KI": 97,
+    "c_M": 89,
+    "lpr": 0.09,
+    "delta": 0.035
+   },
+   {
+    "e": "slik_DET",
+    "c_KI": 12,
+    "c_M": 11,
+    "lpr": 0.088,
+    "delta": 0.0044
+   },
+   {
+    "e": "gjennom_ADP",
+    "c_KI": 13,
+    "c_M": 12,
+    "lpr": 0.081,
+    "delta": 0.0044
+   },
+   {
+    "e": "være_VERB",
+    "c_KI": 49,
+    "c_M": 46,
+    "lpr": 0.067,
+    "delta": 0.0134
+   },
+   {
+    "e": "annen_DET",
+    "c_KI": 41,
+    "c_M": 39,
+    "lpr": 0.054,
+    "delta": 0.009
+   },
+   {
+    "e": "både_CCONJ",
+    "c_KI": 24,
+    "c_M": 23,
+    "lpr": 0.046,
+    "delta": 0.0046
+   },
+   {
+    "e": "bare_ADV",
+    "c_KI": 35,
+    "c_M": 34,
+    "lpr": 0.033,
+    "delta": 0.0048
+   },
+   {
+    "e": "og_CCONJ",
+    "c_KI": 215,
+    "c_M": 209,
+    "lpr": 0.032,
+    "delta": 0.0287
+   },
+   {
+    "e": "etter_ADP",
+    "c_KI": 42,
+    "c_M": 41,
+    "lpr": 0.028,
+    "delta": 0.0049
+   },
+   {
+    "e": "få_VERB",
+    "c_KI": 57,
+    "c_M": 56,
+    "lpr": 0.022,
+    "delta": 0.0052
+   },
+   {
+    "e": "krone_NOUN",
+    "c_KI": 11,
+    "c_M": 11,
+    "lpr": 0.004,
+    "delta": 0.0002
+   },
+   {
+    "e": "del_NOUN",
+    "c_KI": 15,
+    "c_M": 15,
+    "lpr": 0.004,
+    "delta": 0.0003
+   },
+   {
+    "e": "før_ADP",
+    "c_KI": 10,
+    "c_M": 10,
+    "lpr": 0.004,
+    "delta": 0.0002
+   },
+   {
+    "e": "inn_ADV",
+    "c_KI": 13,
+    "c_M": 13,
+    "lpr": 0.004,
+    "delta": 0.0002
+   },
+   {
+    "e": "inn_ADP",
+    "c_KI": 13,
+    "c_M": 13,
+    "lpr": 0.004,
+    "delta": 0.0002
+   },
+   {
+    "e": "god_ADJ",
+    "c_KI": 58,
+    "c_M": 60,
+    "lpr": -0.029,
+    "delta": -0.0073
+   },
+   {
+    "e": "ikke_PART",
+    "c_KI": 110,
+    "c_M": 114,
+    "lpr": -0.031,
+    "delta": -0.0147
+   },
+   {
+    "e": "den_PRON",
+    "c_KI": 182,
+    "c_M": 190,
+    "lpr": -0.039,
+    "delta": -0.0302
+   },
+   {
+    "e": "dag_NOUN",
+    "c_KI": 29,
+    "c_M": 31,
+    "lpr": -0.061,
+    "delta": -0.0078
+   },
+   {
+    "e": "få_AUX",
+    "c_KI": 14,
+    "c_M": 15,
+    "lpr": -0.063,
+    "delta": -0.0039
+   },
+   {
+    "e": "se_VERB",
+    "c_KI": 40,
+    "c_M": 44,
+    "lpr": -0.09,
+    "delta": -0.016
+   },
+   {
+    "e": "men_CCONJ",
+    "c_KI": 82,
+    "c_M": 91,
+    "lpr": -0.099,
+    "delta": -0.0361
+   },
+   {
+    "e": "år_NOUN",
+    "c_KI": 43,
+    "c_M": 48,
+    "lpr": -0.105,
+    "delta": -0.0201
+   },
+   {
+    "e": "hun_PRON",
+    "c_KI": 25,
+    "c_M": 28,
+    "lpr": -0.107,
+    "delta": -0.0121
+   },
+   {
+    "e": "til_ADV",
+    "c_KI": 16,
+    "c_M": 18,
+    "lpr": -0.11,
+    "delta": -0.0081
+   },
+   {
+    "e": "min_PRON",
+    "c_KI": 16,
+    "c_M": 18,
+    "lpr": -0.11,
+    "delta": -0.0081
+   },
+   {
+    "e": "måtte_AUX",
+    "c_KI": 31,
+    "c_M": 35,
+    "lpr": -0.115,
+    "delta": -0.0161
+   },
+   {
+    "e": "sist_ADJ",
+    "c_KI": 12,
+    "c_M": 14,
+    "lpr": -0.144,
+    "delta": -0.0081
+   },
+   {
+    "e": "han_PRON",
+    "c_KI": 65,
+    "c_M": 77,
+    "lpr": -0.164,
+    "delta": -0.0489
+   },
+   {
+    "e": "bli_VERB",
+    "c_KI": 46,
+    "c_M": 55,
+    "lpr": -0.173,
+    "delta": -0.0367
+   },
+   {
+    "e": "mot_ADP",
+    "c_KI": 19,
+    "c_M": 23,
+    "lpr": -0.182,
+    "delta": -0.0163
+   },
+   {
+    "e": "gå_VERB",
+    "c_KI": 32,
+    "c_M": 39,
+    "lpr": -0.191,
+    "delta": -0.0286
+   },
+   {
+    "e": "gang_NOUN",
+    "c_KI": 21,
+    "c_M": 26,
+    "lpr": -0.205,
+    "delta": -0.0205
+   },
+   {
+    "e": "hel_ADJ",
+    "c_KI": 30,
+    "c_M": 38,
+    "lpr": -0.229,
+    "delta": -0.0328
+   },
+   {
+    "e": "hva_PRON",
+    "c_KI": 14,
+    "c_M": 18,
+    "lpr": -0.239,
+    "delta": -0.0164
+   },
+   {
+    "e": "når_SCONJ",
+    "c_KI": 28,
+    "c_M": 37,
+    "lpr": -0.27,
+    "delta": -0.037
+   },
+   {
+    "e": "folk_NOUN",
+    "c_KI": 15,
+    "c_M": 20,
+    "lpr": -0.275,
+    "delta": -0.0206
+   },
+   {
+    "e": "igjen_ADV",
+    "c_KI": 12,
+    "c_M": 17,
+    "lpr": -0.332,
+    "delta": -0.0206
+   },
+   {
+    "e": "ingen_DET",
+    "c_KI": 9,
+    "c_M": 13,
+    "lpr": -0.347,
+    "delta": -0.0165
+   },
+   {
+    "e": "jeg_PRON",
+    "c_KI": 50,
+    "c_M": 72,
+    "lpr": -0.357,
+    "delta": -0.0908
+   },
+   {
+    "e": "noen_PRON",
+    "c_KI": 8,
+    "c_M": 12,
+    "lpr": -0.382,
+    "delta": -0.0165
+   },
+   {
+    "e": "for_ADV",
+    "c_KI": 10,
+    "c_M": 15,
+    "lpr": -0.385,
+    "delta": -0.0207
+   },
+   {
+    "e": "komme_VERB",
+    "c_KI": 37,
+    "c_M": 55,
+    "lpr": -0.388,
+    "delta": -0.0744
+   },
+   {
+    "e": "sak_NOUN",
+    "c_KI": 14,
+    "c_M": 21,
+    "lpr": -0.39,
+    "delta": -0.0289
+   },
+   {
+    "e": "håpe_VERB",
+    "c_KI": 12,
+    "c_M": 19,
+    "lpr": -0.441,
+    "delta": -0.029
+   },
+   {
+    "e": "tro_VERB",
+    "c_KI": 13,
+    "c_M": 21,
+    "lpr": -0.461,
+    "delta": -0.0331
+   },
+   {
+    "e": "uten_ADP",
+    "c_KI": 9,
+    "c_M": 15,
+    "lpr": -0.485,
+    "delta": -0.0248
+   },
+   {
+    "e": "vi_PRON",
+    "c_KI": 67,
+    "c_M": 110,
+    "lpr": -0.489,
+    "delta": -0.178
+   },
+   {
+    "e": "opp_ADV",
+    "c_KI": 21,
+    "c_M": 35,
+    "lpr": -0.497,
+    "delta": -0.058
+   },
+   {
+    "e": "på_ADV",
+    "c_KI": 10,
+    "c_M": 17,
+    "lpr": -0.507,
+    "delta": -0.029
+   },
+   {
+    "e": "om_SCONJ",
+    "c_KI": 17,
+    "c_M": 29,
+    "lpr": -0.518,
+    "delta": -0.0497
+   },
+   {
+    "e": "nå_ADV",
+    "c_KI": 22,
+    "c_M": 38,
+    "lpr": -0.533,
+    "delta": -0.0663
+   },
+   {
+    "e": "man_PRON",
+    "c_KI": 19,
+    "c_M": 33,
+    "lpr": -0.537,
+    "delta": -0.058
+   },
+   {
+    "e": "her_ADV",
+    "c_KI": 13,
+    "c_M": 23,
+    "lpr": -0.55,
+    "delta": -0.0414
+   },
+   {
+    "e": "skulle_AUX",
+    "c_KI": 36,
+    "c_M": 70,
+    "lpr": -0.654,
+    "delta": -0.141
+   },
+   {
+    "e": "fortelle_VERB",
+    "c_KI": 7,
+    "c_M": 14,
+    "lpr": -0.655,
+    "delta": -0.029
+   },
+   {
+    "e": "synes_VERB",
+    "c_KI": 7,
+    "c_M": 14,
+    "lpr": -0.655,
+    "delta": -0.029
+   },
+   {
+    "e": "nok_ADV",
+    "c_KI": 8,
+    "c_M": 16,
+    "lpr": -0.659,
+    "delta": -0.0332
+   },
+   {
+    "e": "stå_VERB",
+    "c_KI": 14,
+    "c_M": 28,
+    "lpr": -0.672,
+    "delta": -0.0581
+   },
+   {
+    "e": "så_CCONJ",
+    "c_KI": 10,
+    "c_M": 21,
+    "lpr": -0.713,
+    "delta": -0.0457
+   },
+   {
+    "e": "så_ADV",
+    "c_KI": 28,
+    "c_M": 58,
+    "lpr": -0.715,
+    "delta": -0.1245
+   },
+   {
+    "e": "hvor_ADV",
+    "c_KI": 7,
+    "c_M": 16,
+    "lpr": -0.784,
+    "delta": -0.0374
+   },
+   {
+    "e": "vite_VERB",
+    "c_KI": 7,
+    "c_M": 17,
+    "lpr": -0.843,
+    "delta": -0.0415
+   },
+   {
+    "e": "si_VERB",
+    "c_KI": 36,
+    "c_M": 102,
+    "lpr": -1.028,
+    "delta": -0.2744
+   },
+   {
+    "e": "der_ADV",
+    "c_KI": 7,
+    "c_M": 21,
+    "lpr": -1.049,
+    "delta": -0.0582
+   },
+   {
+    "e": "veldig_ADJ",
+    "c_KI": 4,
+    "c_M": 18,
+    "lpr": -1.41,
+    "delta": -0.0583
+   },
+   {
+    "e": "da_ADV",
+    "c_KI": 3,
+    "c_M": 29,
+    "lpr": -2.127,
+    "delta": -0.1083
+   }
+  ],
+  "bigram": [
+   {
+    "e": "å merke",
+    "c_KI": 22,
+    "c_M": 0,
+    "lpr": 3.811,
+    "delta": 0.0921
+   },
+   {
+    "e": "merke seg",
+    "c_KI": 21,
+    "c_M": 0,
+    "lpr": 3.765,
+    "delta": 0.0879
+   },
+   {
+    "e": "noe som",
+    "c_KI": 30,
+    "c_M": 2,
+    "lpr": 2.506,
+    "delta": 0.1172
+   },
+   {
+    "e": "til tross",
+    "c_KI": 21,
+    "c_M": 2,
+    "lpr": 2.156,
+    "delta": 0.0795
+   },
+   {
+    "e": "tross for",
+    "c_KI": 21,
+    "c_M": 2,
+    "lpr": 2.156,
+    "delta": 0.0795
+   },
+   {
+    "e": "viktig å",
+    "c_KI": 31,
+    "c_M": 4,
+    "lpr": 1.95,
+    "delta": 0.113
+   },
+   {
+    "e": "ved å",
+    "c_KI": 23,
+    "c_M": 3,
+    "lpr": 1.908,
+    "delta": 0.0837
+   },
+   {
+    "e": "ønske å",
+    "c_KI": 20,
+    "c_M": 3,
+    "lpr": 1.772,
+    "delta": 0.0712
+   },
+   {
+    "e": "mene at",
+    "c_KI": 19,
+    "c_M": 3,
+    "lpr": 1.722,
+    "delta": 0.067
+   },
+   {
+    "e": "føre til",
+    "c_KI": 24,
+    "c_M": 4,
+    "lpr": 1.699,
+    "delta": 0.0838
+   },
+   {
+    "e": "seg at",
+    "c_KI": 23,
+    "c_M": 4,
+    "lpr": 1.657,
+    "delta": 0.0796
+   },
+   {
+    "e": "å ta",
+    "c_KI": 22,
+    "c_M": 4,
+    "lpr": 1.614,
+    "delta": 0.0754
+   },
+   {
+    "e": "ville bli",
+    "c_KI": 19,
+    "c_M": 4,
+    "lpr": 1.47,
+    "delta": 0.0628
+   },
+   {
+    "e": "for de",
+    "c_KI": 17,
+    "c_M": 4,
+    "lpr": 1.362,
+    "delta": 0.0545
+   },
+   {
+    "e": "for at",
+    "c_KI": 24,
+    "c_M": 6,
+    "lpr": 1.331,
+    "delta": 0.0754
+   },
+   {
+    "e": "på å",
+    "c_KI": 20,
+    "c_M": 5,
+    "lpr": 1.32,
+    "delta": 0.0628
+   },
+   {
+    "e": "i tillegg",
+    "c_KI": 20,
+    "c_M": 5,
+    "lpr": 1.32,
+    "delta": 0.0628
+   },
+   {
+    "e": "å bli",
+    "c_KI": 18,
+    "c_M": 5,
+    "lpr": 1.217,
+    "delta": 0.0545
+   },
+   {
+    "e": "for å",
+    "c_KI": 103,
+    "c_M": 31,
+    "lpr": 1.194,
+    "delta": 0.3018
+   },
+   {
+    "e": "at dette",
+    "c_KI": 17,
+    "c_M": 5,
+    "lpr": 1.162,
+    "delta": 0.0503
+   },
+   {
+    "e": "en stor",
+    "c_KI": 17,
+    "c_M": 5,
+    "lpr": 1.162,
+    "delta": 0.0503
+   },
+   {
+    "e": "ha bli",
+    "c_KI": 16,
+    "c_M": 5,
+    "lpr": 1.103,
+    "delta": 0.0461
+   },
+   {
+    "e": "de ha",
+    "c_KI": 19,
+    "c_M": 6,
+    "lpr": 1.103,
+    "delta": 0.0545
+   },
+   {
+    "e": "være viktig",
+    "c_KI": 28,
+    "c_M": 9,
+    "lpr": 1.103,
+    "delta": 0.0797
+   },
+   {
+    "e": "og jeg",
+    "c_KI": 15,
+    "c_M": 5,
+    "lpr": 1.04,
+    "delta": 0.0419
+   },
+   {
+    "e": "til en",
+    "c_KI": 25,
+    "c_M": 9,
+    "lpr": 0.992,
+    "delta": 0.0671
+   },
+   {
+    "e": "være en",
+    "c_KI": 97,
+    "c_M": 36,
+    "lpr": 0.987,
+    "delta": 0.2559
+   },
+   {
+    "e": "som en",
+    "c_KI": 22,
+    "c_M": 8,
+    "lpr": 0.978,
+    "delta": 0.0587
+   },
+   {
+    "e": "at han",
+    "c_KI": 21,
+    "c_M": 8,
+    "lpr": 0.932,
+    "delta": 0.0545
+   },
+   {
+    "e": "i en",
+    "c_KI": 31,
+    "c_M": 12,
+    "lpr": 0.928,
+    "delta": 0.0797
+   },
+   {
+    "e": "ha en",
+    "c_KI": 37,
+    "c_M": 15,
+    "lpr": 0.888,
+    "delta": 0.0923
+   },
+   {
+    "e": "som være",
+    "c_KI": 46,
+    "c_M": 19,
+    "lpr": 0.873,
+    "delta": 0.1133
+   },
+   {
+    "e": "av de",
+    "c_KI": 19,
+    "c_M": 8,
+    "lpr": 0.835,
+    "delta": 0.0462
+   },
+   {
+    "e": "med å",
+    "c_KI": 35,
+    "c_M": 15,
+    "lpr": 0.833,
+    "delta": 0.0839
+   },
+   {
+    "e": "ville være",
+    "c_KI": 14,
+    "c_M": 6,
+    "lpr": 0.807,
+    "delta": 0.0336
+   },
+   {
+    "e": "i den",
+    "c_KI": 25,
+    "c_M": 11,
+    "lpr": 0.8,
+    "delta": 0.0588
+   },
+   {
+    "e": "å gi",
+    "c_KI": 16,
+    "c_M": 7,
+    "lpr": 0.793,
+    "delta": 0.0378
+   },
+   {
+    "e": "av den",
+    "c_KI": 22,
+    "c_M": 10,
+    "lpr": 0.766,
+    "delta": 0.0504
+   },
+   {
+    "e": "dette være",
+    "c_KI": 32,
+    "c_M": 15,
+    "lpr": 0.745,
+    "delta": 0.0714
+   },
+   {
+    "e": "å ha",
+    "c_KI": 15,
+    "c_M": 7,
+    "lpr": 0.73,
+    "delta": 0.0336
+   },
+   {
+    "e": "til å",
+    "c_KI": 77,
+    "c_M": 38,
+    "lpr": 0.704,
+    "delta": 0.1638
+   },
+   {
+    "e": "og den",
+    "c_KI": 36,
+    "c_M": 18,
+    "lpr": 0.684,
+    "delta": 0.0756
+   },
+   {
+    "e": "til at",
+    "c_KI": 28,
+    "c_M": 14,
+    "lpr": 0.68,
+    "delta": 0.0588
+   },
+   {
+    "e": "være ikke",
+    "c_KI": 26,
+    "c_M": 13,
+    "lpr": 0.679,
+    "delta": 0.0546
+   },
+   {
+    "e": "del av",
+    "c_KI": 14,
+    "c_M": 7,
+    "lpr": 0.663,
+    "delta": 0.0294
+   },
+   {
+    "e": "som kunne",
+    "c_KI": 14,
+    "c_M": 7,
+    "lpr": 0.663,
+    "delta": 0.0294
+   },
+   {
+    "e": "og de",
+    "c_KI": 17,
+    "c_M": 9,
+    "lpr": 0.615,
+    "delta": 0.0336
+   },
+   {
+    "e": "og vi",
+    "c_KI": 13,
+    "c_M": 7,
+    "lpr": 0.592,
+    "delta": 0.0252
+   },
+   {
+    "e": "ha være",
+    "c_KI": 29,
+    "c_M": 16,
+    "lpr": 0.585,
+    "delta": 0.0547
+   },
+   {
+    "e": "kunne være",
+    "c_KI": 20,
+    "c_M": 11,
+    "lpr": 0.582,
+    "delta": 0.0378
+   },
+   {
+    "e": "han være",
+    "c_KI": 18,
+    "c_M": 10,
+    "lpr": 0.571,
+    "delta": 0.0336
+   },
+   {
+    "e": "ha få",
+    "c_KI": 16,
+    "c_M": 9,
+    "lpr": 0.556,
+    "delta": 0.0294
+   },
+   {
+    "e": "å være",
+    "c_KI": 21,
+    "c_M": 12,
+    "lpr": 0.546,
+    "delta": 0.0379
+   },
+   {
+    "e": "ha den",
+    "c_KI": 14,
+    "c_M": 8,
+    "lpr": 0.538,
+    "delta": 0.0252
+   },
+   {
+    "e": "på at",
+    "c_KI": 21,
+    "c_M": 13,
+    "lpr": 0.47,
+    "delta": 0.0337
+   },
+   {
+    "e": "om at",
+    "c_KI": 19,
+    "c_M": 12,
+    "lpr": 0.449,
+    "delta": 0.0295
+   },
+   {
+    "e": "ikke være",
+    "c_KI": 23,
+    "c_M": 15,
+    "lpr": 0.42,
+    "delta": 0.0337
+   },
+   {
+    "e": "en god",
+    "c_KI": 20,
+    "c_M": 14,
+    "lpr": 0.35,
+    "delta": 0.0253
+   },
+   {
+    "e": "på en",
+    "c_KI": 17,
+    "c_M": 12,
+    "lpr": 0.341,
+    "delta": 0.0211
+   },
+   {
+    "e": "om å",
+    "c_KI": 14,
+    "c_M": 10,
+    "lpr": 0.327,
+    "delta": 0.0169
+   },
+   {
+    "e": "og ha",
+    "c_KI": 12,
+    "c_M": 9,
+    "lpr": 0.279,
+    "delta": 0.0127
+   },
+   {
+    "e": "at den",
+    "c_KI": 69,
+    "c_M": 53,
+    "lpr": 0.266,
+    "delta": 0.0679
+   },
+   {
+    "e": "i alta",
+    "c_KI": 17,
+    "c_M": 13,
+    "lpr": 0.264,
+    "delta": 0.017
+   },
+   {
+    "e": "på den",
+    "c_KI": 13,
+    "c_M": 10,
+    "lpr": 0.255,
+    "delta": 0.0127
+   },
+   {
+    "e": "med en",
+    "c_KI": 18,
+    "c_M": 14,
+    "lpr": 0.248,
+    "delta": 0.017
+   },
+   {
+    "e": "jeg være",
+    "c_KI": 14,
+    "c_M": 11,
+    "lpr": 0.236,
+    "delta": 0.0127
+   },
+   {
+    "e": "at de",
+    "c_KI": 27,
+    "c_M": 22,
+    "lpr": 0.205,
+    "delta": 0.0213
+   },
+   {
+    "e": "å få",
+    "c_KI": 23,
+    "c_M": 19,
+    "lpr": 0.191,
+    "delta": 0.0171
+   },
+   {
+    "e": "de være",
+    "c_KI": 12,
+    "c_M": 10,
+    "lpr": 0.179,
+    "delta": 0.0085
+   },
+   {
+    "e": "den være",
+    "c_KI": 119,
+    "c_M": 101,
+    "lpr": 0.167,
+    "delta": 0.0771
+   },
+   {
+    "e": "han ha",
+    "c_KI": 14,
+    "c_M": 12,
+    "lpr": 0.153,
+    "delta": 0.0086
+   },
+   {
+    "e": "være den",
+    "c_KI": 52,
+    "c_M": 46,
+    "lpr": 0.126,
+    "delta": 0.0259
+   },
+   {
+    "e": "vi være",
+    "c_KI": 18,
+    "c_M": 16,
+    "lpr": 0.119,
+    "delta": 0.0086
+   },
+   {
+    "e": "den bli",
+    "c_KI": 19,
+    "c_M": 17,
+    "lpr": 0.112,
+    "delta": 0.0087
+   },
+   {
+    "e": "som ha",
+    "c_KI": 14,
+    "c_M": 14,
+    "lpr": 0.004,
+    "delta": 0.0002
+   },
+   {
+    "e": "at vi",
+    "c_KI": 16,
+    "c_M": 16,
+    "lpr": 0.004,
+    "delta": 0.0003
+   },
+   {
+    "e": "i dag",
+    "c_KI": 10,
+    "c_M": 10,
+    "lpr": 0.004,
+    "delta": 0.0002
+   },
+   {
+    "e": "de som",
+    "c_KI": 13,
+    "c_M": 13,
+    "lpr": 0.004,
+    "delta": 0.0002
+   },
+   {
+    "e": "og at",
+    "c_KI": 17,
+    "c_M": 17,
+    "lpr": 0.004,
+    "delta": 0.0003
+   },
+   {
+    "e": "være i",
+    "c_KI": 14,
+    "c_M": 14,
+    "lpr": 0.004,
+    "delta": 0.0002
+   },
+   {
+    "e": "jeg ha",
+    "c_KI": 17,
+    "c_M": 21,
+    "lpr": -0.202,
+    "delta": -0.0164
+   },
+   {
+    "e": "den ikke",
+    "c_KI": 15,
+    "c_M": 19,
+    "lpr": -0.225,
+    "delta": -0.0164
+   },
+   {
+    "e": "ikke ha",
+    "c_KI": 10,
+    "c_M": 14,
+    "lpr": -0.319,
+    "delta": -0.0165
+   },
+   {
+    "e": "men den",
+    "c_KI": 9,
+    "c_M": 14,
+    "lpr": -0.419,
+    "delta": -0.0207
+   },
+   {
+    "e": "vi ha",
+    "c_KI": 20,
+    "c_M": 34,
+    "lpr": -0.516,
+    "delta": -0.058
+   },
+   {
+    "e": "si han",
+    "c_KI": 4,
+    "c_M": 19,
+    "lpr": -1.462,
+    "delta": -0.0624
+   }
+  ],
+  "trigram": [
+   {
+    "e": "merke seg at",
+    "c_KI": 21,
+    "c_M": 0,
+    "lpr": 3.765,
+    "delta": 0.0879
+   },
+   {
+    "e": "å merke seg",
+    "c_KI": 21,
+    "c_M": 0,
+    "lpr": 3.765,
+    "delta": 0.0879
+   },
+   {
+    "e": "til tross for",
+    "c_KI": 21,
+    "c_M": 2,
+    "lpr": 2.156,
+    "delta": 0.0795
+   },
+   {
+    "e": "være viktig å",
+    "c_KI": 18,
+    "c_M": 4,
+    "lpr": 1.418,
+    "delta": 0.0586
+   },
+   {
+    "e": "den være en",
+    "c_KI": 33,
+    "c_M": 8,
+    "lpr": 1.376,
+    "delta": 0.1047
+   },
+   {
+    "e": "den være viktig",
+    "c_KI": 25,
+    "c_M": 7,
+    "lpr": 1.228,
+    "delta": 0.0754
+   },
+   {
+    "e": "og den være",
+    "c_KI": 18,
+    "c_M": 8,
+    "lpr": 0.782,
+    "delta": 0.042
+   },
+   {
+    "e": "at den være",
+    "c_KI": 34,
+    "c_M": 21,
+    "lpr": 0.477,
+    "delta": 0.0548
+   }
+  ],
+  "antislop": {
+   "2": [
+    {
+     "e": "å merke",
+     "f_KI": 25,
+     "f_M": 0,
+     "logratio": 2.852
+    },
+    {
+     "e": "merke seg",
+     "f_KI": 24,
+     "f_M": 0,
+     "logratio": 2.813
+    },
+    {
+     "e": "å sikre",
+     "f_KI": 19,
+     "f_M": 0,
+     "logratio": 2.59
+    },
+    {
+     "e": "er imidlertid",
+     "f_KI": 15,
+     "f_M": 0,
+     "logratio": 2.367
+    },
+    {
+     "e": "dette betyr",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.079
+    },
+    {
+     "e": "du er",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.079
+    },
+    {
+     "e": "interessert i",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.079
+    },
+    {
+     "e": "imidlertid viktig",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.079
+    },
+    {
+     "e": "nord norge",
+     "f_KI": 10,
+     "f_M": 0,
+     "logratio": 1.992
+    },
+    {
+     "e": "er interessert",
+     "f_KI": 10,
+     "f_M": 0,
+     "logratio": 1.992
+    },
+    {
+     "e": "ettersom det",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 1.897
+    },
+    {
+     "e": "bekymring for",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 1.897
+    },
+    {
+     "e": "avgjørende for",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 1.897
+    },
+    {
+     "e": "til et",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 1.897
+    },
+    {
+     "e": "kan føre",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 1.897
+    },
+    {
+     "e": "sammenlignet med",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.791
+    },
+    {
+     "e": "selv om",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.791
+    },
+    {
+     "e": "mulighet til",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.791
+    },
+    {
+     "e": "sted i",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.791
+    },
+    {
+     "e": "og utvikle",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.791
+    },
+    {
+     "e": "å forbedre",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.791
+    },
+    {
+     "e": "basert på",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.791
+    },
+    {
+     "e": "ønsker å",
+     "f_KI": 24,
+     "f_M": 2,
+     "logratio": 1.714
+    },
+    {
+     "e": "er avgjørende",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.674
+    },
+    {
+     "e": "og deres",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.674
+    },
+    {
+     "e": "fylt med",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.674
+    },
+    {
+     "e": "har tatt",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.674
+    },
+    {
+     "e": "den opprinnelige",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.674
+    },
+    {
+     "e": "opprinnelige teksten",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.674
+    },
+    {
+     "e": "verdt å",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.674
+    },
+    {
+     "e": "et resultat",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.674
+    },
+    {
+     "e": "kan det",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.674
+    },
+    {
+     "e": "å støtte",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.674
+    },
+    {
+     "e": "glade for",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.674
+    },
+    {
+     "e": "at klubben",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.674
+    },
+    {
+     "e": "innvirkning på",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.674
+    },
+    {
+     "e": "å opprettholde",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.674
+    },
+    {
+     "e": "spent på",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.674
+    },
+    {
+     "e": "til tross",
+     "f_KI": 22,
+     "f_M": 2,
+     "logratio": 1.631
+    },
+    {
+     "e": "tross for",
+     "f_KI": 22,
+     "f_M": 2,
+     "logratio": 1.631
+    },
+    {
+     "e": "være et",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.54
+    },
+    {
+     "e": "har uttrykt",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.54
+    },
+    {
+     "e": "for tiden",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.54
+    },
+    {
+     "e": "ettersom de",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.54
+    },
+    {
+     "e": "finner sted",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.54
+    },
+    {
+     "e": "innbyggerne i",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.54
+    },
+    {
+     "e": "å unngå",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.54
+    },
+    {
+     "e": "sikre at",
+     "f_KI": 13,
+     "f_M": 1,
+     "logratio": 1.54
+    },
+    {
+     "e": "hun var",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.54
+    },
+    {
+     "e": "bidra til",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.54
+    },
+    {
+     "e": "føre til",
+     "f_KI": 13,
+     "f_M": 1,
+     "logratio": 1.54
+    },
+    {
+     "e": "fant sted",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.54
+    },
+    {
+     "e": "viktigheten av",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.54
+    },
+    {
+     "e": "er glade",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.54
+    },
+    {
+     "e": "er virkelig",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.54
+    },
+    {
+     "e": "i lokalsamfunnet",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.54
+    },
+    {
+     "e": "som et",
+     "f_KI": 12,
+     "f_M": 1,
+     "logratio": 1.466
+    },
+    {
+     "e": "mener at",
+     "f_KI": 24,
+     "f_M": 3,
+     "logratio": 1.427
+    },
+    {
+     "e": "i stedet",
+     "f_KI": 11,
+     "f_M": 1,
+     "logratio": 1.386
+    },
+    {
+     "e": "stedet for",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "på grunn",
+     "f_KI": 17,
+     "f_M": 2,
+     "logratio": 1.386
+    },
+    {
+     "e": "grunn av",
+     "f_KI": 17,
+     "f_M": 2,
+     "logratio": 1.386
+    },
+    {
+     "e": "for eksempel",
+     "f_KI": 11,
+     "f_M": 1,
+     "logratio": 1.386
+    },
+    {
+     "e": "han mener",
+     "f_KI": 11,
+     "f_M": 1,
+     "logratio": 1.386
+    },
+    {
+     "e": "merke til",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "et sterkt",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "hun mener",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "i sum",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "at disse",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "de mest",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "hvis man",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "imidlertid er",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "plass i",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "følelse av",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "ned i",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "investere i",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "dessverre har",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "ført til",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "en rekke",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "er basert",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "er beklagelig",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "er spent",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.386
+    },
+    {
+     "e": "er en",
+     "f_KI": 61,
+     "f_M": 10,
+     "logratio": 1.323
+    },
+    {
+     "e": "til det",
+     "f_KI": 9,
+     "f_M": 1,
+     "logratio": 1.204
+    },
+    {
+     "e": "en betydelig",
+     "f_KI": 14,
+     "f_M": 2,
+     "logratio": 1.204
+    },
+    {
+     "e": "understreker at",
+     "f_KI": 9,
+     "f_M": 1,
+     "logratio": 1.204
+    },
+    {
+     "e": "å hjelpe",
+     "f_KI": 9,
+     "f_M": 1,
+     "logratio": 1.204
+    },
+    {
+     "e": "du har",
+     "f_KI": 13,
+     "f_M": 2,
+     "logratio": 1.135
+    },
+    {
+     "e": "tror at",
+     "f_KI": 8,
+     "f_M": 1,
+     "logratio": 1.098
+    },
+    {
+     "e": "gjøre det",
+     "f_KI": 8,
+     "f_M": 1,
+     "logratio": 1.098
+    },
+    {
+     "e": "å holde",
+     "f_KI": 12,
+     "f_M": 2,
+     "logratio": 1.06
+    },
+    {
+     "e": "for alle",
+     "f_KI": 16,
+     "f_M": 3,
+     "logratio": 1.041
+    },
+    {
+     "e": "i finnmark",
+     "f_KI": 19,
+     "f_M": 4,
+     "logratio": 0.98
+    },
+    {
+     "e": "et nytt",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 0.98
+    },
+    {
+     "e": "er derfor",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 0.98
+    },
+    {
+     "e": "de har",
+     "f_KI": 21,
+     "f_M": 5,
+     "logratio": 0.893
+    },
+    {
+     "e": "hun har",
+     "f_KI": 10,
+     "f_M": 2,
+     "logratio": 0.893
+    },
+    {
+     "e": "i tillegg",
+     "f_KI": 20,
+     "f_M": 5,
+     "logratio": 0.847
+    },
+    {
+     "e": "et bredt",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.847
+    },
+    {
+     "e": "det viktig",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.847
+    }
+   ],
+   "3": [
+    {
+     "e": "å merke seg",
+     "f_KI": 24,
+     "f_M": 0,
+     "logratio": 2.808
+    },
+    {
+     "e": "merke seg at",
+     "f_KI": 24,
+     "f_M": 0,
+     "logratio": 2.808
+    },
+    {
+     "e": "viktig å merke",
+     "f_KI": 18,
+     "f_M": 0,
+     "logratio": 2.533
+    },
+    {
+     "e": "det er imidlertid",
+     "f_KI": 15,
+     "f_M": 0,
+     "logratio": 2.361
+    },
+    {
+     "e": "for å sikre",
+     "f_KI": 12,
+     "f_M": 0,
+     "logratio": 2.154
+    },
+    {
+     "e": "å sikre at",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.074
+    },
+    {
+     "e": "er imidlertid viktig",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.074
+    },
+    {
+     "e": "imidlertid viktig å",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.074
+    },
+    {
+     "e": "dette betyr at",
+     "f_KI": 10,
+     "f_M": 0,
+     "logratio": 1.987
+    },
+    {
+     "e": "er interessert i",
+     "f_KI": 10,
+     "f_M": 0,
+     "logratio": 1.987
+    },
+    {
+     "e": "kan føre til",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 1.891
+    },
+    {
+     "e": "at de har",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.786
+    },
+    {
+     "e": "mulighet til å",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.786
+    },
+    {
+     "e": "den opprinnelige teksten",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.668
+    },
+    {
+     "e": "tross for at",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.668
+    },
+    {
+     "e": "glade for å",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.668
+    },
+    {
+     "e": "til tross for",
+     "f_KI": 22,
+     "f_M": 2,
+     "logratio": 1.626
+    },
+    {
+     "e": "er avgjørende for",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.535
+    },
+    {
+     "e": "han mener at",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.535
+    },
+    {
+     "e": "du er interessert",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.535
+    },
+    {
+     "e": "avgjørende for å",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.535
+    },
+    {
+     "e": "det er derfor",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.535
+    },
+    {
+     "e": "er glade for",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.535
+    },
+    {
+     "e": "hardt for å",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "ser ut til",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "i stedet for",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "tross for dette",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "på grunn av",
+     "f_KI": 17,
+     "f_M": 2,
+     "logratio": 1.381
+    },
+    {
+     "e": "mener at det",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "for å hjelpe",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "for å unngå",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "verdt å merke",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "at det å",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "og jeg er",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "alle som er",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "interessert i å",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "bidra til å",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "i nord norge",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "som et resultat",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "finner sted i",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "vi er glade",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "er basert på",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "spent på å",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "det er beklagelig",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "er spent på",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.381
+    },
+    {
+     "e": "det er en",
+     "f_KI": 22,
+     "f_M": 3,
+     "logratio": 1.338
+    },
+    {
+     "e": "dette er et",
+     "f_KI": 9,
+     "f_M": 1,
+     "logratio": 1.198
+    },
+    {
+     "e": "dette er en",
+     "f_KI": 8,
+     "f_M": 1,
+     "logratio": 1.093
+    },
+    {
+     "e": "er viktig å",
+     "f_KI": 19,
+     "f_M": 4,
+     "logratio": 0.975
+    },
+    {
+     "e": "når det gjelder",
+     "f_KI": 10,
+     "f_M": 2,
+     "logratio": 0.888
+    },
+    {
+     "e": "kan være en",
+     "f_KI": 10,
+     "f_M": 2,
+     "logratio": 0.888
+    },
+    {
+     "e": "er det viktig",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.842
+    },
+    {
+     "e": "muligheten til å",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.842
+    },
+    {
+     "e": "det er viktig",
+     "f_KI": 26,
+     "f_M": 7,
+     "logratio": 0.805
+    },
+    {
+     "e": "betyr at det",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.687
+    },
+    {
+     "e": "er bekymret for",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.687
+    },
+    {
+     "e": "glad for å",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.687
+    },
+    {
+     "e": "seg at det",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.687
+    },
+    {
+     "e": "det er også",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.687
+    },
+    {
+     "e": "sikker på at",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.687
+    },
+    {
+     "e": "i stand til",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.687
+    },
+    {
+     "e": "stand til å",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.687
+    },
+    {
+     "e": "og det er",
+     "f_KI": 19,
+     "f_M": 6,
+     "logratio": 0.639
+    },
+    {
+     "e": "og at det",
+     "f_KI": 6,
+     "f_M": 2,
+     "logratio": 0.436
+    },
+    {
+     "e": "er viktig at",
+     "f_KI": 6,
+     "f_M": 2,
+     "logratio": 0.436
+    },
+    {
+     "e": "i løpet av",
+     "f_KI": 10,
+     "f_M": 4,
+     "logratio": 0.377
+    },
+    {
+     "e": "at det er",
+     "f_KI": 37,
+     "f_M": 17,
+     "logratio": 0.336
+    },
+    {
+     "e": "det er et",
+     "f_KI": 7,
+     "f_M": 3,
+     "logratio": 0.282
+    },
+    {
+     "e": "som kan være",
+     "f_KI": 5,
+     "f_M": 2,
+     "logratio": 0.282
+    },
+    {
+     "e": "i tillegg til",
+     "f_KI": 8,
+     "f_M": 4,
+     "logratio": 0.177
+    },
+    {
+     "e": "det er ikke",
+     "f_KI": 6,
+     "f_M": 3,
+     "logratio": 0.148
+    },
+    {
+     "e": "om at det",
+     "f_KI": 5,
+     "f_M": 3,
+     "logratio": -0.006
+    },
+    {
+     "e": "med tanke på",
+     "f_KI": 6,
+     "f_M": 4,
+     "logratio": -0.075
+    },
+    {
+     "e": "det er mange",
+     "f_KI": 6,
+     "f_M": 4,
+     "logratio": -0.075
+    },
+    {
+     "e": "er det ikke",
+     "f_KI": 5,
+     "f_M": 4,
+     "logratio": -0.229
+    },
+    {
+     "e": "at det var",
+     "f_KI": 5,
+     "f_M": 5,
+     "logratio": -0.411
+    },
+    {
+     "e": "har vært en",
+     "f_KI": 5,
+     "f_M": 5,
+     "logratio": -0.411
+    },
+    {
+     "e": "men det er",
+     "f_KI": 5,
+     "f_M": 5,
+     "logratio": -0.411
+    },
+    {
+     "e": "at det ikke",
+     "f_KI": 5,
+     "f_M": 5,
+     "logratio": -0.411
+    }
+   ],
+   "4": [
+    {
+     "e": "å merke seg at",
+     "f_KI": 24,
+     "f_M": 0,
+     "logratio": 2.802
+    },
+    {
+     "e": "viktig å merke seg",
+     "f_KI": 18,
+     "f_M": 0,
+     "logratio": 2.528
+    },
+    {
+     "e": "det er imidlertid viktig",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.068
+    },
+    {
+     "e": "er imidlertid viktig å",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.068
+    },
+    {
+     "e": "imidlertid viktig å merke",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 1.886
+    },
+    {
+     "e": "er viktig å merke",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 1.886
+    },
+    {
+     "e": "til tross for at",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.663
+    },
+    {
+     "e": "for å sikre at",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.663
+    },
+    {
+     "e": "du er interessert i",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.529
+    },
+    {
+     "e": "er glade for å",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.529
+    },
+    {
+     "e": "til tross for dette",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.375
+    },
+    {
+     "e": "verdt å merke seg",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.375
+    },
+    {
+     "e": "er interessert i å",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.375
+    },
+    {
+     "e": "vi er glade for",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.375
+    },
+    {
+     "e": "glade for å kunne",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.375
+    },
+    {
+     "e": "spent på å se",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.375
+    },
+    {
+     "e": "det er viktig å",
+     "f_KI": 19,
+     "f_M": 4,
+     "logratio": 0.97
+    },
+    {
+     "e": "at det er en",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 0.97
+    },
+    {
+     "e": "i stand til å",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.682
+    },
+    {
+     "e": "at det er viktig",
+     "f_KI": 6,
+     "f_M": 2,
+     "logratio": 0.431
+    },
+    {
+     "e": "det er viktig at",
+     "f_KI": 6,
+     "f_M": 2,
+     "logratio": 0.431
+    }
+   ]
+  }
+ },
+ "nb|lokal|T2+T3": {
+  "n_KI": 50,
+  "n_M": 50,
+  "lemma": [
+   {
+    "e": "viktig_ADJ",
+    "c_KI": 26,
+    "c_M": 5,
+    "lpr": 1.572,
+    "delta": 0.42
+   },
+   {
+    "e": "sin_PRON",
+    "c_KI": 31,
+    "c_M": 11,
+    "lpr": 1.008,
+    "delta": 0.4
+   },
+   {
+    "e": "som_ADP",
+    "c_KI": 35,
+    "c_M": 15,
+    "lpr": 0.829,
+    "delta": 0.4
+   },
+   {
+    "e": "denne_DET",
+    "c_KI": 27,
+    "c_M": 13,
+    "lpr": 0.711,
+    "delta": 0.28
+   },
+   {
+    "e": "bli_AUX",
+    "c_KI": 24,
+    "c_M": 12,
+    "lpr": 0.673,
+    "delta": 0.24
+   },
+   {
+    "e": "annen_DET",
+    "c_KI": 20,
+    "c_M": 11,
+    "lpr": 0.578,
+    "delta": 0.18
+   },
+   {
+    "e": "stor_ADJ",
+    "c_KI": 16,
+    "c_M": 9,
+    "lpr": 0.552,
+    "delta": 0.14
+   },
+   {
+    "e": "eller_CCONJ",
+    "c_KI": 16,
+    "c_M": 9,
+    "lpr": 0.552,
+    "delta": 0.14
+   },
+   {
+    "e": "noe_PRON",
+    "c_KI": 21,
+    "c_M": 13,
+    "lpr": 0.465,
+    "delta": 0.16
+   },
+   {
+    "e": "de_DET",
+    "c_KI": 24,
+    "c_M": 15,
+    "lpr": 0.458,
+    "delta": 0.18
+   },
+   {
+    "e": "av_ADP",
+    "c_KI": 46,
+    "c_M": 30,
+    "lpr": 0.422,
+    "delta": 0.32
+   },
+   {
+    "e": "også_ADV",
+    "c_KI": 17,
+    "c_M": 11,
+    "lpr": 0.42,
+    "delta": 0.12
+   },
+   {
+    "e": "gi_VERB",
+    "c_KI": 17,
+    "c_M": 11,
+    "lpr": 0.42,
+    "delta": 0.12
+   },
+   {
+    "e": "dette_PRON",
+    "c_KI": 18,
+    "c_M": 12,
+    "lpr": 0.392,
+    "delta": 0.12
+   },
+   {
+    "e": "mange_ADJ",
+    "c_KI": 25,
+    "c_M": 20,
+    "lpr": 0.218,
+    "delta": 0.1
+   },
+   {
+    "e": "gjøre_VERB",
+    "c_KI": 26,
+    "c_M": 21,
+    "lpr": 0.209,
+    "delta": 0.1
+   },
+   {
+    "e": "om_ADP",
+    "c_KI": 32,
+    "c_M": 26,
+    "lpr": 0.204,
+    "delta": 0.12
+   },
+   {
+    "e": "den_DET",
+    "c_KI": 39,
+    "c_M": 32,
+    "lpr": 0.195,
+    "delta": 0.14
+   },
+   {
+    "e": "til_ADV",
+    "c_KI": 11,
+    "c_M": 9,
+    "lpr": 0.191,
+    "delta": 0.04
+   },
+   {
+    "e": "etter_ADP",
+    "c_KI": 17,
+    "c_M": 14,
+    "lpr": 0.188,
+    "delta": 0.06
+   },
+   {
+    "e": "seg_PRON",
+    "c_KI": 29,
+    "c_M": 24,
+    "lpr": 0.186,
+    "delta": 0.1
+   },
+   {
+    "e": "ved_ADP",
+    "c_KI": 12,
+    "c_M": 10,
+    "lpr": 0.174,
+    "delta": 0.04
+   },
+   {
+    "e": "de_PRON",
+    "c_KI": 31,
+    "c_M": 26,
+    "lpr": 0.173,
+    "delta": 0.1
+   },
+   {
+    "e": "en_DET",
+    "c_KI": 49,
+    "c_M": 42,
+    "lpr": 0.152,
+    "delta": 0.14
+   },
+   {
+    "e": "ha_AUX",
+    "c_KI": 36,
+    "c_M": 31,
+    "lpr": 0.147,
+    "delta": 0.1
+   },
+   {
+    "e": "over_ADP",
+    "c_KI": 15,
+    "c_M": 13,
+    "lpr": 0.138,
+    "delta": 0.04
+   },
+   {
+    "e": "fra_ADP",
+    "c_KI": 24,
+    "c_M": 21,
+    "lpr": 0.131,
+    "delta": 0.06
+   },
+   {
+    "e": "se_VERB",
+    "c_KI": 18,
+    "c_M": 16,
+    "lpr": 0.114,
+    "delta": 0.04
+   },
+   {
+    "e": "til_ADP",
+    "c_KI": 46,
+    "c_M": 41,
+    "lpr": 0.114,
+    "delta": 0.1
+   },
+   {
+    "e": "med_ADP",
+    "c_KI": 40,
+    "c_M": 36,
+    "lpr": 0.104,
+    "delta": 0.08
+   },
+   {
+    "e": "for_ADP",
+    "c_KI": 43,
+    "c_M": 39,
+    "lpr": 0.096,
+    "delta": 0.08
+   },
+   {
+    "e": "som_SCONJ",
+    "c_KI": 48,
+    "c_M": 44,
+    "lpr": 0.086,
+    "delta": 0.08
+   },
+   {
+    "e": "tid_NOUN",
+    "c_KI": 12,
+    "c_M": 11,
+    "lpr": 0.083,
+    "delta": 0.02
+   },
+   {
+    "e": "at_SCONJ",
+    "c_KI": 37,
+    "c_M": 35,
+    "lpr": 0.055,
+    "delta": 0.04
+   },
+   {
+    "e": "mye_ADJ",
+    "c_KI": 19,
+    "c_M": 18,
+    "lpr": 0.053,
+    "delta": 0.02
+   },
+   {
+    "e": "å_PART",
+    "c_KI": 47,
+    "c_M": 45,
+    "lpr": 0.043,
+    "delta": 0.04
+   },
+   {
+    "e": "være_AUX",
+    "c_KI": 49,
+    "c_M": 47,
+    "lpr": 0.041,
+    "delta": 0.04
+   },
+   {
+    "e": "i_ADP",
+    "c_KI": 50,
+    "c_M": 50,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "da_SCONJ",
+    "c_KI": 10,
+    "c_M": 10,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "og_CCONJ",
+    "c_KI": 49,
+    "c_M": 50,
+    "lpr": -0.02,
+    "delta": -0.02
+   },
+   {
+    "e": "kunne_AUX",
+    "c_KI": 25,
+    "c_M": 26,
+    "lpr": -0.038,
+    "delta": -0.02
+   },
+   {
+    "e": "legge_VERB",
+    "c_KI": 10,
+    "c_M": 11,
+    "lpr": -0.091,
+    "delta": -0.02
+   },
+   {
+    "e": "på_ADP",
+    "c_KI": 41,
+    "c_M": 46,
+    "lpr": -0.114,
+    "delta": -0.1
+   },
+   {
+    "e": "ville_AUX",
+    "c_KI": 16,
+    "c_M": 18,
+    "lpr": -0.114,
+    "delta": -0.04
+   },
+   {
+    "e": "den_PRON",
+    "c_KI": 41,
+    "c_M": 47,
+    "lpr": -0.135,
+    "delta": -0.12
+   },
+   {
+    "e": "dag_NOUN",
+    "c_KI": 11,
+    "c_M": 13,
+    "lpr": -0.16,
+    "delta": -0.04
+   },
+   {
+    "e": "ha_VERB",
+    "c_KI": 20,
+    "c_M": 28,
+    "lpr": -0.329,
+    "delta": -0.16
+   },
+   {
+    "e": "ta_VERB",
+    "c_KI": 13,
+    "c_M": 19,
+    "lpr": -0.368,
+    "delta": -0.12
+   },
+   {
+    "e": "ikke_PART",
+    "c_KI": 24,
+    "c_M": 35,
+    "lpr": -0.371,
+    "delta": -0.22
+   },
+   {
+    "e": "gå_VERB",
+    "c_KI": 10,
+    "c_M": 15,
+    "lpr": -0.389,
+    "delta": -0.1
+   },
+   {
+    "e": "men_CCONJ",
+    "c_KI": 18,
+    "c_M": 31,
+    "lpr": -0.532,
+    "delta": -0.26
+   },
+   {
+    "e": "være_VERB",
+    "c_KI": 8,
+    "c_M": 14,
+    "lpr": -0.534,
+    "delta": -0.12
+   },
+   {
+    "e": "om_SCONJ",
+    "c_KI": 7,
+    "c_M": 13,
+    "lpr": -0.588,
+    "delta": -0.12
+   },
+   {
+    "e": "bli_VERB",
+    "c_KI": 9,
+    "c_M": 17,
+    "lpr": -0.611,
+    "delta": -0.16
+   },
+   {
+    "e": "god_ADJ",
+    "c_KI": 10,
+    "c_M": 19,
+    "lpr": -0.619,
+    "delta": -0.18
+   },
+   {
+    "e": "år_NOUN",
+    "c_KI": 10,
+    "c_M": 19,
+    "lpr": -0.619,
+    "delta": -0.18
+   },
+   {
+    "e": "noen_DET",
+    "c_KI": 9,
+    "c_M": 18,
+    "lpr": -0.666,
+    "delta": -0.18
+   },
+   {
+    "e": "han_PRON",
+    "c_KI": 8,
+    "c_M": 18,
+    "lpr": -0.778,
+    "delta": -0.2
+   },
+   {
+    "e": "få_VERB",
+    "c_KI": 11,
+    "c_M": 25,
+    "lpr": -0.796,
+    "delta": -0.28
+   },
+   {
+    "e": "kommune_NOUN",
+    "c_KI": 6,
+    "c_M": 14,
+    "lpr": -0.802,
+    "delta": -0.16
+   },
+   {
+    "e": "så_ADV",
+    "c_KI": 7,
+    "c_M": 18,
+    "lpr": -0.903,
+    "delta": -0.22
+   },
+   {
+    "e": "måtte_AUX",
+    "c_KI": 5,
+    "c_M": 15,
+    "lpr": -1.036,
+    "delta": -0.2
+   },
+   {
+    "e": "komme_VERB",
+    "c_KI": 5,
+    "c_M": 22,
+    "lpr": -1.409,
+    "delta": -0.34
+   },
+   {
+    "e": "vi_PRON",
+    "c_KI": 5,
+    "c_M": 25,
+    "lpr": -1.534,
+    "delta": -0.4
+   },
+   {
+    "e": "nå_ADV",
+    "c_KI": 3,
+    "c_M": 17,
+    "lpr": -1.609,
+    "delta": -0.28
+   },
+   {
+    "e": "jeg_PRON",
+    "c_KI": 3,
+    "c_M": 27,
+    "lpr": -2.061,
+    "delta": -0.48
+   },
+   {
+    "e": "skulle_AUX",
+    "c_KI": 3,
+    "c_M": 27,
+    "lpr": -2.061,
+    "delta": -0.48
+   },
+   {
+    "e": "si_VERB",
+    "c_KI": 1,
+    "c_M": 27,
+    "lpr": -2.909,
+    "delta": -0.52
+   }
+  ],
+  "bigram": [
+   {
+    "e": "være en",
+    "c_KI": 34,
+    "c_M": 11,
+    "lpr": 1.099,
+    "delta": 0.46
+   },
+   {
+    "e": "som være",
+    "c_KI": 15,
+    "c_M": 5,
+    "lpr": 1.036,
+    "delta": 0.2
+   },
+   {
+    "e": "til å",
+    "c_KI": 32,
+    "c_M": 14,
+    "lpr": 0.807,
+    "delta": 0.36
+   },
+   {
+    "e": "som ha",
+    "c_KI": 16,
+    "c_M": 8,
+    "lpr": 0.663,
+    "delta": 0.16
+   },
+   {
+    "e": "på den",
+    "c_KI": 14,
+    "c_M": 7,
+    "lpr": 0.659,
+    "delta": 0.14
+   },
+   {
+    "e": "for å",
+    "c_KI": 31,
+    "c_M": 17,
+    "lpr": 0.588,
+    "delta": 0.28
+   },
+   {
+    "e": "og den",
+    "c_KI": 12,
+    "c_M": 8,
+    "lpr": 0.386,
+    "delta": 0.08
+   },
+   {
+    "e": "være den",
+    "c_KI": 21,
+    "c_M": 20,
+    "lpr": 0.048,
+    "delta": 0.02
+   },
+   {
+    "e": "at den",
+    "c_KI": 13,
+    "c_M": 13,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "den være",
+    "c_KI": 28,
+    "c_M": 36,
+    "lpr": -0.247,
+    "delta": -0.16
+   }
+  ],
+  "trigram": [],
+  "antislop": {
+   "2": [
+    {
+     "e": "å merke",
+     "f_KI": 17,
+     "f_M": 0,
+     "logratio": 2.54
+    },
+    {
+     "e": "merke seg",
+     "f_KI": 17,
+     "f_M": 0,
+     "logratio": 2.54
+    },
+    {
+     "e": "en rekke",
+     "f_KI": 12,
+     "f_M": 0,
+     "logratio": 2.214
+    },
+    {
+     "e": "følelse av",
+     "f_KI": 12,
+     "f_M": 0,
+     "logratio": 2.214
+    },
+    {
+     "e": "vært en",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.134
+    },
+    {
+     "e": "en følelse",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.134
+    },
+    {
+     "e": "i sum",
+     "f_KI": 10,
+     "f_M": 0,
+     "logratio": 2.047
+    },
+    {
+     "e": "en betydelig",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 1.952
+    },
+    {
+     "e": "på grunn",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.847
+    },
+    {
+     "e": "grunn av",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.847
+    },
+    {
+     "e": "bidra til",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.847
+    },
+    {
+     "e": "og andre",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.595
+    },
+    {
+     "e": "innvirkning på",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.595
+    },
+    {
+     "e": "til slutt",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.595
+    },
+    {
+     "e": "det viktig",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.595
+    },
+    {
+     "e": "et stort",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.595
+    },
+    {
+     "e": "denne avgjørelsen",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.595
+    },
+    {
+     "e": "denne setningen",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.595
+    },
+    {
+     "e": "hvis du",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.595
+    },
+    {
+     "e": "han var",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.595
+    },
+    {
+     "e": "del av",
+     "f_KI": 12,
+     "f_M": 1,
+     "logratio": 1.521
+    },
+    {
+     "e": "er også",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.441
+    },
+    {
+     "e": "som et",
+     "f_KI": 11,
+     "f_M": 1,
+     "logratio": 1.441
+    },
+    {
+     "e": "muligheten til",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.441
+    },
+    {
+     "e": "refererer til",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.441
+    },
+    {
+     "e": "sine egne",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.441
+    },
+    {
+     "e": "et resultat",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.441
+    },
+    {
+     "e": "imidlertid viktig",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.441
+    },
+    {
+     "e": "jobbe sammen",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.441
+    },
+    {
+     "e": "å jobbe",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.441
+    },
+    {
+     "e": "totalt sett",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.441
+    },
+    {
+     "e": "å skape",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.441
+    },
+    {
+     "e": "kjent for",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.441
+    },
+    {
+     "e": "som hadde",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.441
+    },
+    {
+     "e": "bestemte seg",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.441
+    },
+    {
+     "e": "er et",
+     "f_KI": 16,
+     "f_M": 2,
+     "logratio": 1.384
+    },
+    {
+     "e": "gjør det",
+     "f_KI": 9,
+     "f_M": 1,
+     "logratio": 1.259
+    },
+    {
+     "e": "det å",
+     "f_KI": 8,
+     "f_M": 1,
+     "logratio": 1.154
+    },
+    {
+     "e": "som var",
+     "f_KI": 8,
+     "f_M": 1,
+     "logratio": 1.154
+    },
+    {
+     "e": "i norge",
+     "f_KI": 12,
+     "f_M": 2,
+     "logratio": 1.116
+    },
+    {
+     "e": "var en",
+     "f_KI": 16,
+     "f_M": 3,
+     "logratio": 1.096
+    },
+    {
+     "e": "dette kan",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.036
+    },
+    {
+     "e": "stand til",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.036
+    },
+    {
+     "e": "er imidlertid",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.036
+    },
+    {
+     "e": "det til",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.036
+    },
+    {
+     "e": "å sikre",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.036
+    },
+    {
+     "e": "til tross",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.036
+    },
+    {
+     "e": "tross for",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.036
+    },
+    {
+     "e": "er en",
+     "f_KI": 21,
+     "f_M": 5,
+     "logratio": 0.949
+    },
+    {
+     "e": "som kan",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.902
+    },
+    {
+     "e": "i stand",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.902
+    },
+    {
+     "e": "å hjelpe",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.902
+    },
+    {
+     "e": "det en",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.902
+    },
+    {
+     "e": "kan ha",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.902
+    },
+    {
+     "e": "har en",
+     "f_KI": 9,
+     "f_M": 2,
+     "logratio": 0.853
+    },
+    {
+     "e": "kan det",
+     "f_KI": 9,
+     "f_M": 2,
+     "logratio": 0.853
+    },
+    {
+     "e": "som gjør",
+     "f_KI": 11,
+     "f_M": 3,
+     "logratio": 0.748
+    },
+    {
+     "e": "til et",
+     "f_KI": 11,
+     "f_M": 3,
+     "logratio": 0.748
+    },
+    {
+     "e": "er viktig",
+     "f_KI": 8,
+     "f_M": 2,
+     "logratio": 0.748
+    },
+    {
+     "e": "sammenlignet med",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.748
+    },
+    {
+     "e": "føre til",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.748
+    },
+    {
+     "e": "med et",
+     "f_KI": 8,
+     "f_M": 2,
+     "logratio": 0.748
+    },
+    {
+     "e": "med andre",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.748
+    },
+    {
+     "e": "som er",
+     "f_KI": 13,
+     "f_M": 4,
+     "logratio": 0.679
+    },
+    {
+     "e": "en del",
+     "f_KI": 8,
+     "f_M": 3,
+     "logratio": 0.46
+    },
+    {
+     "e": "og har",
+     "f_KI": 8,
+     "f_M": 3,
+     "logratio": 0.46
+    },
+    {
+     "e": "i tillegg",
+     "f_KI": 12,
+     "f_M": 5,
+     "logratio": 0.423
+    },
+    {
+     "e": "gjøre det",
+     "f_KI": 5,
+     "f_M": 2,
+     "logratio": 0.343
+    },
+    {
+     "e": "i løpet",
+     "f_KI": 5,
+     "f_M": 2,
+     "logratio": 0.343
+    },
+    {
+     "e": "løpet av",
+     "f_KI": 5,
+     "f_M": 2,
+     "logratio": 0.343
+    },
+    {
+     "e": "ikke er",
+     "f_KI": 9,
+     "f_M": 4,
+     "logratio": 0.343
+    },
+    {
+     "e": "til det",
+     "f_KI": 5,
+     "f_M": 2,
+     "logratio": 0.343
+    },
+    {
+     "e": "for det",
+     "f_KI": 6,
+     "f_M": 3,
+     "logratio": 0.209
+    },
+    {
+     "e": "har vært",
+     "f_KI": 13,
+     "f_M": 7,
+     "logratio": 0.209
+    },
+    {
+     "e": "har gjort",
+     "f_KI": 6,
+     "f_M": 3,
+     "logratio": 0.209
+    },
+    {
+     "e": "i det",
+     "f_KI": 5,
+     "f_M": 3,
+     "logratio": 0.055
+    },
+    {
+     "e": "de har",
+     "f_KI": 5,
+     "f_M": 3,
+     "logratio": 0.055
+    },
+    {
+     "e": "det kan",
+     "f_KI": 6,
+     "f_M": 4,
+     "logratio": -0.014
+    },
+    {
+     "e": "var det",
+     "f_KI": 6,
+     "f_M": 4,
+     "logratio": -0.014
+    },
+    {
+     "e": "som har",
+     "f_KI": 12,
+     "f_M": 9,
+     "logratio": -0.088
+    },
+    {
+     "e": "det var",
+     "f_KI": 16,
+     "f_M": 13,
+     "logratio": -0.156
+    },
+    {
+     "e": "kan være",
+     "f_KI": 5,
+     "f_M": 4,
+     "logratio": -0.168
+    },
+    {
+     "e": "er det",
+     "f_KI": 21,
+     "f_M": 20,
+     "logratio": -0.304
+    },
+    {
+     "e": "at det",
+     "f_KI": 14,
+     "f_M": 16,
+     "logratio": -0.476
+    },
+    {
+     "e": "det er",
+     "f_KI": 36,
+     "f_M": 48,
+     "logratio": -0.631
+    }
+   ],
+   "3": [
+    {
+     "e": "å merke seg",
+     "f_KI": 17,
+     "f_M": 0,
+     "logratio": 2.538
+    },
+    {
+     "e": "merke seg at",
+     "f_KI": 17,
+     "f_M": 0,
+     "logratio": 2.538
+    },
+    {
+     "e": "viktig å merke",
+     "f_KI": 13,
+     "f_M": 0,
+     "logratio": 2.286
+    },
+    {
+     "e": "en følelse av",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.132
+    },
+    {
+     "e": "noe som gjør",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 1.95
+    },
+    {
+     "e": "er viktig å",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.845
+    },
+    {
+     "e": "på grunn av",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.845
+    },
+    {
+     "e": "som gjør det",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.845
+    },
+    {
+     "e": "er det viktig",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.593
+    },
+    {
+     "e": "det viktig å",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.593
+    },
+    {
+     "e": "har vært en",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.593
+    },
+    {
+     "e": "muligheten til å",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.439
+    },
+    {
+     "e": "er imidlertid viktig",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.439
+    },
+    {
+     "e": "imidlertid viktig å",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.439
+    },
+    {
+     "e": "for å sikre",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.439
+    },
+    {
+     "e": "bestemte seg for",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.439
+    },
+    {
+     "e": "en del av",
+     "f_KI": 8,
+     "f_M": 1,
+     "logratio": 1.151
+    },
+    {
+     "e": "stand til å",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.034
+    },
+    {
+     "e": "det er imidlertid",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.034
+    },
+    {
+     "e": "til tross for",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.034
+    },
+    {
+     "e": "i stand til",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.9
+    },
+    {
+     "e": "det er viktig",
+     "f_KI": 8,
+     "f_M": 2,
+     "logratio": 0.746
+    },
+    {
+     "e": "i løpet av",
+     "f_KI": 5,
+     "f_M": 2,
+     "logratio": 0.34
+    }
+   ],
+   "4": [
+    {
+     "e": "å merke seg at",
+     "f_KI": 17,
+     "f_M": 0,
+     "logratio": 2.536
+    },
+    {
+     "e": "viktig å merke seg",
+     "f_KI": 13,
+     "f_M": 0,
+     "logratio": 2.284
+    },
+    {
+     "e": "det er viktig å",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.842
+    },
+    {
+     "e": "er viktig å merke",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.591
+    },
+    {
+     "e": "er det viktig å",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.591
+    },
+    {
+     "e": "noe som gjør det",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.591
+    },
+    {
+     "e": "det er imidlertid viktig",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.437
+    },
+    {
+     "e": "er imidlertid viktig å",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.437
+    },
+    {
+     "e": "i stand til å",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.898
+    }
+   ]
+  }
+ },
+ "nn|lokal|T1": {
+  "n_KI": 185,
+  "n_M": 185,
+  "lemma": [
+   {
+    "e": "òg_ADV",
+    "c_KI": 27,
+    "c_M": 0,
+    "lpr": 4.007,
+    "delta": 0.1459
+   },
+   {
+    "e": "ulik_ADJ",
+    "c_KI": 20,
+    "c_M": 5,
+    "lpr": 1.316,
+    "delta": 0.0811
+   },
+   {
+    "e": "føre_VERB",
+    "c_KI": 21,
+    "c_M": 7,
+    "lpr": 1.053,
+    "delta": 0.0757
+   },
+   {
+    "e": "særleg_ADJ",
+    "c_KI": 15,
+    "c_M": 5,
+    "lpr": 1.036,
+    "delta": 0.0541
+   },
+   {
+    "e": "tillegg_NOUN",
+    "c_KI": 22,
+    "c_M": 8,
+    "lpr": 0.973,
+    "delta": 0.0757
+   },
+   {
+    "e": "gje_VERB",
+    "c_KI": 32,
+    "c_M": 12,
+    "lpr": 0.956,
+    "delta": 0.1081
+   },
+   {
+    "e": "stad_NOUN",
+    "c_KI": 21,
+    "c_M": 8,
+    "lpr": 0.928,
+    "delta": 0.0703
+   },
+   {
+    "e": "finne_VERB",
+    "c_KI": 28,
+    "c_M": 11,
+    "lpr": 0.908,
+    "delta": 0.0919
+   },
+   {
+    "e": "då_SCONJ",
+    "c_KI": 32,
+    "c_M": 13,
+    "lpr": 0.879,
+    "delta": 0.1027
+   },
+   {
+    "e": "døme_NOUN",
+    "c_KI": 15,
+    "c_M": 6,
+    "lpr": 0.869,
+    "delta": 0.0486
+   },
+   {
+    "e": "viktig_ADJ",
+    "c_KI": 41,
+    "c_M": 18,
+    "lpr": 0.808,
+    "delta": 0.1243
+   },
+   {
+    "e": "denne_DET",
+    "c_KI": 79,
+    "c_M": 35,
+    "lpr": 0.806,
+    "delta": 0.2378
+   },
+   {
+    "e": "lag_NOUN",
+    "c_KI": 23,
+    "c_M": 10,
+    "lpr": 0.806,
+    "delta": 0.0703
+   },
+   {
+    "e": "bli_VERB",
+    "c_KI": 15,
+    "c_M": 7,
+    "lpr": 0.726,
+    "delta": 0.0432
+   },
+   {
+    "e": "gammal_ADJ",
+    "c_KI": 21,
+    "c_M": 10,
+    "lpr": 0.717,
+    "delta": 0.0595
+   },
+   {
+    "e": "kommune_NOUN",
+    "c_KI": 27,
+    "c_M": 13,
+    "lpr": 0.711,
+    "delta": 0.0757
+   },
+   {
+    "e": "desse_DET",
+    "c_KI": 29,
+    "c_M": 14,
+    "lpr": 0.71,
+    "delta": 0.0811
+   },
+   {
+    "e": "den_DET",
+    "c_KI": 97,
+    "c_M": 49,
+    "lpr": 0.678,
+    "delta": 0.2595
+   },
+   {
+    "e": "sjølv_DET",
+    "c_KI": 14,
+    "c_M": 7,
+    "lpr": 0.659,
+    "delta": 0.0378
+   },
+   {
+    "e": "nokon_DET",
+    "c_KI": 31,
+    "c_M": 16,
+    "lpr": 0.647,
+    "delta": 0.0811
+   },
+   {
+    "e": "halde_VERB",
+    "c_KI": 27,
+    "c_M": 14,
+    "lpr": 0.64,
+    "delta": 0.0703
+   },
+   {
+    "e": "og_CCONJ",
+    "c_KI": 169,
+    "c_M": 90,
+    "lpr": 0.628,
+    "delta": 0.427
+   },
+   {
+    "e": "person_NOUN",
+    "c_KI": 17,
+    "c_M": 9,
+    "lpr": 0.611,
+    "delta": 0.0432
+   },
+   {
+    "e": "tal_NOUN",
+    "c_KI": 13,
+    "c_M": 7,
+    "lpr": 0.588,
+    "delta": 0.0324
+   },
+   {
+    "e": "sterk_ADJ",
+    "c_KI": 18,
+    "c_M": 10,
+    "lpr": 0.566,
+    "delta": 0.0432
+   },
+   {
+    "e": "min_PRON",
+    "c_KI": 16,
+    "c_M": 9,
+    "lpr": 0.552,
+    "delta": 0.0378
+   },
+   {
+    "e": "mot_ADP",
+    "c_KI": 26,
+    "c_M": 15,
+    "lpr": 0.536,
+    "delta": 0.0595
+   },
+   {
+    "e": "dersom_SCONJ",
+    "c_KI": 17,
+    "c_M": 10,
+    "lpr": 0.511,
+    "delta": 0.0378
+   },
+   {
+    "e": "vår_PRON",
+    "c_KI": 22,
+    "c_M": 13,
+    "lpr": 0.511,
+    "delta": 0.0486
+   },
+   {
+    "e": "sist_ADJ",
+    "c_KI": 20,
+    "c_M": 12,
+    "lpr": 0.495,
+    "delta": 0.0432
+   },
+   {
+    "e": "etter_ADP",
+    "c_KI": 51,
+    "c_M": 31,
+    "lpr": 0.492,
+    "delta": 0.1081
+   },
+   {
+    "e": "liggje_VERB",
+    "c_KI": 15,
+    "c_M": 9,
+    "lpr": 0.49,
+    "delta": 0.0324
+   },
+   {
+    "e": "du_PRON",
+    "c_KI": 18,
+    "c_M": 11,
+    "lpr": 0.475,
+    "delta": 0.0378
+   },
+   {
+    "e": "sin_PRON",
+    "c_KI": 75,
+    "c_M": 47,
+    "lpr": 0.463,
+    "delta": 0.1514
+   },
+   {
+    "e": "spørsmål_NOUN",
+    "c_KI": 13,
+    "c_M": 8,
+    "lpr": 0.463,
+    "delta": 0.027
+   },
+   {
+    "e": "bli_AUX",
+    "c_KI": 27,
+    "c_M": 17,
+    "lpr": 0.452,
+    "delta": 0.0541
+   },
+   {
+    "e": "tru_VERB",
+    "c_KI": 19,
+    "c_M": 12,
+    "lpr": 0.445,
+    "delta": 0.0378
+   },
+   {
+    "e": "berre_ADV",
+    "c_KI": 39,
+    "c_M": 25,
+    "lpr": 0.438,
+    "delta": 0.0757
+   },
+   {
+    "e": "over_ADP",
+    "c_KI": 42,
+    "c_M": 27,
+    "lpr": 0.435,
+    "delta": 0.0811
+   },
+   {
+    "e": "gjennom_ADP",
+    "c_KI": 14,
+    "c_M": 9,
+    "lpr": 0.423,
+    "delta": 0.027
+   },
+   {
+    "e": "korleis_ADV",
+    "c_KI": 14,
+    "c_M": 9,
+    "lpr": 0.423,
+    "delta": 0.027
+   },
+   {
+    "e": "klar_ADJ",
+    "c_KI": 14,
+    "c_M": 9,
+    "lpr": 0.423,
+    "delta": 0.027
+   },
+   {
+    "e": "leggje_VERB",
+    "c_KI": 26,
+    "c_M": 17,
+    "lpr": 0.415,
+    "delta": 0.0486
+   },
+   {
+    "e": "eller_CCONJ",
+    "c_KI": 36,
+    "c_M": 24,
+    "lpr": 0.399,
+    "delta": 0.0649
+   },
+   {
+    "e": "under_ADP",
+    "c_KI": 18,
+    "c_M": 12,
+    "lpr": 0.392,
+    "delta": 0.0324
+   },
+   {
+    "e": "bruke_VERB",
+    "c_KI": 18,
+    "c_M": 12,
+    "lpr": 0.392,
+    "delta": 0.0324
+   },
+   {
+    "e": "liv_NOUN",
+    "c_KI": 12,
+    "c_M": 8,
+    "lpr": 0.386,
+    "delta": 0.0216
+   },
+   {
+    "e": "måte_NOUN",
+    "c_KI": 12,
+    "c_M": 8,
+    "lpr": 0.386,
+    "delta": 0.0216
+   },
+   {
+    "e": "fram_ADV",
+    "c_KI": 25,
+    "c_M": 17,
+    "lpr": 0.376,
+    "delta": 0.0432
+   },
+   {
+    "e": "ho_PRON",
+    "c_KI": 36,
+    "c_M": 25,
+    "lpr": 0.359,
+    "delta": 0.0595
+   },
+   {
+    "e": "frå_ADP",
+    "c_KI": 83,
+    "c_M": 58,
+    "lpr": 0.356,
+    "delta": 0.1351
+   },
+   {
+    "e": "noko_PRON",
+    "c_KI": 33,
+    "c_M": 23,
+    "lpr": 0.355,
+    "delta": 0.0541
+   },
+   {
+    "e": "norsk_ADJ",
+    "c_KI": 13,
+    "c_M": 9,
+    "lpr": 0.351,
+    "delta": 0.0216
+   },
+   {
+    "e": "ved_ADP",
+    "c_KI": 44,
+    "c_M": 31,
+    "lpr": 0.346,
+    "delta": 0.0703
+   },
+   {
+    "e": "gjere_VERB",
+    "c_KI": 42,
+    "c_M": 30,
+    "lpr": 0.332,
+    "delta": 0.0649
+   },
+   {
+    "e": "dette_PRON",
+    "c_KI": 64,
+    "c_M": 46,
+    "lpr": 0.327,
+    "delta": 0.0973
+   },
+   {
+    "e": "ny_ADJ",
+    "c_KI": 32,
+    "c_M": 23,
+    "lpr": 0.324,
+    "delta": 0.0486
+   },
+   {
+    "e": "seg_PRON",
+    "c_KI": 74,
+    "c_M": 54,
+    "lpr": 0.313,
+    "delta": 0.1081
+   },
+   {
+    "e": "saman_ADV",
+    "c_KI": 19,
+    "c_M": 14,
+    "lpr": 0.296,
+    "delta": 0.027
+   },
+   {
+    "e": "likevel_ADV",
+    "c_KI": 23,
+    "c_M": 17,
+    "lpr": 0.295,
+    "delta": 0.0324
+   },
+   {
+    "e": "alltid_ADV",
+    "c_KI": 12,
+    "c_M": 9,
+    "lpr": 0.274,
+    "delta": 0.0162
+   },
+   {
+    "e": "dette_DET",
+    "c_KI": 21,
+    "c_M": 16,
+    "lpr": 0.265,
+    "delta": 0.027
+   },
+   {
+    "e": "verte_AUX",
+    "c_KI": 69,
+    "c_M": 53,
+    "lpr": 0.262,
+    "delta": 0.0865
+   },
+   {
+    "e": "mange_ADJ",
+    "c_KI": 56,
+    "c_M": 43,
+    "lpr": 0.261,
+    "delta": 0.0703
+   },
+   {
+    "e": "burde_AUX",
+    "c_KI": 13,
+    "c_M": 10,
+    "lpr": 0.251,
+    "delta": 0.0162
+   },
+   {
+    "e": "alle_PRON",
+    "c_KI": 13,
+    "c_M": 10,
+    "lpr": 0.251,
+    "delta": 0.0162
+   },
+   {
+    "e": "land_NOUN",
+    "c_KI": 18,
+    "c_M": 14,
+    "lpr": 0.244,
+    "delta": 0.0216
+   },
+   {
+    "e": "barn_NOUN",
+    "c_KI": 14,
+    "c_M": 11,
+    "lpr": 0.232,
+    "delta": 0.0162
+   },
+   {
+    "e": "kunne_AUX",
+    "c_KI": 83,
+    "c_M": 66,
+    "lpr": 0.228,
+    "delta": 0.0919
+   },
+   {
+    "e": "grunn_NOUN",
+    "c_KI": 15,
+    "c_M": 12,
+    "lpr": 0.215,
+    "delta": 0.0162
+   },
+   {
+    "e": "for_ADP",
+    "c_KI": 146,
+    "c_M": 118,
+    "lpr": 0.212,
+    "delta": 0.1514
+   },
+   {
+    "e": "som_ADP",
+    "c_KI": 65,
+    "c_M": 53,
+    "lpr": 0.202,
+    "delta": 0.0649
+   },
+   {
+    "e": "krone_NOUN",
+    "c_KI": 11,
+    "c_M": 9,
+    "lpr": 0.191,
+    "delta": 0.0108
+   },
+   {
+    "e": "mellom_ADP",
+    "c_KI": 11,
+    "c_M": 9,
+    "lpr": 0.191,
+    "delta": 0.0108
+   },
+   {
+    "e": "ord_NOUN",
+    "c_KI": 11,
+    "c_M": 9,
+    "lpr": 0.191,
+    "delta": 0.0108
+   },
+   {
+    "e": "dei_DET",
+    "c_KI": 81,
+    "c_M": 68,
+    "lpr": 0.174,
+    "delta": 0.0703
+   },
+   {
+    "e": "som_SCONJ",
+    "c_KI": 144,
+    "c_M": 122,
+    "lpr": 0.165,
+    "delta": 0.1189
+   },
+   {
+    "e": "god_ADJ",
+    "c_KI": 39,
+    "c_M": 33,
+    "lpr": 0.165,
+    "delta": 0.0324
+   },
+   {
+    "e": "ha_VERB",
+    "c_KI": 99,
+    "c_M": 84,
+    "lpr": 0.163,
+    "delta": 0.0811
+   },
+   {
+    "e": "om_SCONJ",
+    "c_KI": 35,
+    "c_M": 30,
+    "lpr": 0.152,
+    "delta": 0.027
+   },
+   {
+    "e": "av_ADP",
+    "c_KI": 131,
+    "c_M": 113,
+    "lpr": 0.147,
+    "delta": 0.0973
+   },
+   {
+    "e": "å_PART",
+    "c_KI": 157,
+    "c_M": 136,
+    "lpr": 0.143,
+    "delta": 0.1135
+   },
+   {
+    "e": "veke_NOUN",
+    "c_KI": 15,
+    "c_M": 13,
+    "lpr": 0.138,
+    "delta": 0.0108
+   },
+   {
+    "e": "før_SCONJ",
+    "c_KI": 15,
+    "c_M": 13,
+    "lpr": 0.138,
+    "delta": 0.0108
+   },
+   {
+    "e": "ta_VERB",
+    "c_KI": 55,
+    "c_M": 48,
+    "lpr": 0.135,
+    "delta": 0.0378
+   },
+   {
+    "e": "år_NOUN",
+    "c_KI": 48,
+    "c_M": 42,
+    "lpr": 0.132,
+    "delta": 0.0324
+   },
+   {
+    "e": "ein_DET",
+    "c_KI": 166,
+    "c_M": 147,
+    "lpr": 0.121,
+    "delta": 0.1027
+   },
+   {
+    "e": "om_ADP",
+    "c_KI": 83,
+    "c_M": 74,
+    "lpr": 0.114,
+    "delta": 0.0486
+   },
+   {
+    "e": "dag_NOUN",
+    "c_KI": 29,
+    "c_M": 26,
+    "lpr": 0.107,
+    "delta": 0.0162
+   },
+   {
+    "e": "dei_PRON",
+    "c_KI": 81,
+    "c_M": 73,
+    "lpr": 0.103,
+    "delta": 0.0432
+   },
+   {
+    "e": "sjølv_ADV",
+    "c_KI": 20,
+    "c_M": 18,
+    "lpr": 0.103,
+    "delta": 0.0108
+   },
+   {
+    "e": "same_DET",
+    "c_KI": 20,
+    "c_M": 18,
+    "lpr": 0.103,
+    "delta": 0.0108
+   },
+   {
+    "e": "på_ADP",
+    "c_KI": 147,
+    "c_M": 133,
+    "lpr": 0.1,
+    "delta": 0.0757
+   },
+   {
+    "e": "med_ADP",
+    "c_KI": 127,
+    "c_M": 115,
+    "lpr": 0.099,
+    "delta": 0.0649
+   },
+   {
+    "e": "liten_ADJ",
+    "c_KI": 21,
+    "c_M": 19,
+    "lpr": 0.098,
+    "delta": 0.0108
+   },
+   {
+    "e": "til_ADP",
+    "c_KI": 154,
+    "c_M": 140,
+    "lpr": 0.095,
+    "delta": 0.0757
+   },
+   {
+    "e": "mål_NOUN",
+    "c_KI": 12,
+    "c_M": 11,
+    "lpr": 0.083,
+    "delta": 0.0054
+   },
+   {
+    "e": "kor_ADV",
+    "c_KI": 12,
+    "c_M": 11,
+    "lpr": 0.083,
+    "delta": 0.0054
+   },
+   {
+    "e": "ha_AUX",
+    "c_KI": 117,
+    "c_M": 108,
+    "lpr": 0.08,
+    "delta": 0.0486
+   },
+   {
+    "e": "det_DET",
+    "c_KI": 52,
+    "c_M": 48,
+    "lpr": 0.079,
+    "delta": 0.0216
+   },
+   {
+    "e": "mann_NOUN",
+    "c_KI": 14,
+    "c_M": 13,
+    "lpr": 0.071,
+    "delta": 0.0054
+   },
+   {
+    "e": "mykje_ADJ",
+    "c_KI": 58,
+    "c_M": 54,
+    "lpr": 0.071,
+    "delta": 0.0216
+   },
+   {
+    "e": "tid_NOUN",
+    "c_KI": 31,
+    "c_M": 29,
+    "lpr": 0.066,
+    "delta": 0.0108
+   },
+   {
+    "e": "vise_VERB",
+    "c_KI": 18,
+    "c_M": 17,
+    "lpr": 0.056,
+    "delta": 0.0054
+   },
+   {
+    "e": "han_PRON",
+    "c_KI": 55,
+    "c_M": 52,
+    "lpr": 0.056,
+    "delta": 0.0162
+   },
+   {
+    "e": "der_SCONJ",
+    "c_KI": 19,
+    "c_M": 18,
+    "lpr": 0.053,
+    "delta": 0.0054
+   },
+   {
+    "e": "at_SCONJ",
+    "c_KI": 140,
+    "c_M": 133,
+    "lpr": 0.051,
+    "delta": 0.0378
+   },
+   {
+    "e": "ut_ADV",
+    "c_KI": 31,
+    "c_M": 30,
+    "lpr": 0.032,
+    "delta": 0.0054
+   },
+   {
+    "e": "vilje_AUX",
+    "c_KI": 56,
+    "c_M": 55,
+    "lpr": 0.018,
+    "delta": 0.0054
+   },
+   {
+    "e": "i_ADP",
+    "c_KI": 179,
+    "c_M": 176,
+    "lpr": 0.017,
+    "delta": 0.0162
+   },
+   {
+    "e": "for_ADV",
+    "c_KI": 12,
+    "c_M": 12,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "kva_PRON",
+    "c_KI": 12,
+    "c_M": 12,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "sak_NOUN",
+    "c_KI": 13,
+    "c_M": 13,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "gjelde_VERB",
+    "c_KI": 10,
+    "c_M": 10,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "lang_ADJ",
+    "c_KI": 21,
+    "c_M": 21,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "stor_ADJ",
+    "c_KI": 43,
+    "c_M": 43,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "kome_VERB",
+    "c_KI": 51,
+    "c_M": 51,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "tidleg_ADJ",
+    "c_KI": 14,
+    "c_M": 14,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "veg_NOUN",
+    "c_KI": 11,
+    "c_M": 11,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "sein_ADJ",
+    "c_KI": 10,
+    "c_M": 10,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "vere_AUX",
+    "c_KI": 176,
+    "c_M": 182,
+    "lpr": -0.033,
+    "delta": -0.0324
+   },
+   {
+    "e": "ikkje_PART",
+    "c_KI": 100,
+    "c_M": 105,
+    "lpr": -0.049,
+    "delta": -0.027
+   },
+   {
+    "e": "medan_SCONJ",
+    "c_KI": 13,
+    "c_M": 14,
+    "lpr": -0.071,
+    "delta": -0.0054
+   },
+   {
+    "e": "få_VERB",
+    "c_KI": 51,
+    "c_M": 55,
+    "lpr": -0.075,
+    "delta": -0.0216
+   },
+   {
+    "e": "når_SCONJ",
+    "c_KI": 21,
+    "c_M": 23,
+    "lpr": -0.089,
+    "delta": -0.0108
+   },
+   {
+    "e": "ut_ADP",
+    "c_KI": 10,
+    "c_M": 11,
+    "lpr": -0.091,
+    "delta": -0.0054
+   },
+   {
+    "e": "sjå_VERB",
+    "c_KI": 39,
+    "c_M": 43,
+    "lpr": -0.096,
+    "delta": -0.0216
+   },
+   {
+    "e": "stå_VERB",
+    "c_KI": 17,
+    "c_M": 19,
+    "lpr": -0.108,
+    "delta": -0.0108
+   },
+   {
+    "e": "det_PRON",
+    "c_KI": 141,
+    "c_M": 158,
+    "lpr": -0.113,
+    "delta": -0.0919
+   },
+   {
+    "e": "eg_PRON",
+    "c_KI": 39,
+    "c_M": 44,
+    "lpr": -0.119,
+    "delta": -0.027
+   },
+   {
+    "e": "annan_DET",
+    "c_KI": 35,
+    "c_M": 40,
+    "lpr": -0.132,
+    "delta": -0.027
+   },
+   {
+    "e": "all_DET",
+    "c_KI": 27,
+    "c_M": 31,
+    "lpr": -0.136,
+    "delta": -0.0216
+   },
+   {
+    "e": "skule_NOUN",
+    "c_KI": 13,
+    "c_M": 15,
+    "lpr": -0.138,
+    "delta": -0.0108
+   },
+   {
+    "e": "til_ADV",
+    "c_KI": 19,
+    "c_M": 22,
+    "lpr": -0.143,
+    "delta": -0.0162
+   },
+   {
+    "e": "første_ADJ",
+    "c_KI": 12,
+    "c_M": 14,
+    "lpr": -0.148,
+    "delta": -0.0108
+   },
+   {
+    "e": "gong_NOUN",
+    "c_KI": 11,
+    "c_M": 13,
+    "lpr": -0.16,
+    "delta": -0.0108
+   },
+   {
+    "e": "folk_NOUN",
+    "c_KI": 14,
+    "c_M": 17,
+    "lpr": -0.188,
+    "delta": -0.0162
+   },
+   {
+    "e": "rett_ADJ",
+    "c_KI": 9,
+    "c_M": 11,
+    "lpr": -0.191,
+    "delta": -0.0108
+   },
+   {
+    "e": "svær_ADJ",
+    "c_KI": 9,
+    "c_M": 11,
+    "lpr": -0.191,
+    "delta": -0.0108
+   },
+   {
+    "e": "ned_ADV",
+    "c_KI": 9,
+    "c_M": 11,
+    "lpr": -0.191,
+    "delta": -0.0108
+   },
+   {
+    "e": "enn_ADP",
+    "c_KI": 18,
+    "c_M": 22,
+    "lpr": -0.196,
+    "delta": -0.0216
+   },
+   {
+    "e": "på_ADV",
+    "c_KI": 12,
+    "c_M": 15,
+    "lpr": -0.215,
+    "delta": -0.0162
+   },
+   {
+    "e": "men_CCONJ",
+    "c_KI": 58,
+    "c_M": 76,
+    "lpr": -0.268,
+    "delta": -0.0973
+   },
+   {
+    "e": "vere_VERB",
+    "c_KI": 9,
+    "c_M": 12,
+    "lpr": -0.274,
+    "delta": -0.0162
+   },
+   {
+    "e": "utan_ADP",
+    "c_KI": 9,
+    "c_M": 12,
+    "lpr": -0.274,
+    "delta": -0.0162
+   },
+   {
+    "e": "meine_VERB",
+    "c_KI": 15,
+    "c_M": 20,
+    "lpr": -0.28,
+    "delta": -0.027
+   },
+   {
+    "e": "måtte_AUX",
+    "c_KI": 32,
+    "c_M": 43,
+    "lpr": -0.292,
+    "delta": -0.0595
+   },
+   {
+    "e": "vi_PRON",
+    "c_KI": 30,
+    "c_M": 41,
+    "lpr": -0.308,
+    "delta": -0.0595
+   },
+   {
+    "e": "både_CCONJ",
+    "c_KI": 10,
+    "c_M": 14,
+    "lpr": -0.323,
+    "delta": -0.0216
+   },
+   {
+    "e": "arbeid_NOUN",
+    "c_KI": 10,
+    "c_M": 14,
+    "lpr": -0.323,
+    "delta": -0.0216
+   },
+   {
+    "e": "heil_ADJ",
+    "c_KI": 23,
+    "c_M": 33,
+    "lpr": -0.355,
+    "delta": -0.0541
+   },
+   {
+    "e": "gå_VERB",
+    "c_KI": 36,
+    "c_M": 55,
+    "lpr": -0.419,
+    "delta": -0.1027
+   },
+   {
+    "e": "slik_DET",
+    "c_KI": 11,
+    "c_M": 18,
+    "lpr": -0.475,
+    "delta": -0.0378
+   },
+   {
+    "e": "så_ADV",
+    "c_KI": 29,
+    "c_M": 47,
+    "lpr": -0.476,
+    "delta": -0.0973
+   },
+   {
+    "e": "del_NOUN",
+    "c_KI": 14,
+    "c_M": 23,
+    "lpr": -0.483,
+    "delta": -0.0486
+   },
+   {
+    "e": "også_ADV",
+    "c_KI": 12,
+    "c_M": 21,
+    "lpr": -0.542,
+    "delta": -0.0486
+   },
+   {
+    "e": "ein_PRON",
+    "c_KI": 22,
+    "c_M": 41,
+    "lpr": -0.612,
+    "delta": -0.1027
+   },
+   {
+    "e": "opp_ADV",
+    "c_KI": 18,
+    "c_M": 34,
+    "lpr": -0.623,
+    "delta": -0.0865
+   },
+   {
+    "e": "no_ADV",
+    "c_KI": 19,
+    "c_M": 36,
+    "lpr": -0.627,
+    "delta": -0.0919
+   },
+   {
+    "e": "inn_ADP",
+    "c_KI": 7,
+    "c_M": 14,
+    "lpr": -0.659,
+    "delta": -0.0378
+   },
+   {
+    "e": "difor_ADV",
+    "c_KI": 7,
+    "c_M": 14,
+    "lpr": -0.659,
+    "delta": -0.0378
+   },
+   {
+    "e": "kvar_DET",
+    "c_KI": 10,
+    "c_M": 20,
+    "lpr": -0.669,
+    "delta": -0.0541
+   },
+   {
+    "e": "her_ADV",
+    "c_KI": 11,
+    "c_M": 23,
+    "lpr": -0.715,
+    "delta": -0.0649
+   },
+   {
+    "e": "få_AUX",
+    "c_KI": 10,
+    "c_M": 22,
+    "lpr": -0.762,
+    "delta": -0.0649
+   },
+   {
+    "e": "me_PRON",
+    "c_KI": 9,
+    "c_M": 20,
+    "lpr": -0.769,
+    "delta": -0.0595
+   },
+   {
+    "e": "slik_ADV",
+    "c_KI": 7,
+    "c_M": 16,
+    "lpr": -0.788,
+    "delta": -0.0486
+   },
+   {
+    "e": "inn_ADV",
+    "c_KI": 6,
+    "c_M": 14,
+    "lpr": -0.802,
+    "delta": -0.0432
+   },
+   {
+    "e": "seie_VERB",
+    "c_KI": 28,
+    "c_M": 64,
+    "lpr": -0.817,
+    "delta": -0.1946
+   },
+   {
+    "e": "verte_VERB",
+    "c_KI": 22,
+    "c_M": 52,
+    "lpr": -0.847,
+    "delta": -0.1622
+   },
+   {
+    "e": "med_ADV",
+    "c_KI": 6,
+    "c_M": 15,
+    "lpr": -0.869,
+    "delta": -0.0486
+   },
+   {
+    "e": "skulle_AUX",
+    "c_KI": 23,
+    "c_M": 64,
+    "lpr": -1.01,
+    "delta": -0.2216
+   },
+   {
+    "e": "nok_ADV",
+    "c_KI": 7,
+    "c_M": 21,
+    "lpr": -1.053,
+    "delta": -0.0757
+   },
+   {
+    "e": "der_ADV",
+    "c_KI": 4,
+    "c_M": 19,
+    "lpr": -1.466,
+    "delta": -0.0811
+   },
+   {
+    "e": "då_ADV",
+    "c_KI": 4,
+    "c_M": 21,
+    "lpr": -1.564,
+    "delta": -0.0919
+   }
+  ],
+  "bigram": [
+   {
+    "e": "føre til",
+    "c_KI": 19,
+    "c_M": 2,
+    "lpr": 2.054,
+    "delta": 0.0919
+   },
+   {
+    "e": "viktig å",
+    "c_KI": 19,
+    "c_M": 3,
+    "lpr": 1.718,
+    "delta": 0.0865
+   },
+   {
+    "e": "å ta",
+    "c_KI": 23,
+    "c_M": 5,
+    "lpr": 1.452,
+    "delta": 0.0973
+   },
+   {
+    "e": "noko som",
+    "c_KI": 21,
+    "c_M": 5,
+    "lpr": 1.363,
+    "delta": 0.0865
+   },
+   {
+    "e": "med å",
+    "c_KI": 27,
+    "c_M": 9,
+    "lpr": 1.063,
+    "delta": 0.0973
+   },
+   {
+    "e": "på den",
+    "c_KI": 17,
+    "c_M": 6,
+    "lpr": 0.99,
+    "delta": 0.0595
+   },
+   {
+    "e": "i tillegg",
+    "c_KI": 22,
+    "c_M": 8,
+    "lpr": 0.973,
+    "delta": 0.0757
+   },
+   {
+    "e": "til ein",
+    "c_KI": 25,
+    "c_M": 10,
+    "lpr": 0.887,
+    "delta": 0.0811
+   },
+   {
+    "e": "vere ikkje",
+    "c_KI": 28,
+    "c_M": 12,
+    "lpr": 0.824,
+    "delta": 0.0865
+   },
+   {
+    "e": "han vere",
+    "c_KI": 14,
+    "c_M": 6,
+    "lpr": 0.802,
+    "delta": 0.0432
+   },
+   {
+    "e": "med ein",
+    "c_KI": 18,
+    "c_M": 8,
+    "lpr": 0.778,
+    "delta": 0.0541
+   },
+   {
+    "e": "vere ein",
+    "c_KI": 65,
+    "c_M": 32,
+    "lpr": 0.701,
+    "delta": 0.1784
+   },
+   {
+    "e": "på at",
+    "c_KI": 20,
+    "c_M": 10,
+    "lpr": 0.669,
+    "delta": 0.0541
+   },
+   {
+    "e": "og ein",
+    "c_KI": 14,
+    "c_M": 7,
+    "lpr": 0.659,
+    "delta": 0.0378
+   },
+   {
+    "e": "på ein",
+    "c_KI": 23,
+    "c_M": 12,
+    "lpr": 0.631,
+    "delta": 0.0595
+   },
+   {
+    "e": "ikkje vere",
+    "c_KI": 19,
+    "c_M": 10,
+    "lpr": 0.619,
+    "delta": 0.0486
+   },
+   {
+    "e": "i ein",
+    "c_KI": 30,
+    "c_M": 16,
+    "lpr": 0.614,
+    "delta": 0.0757
+   },
+   {
+    "e": "kunne vere",
+    "c_KI": 13,
+    "c_M": 7,
+    "lpr": 0.588,
+    "delta": 0.0324
+   },
+   {
+    "e": "til den",
+    "c_KI": 13,
+    "c_M": 7,
+    "lpr": 0.588,
+    "delta": 0.0324
+   },
+   {
+    "e": "om å",
+    "c_KI": 18,
+    "c_M": 10,
+    "lpr": 0.566,
+    "delta": 0.0432
+   },
+   {
+    "e": "som ha",
+    "c_KI": 32,
+    "c_M": 18,
+    "lpr": 0.563,
+    "delta": 0.0757
+   },
+   {
+    "e": "for å",
+    "c_KI": 70,
+    "c_M": 40,
+    "lpr": 0.554,
+    "delta": 0.1622
+   },
+   {
+    "e": "av dei",
+    "c_KI": 26,
+    "c_M": 15,
+    "lpr": 0.536,
+    "delta": 0.0595
+   },
+   {
+    "e": "ha vere",
+    "c_KI": 31,
+    "c_M": 18,
+    "lpr": 0.532,
+    "delta": 0.0703
+   },
+   {
+    "e": "å vere",
+    "c_KI": 17,
+    "c_M": 10,
+    "lpr": 0.511,
+    "delta": 0.0378
+   },
+   {
+    "e": "for ein",
+    "c_KI": 13,
+    "c_M": 8,
+    "lpr": 0.463,
+    "delta": 0.027
+   },
+   {
+    "e": "i denne",
+    "c_KI": 13,
+    "c_M": 8,
+    "lpr": 0.463,
+    "delta": 0.027
+   },
+   {
+    "e": "sjølv om",
+    "c_KI": 19,
+    "c_M": 12,
+    "lpr": 0.445,
+    "delta": 0.0378
+   },
+   {
+    "e": "i dag",
+    "c_KI": 14,
+    "c_M": 9,
+    "lpr": 0.423,
+    "delta": 0.027
+   },
+   {
+    "e": "ein av",
+    "c_KI": 15,
+    "c_M": 10,
+    "lpr": 0.389,
+    "delta": 0.027
+   },
+   {
+    "e": "at dei",
+    "c_KI": 28,
+    "c_M": 19,
+    "lpr": 0.379,
+    "delta": 0.0486
+   },
+   {
+    "e": "vere i",
+    "c_KI": 25,
+    "c_M": 17,
+    "lpr": 0.376,
+    "delta": 0.0432
+   },
+   {
+    "e": "etter at",
+    "c_KI": 13,
+    "c_M": 9,
+    "lpr": 0.351,
+    "delta": 0.0216
+   },
+   {
+    "e": "til å",
+    "c_KI": 58,
+    "c_M": 41,
+    "lpr": 0.343,
+    "delta": 0.0919
+   },
+   {
+    "e": "eg ha",
+    "c_KI": 17,
+    "c_M": 12,
+    "lpr": 0.336,
+    "delta": 0.027
+   },
+   {
+    "e": "dei ha",
+    "c_KI": 17,
+    "c_M": 12,
+    "lpr": 0.336,
+    "delta": 0.027
+   },
+   {
+    "e": "vere den",
+    "c_KI": 12,
+    "c_M": 9,
+    "lpr": 0.274,
+    "delta": 0.0162
+   },
+   {
+    "e": "som ein",
+    "c_KI": 21,
+    "c_M": 16,
+    "lpr": 0.265,
+    "delta": 0.027
+   },
+   {
+    "e": "dei som",
+    "c_KI": 17,
+    "c_M": 13,
+    "lpr": 0.26,
+    "delta": 0.0216
+   },
+   {
+    "e": "som vere",
+    "c_KI": 37,
+    "c_M": 30,
+    "lpr": 0.207,
+    "delta": 0.0378
+   },
+   {
+    "e": "som verte",
+    "c_KI": 16,
+    "c_M": 13,
+    "lpr": 0.201,
+    "delta": 0.0162
+   },
+   {
+    "e": "del av",
+    "c_KI": 11,
+    "c_M": 9,
+    "lpr": 0.191,
+    "delta": 0.0108
+   },
+   {
+    "e": "til at",
+    "c_KI": 17,
+    "c_M": 14,
+    "lpr": 0.188,
+    "delta": 0.0162
+   },
+   {
+    "e": "i flora",
+    "c_KI": 12,
+    "c_M": 10,
+    "lpr": 0.174,
+    "delta": 0.0108
+   },
+   {
+    "e": "at han",
+    "c_KI": 13,
+    "c_M": 11,
+    "lpr": 0.16,
+    "delta": 0.0108
+   },
+   {
+    "e": "det verte",
+    "c_KI": 14,
+    "c_M": 12,
+    "lpr": 0.148,
+    "delta": 0.0108
+   },
+   {
+    "e": "dette vere",
+    "c_KI": 22,
+    "c_M": 19,
+    "lpr": 0.143,
+    "delta": 0.0162
+   },
+   {
+    "e": "at det",
+    "c_KI": 36,
+    "c_M": 32,
+    "lpr": 0.116,
+    "delta": 0.0216
+   },
+   {
+    "e": "vere at",
+    "c_KI": 11,
+    "c_M": 10,
+    "lpr": 0.091,
+    "delta": 0.0054
+   },
+   {
+    "e": "vere det",
+    "c_KI": 40,
+    "c_M": 37,
+    "lpr": 0.077,
+    "delta": 0.0162
+   },
+   {
+    "e": "å få",
+    "c_KI": 17,
+    "c_M": 16,
+    "lpr": 0.059,
+    "delta": 0.0054
+   },
+   {
+    "e": "ha ein",
+    "c_KI": 20,
+    "c_M": 20,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "det ha",
+    "c_KI": 10,
+    "c_M": 10,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "i år",
+    "c_KI": 13,
+    "c_M": 13,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "i florø",
+    "c_KI": 11,
+    "c_M": 11,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "vere på",
+    "c_KI": 12,
+    "c_M": 13,
+    "lpr": -0.077,
+    "delta": -0.0054
+   },
+   {
+    "e": "det vere",
+    "c_KI": 77,
+    "c_M": 85,
+    "lpr": -0.098,
+    "delta": -0.0432
+   },
+   {
+    "e": "det ikkje",
+    "c_KI": 12,
+    "c_M": 14,
+    "lpr": -0.148,
+    "delta": -0.0108
+   },
+   {
+    "e": "dei vere",
+    "c_KI": 9,
+    "c_M": 11,
+    "lpr": -0.191,
+    "delta": -0.0108
+   },
+   {
+    "e": "eg vere",
+    "c_KI": 10,
+    "c_M": 13,
+    "lpr": -0.251,
+    "delta": -0.0162
+   },
+   {
+    "e": "men det",
+    "c_KI": 9,
+    "c_M": 12,
+    "lpr": -0.274,
+    "delta": -0.0162
+   },
+   {
+    "e": "det som",
+    "c_KI": 10,
+    "c_M": 14,
+    "lpr": -0.323,
+    "delta": -0.0216
+   },
+   {
+    "e": "ha ikkje",
+    "c_KI": 8,
+    "c_M": 12,
+    "lpr": -0.386,
+    "delta": -0.0216
+   }
+  ],
+  "trigram": [
+   {
+    "e": "det vere ein",
+    "c_KI": 12,
+    "c_M": 9,
+    "lpr": 0.274,
+    "delta": 0.0162
+   }
+  ],
+  "antislop": {
+   "2": [
+    {
+     "e": "sogn og",
+     "f_KI": 12,
+     "f_M": 0,
+     "logratio": 2.298
+    },
+    {
+     "e": "og fjordane",
+     "f_KI": 12,
+     "f_M": 0,
+     "logratio": 2.298
+    },
+    {
+     "e": "å merke",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.218
+    },
+    {
+     "e": "merke seg",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.218
+    },
+    {
+     "e": "den opphavlege",
+     "f_KI": 10,
+     "f_M": 0,
+     "logratio": 2.131
+    },
+    {
+     "e": "i stand",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 2.035
+    },
+    {
+     "e": "opphavlege teksten",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 2.035
+    },
+    {
+     "e": "dei tilsette",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.93
+    },
+    {
+     "e": "førte til",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.93
+    },
+    {
+     "e": "gjorde det",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.93
+    },
+    {
+     "e": "eg vil",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.93
+    },
+    {
+     "e": "føre til",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.93
+    },
+    {
+     "e": "midten av",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.812
+    },
+    {
+     "e": "stand til",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.812
+    },
+    {
+     "e": "det norske",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.812
+    },
+    {
+     "e": "000 kroner",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.812
+    },
+    {
+     "e": "sikre at",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.812
+    },
+    {
+     "e": "å handtere",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.679
+    },
+    {
+     "e": "ei ny",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.679
+    },
+    {
+     "e": "i midten",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.679
+    },
+    {
+     "e": "kjem frå",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.679
+    },
+    {
+     "e": "merke til",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.679
+    },
+    {
+     "e": "data frå",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.679
+    },
+    {
+     "e": "likevel viktig",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.679
+    },
+    {
+     "e": "den lokale",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.679
+    },
+    {
+     "e": "er avgjerande",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.679
+    },
+    {
+     "e": "fann stad",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.679
+    },
+    {
+     "e": "å hjelpe",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.679
+    },
+    {
+     "e": "eit prosjekt",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.679
+    },
+    {
+     "e": "å hugse",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.679
+    },
+    {
+     "e": "i lokalsamfunnet",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.679
+    },
+    {
+     "e": "i byrjinga",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.679
+    },
+    {
+     "e": "eit vitnemål",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "vitnemål om",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "å lære",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "denne situasjonen",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "er naudsynt",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "sola kommune",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "korleis ein",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "er verkeleg",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "basert på",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "vere ei",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "ein mann",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "var ho",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "person i",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "byrjinga av",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "hjelpe dei",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "døme på",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "var på",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "har funne",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "denne teksten",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "teksten er",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "utval av",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "er òg",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "i fleire",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "naudsynt å",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.524
+    },
+    {
+     "e": "pris på",
+     "f_KI": 10,
+     "f_M": 1,
+     "logratio": 1.437
+    },
+    {
+     "e": "år gammal",
+     "f_KI": 10,
+     "f_M": 1,
+     "logratio": 1.437
+    },
+    {
+     "e": "han var",
+     "f_KI": 14,
+     "f_M": 2,
+     "logratio": 1.342
+    },
+    {
+     "e": "og har",
+     "f_KI": 9,
+     "f_M": 1,
+     "logratio": 1.342
+    },
+    {
+     "e": "å kjøpe",
+     "f_KI": 9,
+     "f_M": 1,
+     "logratio": 1.342
+    },
+    {
+     "e": "å sikre",
+     "f_KI": 13,
+     "f_M": 2,
+     "logratio": 1.273
+    },
+    {
+     "e": "firda folkeblad",
+     "f_KI": 8,
+     "f_M": 1,
+     "logratio": 1.237
+    },
+    {
+     "e": "vil bli",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.119
+    },
+    {
+     "e": "omsyn til",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.119
+    },
+    {
+     "e": "sidan det",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.119
+    },
+    {
+     "e": "trur at",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.119
+    },
+    {
+     "e": "har ei",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.119
+    },
+    {
+     "e": "millionar kroner",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.119
+    },
+    {
+     "e": "om korleis",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.119
+    },
+    {
+     "e": "er eit",
+     "f_KI": 25,
+     "f_M": 6,
+     "logratio": 1.045
+    },
+    {
+     "e": "har vorte",
+     "f_KI": 13,
+     "f_M": 3,
+     "logratio": 0.985
+    },
+    {
+     "e": "ho er",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.985
+    },
+    {
+     "e": "halde fram",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.985
+    },
+    {
+     "e": "i hardanger",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.985
+    },
+    {
+     "e": "avgjerande for",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.985
+    },
+    {
+     "e": "nokre få",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.985
+    },
+    {
+     "e": "i 1991",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.985
+    },
+    {
+     "e": "for ei",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.985
+    },
+    {
+     "e": "som kan",
+     "f_KI": 9,
+     "f_M": 2,
+     "logratio": 0.937
+    },
+    {
+     "e": "var ein",
+     "f_KI": 12,
+     "f_M": 3,
+     "logratio": 0.911
+    },
+    {
+     "e": "om lag",
+     "f_KI": 15,
+     "f_M": 4,
+     "logratio": 0.896
+    },
+    {
+     "e": "å halde",
+     "f_KI": 15,
+     "f_M": 4,
+     "logratio": 0.896
+    },
+    {
+     "e": "seg mot",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.831
+    },
+    {
+     "e": "eg kan",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.831
+    },
+    {
+     "e": "ikkje uvanleg",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.831
+    },
+    {
+     "e": "i same",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.831
+    },
+    {
+     "e": "å skape",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.831
+    },
+    {
+     "e": "å drive",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.831
+    },
+    {
+     "e": "berre nokre",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.831
+    },
+    {
+     "e": "vil vere",
+     "f_KI": 8,
+     "f_M": 2,
+     "logratio": 0.831
+    },
+    {
+     "e": "eit lite",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.831
+    },
+    {
+     "e": "i byen",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.831
+    },
+    {
+     "e": "og eit",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.831
+    },
+    {
+     "e": "heile landet",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.831
+    },
+    {
+     "e": "høve til",
+     "f_KI": 8,
+     "f_M": 2,
+     "logratio": 0.831
+    },
+    {
+     "e": "berre er",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.831
+    },
+    {
+     "e": "natt til",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.831
+    },
+    {
+     "e": "ho var",
+     "f_KI": 8,
+     "f_M": 2,
+     "logratio": 0.831
+    },
+    {
+     "e": "har ført",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 0.831
+    }
+   ],
+   "3": [
+    {
+     "e": "sogn og fjordane",
+     "f_KI": 12,
+     "f_M": 0,
+     "logratio": 2.295
+    },
+    {
+     "e": "å merke seg",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.215
+    },
+    {
+     "e": "merke seg at",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.215
+    },
+    {
+     "e": "den opphavlege teksten",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 2.032
+    },
+    {
+     "e": "viktig å merke",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.927
+    },
+    {
+     "e": "i sogn og",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.927
+    },
+    {
+     "e": "i stand til",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.809
+    },
+    {
+     "e": "stand til å",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.809
+    },
+    {
+     "e": "er ein viktig",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.809
+    },
+    {
+     "e": "i midten av",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.676
+    },
+    {
+     "e": "er likevel viktig",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.676
+    },
+    {
+     "e": "likevel viktig å",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.676
+    },
+    {
+     "e": "å sikre at",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.676
+    },
+    {
+     "e": "er eit vitnemål",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.522
+    },
+    {
+     "e": "eit vitnemål om",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.522
+    },
+    {
+     "e": "er avgjerande for",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.522
+    },
+    {
+     "e": "halde fram med",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.522
+    },
+    {
+     "e": "eg trur at",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.522
+    },
+    {
+     "e": "førte til at",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.522
+    },
+    {
+     "e": "viktig å hugse",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.522
+    },
+    {
+     "e": "denne teksten er",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.522
+    },
+    {
+     "e": "som er i",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.522
+    },
+    {
+     "e": "høve til å",
+     "f_KI": 8,
+     "f_M": 1,
+     "logratio": 1.234
+    },
+    {
+     "e": "det er likevel",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.116
+    },
+    {
+     "e": "er det viktig",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.116
+    },
+    {
+     "e": "for å sikre",
+     "f_KI": 10,
+     "f_M": 2,
+     "logratio": 1.029
+    },
+    {
+     "e": "at dei har",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 0.983
+    },
+    {
+     "e": "i løpet av",
+     "f_KI": 10,
+     "f_M": 3,
+     "logratio": 0.741
+    },
+    {
+     "e": "som til dømes",
+     "f_KI": 6,
+     "f_M": 2,
+     "logratio": 0.577
+    },
+    {
+     "e": "i tillegg til",
+     "f_KI": 8,
+     "f_M": 3,
+     "logratio": 0.541
+    },
+    {
+     "e": "er viktig å",
+     "f_KI": 10,
+     "f_M": 4,
+     "logratio": 0.518
+    },
+    {
+     "e": "og det er",
+     "f_KI": 5,
+     "f_M": 2,
+     "logratio": 0.423
+    },
+    {
+     "e": "dei som har",
+     "f_KI": 5,
+     "f_M": 2,
+     "logratio": 0.423
+    },
+    {
+     "e": "det er ikkje",
+     "f_KI": 10,
+     "f_M": 5,
+     "logratio": 0.336
+    },
+    {
+     "e": "på grunn av",
+     "f_KI": 9,
+     "f_M": 5,
+     "logratio": 0.241
+    },
+    {
+     "e": "i alle fall",
+     "f_KI": 7,
+     "f_M": 4,
+     "logratio": 0.2
+    },
+    {
+     "e": "det er viktig",
+     "f_KI": 11,
+     "f_M": 7,
+     "logratio": 0.135
+    },
+    {
+     "e": "når det gjeld",
+     "f_KI": 6,
+     "f_M": 4,
+     "logratio": 0.066
+    },
+    {
+     "e": "men det er",
+     "f_KI": 6,
+     "f_M": 5,
+     "logratio": -0.116
+    },
+    {
+     "e": "at det er",
+     "f_KI": 6,
+     "f_M": 6,
+     "logratio": -0.27
+    }
+   ],
+   "4": [
+    {
+     "e": "å merke seg at",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.212
+    },
+    {
+     "e": "viktig å merke seg",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.924
+    },
+    {
+     "e": "i sogn og fjordane",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 1.924
+    },
+    {
+     "e": "i stand til å",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.807
+    },
+    {
+     "e": "er det viktig å",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 1.807
+    },
+    {
+     "e": "det er likevel viktig",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.673
+    },
+    {
+     "e": "er likevel viktig å",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.673
+    },
+    {
+     "e": "er eit vitnemål om",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.519
+    },
+    {
+     "e": "likevel viktig å merke",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.519
+    },
+    {
+     "e": "halde fram med å",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.519
+    },
+    {
+     "e": "for å sikre at",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.519
+    },
+    {
+     "e": "det er viktig å",
+     "f_KI": 10,
+     "f_M": 4,
+     "logratio": 0.516
+    }
+   ]
+  }
+ },
+ "nn|lokal|T2+T3": {
+  "n_KI": 50,
+  "n_M": 50,
+  "lemma": [
+   {
+    "e": "viktig_ADJ",
+    "c_KI": 27,
+    "c_M": 5,
+    "lpr": 1.609,
+    "delta": 0.44
+   },
+   {
+    "e": "denne_DET",
+    "c_KI": 37,
+    "c_M": 11,
+    "lpr": 1.182,
+    "delta": 0.52
+   },
+   {
+    "e": "stad_NOUN",
+    "c_KI": 14,
+    "c_M": 6,
+    "lpr": 0.802,
+    "delta": 0.16
+   },
+   {
+    "e": "då_SCONJ",
+    "c_KI": 18,
+    "c_M": 8,
+    "lpr": 0.778,
+    "delta": 0.2
+   },
+   {
+    "e": "dette_DET",
+    "c_KI": 14,
+    "c_M": 7,
+    "lpr": 0.659,
+    "delta": 0.14
+   },
+   {
+    "e": "tid_NOUN",
+    "c_KI": 16,
+    "c_M": 9,
+    "lpr": 0.552,
+    "delta": 0.14
+   },
+   {
+    "e": "halde_VERB",
+    "c_KI": 15,
+    "c_M": 9,
+    "lpr": 0.49,
+    "delta": 0.12
+   },
+   {
+    "e": "og_CCONJ",
+    "c_KI": 49,
+    "c_M": 30,
+    "lpr": 0.484,
+    "delta": 0.38
+   },
+   {
+    "e": "det_DET",
+    "c_KI": 25,
+    "c_M": 16,
+    "lpr": 0.435,
+    "delta": 0.18
+   },
+   {
+    "e": "sin_PRON",
+    "c_KI": 38,
+    "c_M": 25,
+    "lpr": 0.412,
+    "delta": 0.26
+   },
+   {
+    "e": "seg_PRON",
+    "c_KI": 30,
+    "c_M": 20,
+    "lpr": 0.397,
+    "delta": 0.2
+   },
+   {
+    "e": "gje_VERB",
+    "c_KI": 15,
+    "c_M": 10,
+    "lpr": 0.389,
+    "delta": 0.1
+   },
+   {
+    "e": "som_ADP",
+    "c_KI": 34,
+    "c_M": 24,
+    "lpr": 0.342,
+    "delta": 0.2
+   },
+   {
+    "e": "ved_ADP",
+    "c_KI": 15,
+    "c_M": 11,
+    "lpr": 0.298,
+    "delta": 0.08
+   },
+   {
+    "e": "dei_DET",
+    "c_KI": 31,
+    "c_M": 23,
+    "lpr": 0.293,
+    "delta": 0.16
+   },
+   {
+    "e": "eller_CCONJ",
+    "c_KI": 12,
+    "c_M": 9,
+    "lpr": 0.274,
+    "delta": 0.06
+   },
+   {
+    "e": "fram_ADV",
+    "c_KI": 13,
+    "c_M": 10,
+    "lpr": 0.251,
+    "delta": 0.06
+   },
+   {
+    "e": "ny_ADJ",
+    "c_KI": 18,
+    "c_M": 14,
+    "lpr": 0.244,
+    "delta": 0.08
+   },
+   {
+    "e": "berre_ADV",
+    "c_KI": 11,
+    "c_M": 9,
+    "lpr": 0.191,
+    "delta": 0.04
+   },
+   {
+    "e": "kunne_AUX",
+    "c_KI": 29,
+    "c_M": 24,
+    "lpr": 0.186,
+    "delta": 0.1
+   },
+   {
+    "e": "gjere_VERB",
+    "c_KI": 18,
+    "c_M": 15,
+    "lpr": 0.177,
+    "delta": 0.06
+   },
+   {
+    "e": "for_ADP",
+    "c_KI": 50,
+    "c_M": 42,
+    "lpr": 0.172,
+    "delta": 0.16
+   },
+   {
+    "e": "dette_PRON",
+    "c_KI": 19,
+    "c_M": 16,
+    "lpr": 0.167,
+    "delta": 0.06
+   },
+   {
+    "e": "den_DET",
+    "c_KI": 35,
+    "c_M": 30,
+    "lpr": 0.152,
+    "delta": 0.1
+   },
+   {
+    "e": "å_PART",
+    "c_KI": 50,
+    "c_M": 44,
+    "lpr": 0.126,
+    "delta": 0.12
+   },
+   {
+    "e": "vilje_AUX",
+    "c_KI": 21,
+    "c_M": 19,
+    "lpr": 0.098,
+    "delta": 0.04
+   },
+   {
+    "e": "om_ADP",
+    "c_KI": 29,
+    "c_M": 27,
+    "lpr": 0.07,
+    "delta": 0.04
+   },
+   {
+    "e": "som_SCONJ",
+    "c_KI": 46,
+    "c_M": 43,
+    "lpr": 0.067,
+    "delta": 0.06
+   },
+   {
+    "e": "ein_DET",
+    "c_KI": 50,
+    "c_M": 47,
+    "lpr": 0.061,
+    "delta": 0.06
+   },
+   {
+    "e": "med_ADP",
+    "c_KI": 44,
+    "c_M": 42,
+    "lpr": 0.046,
+    "delta": 0.04
+   },
+   {
+    "e": "til_ADP",
+    "c_KI": 49,
+    "c_M": 47,
+    "lpr": 0.041,
+    "delta": 0.04
+   },
+   {
+    "e": "frå_ADP",
+    "c_KI": 27,
+    "c_M": 26,
+    "lpr": 0.037,
+    "delta": 0.02
+   },
+   {
+    "e": "dei_PRON",
+    "c_KI": 28,
+    "c_M": 27,
+    "lpr": 0.036,
+    "delta": 0.02
+   },
+   {
+    "e": "i_ADP",
+    "c_KI": 50,
+    "c_M": 50,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "noko_PRON",
+    "c_KI": 12,
+    "c_M": 12,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "vere_AUX",
+    "c_KI": 49,
+    "c_M": 49,
+    "lpr": 0.0,
+    "delta": 0.0
+   },
+   {
+    "e": "av_ADP",
+    "c_KI": 42,
+    "c_M": 43,
+    "lpr": -0.023,
+    "delta": -0.02
+   },
+   {
+    "e": "på_ADP",
+    "c_KI": 44,
+    "c_M": 47,
+    "lpr": -0.065,
+    "delta": -0.06
+   },
+   {
+    "e": "over_ADP",
+    "c_KI": 11,
+    "c_M": 12,
+    "lpr": -0.083,
+    "delta": -0.02
+   },
+   {
+    "e": "all_DET",
+    "c_KI": 11,
+    "c_M": 12,
+    "lpr": -0.083,
+    "delta": -0.02
+   },
+   {
+    "e": "både_CCONJ",
+    "c_KI": 10,
+    "c_M": 11,
+    "lpr": -0.091,
+    "delta": -0.02
+   },
+   {
+    "e": "del_NOUN",
+    "c_KI": 10,
+    "c_M": 11,
+    "lpr": -0.091,
+    "delta": -0.02
+   },
+   {
+    "e": "sjå_VERB",
+    "c_KI": 10,
+    "c_M": 11,
+    "lpr": -0.091,
+    "delta": -0.02
+   },
+   {
+    "e": "ha_AUX",
+    "c_KI": 35,
+    "c_M": 39,
+    "lpr": -0.107,
+    "delta": -0.08
+   },
+   {
+    "e": "verte_AUX",
+    "c_KI": 16,
+    "c_M": 18,
+    "lpr": -0.114,
+    "delta": -0.04
+   },
+   {
+    "e": "mange_ADJ",
+    "c_KI": 21,
+    "c_M": 24,
+    "lpr": -0.131,
+    "delta": -0.06
+   },
+   {
+    "e": "få_VERB",
+    "c_KI": 17,
+    "c_M": 20,
+    "lpr": -0.158,
+    "delta": -0.06
+   },
+   {
+    "e": "det_PRON",
+    "c_KI": 40,
+    "c_M": 48,
+    "lpr": -0.18,
+    "delta": -0.16
+   },
+   {
+    "e": "etter_ADP",
+    "c_KI": 17,
+    "c_M": 21,
+    "lpr": -0.206,
+    "delta": -0.08
+   },
+   {
+    "e": "god_ADJ",
+    "c_KI": 14,
+    "c_M": 18,
+    "lpr": -0.244,
+    "delta": -0.08
+   },
+   {
+    "e": "annan_DET",
+    "c_KI": 17,
+    "c_M": 22,
+    "lpr": -0.251,
+    "delta": -0.1
+   },
+   {
+    "e": "at_SCONJ",
+    "c_KI": 33,
+    "c_M": 43,
+    "lpr": -0.261,
+    "delta": -0.2
+   },
+   {
+    "e": "stor_ADJ",
+    "c_KI": 12,
+    "c_M": 16,
+    "lpr": -0.278,
+    "delta": -0.08
+   },
+   {
+    "e": "mykje_ADJ",
+    "c_KI": 21,
+    "c_M": 28,
+    "lpr": -0.282,
+    "delta": -0.14
+   },
+   {
+    "e": "ta_VERB",
+    "c_KI": 14,
+    "c_M": 19,
+    "lpr": -0.296,
+    "delta": -0.1
+   },
+   {
+    "e": "nokon_DET",
+    "c_KI": 9,
+    "c_M": 13,
+    "lpr": -0.351,
+    "delta": -0.08
+   },
+   {
+    "e": "dag_NOUN",
+    "c_KI": 10,
+    "c_M": 15,
+    "lpr": -0.389,
+    "delta": -0.1
+   },
+   {
+    "e": "gå_VERB",
+    "c_KI": 11,
+    "c_M": 17,
+    "lpr": -0.42,
+    "delta": -0.12
+   },
+   {
+    "e": "der_SCONJ",
+    "c_KI": 8,
+    "c_M": 13,
+    "lpr": -0.463,
+    "delta": -0.1
+   },
+   {
+    "e": "ha_VERB",
+    "c_KI": 23,
+    "c_M": 37,
+    "lpr": -0.467,
+    "delta": -0.28
+   },
+   {
+    "e": "ikkje_PART",
+    "c_KI": 21,
+    "c_M": 35,
+    "lpr": -0.501,
+    "delta": -0.28
+   },
+   {
+    "e": "men_CCONJ",
+    "c_KI": 18,
+    "c_M": 33,
+    "lpr": -0.594,
+    "delta": -0.3
+   },
+   {
+    "e": "kome_VERB",
+    "c_KI": 13,
+    "c_M": 24,
+    "lpr": -0.596,
+    "delta": -0.22
+   },
+   {
+    "e": "måtte_AUX",
+    "c_KI": 7,
+    "c_M": 14,
+    "lpr": -0.659,
+    "delta": -0.14
+   },
+   {
+    "e": "han_PRON",
+    "c_KI": 12,
+    "c_M": 26,
+    "lpr": -0.751,
+    "delta": -0.28
+   },
+   {
+    "e": "no_ADV",
+    "c_KI": 6,
+    "c_M": 16,
+    "lpr": -0.932,
+    "delta": -0.2
+   },
+   {
+    "e": "vi_PRON",
+    "c_KI": 7,
+    "c_M": 24,
+    "lpr": -1.184,
+    "delta": -0.34
+   },
+   {
+    "e": "ein_PRON",
+    "c_KI": 5,
+    "c_M": 18,
+    "lpr": -1.213,
+    "delta": -0.26
+   },
+   {
+    "e": "skulle_AUX",
+    "c_KI": 5,
+    "c_M": 22,
+    "lpr": -1.409,
+    "delta": -0.34
+   },
+   {
+    "e": "år_NOUN",
+    "c_KI": 4,
+    "c_M": 22,
+    "lpr": -1.609,
+    "delta": -0.36
+   },
+   {
+    "e": "eg_PRON",
+    "c_KI": 3,
+    "c_M": 18,
+    "lpr": -1.665,
+    "delta": -0.3
+   },
+   {
+    "e": "seie_VERB",
+    "c_KI": 1,
+    "c_M": 26,
+    "lpr": -2.872,
+    "delta": -0.5
+   }
+  ],
+  "bigram": [
+   {
+    "e": "med å",
+    "c_KI": 24,
+    "c_M": 4,
+    "lpr": 1.695,
+    "delta": 0.4
+   },
+   {
+    "e": "for å",
+    "c_KI": 36,
+    "c_M": 15,
+    "lpr": 0.856,
+    "delta": 0.42
+   },
+   {
+    "e": "i ein",
+    "c_KI": 17,
+    "c_M": 8,
+    "lpr": 0.722,
+    "delta": 0.18
+   },
+   {
+    "e": "vere ein",
+    "c_KI": 35,
+    "c_M": 20,
+    "lpr": 0.549,
+    "delta": 0.3
+   },
+   {
+    "e": "til å",
+    "c_KI": 27,
+    "c_M": 16,
+    "lpr": 0.511,
+    "delta": 0.22
+   },
+   {
+    "e": "til ein",
+    "c_KI": 15,
+    "c_M": 9,
+    "lpr": 0.49,
+    "delta": 0.12
+   },
+   {
+    "e": "som vere",
+    "c_KI": 21,
+    "c_M": 16,
+    "lpr": 0.265,
+    "delta": 0.1
+   },
+   {
+    "e": "som ha",
+    "c_KI": 9,
+    "c_M": 12,
+    "lpr": -0.274,
+    "delta": -0.06
+   },
+   {
+    "e": "vere det",
+    "c_KI": 15,
+    "c_M": 20,
+    "lpr": -0.28,
+    "delta": -0.1
+   },
+   {
+    "e": "det vere",
+    "c_KI": 21,
+    "c_M": 34,
+    "lpr": -0.473,
+    "delta": -0.26
+   },
+   {
+    "e": "ha vere",
+    "c_KI": 9,
+    "c_M": 15,
+    "lpr": -0.49,
+    "delta": -0.12
+   },
+   {
+    "e": "at det",
+    "c_KI": 4,
+    "c_M": 16,
+    "lpr": -1.299,
+    "delta": -0.24
+   }
+  ],
+  "trigram": [],
+  "antislop": {
+   "2": [
+    {
+     "e": "halde fram",
+     "f_KI": 12,
+     "f_M": 0,
+     "logratio": 2.489
+    },
+    {
+     "e": "som kan",
+     "f_KI": 11,
+     "f_M": 0,
+     "logratio": 2.409
+    },
+    {
+     "e": "rolle i",
+     "f_KI": 10,
+     "f_M": 0,
+     "logratio": 2.322
+    },
+    {
+     "e": "tillegg til",
+     "f_KI": 10,
+     "f_M": 0,
+     "logratio": 2.322
+    },
+    {
+     "e": "i tillegg",
+     "f_KI": 20,
+     "f_M": 1,
+     "logratio": 2.276
+    },
+    {
+     "e": "å merke",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 2.227
+    },
+    {
+     "e": "merke seg",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 2.227
+    },
+    {
+     "e": "samla sett",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 2.227
+    },
+    {
+     "e": "som eit",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 2.227
+    },
+    {
+     "e": "vere ei",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 2.121
+    },
+    {
+     "e": "eit viktig",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 2.121
+    },
+    {
+     "e": "kan vere",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 2.004
+    },
+    {
+     "e": "ei viktig",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 2.004
+    },
+    {
+     "e": "å handtere",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 2.004
+    },
+    {
+     "e": "innbyggjarane i",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 2.004
+    },
+    {
+     "e": "sikre at",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 2.004
+    },
+    {
+     "e": "til slutt",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 2.004
+    },
+    {
+     "e": "tilgang til",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 2.004
+    },
+    {
+     "e": "kjensle av",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 2.004
+    },
+    {
+     "e": "å forbetre",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.87
+    },
+    {
+     "e": "ei avgjerande",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.87
+    },
+    {
+     "e": "avgjerande rolle",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.87
+    },
+    {
+     "e": "var ei",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.87
+    },
+    {
+     "e": "bidra til",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.87
+    },
+    {
+     "e": "i lokalsamfunnet",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.87
+    },
+    {
+     "e": "å skape",
+     "f_KI": 12,
+     "f_M": 1,
+     "logratio": 1.796
+    },
+    {
+     "e": "å fremje",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "det mogleg",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "mogleg for",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "noreg og",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "dei kan",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "arbeide for",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "fann stad",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "i regionen",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "og halde",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "ført til",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "kan føre",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "føre til",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "denne situasjonen",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "i stand",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "stand til",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "sett er",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "på ei",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "gjer det",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "ei kjensle",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "hans er",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.716
+    },
+    {
+     "e": "å sikre",
+     "f_KI": 10,
+     "f_M": 1,
+     "logratio": 1.629
+    },
+    {
+     "e": "er viktig",
+     "f_KI": 9,
+     "f_M": 1,
+     "logratio": 1.534
+    },
+    {
+     "e": "i noreg",
+     "f_KI": 11,
+     "f_M": 2,
+     "logratio": 1.31
+    },
+    {
+     "e": "og andre",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.31
+    },
+    {
+     "e": "dette har",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 1.177
+    },
+    {
+     "e": "i eit",
+     "f_KI": 13,
+     "f_M": 3,
+     "logratio": 1.177
+    },
+    {
+     "e": "eit nytt",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 1.177
+    },
+    {
+     "e": "og er",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 1.177
+    },
+    {
+     "e": "i media",
+     "f_KI": 6,
+     "f_M": 1,
+     "logratio": 1.177
+    },
+    {
+     "e": "knytt til",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 1.023
+    },
+    {
+     "e": "var eit",
+     "f_KI": 8,
+     "f_M": 2,
+     "logratio": 1.023
+    },
+    {
+     "e": "er eit",
+     "f_KI": 11,
+     "f_M": 3,
+     "logratio": 1.023
+    },
+    {
+     "e": "som hadde",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 1.023
+    },
+    {
+     "e": "som gjer",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 1.023
+    },
+    {
+     "e": "å arbeide",
+     "f_KI": 5,
+     "f_M": 1,
+     "logratio": 1.023
+    },
+    {
+     "e": "har gjort",
+     "f_KI": 7,
+     "f_M": 2,
+     "logratio": 0.905
+    },
+    {
+     "e": "og har",
+     "f_KI": 7,
+     "f_M": 2,
+     "logratio": 0.905
+    },
+    {
+     "e": "i ei",
+     "f_KI": 7,
+     "f_M": 2,
+     "logratio": 0.905
+    },
+    {
+     "e": "å halde",
+     "f_KI": 8,
+     "f_M": 3,
+     "logratio": 0.735
+    },
+    {
+     "e": "for alle",
+     "f_KI": 5,
+     "f_M": 2,
+     "logratio": 0.617
+    },
+    {
+     "e": "ei tid",
+     "f_KI": 5,
+     "f_M": 2,
+     "logratio": 0.617
+    },
+    {
+     "e": "at alle",
+     "f_KI": 5,
+     "f_M": 2,
+     "logratio": 0.617
+    },
+    {
+     "e": "var ein",
+     "f_KI": 5,
+     "f_M": 2,
+     "logratio": 0.617
+    },
+    {
+     "e": "til dømes",
+     "f_KI": 6,
+     "f_M": 3,
+     "logratio": 0.484
+    },
+    {
+     "e": "til ei",
+     "f_KI": 6,
+     "f_M": 3,
+     "logratio": 0.484
+    },
+    {
+     "e": "er å",
+     "f_KI": 5,
+     "f_M": 3,
+     "logratio": 0.33
+    },
+    {
+     "e": "det nye",
+     "f_KI": 5,
+     "f_M": 3,
+     "logratio": 0.33
+    },
+    {
+     "e": "som er",
+     "f_KI": 25,
+     "f_M": 17,
+     "logratio": 0.292
+    },
+    {
+     "e": "til eit",
+     "f_KI": 7,
+     "f_M": 5,
+     "logratio": 0.212
+    },
+    {
+     "e": "dei har",
+     "f_KI": 5,
+     "f_M": 4,
+     "logratio": 0.106
+    },
+    {
+     "e": "han er",
+     "f_KI": 6,
+     "f_M": 5,
+     "logratio": 0.078
+    },
+    {
+     "e": "som har",
+     "f_KI": 11,
+     "f_M": 10,
+     "logratio": 0.011
+    },
+    {
+     "e": "er ein",
+     "f_KI": 11,
+     "f_M": 10,
+     "logratio": 0.011
+    },
+    {
+     "e": "for ei",
+     "f_KI": 5,
+     "f_M": 5,
+     "logratio": -0.076
+    },
+    {
+     "e": "var det",
+     "f_KI": 11,
+     "f_M": 12,
+     "logratio": -0.156
+    },
+    {
+     "e": "han har",
+     "f_KI": 5,
+     "f_M": 6,
+     "logratio": -0.23
+    },
+    {
+     "e": "er det",
+     "f_KI": 13,
+     "f_M": 17,
+     "logratio": -0.327
+    },
+    {
+     "e": "det er",
+     "f_KI": 30,
+     "f_M": 39,
+     "logratio": -0.331
+    },
+    {
+     "e": "har vore",
+     "f_KI": 9,
+     "f_M": 19,
+     "logratio": -0.769
+    },
+    {
+     "e": "det var",
+     "f_KI": 7,
+     "f_M": 20,
+     "logratio": -1.041
+    }
+   ],
+   "3": [
+    {
+     "e": "halde fram med",
+     "f_KI": 12,
+     "f_M": 0,
+     "logratio": 2.489
+    },
+    {
+     "e": "i tillegg til",
+     "f_KI": 10,
+     "f_M": 0,
+     "logratio": 2.322
+    },
+    {
+     "e": "å merke seg",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 2.226
+    },
+    {
+     "e": "merke seg at",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 2.226
+    },
+    {
+     "e": "viktig å merke",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 2.121
+    },
+    {
+     "e": "er viktig å",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 2.003
+    },
+    {
+     "e": "ei avgjerande rolle",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.87
+    },
+    {
+     "e": "avgjerande rolle i",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.87
+    },
+    {
+     "e": "det mogleg for",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.715
+    },
+    {
+     "e": "for å forbetre",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.715
+    },
+    {
+     "e": "for å sikre",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.715
+    },
+    {
+     "e": "å sikre at",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.715
+    },
+    {
+     "e": "kan føre til",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.715
+    },
+    {
+     "e": "i stand til",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.715
+    },
+    {
+     "e": "stand til å",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.715
+    },
+    {
+     "e": "samla sett er",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.715
+    },
+    {
+     "e": "for å skape",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.715
+    },
+    {
+     "e": "ei kjensle av",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.715
+    },
+    {
+     "e": "det er viktig",
+     "f_KI": 7,
+     "f_M": 1,
+     "logratio": 1.31
+    }
+   ],
+   "4": [
+    {
+     "e": "halde fram med å",
+     "f_KI": 12,
+     "f_M": 0,
+     "logratio": 2.488
+    },
+    {
+     "e": "å merke seg at",
+     "f_KI": 9,
+     "f_M": 0,
+     "logratio": 2.226
+    },
+    {
+     "e": "viktig å merke seg",
+     "f_KI": 8,
+     "f_M": 0,
+     "logratio": 2.121
+    },
+    {
+     "e": "det er viktig å",
+     "f_KI": 7,
+     "f_M": 0,
+     "logratio": 2.003
+    },
+    {
+     "e": "ei avgjerande rolle i",
+     "f_KI": 6,
+     "f_M": 0,
+     "logratio": 1.869
+    },
+    {
+     "e": "i stand til å",
+     "f_KI": 5,
+     "f_M": 0,
+     "logratio": 1.715
+    }
+   ]
+  }
+ }
+}

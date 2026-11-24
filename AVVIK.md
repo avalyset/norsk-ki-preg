@@ -73,3 +73,16 @@ Diagnose på train-shard-0025 (`skript/diag_nn.py`): av 179 rå nn-avsnitt 1990�
 - avsnitt over 200 ord kuttes ved siste setningsgrense før 200 ord (deretter gjelder kravene om ≥ 80 ord og ≥ 4 setninger)
 
 Strømmingen er satt til shards 0001–0008, ikke 0001–0024, fordi utbyttet nå er høyere. Kandidatsettet er alle treff i disse 8 shardene. Bokmål er uendret (0,90, ingen kutt, trukket før endringen). Følgen er at nynorsk-utvalget har mer OCR-støy og ordlistefremmede former enn bokmål.
+
+## B8 – Nynorsk-utvalget er skjevt i tid
+nn: 181 av 275 avsnitt er fra 1990–1994, og 15 er bøker. nb er fra 2000–2018 og bare aviser. Variantforskjeller i lista kan derfor blandes med tidsforskjeller (eldre nynorskformer i menneskereferansen).
+
+## B9 – NorMistral: én tekst mangler, én krasj
+- `nb-fortsettelse-112`: Ollama avbrøt tre ganger med «prediction aborted, token repeat limit reached». Det er en gjentakelsessløyfe, og med fast seed blir utfallet det samme hver gang. Teksten er utelatt, så nb T1 har 239 NorMistral-tekster.
+- Første kjøring stoppet på en ubehandlet feilrespons (samme type). Skriptet har nå tre forsøk og fortsetter så.
+- `nn-fortsettelse-125` lyktes på andre forsøk.
+
+## B10 – Tolkningsforbehold for liste_v1-nm
+- nn-referansen er mest fra 1990–1994 (B8). Lemmaer som `òg` (27/0) og `verte` (lavere hos KI) gjenspeiler trolig normskifte og ikke bare KI-preg.
+- Antislop-frasene er overflate-n-gram og filtrerer ikke egennavn. Derfor kommer «sogn og fjordane» med. Lemmalistene utelater PROPN og tall, slik PREREG sier.
+- NorMistral skriver noen ganger metakommentarer («den opphavlege teksten»). Slike treff er modellatferd, ikke norsk KI-stil.

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "./skript/lokal_b.py", line 21, in <module>
+    "tidspunkt": datetime.datetime.now().astimezone().isoformat(timespec="seconds"), "prompt": p, "tekst": r["message"]["content"].strip(),
+                                                                                                           ~^^^^^^^^^^^
+KeyError: 'message'

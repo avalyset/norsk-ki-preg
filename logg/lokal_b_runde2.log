@@ -1,0 +1,4 @@
+nb-fortsettelse-112 feil 0 {'error': 'prediction aborted, token repeat limit reached'}
+nb-fortsettelse-112 feil 1 {'error': 'prediction aborted, token repeat limit reached'}
+nb-fortsettelse-112 feil 2 {'error': 'prediction aborted, token repeat limit reached'}
+nn-fortsettelse-125 feil 0 {'error': 'prediction aborted, token repeat limit reached'}

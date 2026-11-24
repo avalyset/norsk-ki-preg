@@ -15,8 +15,12 @@ with open(ut_fil, "a") as ut:
         d = json.loads(l)
         if d["rolle"] == "val_menneske" or d["nr"] in ferdig: continue
         p, npred = prompt(d); t0 = time.time()
-        r = requests.post("http://localhost:11434/api/chat", json={"model": MODELL, "messages": [{"role": "user", "content": p}], "stream": False,
-            "options": {"seed": 2026, "num_predict": npred, "num_thread": 4}}, timeout=900).json()
+        for forsok in range(3):
+            r = requests.post("http://localhost:11434/api/chat", json={"model": MODELL, "messages": [{"role": "user", "content": p}], "stream": False,
+                "options": {"seed": 2026, "num_predict": npred, "num_thread": 4}}, timeout=900).json()
+            if "message" in r: break
+            print(d["nr"], "feil", forsok, r, file=sys.stderr, flush=True); time.sleep(20)
+        if "message" not in r: continue
         ut.write(json.dumps({"nr": d["nr"], "variant": V, "rolle": d["rolle"], "oppgave": d.get("oppgave", "T1 fortsettelse"), "modell": MODELL,
             "tidspunkt": datetime.datetime.now().astimezone().isoformat(timespec="seconds"), "prompt": p, "tekst": r["message"]["content"].strip(),
             "tokens_inn": r.get("prompt_eval_count"), "tokens_ut": r.get("eval_count"), "sekunder": round(time.time() - t0, 1)}, ensure_ascii=False) + "\n"); ut.flush()
