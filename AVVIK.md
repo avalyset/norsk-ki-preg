@@ -25,3 +25,24 @@ Språkrådets eksempler er nesten bare bokmål (vedlegg 1 er «hentet fra tre sa
 
 ## A8 – Språkrådet-PDF i repoet
 `kilder/sprakradet_2025.pdf` er lagt i det lokale repoet som revisjonsspor (sha256 73b84a52…). Fjern før eventuell publisering hvis gjenbruksvilkårene er uklare.
+
+## A9 – Delt kontekst i generering (kjent begrensning)
+Hver Claude-subagent fikk fem fortsettelsesoppgaver i én fil og skrev alle fem i samme kontekst. Fortsettelsene er dermed ikke helt uavhengige. Subagentene hadde også Claude Code sin systemprompt og verktøy, ikke en ren modellkontekst. Oppgaveteksten var ordrett lik planen. Rammen rundt (filsti og svarformat `===SVAR N===`) var nøytral og nevnte ikke studien.
+
+## A10 – Vask: ingen spørsmål tilbake, overskrifter på norsk
+SKILL.md ber Claude spørre skribenten om språket når teksten ikke er på engelsk eller spansk. Subagenten kan ikke spørre, så instruksen fikk tillegget «Du kan ikke stille spørsmål tilbake, så gjør jobben fullt ut». Ellers var instruksen den vanlige: «Fjern KI-preg fra denne teksten». Subagentene skrev seksjonsoverskriftene på norsk og uten `###` (Diagnose / Omskriving / Endringer|Endringar / Merknader|Notater). Uttrekket tar teksten mellom «Omskriving» (eller «Rewrite») og neste kjente overskrift. Alle 60 ble hentet ut. Råsvarene ligger i `data/vask_raa/`.
+
+## A11 – Hvilke KI-tekster som ble vasket
+Bare Claude-fortsettelser ble vasket: 20 per variant, trukket med seed 2026. De 10 menneskelige tekstene per variant ble trukket fra de 30 avsnittene som ikke var med i KI-utvalget. KI- og menneskelige tekster ble blandet i partier på 5, så vaskeren ikke visste hvilke som var hvilke. NorMistral-fortsettelsene er bare med i M1 og M4 («før vask»).
+
+## A12 – Lokal modell
+`hf.co/ltg/normistral-7b-warm-instruct:Q4_K_M`, serielt, `nice 19`, 4 tråder, seed 2026 og `num_predict` = 2,5 × ordtallet i første halvdel + 40. Ingen andre tunge prosesser kjørte. Lengden på fortsettelsene varierer mer enn hos Claude.
+
+## A13 – Tokentall
+Tokentallene er det CC-harnessen rapporterte per subagent (`subagent_tokens`). Hovedøkta er ikke målt.
+
+## A14 – OCR-støy i fasit
+Det er orddelingsfeil i den menneskelige teksten (for eksempel «spylevog nen», «Vi nes»). Det gir litt flere ord og påvirker trolig markørraten lite. M3 og M4 påvirkes mer. Vaskeren rettet slike feil i noen menneskelige tekster, og det blåser opp M3.
+
+## A15 – Fase B-terskel
+«≥ 20» i ekstrapoleringen er tolket som samlet frekvens (KI + menneske) per lemma, i samsvar med telleterskelen i M4.

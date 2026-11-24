@@ -1,0 +1,398 @@
+{
+ "modell": "intfloat/multilingual-e5-small@614241f6 (MIT)",
+ "prefiks": "query: ",
+ "per_tekst": [
+  {
+   "nr": "nb44",
+   "kilde": "menneske",
+   "variant": "nb",
+   "cos": 0.9802
+  },
+  {
+   "nr": "nb15",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 0.9942
+  },
+  {
+   "nr": "nb21",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 0.9988
+  },
+  {
+   "nr": "nb20",
+   "kilde": "menneske",
+   "variant": "nb",
+   "cos": 0.9817
+  },
+  {
+   "nr": "nb29",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 1.0
+  },
+  {
+   "nr": "nb48",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 0.9934
+  },
+  {
+   "nr": "nb32",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 1.0
+  },
+  {
+   "nr": "nb07",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 1.0
+  },
+  {
+   "nr": "nb08",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 1.0
+  },
+  {
+   "nr": "nb42",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 0.9913
+  },
+  {
+   "nr": "nb16",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 0.9971
+  },
+  {
+   "nr": "nb18",
+   "kilde": "menneske",
+   "variant": "nb",
+   "cos": 0.9836
+  },
+  {
+   "nr": "nb23",
+   "kilde": "menneske",
+   "variant": "nb",
+   "cos": 0.9886
+  },
+  {
+   "nr": "nb10",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 0.9993
+  },
+  {
+   "nr": "nb39",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 0.9992
+  },
+  {
+   "nr": "nb34",
+   "kilde": "menneske",
+   "variant": "nb",
+   "cos": 0.9837
+  },
+  {
+   "nr": "nb36",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 0.9991
+  },
+  {
+   "nr": "nb50",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 0.9905
+  },
+  {
+   "nr": "nb06",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 0.986
+  },
+  {
+   "nr": "nb05",
+   "kilde": "menneske",
+   "variant": "nb",
+   "cos": 0.9784
+  },
+  {
+   "nr": "nb27",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 1.0
+  },
+  {
+   "nr": "nb33",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 0.9882
+  },
+  {
+   "nr": "nb45",
+   "kilde": "menneske",
+   "variant": "nb",
+   "cos": 0.991
+  },
+  {
+   "nr": "nb01",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 1.0
+  },
+  {
+   "nr": "nb02",
+   "kilde": "menneske",
+   "variant": "nb",
+   "cos": 0.9804
+  },
+  {
+   "nr": "nb41",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 0.9955
+  },
+  {
+   "nr": "nb24",
+   "kilde": "menneske",
+   "variant": "nb",
+   "cos": 0.9781
+  },
+  {
+   "nr": "nb12",
+   "kilde": "menneske",
+   "variant": "nb",
+   "cos": 0.9936
+  },
+  {
+   "nr": "nb37",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 0.9929
+  },
+  {
+   "nr": "nb40",
+   "kilde": "claude",
+   "variant": "nb",
+   "cos": 0.9671
+  },
+  {
+   "nr": "nn15",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 1.0
+  },
+  {
+   "nr": "nn49",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 1.0
+  },
+  {
+   "nr": "nn48",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 1.0
+  },
+  {
+   "nr": "nn32",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 0.9956
+  },
+  {
+   "nr": "nn39",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 0.9979
+  },
+  {
+   "nr": "nn16",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 1.0
+  },
+  {
+   "nr": "nn28",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 1.0
+  },
+  {
+   "nr": "nn26",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 0.8407
+  },
+  {
+   "nr": "nn06",
+   "kilde": "menneske",
+   "variant": "nn",
+   "cos": 0.9925
+  },
+  {
+   "nr": "nn13",
+   "kilde": "menneske",
+   "variant": "nn",
+   "cos": 0.994
+  },
+  {
+   "nr": "nn17",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 1.0
+  },
+  {
+   "nr": "nn36",
+   "kilde": "menneske",
+   "variant": "nn",
+   "cos": 0.9952
+  },
+  {
+   "nr": "nn31",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 1.0
+  },
+  {
+   "nr": "nn33",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 0.9775
+  },
+  {
+   "nr": "nn23",
+   "kilde": "menneske",
+   "variant": "nn",
+   "cos": 0.9991
+  },
+  {
+   "nr": "nn08",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 0.9972
+  },
+  {
+   "nr": "nn29",
+   "kilde": "menneske",
+   "variant": "nn",
+   "cos": 0.9921
+  },
+  {
+   "nr": "nn40",
+   "kilde": "menneske",
+   "variant": "nn",
+   "cos": 0.9846
+  },
+  {
+   "nr": "nn34",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 0.9833
+  },
+  {
+   "nr": "nn02",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 1.0
+  },
+  {
+   "nr": "nn38",
+   "kilde": "menneske",
+   "variant": "nn",
+   "cos": 1.0
+  },
+  {
+   "nr": "nn09",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 0.9928
+  },
+  {
+   "nr": "nn04",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 1.0
+  },
+  {
+   "nr": "nn10",
+   "kilde": "menneske",
+   "variant": "nn",
+   "cos": 1.0
+  },
+  {
+   "nr": "nn47",
+   "kilde": "menneske",
+   "variant": "nn",
+   "cos": 0.9879
+  },
+  {
+   "nr": "nn37",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 1.0
+  },
+  {
+   "nr": "nn24",
+   "kilde": "menneske",
+   "variant": "nn",
+   "cos": 0.9986
+  },
+  {
+   "nr": "nn44",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 0.9879
+  },
+  {
+   "nr": "nn07",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 0.9995
+  },
+  {
+   "nr": "nn27",
+   "kilde": "claude",
+   "variant": "nn",
+   "cos": 0.9964
+  }
+ ],
+ "sammendrag": {
+  "nb|claude før→etter vask": {
+   "n": 20,
+   "snitt": 0.9946,
+   "min": 0.9671
+  },
+  "nb|menneske før→etter vask": {
+   "n": 10,
+   "snitt": 0.9839,
+   "min": 0.9781
+  },
+  "nb|referanse: fasit vs Claude-fortsettelse": {
+   "n": 50,
+   "snitt": 0.8778,
+   "min": 0.7793
+  },
+  "nn|claude før→etter vask": {
+   "n": 20,
+   "snitt": 0.9884,
+   "min": 0.8407
+  },
+  "nn|menneske før→etter vask": {
+   "n": 10,
+   "snitt": 0.9944,
+   "min": 0.9846
+  },
+  "nn|referanse: fasit vs Claude-fortsettelse": {
+   "n": 50,
+   "snitt": 0.8885,
+   "min": 0.8271
+  }
+ }
+}
