@@ -135,3 +135,26 @@ Før vask er raten 100,61 (KI) mot 99,62 (menneske) per 1000 ord i nb, altså R 
 
 ## B17 – Etter-validering: bare status og presiseringer endret
 Etter at regelen var anvendt, fikk `SKILL.md` en statuslinje, og i `liste_v1.md` ble sjangerforbeholdet presisert (nn har 15 bokavsnitt) og en setning rettet. `README.md` fikk oppdatert status. Ingen regel i skillen og ingen element i `liste_v1.json` er endret (sha256 336068c3…4c4a298f, uendret).
+
+# v1 (2026-11-27)
+
+## V1 – Wikipedia-dumpens dato står ikke i NCC-kortet
+NCC-kortet (`kilder/ncc/NCC_README.md`) oppgir lisensen ordrett som «| Wikipedia | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |» og «| opensubtitles, wikipedia | [CC BY-SA 3.0](…) |». Om datoer sier det bare «Build date original corpus: 21012022» og «Build data revised corpus: 10032025». **Kortet sier ikke når Wikipedia-dumpen ble tatt.** Alle 15 115 Wikipedia-dokumenter i validation har `publish_year` = 2021, som ifølge kortet er verdien når året er ukjent («When year is undetermined it is set to 2021»).
+
+Dumpen er derfor datert ut fra innholdet (`skript/v1_wiki_datering.py` → `data/v1/wiki_datering.json`):
+- Dokumenter som nevner årstallet: 2019 → 436, 2020 → 338, 2021 → 135, 2022 → 14 (nb). Tallene for 2022 ligger på nivå med fremtidige år (2023 → 16, 2028 → 6), og stikkprøver viser planlagte hendelser («planlagt åpning er i 2022», «innen 20. september 2022»).
+- Daterte omtaler av 2021 per måned (begge varianter): januar 14, februar 23, mars 25, april 20, mai 16, juni 9, juli 2, august 7.
+- 0 treff på «Regjeringen/Regjeringa Støre» (tiltrådt 14.10.2021), på invasjonen av Ukraina i 2022, på Elizabeth IIs død (08.09.2022) og på ChatGPT.
+
+Vurdering: dumpen er fra rundt sommeren 2021, og i alle fall før 14.10.2021. Det er godt før 30.11.2022. Oppgaven sa «stopp og rapporter» hvis datoen ikke kan dokumenteres. Den er dokumentert fra dataene, ikke fra kortet. **Jeg har fortsatt. Godtar ikke Eirik datering fra innhold, faller v1 bort.**
+
+## V2 – «Avsnitt» i Wikipedia-teksten
+NCC-teksten har ingen linjeskift, og hele artikkelen ligger på én linje med rester av markup («'''»). Et avsnitt er derfor definert som den innledende prosablokken før første liste (« * », « # ») eller overskrift («==»), kuttet ved siste setningsgrense ≤ 250 ord. «'''» og «''» fjernes. Ett avsnitt per artikkel.
+
+## V3 – Kjentordfilteret for nynorsk
+simplemma kjenner median 74 % av ordene i nynorsk Wikipedia. Med terskelen 0,85 ga nn bare 112 avsnitt. Terskelen er 0,70 for nn og 0,85 for nb. Wikipedia er ikke OCR, så filteret skal bare stoppe fremmedspråklig tekst. Utbytte: nb 1435, nn 773.
+
+## V4 – liste_v2: utvalg og lengde
+- KI-tekstene er alle T2-faktatekster fra fase B: 25 fritekst-emner og 10 tidligere valideringsemner per modell og variant, til sammen 35. De tidligere valideringsemnene ble brukt i v0-valideringen, men ikke til å bygge en liste.
+- Byggesettet er begrenset til avsnitt på minst 150 ord (nb 936, nn 480), fordi prevalens øker med tekstlengden og KI-tekstene er 150–250 ord. Median antall ord: KI 209/193 (nb Claude/NorMistral) og 214/172 (nn), Wikipedia 236/234.
+- Terskelen c ≥ 20 ga 475 elementer (nb) og 175 (nn), så den ble ikke senket.

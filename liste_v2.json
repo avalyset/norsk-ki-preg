@@ -1,0 +1,8485 @@
+{
+ "versjon": "v2",
+ "dato": "2026-11-27",
+ "regel": "T2 faktatekst (Claude+NorMistral, fase B) mot NCC Wikipedia-byggesett (>=150 ord); LPR>=ln2, c_KI+c_M>=20",
+ "terskel": 20,
+ "terskel_senket": false,
+ "inntak_ved_20": {
+  "nb": {
+   "lemma": 290,
+   "bigram": 165,
+   "trigram": 20
+  },
+  "nn": {
+   "lemma": 107,
+   "bigram": 64,
+   "trigram": 4
+  }
+ },
+ "varianter": {
+  "nb": {
+   "lemma": [
+    {
+     "e": "påvirke_VERB",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 18,
+     "claude_lpr": 1.258,
+     "claude_delta": 0.0379,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 18,
+     "lokal_lpr": 2.213,
+     "lokal_delta": 0.1522
+    },
+    {
+     "e": "spørsmål_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 5,
+     "claude_c_M": 18,
+     "claude_lpr": 2.046,
+     "claude_delta": 0.1236,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.845,
+     "lokal_delta": 0.0951
+    },
+    {
+     "e": "resultat_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 24,
+     "claude_lpr": 1.565,
+     "claude_delta": 0.0886,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 24,
+     "lokal_lpr": 1.932,
+     "lokal_delta": 0.1458
+    },
+    {
+     "e": "mulighet_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 5,
+     "claude_c_M": 33,
+     "claude_lpr": 1.452,
+     "claude_delta": 0.1076,
+     "lokal_c_KI": 8,
+     "lokal_c_M": 33,
+     "lokal_lpr": 1.888,
+     "lokal_delta": 0.1933
+    },
+    {
+     "e": "utvikling_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 30,
+     "claude_lpr": 1.094,
+     "claude_delta": 0.0537,
+     "lokal_c_KI": 7,
+     "lokal_c_M": 30,
+     "lokal_lpr": 1.856,
+     "lokal_delta": 0.1679
+    },
+    {
+     "e": "lære_VERB",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 5,
+     "claude_c_M": 22,
+     "claude_lpr": 1.85,
+     "claude_delta": 0.1194,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 22,
+     "lokal_lpr": 1.062,
+     "lokal_delta": 0.0336
+    },
+    {
+     "e": "oppgave_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 18,
+     "claude_lpr": 1.845,
+     "claude_delta": 0.0951,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.258,
+     "lokal_delta": 0.0379
+    },
+    {
+     "e": "hendelse_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 23,
+     "claude_lpr": 1.018,
+     "claude_delta": 0.0326,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 23,
+     "lokal_lpr": 1.807,
+     "lokal_delta": 0.1183
+    },
+    {
+     "e": "organisasjon_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 5,
+     "claude_c_M": 24,
+     "claude_lpr": 1.765,
+     "claude_delta": 0.1172,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 24,
+     "lokal_lpr": 0.977,
+     "lokal_delta": 0.0315
+    },
+    {
+     "e": "spiller_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 5,
+     "claude_c_M": 24,
+     "claude_lpr": 1.765,
+     "claude_delta": 0.1172,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 24,
+     "lokal_lpr": 0.977,
+     "lokal_delta": 0.0315
+    },
+    {
+     "e": "noen_PRON",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 7,
+     "claude_c_M": 33,
+     "claude_lpr": 1.763,
+     "claude_delta": 0.1647,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 33,
+     "lokal_lpr": 1.0,
+     "lokal_delta": 0.0505
+    },
+    {
+     "e": "bidra_VERB",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 38,
+     "claude_lpr": 0.861,
+     "claude_delta": 0.0451,
+     "lokal_c_KI": 8,
+     "lokal_c_M": 38,
+     "lokal_lpr": 1.749,
+     "lokal_delta": 0.188
+    },
+    {
+     "e": "bane_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 20,
+     "claude_lpr": 1.743,
+     "claude_delta": 0.0929,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 20,
+     "lokal_lpr": 1.155,
+     "lokal_delta": 0.0358
+    },
+    {
+     "e": "tjeneste_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 6,
+     "claude_c_M": 31,
+     "claude_lpr": 1.681,
+     "claude_delta": 0.1383,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 31,
+     "lokal_lpr": 1.062,
+     "lokal_delta": 0.0526
+    },
+    {
+     "e": "viktig_ADJ",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 14,
+     "claude_c_M": 111,
+     "claude_lpr": 1.219,
+     "claude_delta": 0.2814,
+     "lokal_c_KI": 22,
+     "lokal_c_M": 111,
+     "lokal_lpr": 1.659,
+     "lokal_delta": 0.51
+    },
+    {
+     "e": "selskap_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 19,
+     "claude_lpr": 1.542,
+     "claude_delta": 0.0654,
+     "lokal_c_KI": 1,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0083
+    },
+    {
+     "e": "rett_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 19,
+     "claude_lpr": 1.542,
+     "claude_delta": 0.0654,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 19,
+     "lokal_lpr": 1.205,
+     "lokal_delta": 0.0368
+    },
+    {
+     "e": "innsats_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 19,
+     "claude_lpr": 1.205,
+     "claude_delta": 0.0368,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 19,
+     "lokal_lpr": 1.542,
+     "lokal_delta": 0.0654
+    },
+    {
+     "e": "miljø_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 20,
+     "claude_lpr": 1.155,
+     "claude_delta": 0.0358,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 20,
+     "lokal_lpr": 1.492,
+     "lokal_delta": 0.0643
+    },
+    {
+     "e": "trenge_VERB",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 26,
+     "claude_lpr": 1.486,
+     "claude_delta": 0.0865,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 26,
+     "lokal_lpr": 1.235,
+     "lokal_delta": 0.0579
+    },
+    {
+     "e": "samfunn_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 32,
+     "claude_lpr": 1.031,
+     "claude_delta": 0.0515,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 32,
+     "lokal_lpr": 1.483,
+     "lokal_delta": 0.1087
+    },
+    {
+     "e": "hvis_SCONJ",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 7,
+     "claude_c_M": 44,
+     "claude_lpr": 1.479,
+     "claude_delta": 0.153,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 44,
+     "lokal_lpr": 1.335,
+     "lokal_delta": 0.1244
+    },
+    {
+     "e": "ansvar_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 27,
+     "claude_lpr": 1.449,
+     "claude_delta": 0.0854,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 27,
+     "lokal_lpr": 0.861,
+     "lokal_delta": 0.0283
+    },
+    {
+     "e": "eksempel_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 12,
+     "claude_c_M": 76,
+     "claude_lpr": 1.448,
+     "claude_delta": 0.2617,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 76,
+     "lokal_lpr": 0.794,
+     "lokal_delta": 0.0902
+    },
+    {
+     "e": "måte_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 54,
+     "claude_lpr": 0.765,
+     "claude_delta": 0.0566,
+     "lokal_c_KI": 8,
+     "lokal_c_M": 54,
+     "lokal_lpr": 1.401,
+     "lokal_delta": 0.1709
+    },
+    {
+     "e": "interesse_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 29,
+     "claude_lpr": 1.379,
+     "claude_delta": 0.0833,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 29,
+     "lokal_lpr": 0.791,
+     "lokal_delta": 0.0262
+    },
+    {
+     "e": "hjelpe_VERB",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 29,
+     "claude_lpr": 0.791,
+     "claude_delta": 0.0262,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 29,
+     "lokal_lpr": 1.379,
+     "lokal_delta": 0.0833
+    },
+    {
+     "e": "nå_VERB",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 29,
+     "claude_lpr": 0.791,
+     "claude_delta": 0.0262,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 29,
+     "lokal_lpr": 1.379,
+     "lokal_delta": 0.0833
+    },
+    {
+     "e": "forskjell_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 23,
+     "claude_lpr": 1.355,
+     "claude_delta": 0.0611,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 23,
+     "lokal_lpr": 1.018,
+     "lokal_delta": 0.0326
+    },
+    {
+     "e": "avhengig_ADJ",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 23,
+     "claude_lpr": 1.355,
+     "claude_delta": 0.0611,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 23,
+     "lokal_lpr": 1.018,
+     "lokal_delta": 0.0326
+    },
+    {
+     "e": "oppleve_VERB",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 24,
+     "claude_lpr": 1.313,
+     "claude_delta": 0.0601,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 24,
+     "lokal_lpr": 1.313,
+     "lokal_delta": 0.0601
+    },
+    {
+     "e": "rolle_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 32,
+     "claude_lpr": 1.282,
+     "claude_delta": 0.0801,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 32,
+     "lokal_lpr": 1.282,
+     "lokal_delta": 0.0801
+    },
+    {
+     "e": "økonomisk_ADJ",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 32,
+     "claude_lpr": 1.031,
+     "claude_delta": 0.0515,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 32,
+     "lokal_lpr": 1.282,
+     "lokal_delta": 0.0801
+    },
+    {
+     "e": "samling_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 18,
+     "claude_lpr": 1.258,
+     "claude_delta": 0.0379,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.258,
+     "lokal_delta": 0.0379
+    },
+    {
+     "e": "øke_ADJ",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 18,
+     "claude_lpr": 1.258,
+     "claude_delta": 0.0379,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.258,
+     "lokal_delta": 0.0379
+    },
+    {
+     "e": "lokal_ADJ",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 7,
+     "claude_c_M": 60,
+     "claude_lpr": 1.171,
+     "claude_delta": 0.1359,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 60,
+     "lokal_lpr": 0.861,
+     "lokal_delta": 0.0788
+    },
+    {
+     "e": "på_ADV",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 52,
+     "claude_lpr": 0.802,
+     "claude_delta": 0.0587,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 52,
+     "lokal_lpr": 1.17,
+     "lokal_delta": 0.1159
+    },
+    {
+     "e": "møte_VERB",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 36,
+     "claude_lpr": 1.166,
+     "claude_delta": 0.0758,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 36,
+     "lokal_lpr": 0.915,
+     "lokal_delta": 0.0473
+    },
+    {
+     "e": "søke_VERB",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 29,
+     "claude_lpr": 1.128,
+     "claude_delta": 0.0547,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 29,
+     "lokal_lpr": 0.791,
+     "lokal_delta": 0.0262
+    },
+    {
+     "e": "politikk_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 21,
+     "claude_lpr": 1.107,
+     "claude_delta": 0.0347,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 21,
+     "lokal_lpr": 1.107,
+     "lokal_delta": 0.0347
+    },
+    {
+     "e": "markere_VERB",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 21,
+     "claude_lpr": 1.107,
+     "claude_delta": 0.0347,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 21,
+     "lokal_lpr": 1.107,
+     "lokal_delta": 0.0347
+    },
+    {
+     "e": "lag_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 5,
+     "claude_c_M": 56,
+     "claude_lpr": 0.93,
+     "claude_delta": 0.083,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 56,
+     "lokal_lpr": 1.097,
+     "lokal_delta": 0.1116
+    },
+    {
+     "e": "fysisk_ADJ",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 22,
+     "claude_lpr": 1.062,
+     "claude_delta": 0.0336,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 22,
+     "lokal_lpr": 1.062,
+     "lokal_delta": 0.0336
+    },
+    {
+     "e": "fly_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 22,
+     "claude_lpr": 1.062,
+     "claude_delta": 0.0336,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 22,
+     "lokal_lpr": 1.062,
+     "lokal_delta": 0.0336
+    },
+    {
+     "e": "endring_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 23,
+     "claude_lpr": 1.018,
+     "claude_delta": 0.0326,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 23,
+     "lokal_lpr": 1.018,
+     "lokal_delta": 0.0326
+    },
+    {
+     "e": "person_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 7,
+     "claude_c_M": 89,
+     "claude_lpr": 0.78,
+     "claude_delta": 0.1049,
+     "lokal_c_KI": 9,
+     "lokal_c_M": 89,
+     "lokal_lpr": 1.016,
+     "lokal_delta": 0.1621
+    },
+    {
+     "e": "direkte_ADJ",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 24,
+     "claude_lpr": 0.977,
+     "claude_delta": 0.0315,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 24,
+     "lokal_lpr": 0.977,
+     "lokal_delta": 0.0315
+    },
+    {
+     "e": "oppstå_VERB",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 36,
+     "claude_lpr": 0.915,
+     "claude_delta": 0.0473,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 36,
+     "lokal_lpr": 0.915,
+     "lokal_delta": 0.0473
+    },
+    {
+     "e": "hard_ADJ",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 27,
+     "claude_lpr": 0.861,
+     "claude_delta": 0.0283,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 27,
+     "lokal_lpr": 0.861,
+     "lokal_delta": 0.0283
+    },
+    {
+     "e": "kilde_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 30,
+     "claude_lpr": 0.758,
+     "claude_delta": 0.0251,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 30,
+     "lokal_lpr": 0.758,
+     "lokal_delta": 0.0251
+    },
+    {
+     "e": "måned_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 31,
+     "claude_lpr": 0.725,
+     "claude_delta": 0.024,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 31,
+     "lokal_lpr": 0.725,
+     "lokal_delta": 0.024
+    },
+    {
+     "e": "beskrive_VERB",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 44,
+     "claude_lpr": 0.716,
+     "claude_delta": 0.0387,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 44,
+     "lokal_lpr": 0.716,
+     "lokal_delta": 0.0387
+    },
+    {
+     "e": "formell_ADJ",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 1,
+     "claude_c_M": 19,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0083,
+     "lokal_c_KI": 1,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0083
+    },
+    {
+     "e": "ren_ADJ",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 1,
+     "claude_c_M": 19,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0083,
+     "lokal_c_KI": 1,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0083
+    },
+    {
+     "e": "merke_VERB",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 15,
+     "lokal_c_M": 10,
+     "lokal_lpr": 3.649,
+     "lokal_delta": 0.4179
+    },
+    {
+     "e": "situasjon_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 7,
+     "lokal_c_M": 13,
+     "lokal_lpr": 2.671,
+     "lokal_delta": 0.1861
+    },
+    {
+     "e": "suksess_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 15,
+     "lokal_lpr": 2.39,
+     "lokal_delta": 0.1554
+    },
+    {
+     "e": "frivillig_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 16,
+     "claude_lpr": 2.328,
+     "claude_delta": 0.1543
+    },
+    {
+     "e": "alvorlig_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 15,
+     "claude_lpr": 2.223,
+     "claude_delta": 0.1268
+    },
+    {
+     "e": "fotball_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 15,
+     "claude_lpr": 2.223,
+     "claude_delta": 0.1268
+    },
+    {
+     "e": "måle_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 18,
+     "claude_lpr": 2.046,
+     "claude_delta": 0.1236
+    },
+    {
+     "e": "burde_AUX",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 18,
+     "claude_lpr": 2.046,
+     "claude_delta": 0.1236
+    },
+    {
+     "e": "hvilken_DET",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 25,
+     "claude_lpr": 2.035,
+     "claude_delta": 0.1733
+    },
+    {
+     "e": "inkludere_VERB",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 9,
+     "lokal_c_M": 32,
+     "lokal_lpr": 2.029,
+     "lokal_delta": 0.223
+    },
+    {
+     "e": "vanskelig_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 10,
+     "claude_c_M": 36,
+     "claude_lpr": 2.013,
+     "claude_delta": 0.2473
+    },
+    {
+     "e": "anerkjenne_VERB",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 16,
+     "lokal_lpr": 1.96,
+     "lokal_delta": 0.0972
+    },
+    {
+     "e": "personlig_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 17,
+     "lokal_lpr": 1.901,
+     "lokal_delta": 0.0961
+    },
+    {
+     "e": "årsak_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 21,
+     "lokal_lpr": 1.896,
+     "lokal_delta": 0.1204
+    },
+    {
+     "e": "klubb_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 25,
+     "claude_lpr": 1.892,
+     "claude_delta": 0.1447
+    },
+    {
+     "e": "likevel_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 33,
+     "claude_lpr": 1.888,
+     "claude_delta": 0.1933
+    },
+    {
+     "e": "gjelde_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 34,
+     "claude_lpr": 1.858,
+     "claude_delta": 0.1922
+    },
+    {
+     "e": "bety_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 13,
+     "claude_c_M": 55,
+     "claude_lpr": 1.845,
+     "claude_delta": 0.3127
+    },
+    {
+     "e": "nivå_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 18,
+     "claude_lpr": 1.845,
+     "claude_delta": 0.0951
+    },
+    {
+     "e": "kommune_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 14,
+     "claude_c_M": 66,
+     "claude_lpr": 1.736,
+     "claude_delta": 0.3295
+    },
+    {
+     "e": "hvordan_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 35,
+     "claude_lpr": 1.705,
+     "claude_delta": 0.1626
+    },
+    {
+     "e": "aktivitet_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 21,
+     "claude_lpr": 1.695,
+     "claude_delta": 0.0918
+    },
+    {
+     "e": "svak_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 17,
+     "claude_lpr": 1.65,
+     "claude_delta": 0.0676
+    },
+    {
+     "e": "full_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 17,
+     "claude_lpr": 1.65,
+     "claude_delta": 0.0676
+    },
+    {
+     "e": "gjerne_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 11,
+     "claude_c_M": 57,
+     "claude_lpr": 1.65,
+     "claude_delta": 0.2534
+    },
+    {
+     "e": "du_PRON",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 22,
+     "lokal_lpr": 1.65,
+     "lokal_delta": 0.0908
+    },
+    {
+     "e": "tillate_VERB",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 17,
+     "lokal_lpr": 1.65,
+     "lokal_delta": 0.0676
+    },
+    {
+     "e": "tilbake_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 28,
+     "claude_lpr": 1.614,
+     "claude_delta": 0.1129
+    },
+    {
+     "e": "dessuten_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 23,
+     "claude_lpr": 1.606,
+     "claude_delta": 0.0897
+    },
+    {
+     "e": "avstand_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 23,
+     "claude_lpr": 1.606,
+     "claude_delta": 0.0897
+    },
+    {
+     "e": "betydelig_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 8,
+     "lokal_c_M": 44,
+     "lokal_lpr": 1.604,
+     "lokal_delta": 0.1816
+    },
+    {
+     "e": "derfor_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 19,
+     "claude_c_M": 102,
+     "claude_lpr": 1.6,
+     "claude_delta": 0.4339
+    },
+    {
+     "e": "tung_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 18,
+     "claude_lpr": 1.594,
+     "claude_delta": 0.0665
+    },
+    {
+     "e": "referere_VERB",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.594,
+     "lokal_delta": 0.0665
+    },
+    {
+     "e": "informasjon_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.594,
+     "lokal_delta": 0.0665
+    },
+    {
+     "e": "imidlertid_ADV",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 13,
+     "lokal_c_M": 72,
+     "lokal_lpr": 1.578,
+     "lokal_delta": 0.2945
+    },
+    {
+     "e": "jobb_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 24,
+     "claude_lpr": 1.565,
+     "claude_delta": 0.0886
+    },
+    {
+     "e": "sak_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 35,
+     "claude_lpr": 1.561,
+     "claude_delta": 0.134
+    },
+    {
+     "e": "folk_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 46,
+     "claude_lpr": 1.56,
+     "claude_delta": 0.1794
+    },
+    {
+     "e": "hva_PRON",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 41,
+     "claude_lpr": 1.548,
+     "claude_delta": 0.1562
+    },
+    {
+     "e": "snakke_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 19,
+     "claude_lpr": 1.542,
+     "claude_delta": 0.0654
+    },
+    {
+     "e": "dyp_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 19,
+     "lokal_lpr": 1.542,
+     "lokal_delta": 0.0654
+    },
+    {
+     "e": "vanlig_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 14,
+     "claude_c_M": 81,
+     "claude_lpr": 1.533,
+     "claude_delta": 0.3135
+    },
+    {
+     "e": "ansatt_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 25,
+     "claude_lpr": 1.525,
+     "claude_delta": 0.0876
+    },
+    {
+     "e": "slik_DET",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 10,
+     "claude_c_M": 59,
+     "claude_lpr": 1.525,
+     "claude_delta": 0.2227
+    },
+    {
+     "e": "oppnå_VERB",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 31,
+     "lokal_lpr": 1.514,
+     "lokal_delta": 0.1097
+    },
+    {
+     "e": "offentlig_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 43,
+     "claude_lpr": 1.501,
+     "claude_delta": 0.1541
+    },
+    {
+     "e": "heller_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 20,
+     "claude_lpr": 1.492,
+     "claude_delta": 0.0643
+    },
+    {
+     "e": "politi_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 20,
+     "claude_lpr": 1.492,
+     "claude_delta": 0.0643
+    },
+    {
+     "e": "unngå_VERB",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 20,
+     "lokal_lpr": 1.492,
+     "lokal_delta": 0.0643
+    },
+    {
+     "e": "generell_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 20,
+     "lokal_lpr": 1.492,
+     "lokal_delta": 0.0643
+    },
+    {
+     "e": "sesong_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 32,
+     "claude_lpr": 1.483,
+     "claude_delta": 0.1087
+    },
+    {
+     "e": "innbygger_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 39,
+     "claude_lpr": 1.455,
+     "claude_delta": 0.1298
+    },
+    {
+     "e": "fordi_SCONJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 11,
+     "claude_c_M": 70,
+     "claude_lpr": 1.446,
+     "claude_delta": 0.2395
+    },
+    {
+     "e": "samarbeid_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 21,
+     "claude_lpr": 1.444,
+     "claude_delta": 0.0633
+    },
+    {
+     "e": "øke_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 28,
+     "claude_lpr": 1.413,
+     "claude_delta": 0.0844
+    },
+    {
+     "e": "alltid_ADV",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 28,
+     "lokal_lpr": 1.413,
+     "lokal_delta": 0.0844
+    },
+    {
+     "e": "stat_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 35,
+     "claude_lpr": 1.394,
+     "claude_delta": 0.1055
+    },
+    {
+     "e": "ettersom_SCONJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 35,
+     "lokal_lpr": 1.394,
+     "lokal_delta": 0.1055
+    },
+    {
+     "e": "ofte_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 24,
+     "claude_c_M": 158,
+     "claude_lpr": 1.392,
+     "claude_delta": 0.5169
+    },
+    {
+     "e": "valg_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 29,
+     "claude_lpr": 1.379,
+     "claude_delta": 0.0833
+    },
+    {
+     "e": "problem_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 29,
+     "lokal_lpr": 1.379,
+     "lokal_delta": 0.0833
+    },
+    {
+     "e": "tilfelle_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 29,
+     "lokal_lpr": 1.379,
+     "lokal_delta": 0.0833
+    },
+    {
+     "e": "regel_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 49,
+     "claude_lpr": 1.372,
+     "claude_delta": 0.1476
+    },
+    {
+     "e": "når_SCONJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 18,
+     "claude_c_M": 123,
+     "claude_lpr": 1.361,
+     "claude_delta": 0.3829
+    },
+    {
+     "e": "fast_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 43,
+     "claude_lpr": 1.358,
+     "claude_delta": 0.1255
+    },
+    {
+     "e": "fylke_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 23,
+     "claude_lpr": 1.355,
+     "claude_delta": 0.0611
+    },
+    {
+     "e": "krav_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 37,
+     "claude_lpr": 1.34,
+     "claude_delta": 0.1033
+    },
+    {
+     "e": "mene_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 51,
+     "claude_lpr": 1.332,
+     "claude_delta": 0.1455
+    },
+    {
+     "e": "egentlig_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 24,
+     "claude_lpr": 1.313,
+     "claude_delta": 0.0601
+    },
+    {
+     "e": "bestemme_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 46,
+     "claude_lpr": 1.292,
+     "claude_delta": 0.1223
+    },
+    {
+     "e": "med_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 32,
+     "claude_lpr": 1.282,
+     "claude_delta": 0.0801
+    },
+    {
+     "e": "historisk_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 32,
+     "lokal_lpr": 1.282,
+     "lokal_delta": 0.0801
+    },
+    {
+     "e": "sosial_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 25,
+     "claude_lpr": 1.273,
+     "claude_delta": 0.059
+    },
+    {
+     "e": "dette_DET",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 13,
+     "lokal_c_M": 98,
+     "lokal_lpr": 1.272,
+     "lokal_delta": 0.2667
+    },
+    {
+     "e": "vanligvis_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 62,
+     "claude_lpr": 1.264,
+     "claude_delta": 0.1623
+    },
+    {
+     "e": "betale_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 18,
+     "claude_lpr": 1.258,
+     "claude_delta": 0.0379
+    },
+    {
+     "e": "minutt_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 18,
+     "claude_lpr": 1.258,
+     "claude_delta": 0.0379
+    },
+    {
+     "e": "beholde_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 18,
+     "claude_lpr": 1.258,
+     "claude_delta": 0.0379
+    },
+    {
+     "e": "tradisjon_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 18,
+     "claude_lpr": 1.258,
+     "claude_delta": 0.0379
+    },
+    {
+     "e": "trafikk_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 18,
+     "claude_lpr": 1.258,
+     "claude_delta": 0.0379
+    },
+    {
+     "e": "sykdom_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 18,
+     "claude_lpr": 1.258,
+     "claude_delta": 0.0379
+    },
+    {
+     "e": "tydelig_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.258,
+     "lokal_delta": 0.0379
+    },
+    {
+     "e": "tanke_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.258,
+     "lokal_delta": 0.0379
+    },
+    {
+     "e": "fylle_VERB",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.258,
+     "lokal_delta": 0.0379
+    },
+    {
+     "e": "vedta_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 26,
+     "claude_lpr": 1.235,
+     "claude_delta": 0.0579
+    },
+    {
+     "e": "viss_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 26,
+     "lokal_lpr": 1.235,
+     "lokal_delta": 0.0579
+    },
+    {
+     "e": "samtidig_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 64,
+     "claude_lpr": 1.233,
+     "claude_delta": 0.1602
+    },
+    {
+     "e": "fungere_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 34,
+     "claude_lpr": 1.222,
+     "claude_delta": 0.078
+    },
+    {
+     "e": "få_AUX",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 65,
+     "claude_lpr": 1.217,
+     "claude_delta": 0.1591
+    },
+    {
+     "e": "endre_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 42,
+     "claude_lpr": 1.214,
+     "claude_delta": 0.098
+    },
+    {
+     "e": "forsker_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 19,
+     "claude_lpr": 1.205,
+     "claude_delta": 0.0368
+    },
+    {
+     "e": "sentrum_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 19,
+     "claude_lpr": 1.205,
+     "claude_delta": 0.0368
+    },
+    {
+     "e": "bestemt_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 19,
+     "claude_lpr": 1.205,
+     "claude_delta": 0.0368
+    },
+    {
+     "e": "eiendom_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 19,
+     "lokal_lpr": 1.205,
+     "lokal_delta": 0.0368
+    },
+    {
+     "e": "handle_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 27,
+     "claude_lpr": 1.198,
+     "claude_delta": 0.0569
+    },
+    {
+     "e": "miste_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 27,
+     "claude_lpr": 1.198,
+     "claude_delta": 0.0569
+    },
+    {
+     "e": "høre_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 44,
+     "claude_lpr": 1.168,
+     "claude_delta": 0.0958
+    },
+    {
+     "e": "språk_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 36,
+     "claude_lpr": 1.166,
+     "claude_delta": 0.0758
+    },
+    {
+     "e": "bilde_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 28,
+     "claude_lpr": 1.162,
+     "claude_delta": 0.0558
+    },
+    {
+     "e": "redusere_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 20,
+     "claude_lpr": 1.155,
+     "claude_delta": 0.0358
+    },
+    {
+     "e": "neste_DET",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 20,
+     "claude_lpr": 1.155,
+     "claude_delta": 0.0358
+    },
+    {
+     "e": "alder_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 20,
+     "claude_lpr": 1.155,
+     "claude_delta": 0.0358
+    },
+    {
+     "e": "region_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 20,
+     "lokal_lpr": 1.155,
+     "lokal_delta": 0.0358
+    },
+    {
+     "e": "vise_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 12,
+     "claude_c_M": 103,
+     "claude_lpr": 1.145,
+     "claude_delta": 0.2328
+    },
+    {
+     "e": "befolkning_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 37,
+     "claude_lpr": 1.139,
+     "claude_delta": 0.0748
+    },
+    {
+     "e": "parti_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 37,
+     "claude_lpr": 1.139,
+     "claude_delta": 0.0748
+    },
+    {
+     "e": "plass_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 37,
+     "claude_lpr": 1.139,
+     "claude_delta": 0.0748
+    },
+    {
+     "e": "kraft_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 29,
+     "claude_lpr": 1.128,
+     "claude_delta": 0.0547
+    },
+    {
+     "e": "nok_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 29,
+     "claude_lpr": 1.128,
+     "claude_delta": 0.0547
+    },
+    {
+     "e": "politiker_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 29,
+     "claude_lpr": 1.128,
+     "claude_delta": 0.0547
+    },
+    {
+     "e": "deres_PRON",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 9,
+     "lokal_c_M": 81,
+     "lokal_lpr": 1.11,
+     "lokal_delta": 0.1706
+    },
+    {
+     "e": "slutte_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 21,
+     "claude_lpr": 1.107,
+     "claude_delta": 0.0347
+    },
+    {
+     "e": "besøke_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 21,
+     "claude_lpr": 1.107,
+     "claude_delta": 0.0347
+    },
+    {
+     "e": "så_CCONJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 21,
+     "claude_lpr": 1.107,
+     "claude_delta": 0.0347
+    },
+    {
+     "e": "forekomme_VERB",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 21,
+     "lokal_lpr": 1.107,
+     "lokal_delta": 0.0347
+    },
+    {
+     "e": "total_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 21,
+     "lokal_lpr": 1.107,
+     "lokal_delta": 0.0347
+    },
+    {
+     "e": "behov_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 21,
+     "lokal_lpr": 1.107,
+     "lokal_delta": 0.0347
+    },
+    {
+     "e": "kultur_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 21,
+     "lokal_lpr": 1.107,
+     "lokal_delta": 0.0347
+    },
+    {
+     "e": "noe_PRON",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 13,
+     "lokal_c_M": 116,
+     "lokal_lpr": 1.104,
+     "lokal_delta": 0.2475
+    },
+    {
+     "e": "plan_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 30,
+     "claude_lpr": 1.094,
+     "claude_delta": 0.0537
+    },
+    {
+     "e": "følge_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 65,
+     "claude_lpr": 1.092,
+     "claude_delta": 0.1306
+    },
+    {
+     "e": "si_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 74,
+     "claude_lpr": 1.088,
+     "claude_delta": 0.1495
+    },
+    {
+     "e": "kvinne_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 49,
+     "claude_lpr": 1.062,
+     "claude_delta": 0.0905
+    },
+    {
+     "e": "drift_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 31,
+     "claude_lpr": 1.062,
+     "claude_delta": 0.0526
+    },
+    {
+     "e": "lav_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 49,
+     "claude_lpr": 1.062,
+     "claude_delta": 0.0905
+    },
+    {
+     "e": "kilometer_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 22,
+     "claude_lpr": 1.062,
+     "claude_delta": 0.0336
+    },
+    {
+     "e": "inngå_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 22,
+     "claude_lpr": 1.062,
+     "claude_delta": 0.0336
+    },
+    {
+     "e": "nåværende_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 22,
+     "lokal_lpr": 1.062,
+     "lokal_delta": 0.0336
+    },
+    {
+     "e": "legge_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 10,
+     "claude_c_M": 95,
+     "claude_lpr": 1.051,
+     "claude_delta": 0.1842
+    },
+    {
+     "e": "begge_DET",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 41,
+     "claude_lpr": 1.038,
+     "claude_delta": 0.0705
+    },
+    {
+     "e": "egen_DET",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 11,
+     "claude_c_M": 106,
+     "claude_lpr": 1.033,
+     "claude_delta": 0.201
+    },
+    {
+     "e": "fremre_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 32,
+     "claude_lpr": 1.031,
+     "claude_delta": 0.0515
+    },
+    {
+     "e": "ifølge_ADP",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 32,
+     "lokal_lpr": 1.031,
+     "lokal_delta": 0.0515
+    },
+    {
+     "e": "skole_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 51,
+     "claude_lpr": 1.022,
+     "claude_delta": 0.0884
+    },
+    {
+     "e": "hav_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 23,
+     "claude_lpr": 1.018,
+     "claude_delta": 0.0326
+    },
+    {
+     "e": "avtale_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 23,
+     "claude_lpr": 1.018,
+     "claude_delta": 0.0326
+    },
+    {
+     "e": "hovedsak_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 23,
+     "claude_lpr": 1.018,
+     "claude_delta": 0.0326
+    },
+    {
+     "e": "alle_PRON",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 33,
+     "claude_lpr": 1.0,
+     "claude_delta": 0.0505
+    },
+    {
+     "e": "støtte_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 33,
+     "claude_lpr": 1.0,
+     "claude_delta": 0.0505
+    },
+    {
+     "e": "hverandre_PRON",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 33,
+     "claude_lpr": 1.0,
+     "claude_delta": 0.0505
+    },
+    {
+     "e": "regne_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 81,
+     "claude_lpr": 0.999,
+     "claude_delta": 0.142
+    },
+    {
+     "e": "god_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 20,
+     "claude_c_M": 197,
+     "claude_lpr": 0.994,
+     "claude_delta": 0.361
+    },
+    {
+     "e": "hente_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 24,
+     "claude_lpr": 0.977,
+     "claude_delta": 0.0315
+    },
+    {
+     "e": "time_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 24,
+     "claude_lpr": 0.977,
+     "claude_delta": 0.0315
+    },
+    {
+     "e": "populær_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 24,
+     "claude_lpr": 0.977,
+     "claude_delta": 0.0315
+    },
+    {
+     "e": "kontroll_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 24,
+     "claude_lpr": 0.977,
+     "claude_delta": 0.0315
+    },
+    {
+     "e": "styre_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 24,
+     "claude_lpr": 0.977,
+     "claude_delta": 0.0315
+    },
+    {
+     "e": "myndighet_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 24,
+     "claude_lpr": 0.977,
+     "claude_delta": 0.0315
+    },
+    {
+     "e": "støtte_VERB",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 24,
+     "lokal_lpr": 0.977,
+     "lokal_delta": 0.0315
+    },
+    {
+     "e": "lignende_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 24,
+     "lokal_lpr": 0.977,
+     "lokal_delta": 0.0315
+    },
+    {
+     "e": "rask_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 34,
+     "claude_lpr": 0.971,
+     "claude_delta": 0.0494
+    },
+    {
+     "e": "sammenheng_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 34,
+     "lokal_lpr": 0.971,
+     "lokal_delta": 0.0494
+    },
+    {
+     "e": "ung_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 74,
+     "claude_lpr": 0.963,
+     "claude_delta": 0.1209
+    },
+    {
+     "e": "til_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 74,
+     "claude_lpr": 0.963,
+     "claude_delta": 0.1209
+    },
+    {
+     "e": "sette_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 10,
+     "claude_c_M": 104,
+     "claude_lpr": 0.961,
+     "claude_delta": 0.1746
+    },
+    {
+     "e": "gi_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 20,
+     "claude_c_M": 204,
+     "claude_lpr": 0.959,
+     "claude_delta": 0.3535
+    },
+    {
+     "e": "klar_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 35,
+     "claude_lpr": 0.942,
+     "claude_delta": 0.0483
+    },
+    {
+     "e": "betydning_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 35,
+     "lokal_lpr": 0.942,
+     "lokal_delta": 0.0483
+    },
+    {
+     "e": "vare_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 25,
+     "claude_lpr": 0.937,
+     "claude_delta": 0.0304
+    },
+    {
+     "e": "tekst_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 25,
+     "claude_lpr": 0.937,
+     "claude_delta": 0.0304
+    },
+    {
+     "e": "representant_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 25,
+     "lokal_lpr": 0.937,
+     "lokal_delta": 0.0304
+    },
+    {
+     "e": "spesiell_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 66,
+     "lokal_lpr": 0.934,
+     "lokal_delta": 0.1009
+    },
+    {
+     "e": "stille_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 36,
+     "claude_lpr": 0.915,
+     "claude_delta": 0.0473
+    },
+    {
+     "e": "mål_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 47,
+     "lokal_lpr": 0.903,
+     "lokal_delta": 0.0641
+    },
+    {
+     "e": "styrke_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 47,
+     "lokal_lpr": 0.903,
+     "lokal_delta": 0.0641
+    },
+    {
+     "e": "skape_VERB",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 47,
+     "lokal_lpr": 0.903,
+     "lokal_delta": 0.0641
+    },
+    {
+     "e": "foregå_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 26,
+     "claude_lpr": 0.898,
+     "claude_delta": 0.0294
+    },
+    {
+     "e": "tross_ADP",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 37,
+     "lokal_lpr": 0.888,
+     "lokal_delta": 0.0462
+    },
+    {
+     "e": "kort_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 70,
+     "claude_lpr": 0.875,
+     "claude_delta": 0.0966
+    },
+    {
+     "e": "side_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 92,
+     "claude_lpr": 0.872,
+     "claude_delta": 0.1303
+    },
+    {
+     "e": "penge_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 27,
+     "claude_lpr": 0.861,
+     "claude_delta": 0.0283
+    },
+    {
+     "e": "kraftig_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 38,
+     "claude_lpr": 0.861,
+     "claude_delta": 0.0451
+    },
+    {
+     "e": "sitte_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 27,
+     "claude_lpr": 0.861,
+     "claude_delta": 0.0283
+    },
+    {
+     "e": "jord_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 27,
+     "claude_lpr": 0.861,
+     "claude_delta": 0.0283
+    },
+    {
+     "e": "prøve_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 27,
+     "claude_lpr": 0.861,
+     "claude_delta": 0.0283
+    },
+    {
+     "e": "trekke_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 38,
+     "claude_lpr": 0.861,
+     "claude_delta": 0.0451
+    },
+    {
+     "e": "kyst_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 27,
+     "claude_lpr": 0.861,
+     "claude_delta": 0.0283
+    },
+    {
+     "e": "denne_DET",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 20,
+     "lokal_c_M": 225,
+     "lokal_lpr": 0.861,
+     "lokal_delta": 0.331
+    },
+    {
+     "e": "ulik_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 7,
+     "lokal_c_M": 82,
+     "lokal_lpr": 0.861,
+     "lokal_delta": 0.1124
+    },
+    {
+     "e": "liv_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 7,
+     "lokal_c_M": 82,
+     "lokal_lpr": 0.861,
+     "lokal_delta": 0.1124
+    },
+    {
+     "e": "føre_VERB",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 10,
+     "lokal_c_M": 116,
+     "lokal_lpr": 0.853,
+     "lokal_delta": 0.1618
+    },
+    {
+     "e": "lite_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 61,
+     "claude_lpr": 0.845,
+     "claude_delta": 0.0777
+    },
+    {
+     "e": "samle_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 39,
+     "claude_lpr": 0.836,
+     "claude_delta": 0.044
+    },
+    {
+     "e": "grense_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 39,
+     "claude_lpr": 0.836,
+     "claude_delta": 0.044
+    },
+    {
+     "e": "både_CCONJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 12,
+     "claude_c_M": 141,
+     "claude_lpr": 0.833,
+     "claude_delta": 0.1922
+    },
+    {
+     "e": "bruk_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 85,
+     "claude_lpr": 0.826,
+     "claude_delta": 0.1092
+    },
+    {
+     "e": "lenge_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 85,
+     "claude_lpr": 0.826,
+     "claude_delta": 0.1092
+    },
+    {
+     "e": "uttrykk_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 28,
+     "claude_lpr": 0.826,
+     "claude_delta": 0.0272
+    },
+    {
+     "e": "grunnlag_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 28,
+     "claude_lpr": 0.826,
+     "claude_delta": 0.0272
+    },
+    {
+     "e": "drive_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 51,
+     "claude_lpr": 0.822,
+     "claude_delta": 0.0598
+    },
+    {
+     "e": "inn_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 86,
+     "claude_lpr": 0.814,
+     "claude_delta": 0.1081
+    },
+    {
+     "e": "regjering_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 40,
+     "claude_lpr": 0.811,
+     "claude_delta": 0.043
+    },
+    {
+     "e": "fortsatt_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 40,
+     "claude_lpr": 0.811,
+     "claude_delta": 0.043
+    },
+    {
+     "e": "øvre_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 29,
+     "claude_lpr": 0.791,
+     "claude_delta": 0.0262
+    },
+    {
+     "e": "snar_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 29,
+     "lokal_lpr": 0.791,
+     "lokal_delta": 0.0262
+    },
+    {
+     "e": "system_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 29,
+     "lokal_lpr": 0.791,
+     "lokal_delta": 0.0262
+    },
+    {
+     "e": "blant_ADP",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 16,
+     "claude_c_M": 195,
+     "claude_lpr": 0.787,
+     "claude_delta": 0.2488
+    },
+    {
+     "e": "vokse_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 53,
+     "claude_lpr": 0.784,
+     "claude_delta": 0.0577
+    },
+    {
+     "e": "jobbe_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 42,
+     "claude_lpr": 0.762,
+     "claude_delta": 0.0408
+    },
+    {
+     "e": "avis_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 30,
+     "claude_lpr": 0.758,
+     "claude_delta": 0.0251
+    },
+    {
+     "e": "innføre_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 30,
+     "claude_lpr": 0.758,
+     "claude_delta": 0.0251
+    },
+    {
+     "e": "elev_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 30,
+     "claude_lpr": 0.758,
+     "claude_delta": 0.0251
+    },
+    {
+     "e": "begrep_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 30,
+     "lokal_lpr": 0.758,
+     "lokal_delta": 0.0251
+    },
+    {
+     "e": "tillegg_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 7,
+     "lokal_c_M": 91,
+     "lokal_lpr": 0.758,
+     "lokal_delta": 0.1028
+    },
+    {
+     "e": "formål_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 30,
+     "lokal_lpr": 0.758,
+     "lokal_delta": 0.0251
+    },
+    {
+     "e": "barn_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 55,
+     "claude_lpr": 0.747,
+     "claude_delta": 0.0555
+    },
+    {
+     "e": "langs_ADP",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 55,
+     "claude_lpr": 0.747,
+     "claude_delta": 0.0555
+    },
+    {
+     "e": "selv_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 93,
+     "claude_lpr": 0.736,
+     "claude_delta": 0.1006
+    },
+    {
+     "e": "arbeid_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 81,
+     "claude_lpr": 0.73,
+     "claude_delta": 0.0849
+    },
+    {
+     "e": "skje_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 56,
+     "claude_lpr": 0.729,
+     "claude_delta": 0.0545
+    },
+    {
+     "e": "bygge_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 9,
+     "claude_c_M": 119,
+     "claude_lpr": 0.727,
+     "claude_delta": 0.13
+    },
+    {
+     "e": "følge_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 31,
+     "claude_lpr": 0.725,
+     "claude_delta": 0.024
+    },
+    {
+     "e": "virke_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 31,
+     "claude_lpr": 0.725,
+     "claude_delta": 0.024
+    },
+    {
+     "e": "handling_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 31,
+     "lokal_lpr": 0.725,
+     "lokal_delta": 0.024
+    },
+    {
+     "e": "før_SCONJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 96,
+     "claude_lpr": 0.705,
+     "claude_delta": 0.0974
+    },
+    {
+     "e": "gjøre_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 17,
+     "claude_c_M": 225,
+     "claude_lpr": 0.703,
+     "claude_delta": 0.2453
+    },
+    {
+     "e": "prege_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 1,
+     "claude_c_M": 19,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0083
+    },
+    {
+     "e": "vinter_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 1,
+     "claude_c_M": 19,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0083
+    },
+    {
+     "e": "blomst_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 1,
+     "claude_c_M": 19,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0083
+    },
+    {
+     "e": "tysk_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 1,
+     "claude_c_M": 19,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0083
+    },
+    {
+     "e": "delvis_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 1,
+     "claude_c_M": 19,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0083
+    },
+    {
+     "e": "utvikle_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 58,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0523
+    },
+    {
+     "e": "befinne_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 1,
+     "claude_c_M": 19,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0083
+    },
+    {
+     "e": "slik_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 110,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.1111
+    },
+    {
+     "e": "lett_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 32,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.023
+    },
+    {
+     "e": "vente_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 1,
+     "claude_c_M": 19,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0083
+    },
+    {
+     "e": "slags_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 1,
+     "claude_c_M": 19,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0083
+    },
+    {
+     "e": "distrikt_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 1,
+     "claude_c_M": 19,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0083
+    },
+    {
+     "e": "kulturell_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 1,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0083
+    },
+    {
+     "e": "opprinnelse_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 1,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0083
+    },
+    {
+     "e": "varm_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 1,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0083
+    },
+    {
+     "e": "forbli_VERB",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 1,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0083
+    },
+    {
+     "e": "enhet_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 1,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0083
+    },
+    {
+     "e": "eventuell_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 1,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0083
+    },
+    {
+     "e": "hennes_PRON",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 45,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0376
+    }
+   ],
+   "bigram": [
+    {
+     "e": "være viktig",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 21,
+     "claude_lpr": 1.444,
+     "claude_delta": 0.0633,
+     "lokal_c_KI": 10,
+     "lokal_c_M": 21,
+     "lokal_lpr": 2.542,
+     "lokal_delta": 0.2633
+    },
+    {
+     "e": "kunne bli",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 5,
+     "claude_c_M": 18,
+     "claude_lpr": 2.046,
+     "claude_delta": 0.1236,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.258,
+     "lokal_delta": 0.0379
+    },
+    {
+     "e": "bidra til",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 22,
+     "claude_lpr": 1.062,
+     "claude_delta": 0.0336,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 22,
+     "lokal_lpr": 2.017,
+     "lokal_delta": 0.1479
+    },
+    {
+     "e": "den viktig",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 19,
+     "claude_lpr": 1.205,
+     "claude_delta": 0.0368,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 19,
+     "lokal_lpr": 1.993,
+     "lokal_delta": 0.1226
+    },
+    {
+     "e": "de kunne",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 5,
+     "claude_c_M": 21,
+     "claude_lpr": 1.896,
+     "claude_delta": 0.1204,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 21,
+     "lokal_lpr": 1.107,
+     "lokal_delta": 0.0347
+    },
+    {
+     "e": "og mange",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 7,
+     "claude_c_M": 29,
+     "claude_lpr": 1.89,
+     "claude_delta": 0.169,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 29,
+     "lokal_lpr": 1.379,
+     "lokal_delta": 0.0833
+    },
+    {
+     "e": "en viktig",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 7,
+     "claude_c_M": 29,
+     "claude_lpr": 1.89,
+     "claude_delta": 0.169,
+     "lokal_c_KI": 7,
+     "lokal_c_M": 29,
+     "lokal_lpr": 1.89,
+     "lokal_delta": 0.169
+    },
+    {
+     "e": "person som",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 19,
+     "claude_lpr": 1.205,
+     "claude_delta": 0.0368,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 19,
+     "lokal_lpr": 1.793,
+     "lokal_delta": 0.094
+    },
+    {
+     "e": "til slutt",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 5,
+     "claude_c_M": 26,
+     "claude_lpr": 1.687,
+     "claude_delta": 0.1151,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 26,
+     "lokal_lpr": 1.486,
+     "lokal_delta": 0.0865
+    },
+    {
+     "e": "gjøre den",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 6,
+     "claude_c_M": 31,
+     "claude_lpr": 1.681,
+     "claude_delta": 0.1383,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 31,
+     "lokal_lpr": 1.062,
+     "lokal_delta": 0.0526
+    },
+    {
+     "e": "være ofte",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 22,
+     "claude_lpr": 1.65,
+     "claude_delta": 0.0908,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 22,
+     "lokal_lpr": 1.398,
+     "lokal_delta": 0.0622
+    },
+    {
+     "e": "eksempel på",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 19,
+     "claude_lpr": 1.542,
+     "claude_delta": 0.0654,
+     "lokal_c_KI": 1,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0083
+    },
+    {
+     "e": "den kunne",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 8,
+     "claude_c_M": 47,
+     "claude_lpr": 1.539,
+     "claude_delta": 0.1784,
+     "lokal_c_KI": 7,
+     "lokal_c_M": 47,
+     "lokal_lpr": 1.413,
+     "lokal_delta": 0.1498
+    },
+    {
+     "e": "for mange",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 20,
+     "claude_lpr": 1.492,
+     "claude_delta": 0.0643,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 20,
+     "lokal_lpr": 1.155,
+     "lokal_delta": 0.0358
+    },
+    {
+     "e": "og gi",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 20,
+     "claude_lpr": 1.155,
+     "claude_delta": 0.0358,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 20,
+     "lokal_lpr": 1.492,
+     "lokal_delta": 0.0643
+    },
+    {
+     "e": "for eksempel",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 9,
+     "claude_c_M": 56,
+     "claude_lpr": 1.476,
+     "claude_delta": 0.1973,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 56,
+     "lokal_lpr": 0.729,
+     "lokal_delta": 0.0545
+    },
+    {
+     "e": "kunne være",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 49,
+     "claude_lpr": 0.861,
+     "claude_delta": 0.0619,
+     "lokal_c_KI": 7,
+     "lokal_c_M": 49,
+     "lokal_lpr": 1.372,
+     "lokal_delta": 0.1476
+    },
+    {
+     "e": "avhengig av",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 23,
+     "claude_lpr": 1.355,
+     "claude_delta": 0.0611,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 23,
+     "lokal_lpr": 1.018,
+     "lokal_delta": 0.0326
+    },
+    {
+     "e": "ansvar for",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 23,
+     "claude_lpr": 1.355,
+     "claude_delta": 0.0611,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 23,
+     "lokal_lpr": 1.018,
+     "lokal_delta": 0.0326
+    },
+    {
+     "e": "og få",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 5,
+     "claude_c_M": 39,
+     "claude_lpr": 1.288,
+     "claude_delta": 0.1012,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 39,
+     "lokal_lpr": 0.836,
+     "lokal_delta": 0.044
+    },
+    {
+     "e": "å ta",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 5,
+     "claude_c_M": 41,
+     "claude_lpr": 1.238,
+     "claude_delta": 0.0991,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 41,
+     "lokal_lpr": 0.786,
+     "lokal_delta": 0.0419
+    },
+    {
+     "e": "bo i",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 1,
+     "claude_c_M": 19,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0083,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 19,
+     "lokal_lpr": 1.205,
+     "lokal_delta": 0.0368
+    },
+    {
+     "e": "i stor",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 28,
+     "claude_lpr": 1.162,
+     "claude_delta": 0.0558,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 28,
+     "lokal_lpr": 1.162,
+     "lokal_delta": 0.0558
+    },
+    {
+     "e": "sin egen",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 29,
+     "claude_lpr": 1.128,
+     "claude_delta": 0.0547,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 29,
+     "lokal_lpr": 1.128,
+     "lokal_delta": 0.0547
+    },
+    {
+     "e": "når den",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 30,
+     "claude_lpr": 1.094,
+     "claude_delta": 0.0537,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 30,
+     "lokal_lpr": 0.758,
+     "lokal_delta": 0.0251
+    },
+    {
+     "e": "å gi",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 30,
+     "claude_lpr": 1.094,
+     "claude_delta": 0.0537,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 30,
+     "lokal_lpr": 1.094,
+     "lokal_delta": 0.0537
+    },
+    {
+     "e": "som gjøre",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 42,
+     "claude_lpr": 1.014,
+     "claude_delta": 0.0694,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 42,
+     "lokal_lpr": 1.014,
+     "lokal_delta": 0.0694
+    },
+    {
+     "e": "som ikke",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 52,
+     "claude_lpr": 0.802,
+     "claude_delta": 0.0587,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 52,
+     "lokal_lpr": 1.003,
+     "lokal_delta": 0.0873
+    },
+    {
+     "e": "side av",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 30,
+     "claude_lpr": 0.758,
+     "claude_delta": 0.0251,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 30,
+     "lokal_lpr": 0.758,
+     "lokal_delta": 0.0251
+    },
+    {
+     "e": "at hun",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 1,
+     "claude_c_M": 19,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0083,
+     "lokal_c_KI": 1,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0083
+    },
+    {
+     "e": "der den",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 32,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.023,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 32,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.023
+    },
+    {
+     "e": "som vise",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 1,
+     "claude_c_M": 19,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0083,
+     "lokal_c_KI": 1,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0083
+    },
+    {
+     "e": "viktig å",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 15,
+     "lokal_c_M": 5,
+     "lokal_lpr": 4.295,
+     "lokal_delta": 0.4232
+    },
+    {
+     "e": "seg at",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 15,
+     "lokal_c_M": 9,
+     "lokal_lpr": 3.749,
+     "lokal_delta": 0.419
+    },
+    {
+     "e": "vanskelig å",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 15,
+     "claude_lpr": 2.658,
+     "claude_delta": 0.2125
+    },
+    {
+     "e": "i å",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 16,
+     "lokal_lpr": 2.328,
+     "lokal_delta": 0.1543
+    },
+    {
+     "e": "og for",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 22,
+     "claude_lpr": 2.161,
+     "claude_delta": 0.1765
+    },
+    {
+     "e": "være imidlertid",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 20,
+     "lokal_lpr": 2.111,
+     "lokal_delta": 0.1501
+    },
+    {
+     "e": "vise at",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 17,
+     "claude_lpr": 2.102,
+     "claude_delta": 0.1247
+    },
+    {
+     "e": "mulighet til",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 17,
+     "lokal_lpr": 2.102,
+     "lokal_delta": 0.1247
+    },
+    {
+     "e": "i norsk",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 30,
+     "claude_lpr": 1.982,
+     "claude_delta": 0.1965
+    },
+    {
+     "e": "en mye",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 20,
+     "lokal_lpr": 1.943,
+     "lokal_delta": 0.1215
+    },
+    {
+     "e": "den gå",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 17,
+     "claude_lpr": 1.901,
+     "claude_delta": 0.0961
+    },
+    {
+     "e": "å hjelpe",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 17,
+     "lokal_lpr": 1.901,
+     "lokal_delta": 0.0961
+    },
+    {
+     "e": "å bruke",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.845,
+     "lokal_delta": 0.0951
+    },
+    {
+     "e": "fra annen",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 20,
+     "claude_lpr": 1.743,
+     "claude_delta": 0.0929
+    },
+    {
+     "e": "med annen",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 20,
+     "claude_lpr": 1.743,
+     "claude_delta": 0.0929
+    },
+    {
+     "e": "fordi den",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 21,
+     "claude_lpr": 1.695,
+     "claude_delta": 0.0918
+    },
+    {
+     "e": "være god",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 21,
+     "claude_lpr": 1.695,
+     "claude_delta": 0.0918
+    },
+    {
+     "e": "kommune i",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 27,
+     "claude_lpr": 1.65,
+     "claude_delta": 0.114
+    },
+    {
+     "e": "å legge",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 17,
+     "claude_lpr": 1.65,
+     "claude_delta": 0.0676
+    },
+    {
+     "e": "en egen",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 22,
+     "claude_lpr": 1.65,
+     "claude_delta": 0.0908
+    },
+    {
+     "e": "i dette",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 17,
+     "lokal_lpr": 1.65,
+     "lokal_delta": 0.0676
+    },
+    {
+     "e": "sette i",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 23,
+     "claude_lpr": 1.606,
+     "claude_delta": 0.0897
+    },
+    {
+     "e": "at en",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 44,
+     "claude_lpr": 1.604,
+     "claude_delta": 0.1816
+    },
+    {
+     "e": "tid og",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 18,
+     "claude_lpr": 1.594,
+     "claude_delta": 0.0665
+    },
+    {
+     "e": "til annen",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.594,
+     "lokal_delta": 0.0665
+    },
+    {
+     "e": "en sterk",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.594,
+     "lokal_delta": 0.0665
+    },
+    {
+     "e": "å komme",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 24,
+     "claude_lpr": 1.565,
+     "claude_delta": 0.0886
+    },
+    {
+     "e": "som gi",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 25,
+     "claude_lpr": 1.525,
+     "claude_delta": 0.0876
+    },
+    {
+     "e": "høre til",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 20,
+     "claude_lpr": 1.492,
+     "claude_delta": 0.0643
+    },
+    {
+     "e": "finne sted",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 20,
+     "lokal_lpr": 1.492,
+     "lokal_delta": 0.0643
+    },
+    {
+     "e": "også ha",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 20,
+     "lokal_lpr": 1.492,
+     "lokal_delta": 0.0643
+    },
+    {
+     "e": "som stå",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 21,
+     "claude_lpr": 1.444,
+     "claude_delta": 0.0633
+    },
+    {
+     "e": "være blant",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 21,
+     "claude_lpr": 1.444,
+     "claude_delta": 0.0633
+    },
+    {
+     "e": "til og",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 21,
+     "lokal_lpr": 1.444,
+     "lokal_delta": 0.0633
+    },
+    {
+     "e": "noe som",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 12,
+     "lokal_c_M": 78,
+     "lokal_lpr": 1.422,
+     "lokal_delta": 0.2595
+    },
+    {
+     "e": "ta i",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 22,
+     "claude_lpr": 1.398,
+     "claude_delta": 0.0622
+    },
+    {
+     "e": "og mye",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 22,
+     "claude_lpr": 1.398,
+     "claude_delta": 0.0622
+    },
+    {
+     "e": "de sist",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 23,
+     "claude_lpr": 1.355,
+     "claude_delta": 0.0611
+    },
+    {
+     "e": "handle om",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 23,
+     "claude_lpr": 1.355,
+     "claude_delta": 0.0611
+    },
+    {
+     "e": "å gjøre",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 30,
+     "lokal_lpr": 1.346,
+     "lokal_delta": 0.0822
+    },
+    {
+     "e": "få en",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 44,
+     "claude_lpr": 1.335,
+     "claude_delta": 0.1244
+    },
+    {
+     "e": "ha mange",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 24,
+     "claude_lpr": 1.313,
+     "claude_delta": 0.0601
+    },
+    {
+     "e": "år og",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 24,
+     "claude_lpr": 1.313,
+     "claude_delta": 0.0601
+    },
+    {
+     "e": "kunne ha",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 31,
+     "lokal_lpr": 1.313,
+     "lokal_delta": 0.0812
+    },
+    {
+     "e": "ikke være",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 8,
+     "lokal_c_M": 61,
+     "lokal_lpr": 1.28,
+     "lokal_delta": 0.1634
+    },
+    {
+     "e": "med i",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 25,
+     "claude_lpr": 1.273,
+     "claude_delta": 0.059
+    },
+    {
+     "e": "uten å",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 25,
+     "claude_lpr": 1.273,
+     "claude_delta": 0.059
+    },
+    {
+     "e": "som regel",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 25,
+     "claude_lpr": 1.273,
+     "claude_delta": 0.059
+    },
+    {
+     "e": "som ofte",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 25,
+     "lokal_lpr": 1.273,
+     "lokal_delta": 0.059
+    },
+    {
+     "e": "komme fra",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 40,
+     "claude_lpr": 1.263,
+     "claude_delta": 0.1001
+    },
+    {
+     "e": "å få",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 55,
+     "claude_lpr": 1.258,
+     "claude_delta": 0.1412
+    },
+    {
+     "e": "først og",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 18,
+     "claude_lpr": 1.258,
+     "claude_delta": 0.0379
+    },
+    {
+     "e": "og bruke",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 18,
+     "claude_lpr": 1.258,
+     "claude_delta": 0.0379
+    },
+    {
+     "e": "seg om",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 18,
+     "claude_lpr": 1.258,
+     "claude_delta": 0.0379
+    },
+    {
+     "e": "ha de",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 18,
+     "claude_lpr": 1.258,
+     "claude_delta": 0.0379
+    },
+    {
+     "e": "på mange",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 18,
+     "claude_lpr": 1.258,
+     "claude_delta": 0.0379
+    },
+    {
+     "e": "på denne",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.258,
+     "lokal_delta": 0.0379
+    },
+    {
+     "e": "på dette",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.258,
+     "lokal_delta": 0.0379
+    },
+    {
+     "e": "de stor",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 33,
+     "claude_lpr": 1.252,
+     "claude_delta": 0.079
+    },
+    {
+     "e": "i sted",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 33,
+     "lokal_lpr": 1.252,
+     "lokal_delta": 0.079
+    },
+    {
+     "e": "til tross",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 26,
+     "lokal_lpr": 1.235,
+     "lokal_delta": 0.0579
+    },
+    {
+     "e": "tross for",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 26,
+     "lokal_lpr": 1.235,
+     "lokal_delta": 0.0579
+    },
+    {
+     "e": "og at",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 34,
+     "claude_lpr": 1.222,
+     "claude_delta": 0.078
+    },
+    {
+     "e": "og kunne",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 34,
+     "lokal_lpr": 1.222,
+     "lokal_delta": 0.078
+    },
+    {
+     "e": "en god",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 27,
+     "claude_lpr": 1.198,
+     "claude_delta": 0.0569
+    },
+    {
+     "e": "for de",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 36,
+     "claude_lpr": 1.166,
+     "claude_delta": 0.0758
+    },
+    {
+     "e": "mange annen",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 28,
+     "claude_lpr": 1.162,
+     "claude_delta": 0.0558
+    },
+    {
+     "e": "stor del",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 28,
+     "claude_lpr": 1.162,
+     "claude_delta": 0.0558
+    },
+    {
+     "e": "være liten",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 20,
+     "claude_lpr": 1.155,
+     "claude_delta": 0.0358
+    },
+    {
+     "e": "hva som",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 20,
+     "claude_lpr": 1.155,
+     "claude_delta": 0.0358
+    },
+    {
+     "e": "som komme",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 20,
+     "claude_lpr": 1.155,
+     "claude_delta": 0.0358
+    },
+    {
+     "e": "føre til",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 9,
+     "lokal_c_M": 78,
+     "lokal_lpr": 1.147,
+     "lokal_delta": 0.1738
+    },
+    {
+     "e": "kunne også",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 45,
+     "claude_lpr": 1.146,
+     "claude_delta": 0.0948
+    },
+    {
+     "e": "regne som",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 45,
+     "claude_lpr": 1.146,
+     "claude_delta": 0.0948
+    },
+    {
+     "e": "blant de",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 37,
+     "claude_lpr": 1.139,
+     "claude_delta": 0.0748
+    },
+    {
+     "e": "å bli",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 54,
+     "claude_lpr": 1.133,
+     "claude_delta": 0.1137
+    },
+    {
+     "e": "en lang",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 29,
+     "claude_lpr": 1.128,
+     "claude_delta": 0.0547
+    },
+    {
+     "e": "av mange",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 29,
+     "lokal_lpr": 1.128,
+     "lokal_delta": 0.0547
+    },
+    {
+     "e": "gjennom hel",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 21,
+     "claude_lpr": 1.107,
+     "claude_delta": 0.0347
+    },
+    {
+     "e": "i hovedsak",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 21,
+     "claude_lpr": 1.107,
+     "claude_delta": 0.0347
+    },
+    {
+     "e": "av norge",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 21,
+     "lokal_lpr": 1.107,
+     "lokal_delta": 0.0347
+    },
+    {
+     "e": "hun ha",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 21,
+     "lokal_lpr": 1.107,
+     "lokal_delta": 0.0347
+    },
+    {
+     "e": "norge og",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 30,
+     "claude_lpr": 1.094,
+     "claude_delta": 0.0537
+    },
+    {
+     "e": "men også",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 39,
+     "claude_lpr": 1.087,
+     "claude_delta": 0.0726
+    },
+    {
+     "e": "utvikle seg",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 22,
+     "claude_lpr": 1.062,
+     "claude_delta": 0.0336
+    },
+    {
+     "e": "gi en",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 22,
+     "claude_lpr": 1.062,
+     "claude_delta": 0.0336
+    },
+    {
+     "e": "å bygge",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 31,
+     "lokal_lpr": 1.062,
+     "lokal_delta": 0.0526
+    },
+    {
+     "e": "i bruk",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 32,
+     "claude_lpr": 1.031,
+     "claude_delta": 0.0515
+    },
+    {
+     "e": "og fra",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 23,
+     "claude_lpr": 1.018,
+     "claude_delta": 0.0326
+    },
+    {
+     "e": "ikke å",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 23,
+     "claude_lpr": 1.018,
+     "claude_delta": 0.0326
+    },
+    {
+     "e": "ved å",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 7,
+     "lokal_c_M": 70,
+     "lokal_lpr": 1.018,
+     "lokal_delta": 0.1252
+    },
+    {
+     "e": "form for",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 23,
+     "lokal_lpr": 1.018,
+     "lokal_delta": 0.0326
+    },
+    {
+     "e": "blant annen",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 12,
+     "claude_c_M": 120,
+     "claude_lpr": 0.993,
+     "claude_delta": 0.2147
+    },
+    {
+     "e": "seg å",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 24,
+     "claude_lpr": 0.977,
+     "claude_delta": 0.0315
+    },
+    {
+     "e": "mene at",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 24,
+     "claude_lpr": 0.977,
+     "claude_delta": 0.0315
+    },
+    {
+     "e": "eller en",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 34,
+     "claude_lpr": 0.971,
+     "claude_delta": 0.0494
+    },
+    {
+     "e": "om å",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 54,
+     "lokal_lpr": 0.966,
+     "lokal_delta": 0.0852
+    },
+    {
+     "e": "slik at",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 74,
+     "claude_lpr": 0.963,
+     "claude_delta": 0.1209
+    },
+    {
+     "e": "i mange",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 84,
+     "claude_lpr": 0.962,
+     "claude_delta": 0.1388
+    },
+    {
+     "e": "med mange",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 25,
+     "claude_lpr": 0.937,
+     "claude_delta": 0.0304
+    },
+    {
+     "e": "bli ta",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 25,
+     "claude_lpr": 0.937,
+     "claude_delta": 0.0304
+    },
+    {
+     "e": "som bruke",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 25,
+     "lokal_lpr": 0.937,
+     "lokal_delta": 0.0304
+    },
+    {
+     "e": "til å",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 23,
+     "lokal_c_M": 247,
+     "lokal_lpr": 0.905,
+     "lokal_delta": 0.3933
+    },
+    {
+     "e": "den også",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 26,
+     "lokal_lpr": 0.898,
+     "lokal_delta": 0.0294
+    },
+    {
+     "e": "på at",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 37,
+     "claude_lpr": 0.888,
+     "claude_delta": 0.0462
+    },
+    {
+     "e": "og på",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 37,
+     "claude_lpr": 0.888,
+     "claude_delta": 0.0462
+    },
+    {
+     "e": "være kjent",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 48,
+     "lokal_lpr": 0.882,
+     "lokal_delta": 0.063
+    },
+    {
+     "e": "og annen",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 59,
+     "claude_lpr": 0.878,
+     "claude_delta": 0.0798
+    },
+    {
+     "e": "den som",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 70,
+     "claude_lpr": 0.875,
+     "claude_delta": 0.0966
+    },
+    {
+     "e": "vise seg",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 27,
+     "claude_lpr": 0.861,
+     "claude_delta": 0.0283
+    },
+    {
+     "e": "seg fra",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 27,
+     "lokal_lpr": 0.861,
+     "lokal_delta": 0.0283
+    },
+    {
+     "e": "dette være",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 7,
+     "lokal_c_M": 83,
+     "lokal_lpr": 0.849,
+     "lokal_delta": 0.1113
+    },
+    {
+     "e": "i norge",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 13,
+     "claude_c_M": 152,
+     "claude_lpr": 0.835,
+     "claude_delta": 0.209
+    },
+    {
+     "e": "de mye",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 28,
+     "claude_lpr": 0.826,
+     "claude_delta": 0.0272
+    },
+    {
+     "e": "være at",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 51,
+     "claude_lpr": 0.822,
+     "claude_delta": 0.0598
+    },
+    {
+     "e": "å være",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 74,
+     "lokal_lpr": 0.82,
+     "lokal_delta": 0.0924
+    },
+    {
+     "e": "ligge i",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 40,
+     "lokal_lpr": 0.811,
+     "lokal_delta": 0.043
+    },
+    {
+     "e": "som skulle",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 41,
+     "claude_lpr": 0.786,
+     "claude_delta": 0.0419
+    },
+    {
+     "e": "i tillegg",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 7,
+     "lokal_c_M": 90,
+     "lokal_lpr": 0.769,
+     "lokal_delta": 0.1038
+    },
+    {
+     "e": "de være",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 54,
+     "lokal_lpr": 0.765,
+     "lokal_delta": 0.0566
+    },
+    {
+     "e": "den andre",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 54,
+     "lokal_lpr": 0.765,
+     "lokal_delta": 0.0566
+    },
+    {
+     "e": "sted i",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 30,
+     "lokal_lpr": 0.758,
+     "lokal_delta": 0.0251
+    },
+    {
+     "e": "ikke ha",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 43,
+     "claude_lpr": 0.739,
+     "claude_delta": 0.0398
+    },
+    {
+     "e": "ha den",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 43,
+     "claude_lpr": 0.739,
+     "claude_delta": 0.0398
+    },
+    {
+     "e": "den eneste",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 31,
+     "claude_lpr": 0.725,
+     "claude_delta": 0.024
+    },
+    {
+     "e": "men i",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 31,
+     "lokal_lpr": 0.725,
+     "lokal_delta": 0.024
+    },
+    {
+     "e": "som ha",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 11,
+     "lokal_c_M": 145,
+     "lokal_lpr": 0.721,
+     "lokal_delta": 0.1594
+    },
+    {
+     "e": "som få",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 1,
+     "claude_c_M": 19,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0083
+    },
+    {
+     "e": "om en",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 45,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0376
+    },
+    {
+     "e": "med å",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 71,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.067
+    },
+    {
+     "e": "den ikke",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 45,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0376
+    },
+    {
+     "e": "norge i",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 1,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0083
+    },
+    {
+     "e": "men ikke",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 1,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0083
+    }
+   ],
+   "trigram": [
+    {
+     "e": "for å få",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 19,
+     "claude_lpr": 1.542,
+     "claude_delta": 0.0654,
+     "lokal_c_KI": 1,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0083
+    },
+    {
+     "e": "være kjent for",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 2,
+     "claude_c_M": 24,
+     "claude_lpr": 0.977,
+     "claude_delta": 0.0315,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 24,
+     "lokal_lpr": 1.313,
+     "lokal_delta": 0.0601
+    },
+    {
+     "e": "mulighet til å",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 16,
+     "lokal_lpr": 2.161,
+     "lokal_delta": 0.1258
+    },
+    {
+     "e": "regne som en",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 19,
+     "claude_lpr": 1.793,
+     "claude_delta": 0.094
+    },
+    {
+     "e": "noe som gjøre",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 21,
+     "lokal_lpr": 1.444,
+     "lokal_delta": 0.0633
+    },
+    {
+     "e": "stor del av",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 23,
+     "claude_lpr": 1.355,
+     "claude_delta": 0.0611
+    },
+    {
+     "e": "dette være en",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 23,
+     "lokal_lpr": 1.355,
+     "lokal_delta": 0.0611
+    },
+    {
+     "e": "kjent for sin",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 23,
+     "lokal_lpr": 1.355,
+     "lokal_delta": 0.0611
+    },
+    {
+     "e": "være den stor",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 18,
+     "claude_lpr": 1.258,
+     "claude_delta": 0.0379
+    },
+    {
+     "e": "til tross for",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 26,
+     "lokal_lpr": 1.235,
+     "lokal_delta": 0.0579
+    },
+    {
+     "e": "bruke til å",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 20,
+     "lokal_lpr": 1.155,
+     "lokal_delta": 0.0358
+    },
+    {
+     "e": "i mange år",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 21,
+     "claude_lpr": 1.107,
+     "claude_delta": 0.0347
+    },
+    {
+     "e": "å være en",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 21,
+     "lokal_lpr": 1.107,
+     "lokal_delta": 0.0347
+    },
+    {
+     "e": "som en av",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 2,
+     "claude_c_M": 22,
+     "claude_lpr": 1.062,
+     "claude_delta": 0.0336
+    },
+    {
+     "e": "en av de",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 71,
+     "claude_lpr": 0.861,
+     "claude_delta": 0.0956
+    },
+    {
+     "e": "at den være",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 38,
+     "lokal_lpr": 0.861,
+     "lokal_delta": 0.0451
+    },
+    {
+     "e": "den være også",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 2,
+     "lokal_c_M": 31,
+     "lokal_lpr": 0.725,
+     "lokal_delta": 0.024
+    },
+    {
+     "e": "på grunn av",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 82,
+     "lokal_lpr": 0.718,
+     "lokal_delta": 0.0838
+    },
+    {
+     "e": "og den bli",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 1,
+     "claude_c_M": 19,
+     "claude_lpr": 0.694,
+     "claude_delta": 0.0083
+    },
+    {
+     "e": "som ha en",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 1,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.694,
+     "lokal_delta": 0.0083
+    }
+   ],
+   "antislop_claude_T2": {
+    "2": [
+     {
+      "e": "det vanlig",
+      "f_KI": 5,
+      "f_M": 3,
+      "logratio": 3.758
+     },
+     {
+      "e": "gjør det",
+      "f_KI": 6,
+      "f_M": 4,
+      "logratio": 3.689
+     },
+     {
+      "e": "kan det",
+      "f_KI": 5,
+      "f_M": 4,
+      "logratio": 3.535
+     },
+     {
+      "e": "derfor er",
+      "f_KI": 5,
+      "f_M": 5,
+      "logratio": 3.353
+     },
+     {
+      "e": "betyr at",
+      "f_KI": 7,
+      "f_M": 9,
+      "logratio": 3.13
+     },
+     {
+      "e": "i finnmark",
+      "f_KI": 6,
+      "f_M": 11,
+      "logratio": 2.814
+     },
+     {
+      "e": "vanskelig å",
+      "f_KI": 8,
+      "f_M": 15,
+      "logratio": 2.778
+     },
+     {
+      "e": "hvert år",
+      "f_KI": 5,
+      "f_M": 10,
+      "logratio": 2.747
+     },
+     {
+      "e": "norge har",
+      "f_KI": 5,
+      "f_M": 12,
+      "logratio": 2.58
+     },
+     {
+      "e": "det kan",
+      "f_KI": 8,
+      "f_M": 19,
+      "logratio": 2.554
+     },
+     {
+      "e": "en viktig",
+      "f_KI": 7,
+      "f_M": 20,
+      "logratio": 2.388
+     },
+     {
+      "e": "som gir",
+      "f_KI": 5,
+      "f_M": 15,
+      "logratio": 2.372
+     },
+     {
+      "e": "kan bli",
+      "f_KI": 5,
+      "f_M": 16,
+      "logratio": 2.311
+     },
+     {
+      "e": "kommer fra",
+      "f_KI": 5,
+      "f_M": 20,
+      "logratio": 2.1
+     },
+     {
+      "e": "for eksempel",
+      "f_KI": 12,
+      "f_M": 67,
+      "logratio": 1.698
+     },
+     {
+      "e": "regnes som",
+      "f_KI": 5,
+      "f_M": 31,
+      "logratio": 1.679
+     },
+     {
+      "e": "er at",
+      "f_KI": 5,
+      "f_M": 33,
+      "logratio": 1.618
+     },
+     {
+      "e": "kan også",
+      "f_KI": 6,
+      "f_M": 48,
+      "logratio": 1.407
+     },
+     {
+      "e": "og andre",
+      "f_KI": 6,
+      "f_M": 53,
+      "logratio": 1.31
+     },
+     {
+      "e": "er det",
+      "f_KI": 14,
+      "f_M": 165,
+      "logratio": 0.949
+     },
+     {
+      "e": "blant annet",
+      "f_KI": 11,
+      "f_M": 133,
+      "logratio": 0.94
+     },
+     {
+      "e": "som et",
+      "f_KI": 5,
+      "f_M": 74,
+      "logratio": 0.827
+     },
+     {
+      "e": "er den",
+      "f_KI": 6,
+      "f_M": 97,
+      "logratio": 0.714
+     },
+     {
+      "e": "og har",
+      "f_KI": 6,
+      "f_M": 106,
+      "logratio": 0.626
+     },
+     {
+      "e": "har en",
+      "f_KI": 5,
+      "f_M": 92,
+      "logratio": 0.612
+     },
+     {
+      "e": "og det",
+      "f_KI": 6,
+      "f_M": 133,
+      "logratio": 0.401
+     },
+     {
+      "e": "at det",
+      "f_KI": 6,
+      "f_M": 133,
+      "logratio": 0.401
+     },
+     {
+      "e": "som har",
+      "f_KI": 5,
+      "f_M": 117,
+      "logratio": 0.374
+     },
+     {
+      "e": "det er",
+      "f_KI": 10,
+      "f_M": 250,
+      "logratio": 0.225
+     },
+     {
+      "e": "er et",
+      "f_KI": 6,
+      "f_M": 196,
+      "logratio": 0.016
+     }
+    ],
+    "3": [
+     {
+      "e": "er det vanlig",
+      "f_KI": 5,
+      "f_M": 2,
+      "logratio": 4.046
+     }
+    ],
+    "4": []
+   }
+  },
+  "nn": {
+   "lemma": [
+    {
+     "e": "likevel_ADV",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 15,
+     "claude_c_M": 26,
+     "claude_lpr": 2.056,
+     "claude_delta": 0.3744,
+     "lokal_c_KI": 9,
+     "lokal_c_M": 26,
+     "lokal_lpr": 1.566,
+     "lokal_delta": 0.203
+    },
+    {
+     "e": "fylke_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 7,
+     "claude_c_M": 17,
+     "claude_lpr": 1.745,
+     "claude_delta": 0.1646,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 17,
+     "lokal_lpr": 1.234,
+     "lokal_delta": 0.0789
+    },
+    {
+     "e": "skule_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 7,
+     "claude_c_M": 17,
+     "claude_lpr": 1.745,
+     "claude_delta": 0.1646,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 17,
+     "lokal_lpr": 0.983,
+     "lokal_delta": 0.0503
+    },
+    {
+     "e": "setje_VERB",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 8,
+     "claude_c_M": 22,
+     "claude_lpr": 1.619,
+     "claude_delta": 0.1827,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 22,
+     "lokal_lpr": 0.732,
+     "lokal_delta": 0.0399
+    },
+    {
+     "e": "når_SCONJ",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 20,
+     "claude_c_M": 55,
+     "claude_lpr": 1.596,
+     "claude_delta": 0.4568,
+     "lokal_c_KI": 8,
+     "lokal_c_M": 55,
+     "lokal_lpr": 0.716,
+     "lokal_delta": 0.114
+    },
+    {
+     "e": "følgje_VERB",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 7,
+     "claude_c_M": 22,
+     "claude_lpr": 1.494,
+     "claude_delta": 0.1542,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 22,
+     "lokal_lpr": 0.732,
+     "lokal_delta": 0.0399
+    },
+    {
+     "e": "viktig_ADJ",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 15,
+     "claude_c_M": 65,
+     "claude_lpr": 1.151,
+     "claude_delta": 0.2932,
+     "lokal_c_KI": 19,
+     "lokal_c_M": 65,
+     "lokal_lpr": 1.381,
+     "lokal_delta": 0.4074
+    },
+    {
+     "e": "fram_ADV",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 12,
+     "claude_c_M": 42,
+     "claude_lpr": 1.369,
+     "claude_delta": 0.2554,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 42,
+     "lokal_lpr": 0.715,
+     "lokal_delta": 0.0839
+    },
+    {
+     "e": "vanskeleg_ADJ",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 17,
+     "claude_lpr": 1.234,
+     "claude_delta": 0.0789,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 17,
+     "lokal_lpr": 0.983,
+     "lokal_delta": 0.0503
+    },
+    {
+     "e": "mål_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 17,
+     "claude_lpr": 1.234,
+     "claude_delta": 0.0789,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 17,
+     "lokal_lpr": 0.983,
+     "lokal_delta": 0.0503
+    },
+    {
+     "e": "historie_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 5,
+     "claude_c_M": 27,
+     "claude_lpr": 0.983,
+     "claude_delta": 0.0866,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 27,
+     "lokal_lpr": 1.15,
+     "lokal_delta": 0.1152
+    },
+    {
+     "e": "dårleg_ADJ",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 19,
+     "claude_lpr": 0.875,
+     "claude_delta": 0.0461,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 19,
+     "lokal_lpr": 1.126,
+     "lokal_delta": 0.0747
+    },
+    {
+     "e": "sjå_VERB",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 8,
+     "claude_c_M": 50,
+     "claude_lpr": 0.81,
+     "claude_delta": 0.1244,
+     "lokal_c_KI": 8,
+     "lokal_c_M": 50,
+     "lokal_lpr": 0.81,
+     "lokal_delta": 0.1244
+    },
+    {
+     "e": "innbyggjar_NOUN",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 6,
+     "claude_c_M": 41,
+     "claude_lpr": 0.738,
+     "claude_delta": 0.086,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 41,
+     "lokal_lpr": 0.738,
+     "lokal_delta": 0.086
+    },
+    {
+     "e": "velje_VERB",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 22,
+     "claude_lpr": 0.732,
+     "claude_delta": 0.0399,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 22,
+     "lokal_lpr": 0.732,
+     "lokal_delta": 0.0399
+    },
+    {
+     "e": "korleis_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 9,
+     "claude_c_M": 15,
+     "claude_lpr": 2.103,
+     "claude_delta": 0.2259
+    },
+    {
+     "e": "slik_DET",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 12,
+     "claude_c_M": 21,
+     "claude_lpr": 2.05,
+     "claude_delta": 0.2991
+    },
+    {
+     "e": "skape_VERB",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 8,
+     "lokal_c_M": 15,
+     "lokal_lpr": 1.992,
+     "lokal_delta": 0.1973
+    },
+    {
+     "e": "gjerne_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 9,
+     "claude_c_M": 17,
+     "claude_lpr": 1.981,
+     "claude_delta": 0.2217
+    },
+    {
+     "e": "samstundes_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 14,
+     "claude_lpr": 1.933,
+     "claude_delta": 0.1708
+    },
+    {
+     "e": "difor_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 11,
+     "claude_c_M": 24,
+     "claude_lpr": 1.836,
+     "claude_delta": 0.2643
+    },
+    {
+     "e": "regel_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 18,
+     "claude_lpr": 1.815,
+     "claude_delta": 0.1911
+    },
+    {
+     "e": "ofte_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 29,
+     "claude_c_M": 68,
+     "claude_lpr": 1.75,
+     "claude_delta": 0.6869
+    },
+    {
+     "e": "gjelde_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 15,
+     "claude_lpr": 1.723,
+     "claude_delta": 0.1402
+    },
+    {
+     "e": "lenge_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 12,
+     "claude_c_M": 30,
+     "claude_lpr": 1.7,
+     "claude_delta": 0.2804
+    },
+    {
+     "e": "rolle_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 7,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.689,
+     "lokal_delta": 0.1625
+    },
+    {
+     "e": "leggje_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 11,
+     "claude_c_M": 31,
+     "claude_lpr": 1.585,
+     "claude_delta": 0.2497
+    },
+    {
+     "e": "klar_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 15,
+     "claude_lpr": 1.556,
+     "claude_delta": 0.1116
+    },
+    {
+     "e": "nok_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 18,
+     "claude_lpr": 1.546,
+     "claude_delta": 0.1339
+    },
+    {
+     "e": "då_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 13,
+     "claude_c_M": 40,
+     "claude_lpr": 1.494,
+     "claude_delta": 0.2881
+    },
+    {
+     "e": "ned_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 25,
+     "claude_lpr": 1.494,
+     "claude_delta": 0.1765
+    },
+    {
+     "e": "utvikling_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 16,
+     "lokal_lpr": 1.494,
+     "lokal_delta": 0.1095
+    },
+    {
+     "e": "offentleg_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 16,
+     "lokal_lpr": 1.494,
+     "lokal_delta": 0.1095
+    },
+    {
+     "e": "samfunn_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 17,
+     "lokal_lpr": 1.435,
+     "lokal_delta": 0.1074
+    },
+    {
+     "e": "person_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 27,
+     "claude_lpr": 1.418,
+     "claude_delta": 0.1723
+    },
+    {
+     "e": "att_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 24,
+     "claude_lpr": 1.409,
+     "claude_delta": 0.15
+    },
+    {
+     "e": "få_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 18,
+     "claude_lpr": 1.379,
+     "claude_delta": 0.1054
+    },
+    {
+     "e": "lett_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 26,
+     "claude_lpr": 1.33,
+     "claude_delta": 0.1458
+    },
+    {
+     "e": "opne_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 19,
+     "claude_lpr": 1.327,
+     "claude_delta": 0.1033
+    },
+    {
+     "e": "menneske_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 23,
+     "claude_lpr": 1.307,
+     "claude_delta": 0.1235
+    },
+    {
+     "e": "den_PRON",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 23,
+     "claude_lpr": 1.307,
+     "claude_delta": 0.1235
+    },
+    {
+     "e": "vise_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 12,
+     "claude_c_M": 45,
+     "claude_lpr": 1.3,
+     "claude_delta": 0.2491
+    },
+    {
+     "e": "døme_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 13,
+     "claude_c_M": 49,
+     "claude_lpr": 1.293,
+     "claude_delta": 0.2693
+    },
+    {
+     "e": "folk_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 9,
+     "claude_c_M": 35,
+     "claude_lpr": 1.274,
+     "claude_delta": 0.1842
+    },
+    {
+     "e": "måtte_AUX",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 13,
+     "claude_c_M": 50,
+     "claude_lpr": 1.273,
+     "claude_delta": 0.2673
+    },
+    {
+     "e": "noko_PRON",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 13,
+     "lokal_c_M": 51,
+     "lokal_lpr": 1.253,
+     "lokal_delta": 0.2652
+    },
+    {
+     "e": "sjølv_DET",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 25,
+     "claude_lpr": 1.225,
+     "claude_delta": 0.1193
+    },
+    {
+     "e": "god_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 17,
+     "claude_c_M": 70,
+     "claude_lpr": 1.199,
+     "claude_delta": 0.3399
+    },
+    {
+     "e": "tillegg_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 12,
+     "lokal_c_M": 50,
+     "lokal_lpr": 1.196,
+     "lokal_delta": 0.2387
+    },
+    {
+     "e": "lokal_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 26,
+     "claude_lpr": 1.187,
+     "claude_delta": 0.1173
+    },
+    {
+     "e": "skulle_AUX",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 20,
+     "claude_c_M": 86,
+     "claude_lpr": 1.153,
+     "claude_delta": 0.3923
+    },
+    {
+     "e": "meine_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 23,
+     "claude_lpr": 1.14,
+     "claude_delta": 0.0949
+    },
+    {
+     "e": "byggje_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 32,
+     "claude_lpr": 1.126,
+     "claude_delta": 0.1333
+    },
+    {
+     "e": "rett_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 19,
+     "claude_lpr": 1.126,
+     "claude_delta": 0.0747
+    },
+    {
+     "e": "endre_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 19,
+     "claude_lpr": 1.126,
+     "claude_delta": 0.0747
+    },
+    {
+     "e": "tal_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 19,
+     "lokal_lpr": 1.126,
+     "lokal_delta": 0.0747
+    },
+    {
+     "e": "vanleg_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 10,
+     "claude_c_M": 46,
+     "claude_lpr": 1.104,
+     "claude_delta": 0.1899
+    },
+    {
+     "e": "skje_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 20,
+     "claude_lpr": 1.076,
+     "claude_delta": 0.0726
+    },
+    {
+     "e": "deira_PRON",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 9,
+     "lokal_c_M": 43,
+     "lokal_lpr": 1.071,
+     "lokal_delta": 0.1676
+    },
+    {
+     "e": "rask_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 25,
+     "claude_lpr": 1.058,
+     "claude_delta": 0.0908
+    },
+    {
+     "e": "slutt_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 8,
+     "lokal_c_M": 39,
+     "lokal_lpr": 1.056,
+     "lokal_delta": 0.1473
+    },
+    {
+     "e": "kjent_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 21,
+     "claude_lpr": 1.028,
+     "claude_delta": 0.0705
+    },
+    {
+     "e": "brei_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 26,
+     "lokal_lpr": 1.02,
+     "lokal_delta": 0.0887
+    },
+    {
+     "e": "kommune_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 11,
+     "claude_c_M": 55,
+     "claude_lpr": 1.018,
+     "claude_delta": 0.1997
+    },
+    {
+     "e": "slik_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 10,
+     "claude_c_M": 51,
+     "claude_lpr": 1.002,
+     "claude_delta": 0.1795
+    },
+    {
+     "e": "kamp_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 17,
+     "lokal_lpr": 0.983,
+     "lokal_delta": 0.0503
+    },
+    {
+     "e": "tyde_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 33,
+     "claude_lpr": 0.953,
+     "claude_delta": 0.1027
+    },
+    {
+     "e": "arbeid_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 28,
+     "claude_lpr": 0.947,
+     "claude_delta": 0.0845
+    },
+    {
+     "e": "barn_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 23,
+     "claude_lpr": 0.939,
+     "claude_delta": 0.0664
+    },
+    {
+     "e": "kvar_DET",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 11,
+     "claude_c_M": 60,
+     "claude_lpr": 0.932,
+     "claude_delta": 0.1893
+    },
+    {
+     "e": "av_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 18,
+     "claude_lpr": 0.927,
+     "claude_delta": 0.0482
+    },
+    {
+     "e": "leiar_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 18,
+     "claude_lpr": 0.927,
+     "claude_delta": 0.0482
+    },
+    {
+     "e": "bli_AUX",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 22,
+     "claude_c_M": 119,
+     "claude_lpr": 0.923,
+     "claude_delta": 0.3807
+    },
+    {
+     "e": "arbeide_VERB",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 34,
+     "lokal_lpr": 0.923,
+     "lokal_delta": 0.1006
+    },
+    {
+     "e": "både_CCONJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 11,
+     "claude_c_M": 61,
+     "claude_lpr": 0.916,
+     "claude_delta": 0.1872
+    },
+    {
+     "e": "særleg_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 10,
+     "claude_c_M": 56,
+     "claude_lpr": 0.909,
+     "claude_delta": 0.169
+    },
+    {
+     "e": "eigen_DET",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 9,
+     "claude_c_M": 51,
+     "claude_lpr": 0.902,
+     "claude_delta": 0.1509
+    },
+    {
+     "e": "kraftig_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 24,
+     "claude_lpr": 0.898,
+     "claude_delta": 0.0643
+    },
+    {
+     "e": "føre_VERB",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 9,
+     "lokal_c_M": 52,
+     "lokal_lpr": 0.883,
+     "lokal_delta": 0.1488
+    },
+    {
+     "e": "slå_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 19,
+     "claude_lpr": 0.875,
+     "claude_delta": 0.0461
+    },
+    {
+     "e": "enkel_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 19,
+     "claude_lpr": 0.875,
+     "claude_delta": 0.0461
+    },
+    {
+     "e": "musikk_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 19,
+     "claude_lpr": 0.875,
+     "claude_delta": 0.0461
+    },
+    {
+     "e": "grad_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 19,
+     "claude_lpr": 0.875,
+     "claude_delta": 0.0461
+    },
+    {
+     "e": "delta_VERB",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.875,
+     "lokal_delta": 0.0461
+    },
+    {
+     "e": "lov_NOUN",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.875,
+     "lokal_delta": 0.0461
+    },
+    {
+     "e": "krig_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 25,
+     "claude_lpr": 0.858,
+     "claude_delta": 0.0622
+    },
+    {
+     "e": "på_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 25,
+     "claude_lpr": 0.858,
+     "claude_delta": 0.0622
+    },
+    {
+     "e": "fordi_SCONJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 37,
+     "claude_lpr": 0.84,
+     "claude_delta": 0.0943
+    },
+    {
+     "e": "kunne_AUX",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 29,
+     "claude_c_M": 172,
+     "claude_lpr": 0.826,
+     "claude_delta": 0.4702
+    },
+    {
+     "e": "lage_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 20,
+     "claude_lpr": 0.825,
+     "claude_delta": 0.044
+    },
+    {
+     "e": "lite_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 20,
+     "claude_lpr": 0.825,
+     "claude_delta": 0.044
+    },
+    {
+     "e": "direkte_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 20,
+     "lokal_lpr": 0.825,
+     "lokal_delta": 0.044
+    },
+    {
+     "e": "land_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 12,
+     "claude_c_M": 73,
+     "claude_lpr": 0.821,
+     "claude_delta": 0.1908
+    },
+    {
+     "e": "måte_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 32,
+     "claude_lpr": 0.816,
+     "claude_delta": 0.0762
+    },
+    {
+     "e": "bli_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 9,
+     "claude_c_M": 56,
+     "claude_lpr": 0.809,
+     "claude_delta": 0.1405
+    },
+    {
+     "e": "seie_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 7,
+     "claude_c_M": 45,
+     "claude_lpr": 0.79,
+     "claude_delta": 0.1063
+    },
+    {
+     "e": "desse_DET",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 39,
+     "lokal_lpr": 0.788,
+     "lokal_delta": 0.0902
+    },
+    {
+     "e": "styrke_NOUN",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 21,
+     "claude_lpr": 0.777,
+     "claude_delta": 0.042
+    },
+    {
+     "e": "tradisjonell_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 21,
+     "lokal_lpr": 0.777,
+     "lokal_delta": 0.042
+    },
+    {
+     "e": "eller_CCONJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 27,
+     "claude_c_M": 171,
+     "claude_lpr": 0.762,
+     "claude_delta": 0.4152
+    },
+    {
+     "e": "der_ADV",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 53,
+     "claude_lpr": 0.753,
+     "claude_delta": 0.1182
+    },
+    {
+     "e": "gjere_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 15,
+     "claude_c_M": 99,
+     "claude_lpr": 0.733,
+     "claude_delta": 0.2223
+    },
+    {
+     "e": "skilje_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 22,
+     "claude_lpr": 0.732,
+     "claude_delta": 0.0399
+    },
+    {
+     "e": "halde_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 10,
+     "claude_c_M": 68,
+     "claude_lpr": 0.717,
+     "claude_delta": 0.144
+    },
+    {
+     "e": "norsk_ADJ",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 10,
+     "claude_c_M": 68,
+     "claude_lpr": 0.717,
+     "claude_delta": 0.144
+    },
+    {
+     "e": "sterk_ADJ",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 42,
+     "lokal_lpr": 0.715,
+     "lokal_delta": 0.0839
+    },
+    {
+     "e": "utvikle_VERB",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 29,
+     "claude_lpr": 0.712,
+     "claude_delta": 0.0539
+    }
+   ],
+   "bigram": [
+    {
+     "e": "ved å",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 22,
+     "claude_lpr": 0.732,
+     "claude_delta": 0.0399,
+     "lokal_c_KI": 11,
+     "lokal_c_M": 22,
+     "lokal_lpr": 1.921,
+     "lokal_delta": 0.2685
+    },
+    {
+     "e": "som kunne",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 6,
+     "claude_c_M": 17,
+     "claude_lpr": 1.602,
+     "claude_delta": 0.136,
+     "lokal_c_KI": 8,
+     "lokal_c_M": 17,
+     "lokal_lpr": 1.87,
+     "lokal_delta": 0.1932
+    },
+    {
+     "e": "slik at",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 8,
+     "claude_c_M": 20,
+     "claude_lpr": 1.712,
+     "claude_delta": 0.1869,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 20,
+     "lokal_lpr": 0.825,
+     "lokal_delta": 0.044
+    },
+    {
+     "e": "på å",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 18,
+     "claude_lpr": 0.927,
+     "claude_delta": 0.0482,
+     "lokal_c_KI": 7,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.689,
+     "lokal_delta": 0.1625
+    },
+    {
+     "e": "ein viktig",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 7,
+     "claude_c_M": 25,
+     "claude_lpr": 1.369,
+     "claude_delta": 0.1479,
+     "lokal_c_KI": 7,
+     "lokal_c_M": 25,
+     "lokal_lpr": 1.369,
+     "lokal_delta": 0.1479
+    },
+    {
+     "e": "kunne vere",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 6,
+     "claude_c_M": 25,
+     "claude_lpr": 1.225,
+     "claude_delta": 0.1193,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 25,
+     "lokal_lpr": 1.225,
+     "lokal_delta": 0.1193
+    },
+    {
+     "e": "for ein",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 6,
+     "claude_c_M": 26,
+     "claude_lpr": 1.187,
+     "claude_delta": 0.1173,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 26,
+     "lokal_lpr": 0.819,
+     "lokal_delta": 0.0601
+    },
+    {
+     "e": "vere ikkje",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 22,
+     "claude_lpr": 0.732,
+     "claude_delta": 0.0399,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 22,
+     "lokal_lpr": 1.184,
+     "lokal_delta": 0.097
+    },
+    {
+     "e": "vere med",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 18,
+     "claude_lpr": 1.179,
+     "claude_delta": 0.0768,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 18,
+     "lokal_lpr": 0.927,
+     "lokal_delta": 0.0482
+    },
+    {
+     "e": "i dei",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 6,
+     "claude_c_M": 28,
+     "claude_lpr": 1.114,
+     "claude_delta": 0.1131,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 28,
+     "lokal_lpr": 0.747,
+     "lokal_delta": 0.056
+    },
+    {
+     "e": "og annan",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 6,
+     "claude_c_M": 30,
+     "claude_lpr": 1.046,
+     "claude_delta": 0.1089,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 30,
+     "lokal_lpr": 0.879,
+     "lokal_delta": 0.0804
+    },
+    {
+     "e": "dei mykje",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 21,
+     "claude_lpr": 1.028,
+     "claude_delta": 0.0705,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 21,
+     "lokal_lpr": 0.777,
+     "lokal_delta": 0.042
+    },
+    {
+     "e": "for dei",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 22,
+     "claude_lpr": 0.732,
+     "claude_delta": 0.0399,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 22,
+     "lokal_lpr": 0.983,
+     "lokal_delta": 0.0685
+    },
+    {
+     "e": "som ikkje",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 4,
+     "claude_c_M": 23,
+     "claude_lpr": 0.939,
+     "claude_delta": 0.0664,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 23,
+     "lokal_lpr": 0.939,
+     "lokal_delta": 0.0664
+    },
+    {
+     "e": "i noreg",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 23,
+     "claude_c_M": 44,
+     "claude_lpr": 1.954,
+     "claude_delta": 0.5655
+    },
+    {
+     "e": "noko som",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 13,
+     "lokal_c_M": 30,
+     "lokal_lpr": 1.777,
+     "lokal_delta": 0.3089
+    },
+    {
+     "e": "i mange",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 9,
+     "claude_c_M": 22,
+     "claude_lpr": 1.73,
+     "claude_delta": 0.2113
+    },
+    {
+     "e": "om dei",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 15,
+     "lokal_lpr": 1.723,
+     "lokal_delta": 0.1402
+    },
+    {
+     "e": "til slutt",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 15,
+     "lokal_lpr": 1.723,
+     "lokal_delta": 0.1402
+    },
+    {
+     "e": "med å",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 12,
+     "lokal_c_M": 31,
+     "lokal_lpr": 1.668,
+     "lokal_delta": 0.2783
+    },
+    {
+     "e": "ein mykje",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 18,
+     "lokal_lpr": 1.546,
+     "lokal_delta": 0.1339
+    },
+    {
+     "e": "føre til",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 9,
+     "lokal_c_M": 32,
+     "lokal_lpr": 1.362,
+     "lokal_delta": 0.1905
+    },
+    {
+     "e": "til døme",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 10,
+     "claude_c_M": 36,
+     "claude_lpr": 1.346,
+     "claude_delta": 0.2107
+    },
+    {
+     "e": "at dei",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 9,
+     "lokal_c_M": 35,
+     "lokal_lpr": 1.274,
+     "lokal_delta": 0.1842
+    },
+    {
+     "e": "at ein",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 24,
+     "claude_lpr": 1.265,
+     "claude_delta": 0.1214
+    },
+    {
+     "e": "i tillegg",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 12,
+     "lokal_c_M": 50,
+     "lokal_lpr": 1.196,
+     "lokal_delta": 0.2387
+    },
+    {
+     "e": "mykje av",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 26,
+     "claude_lpr": 1.187,
+     "claude_delta": 0.1173
+    },
+    {
+     "e": "og mange",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 22,
+     "claude_lpr": 1.184,
+     "claude_delta": 0.097
+    },
+    {
+     "e": "vere at",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 18,
+     "claude_lpr": 1.179,
+     "claude_delta": 0.0768
+    },
+    {
+     "e": "kunne ein",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 19,
+     "claude_lpr": 1.126,
+     "claude_delta": 0.0747
+    },
+    {
+     "e": "og som",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 19,
+     "claude_lpr": 1.126,
+     "claude_delta": 0.0747
+    },
+    {
+     "e": "å ta",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 19,
+     "lokal_lpr": 1.126,
+     "lokal_delta": 0.0747
+    },
+    {
+     "e": "tillegg til",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 24,
+     "lokal_lpr": 1.098,
+     "lokal_delta": 0.0929
+    },
+    {
+     "e": "i stad",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 20,
+     "lokal_lpr": 1.076,
+     "lokal_delta": 0.0726
+    },
+    {
+     "e": "i land",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 5,
+     "claude_c_M": 25,
+     "claude_lpr": 1.058,
+     "claude_delta": 0.0908
+    },
+    {
+     "e": "på dei",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 17,
+     "claude_lpr": 0.983,
+     "claude_delta": 0.0503
+    },
+    {
+     "e": "som gå",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 22,
+     "claude_lpr": 0.983,
+     "claude_delta": 0.0685
+    },
+    {
+     "e": "mellom annan",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 10,
+     "claude_c_M": 53,
+     "claude_lpr": 0.964,
+     "claude_delta": 0.1753
+    },
+    {
+     "e": "dei vere",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 33,
+     "lokal_lpr": 0.953,
+     "lokal_delta": 0.1027
+    },
+    {
+     "e": "til å",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 16,
+     "lokal_c_M": 86,
+     "lokal_lpr": 0.936,
+     "lokal_delta": 0.278
+    },
+    {
+     "e": "som ha",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 11,
+     "claude_c_M": 60,
+     "claude_lpr": 0.932,
+     "claude_delta": 0.1893
+    },
+    {
+     "e": "mykje enn",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 18,
+     "claude_lpr": 0.927,
+     "claude_delta": 0.0482
+    },
+    {
+     "e": "ha i",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 18,
+     "claude_lpr": 0.927,
+     "claude_delta": 0.0482
+    },
+    {
+     "e": "få ein",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 18,
+     "lokal_lpr": 0.927,
+     "lokal_delta": 0.0482
+    },
+    {
+     "e": "for at",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 18,
+     "lokal_lpr": 0.927,
+     "lokal_delta": 0.0482
+    },
+    {
+     "e": "for å",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 23,
+     "lokal_c_M": 124,
+     "lokal_lpr": 0.925,
+     "lokal_delta": 0.3988
+    },
+    {
+     "e": "at det",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 9,
+     "lokal_c_M": 50,
+     "lokal_lpr": 0.922,
+     "lokal_delta": 0.153
+    },
+    {
+     "e": "som bli",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 24,
+     "claude_lpr": 0.898,
+     "claude_delta": 0.0643
+    },
+    {
+     "e": "ein stor",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 8,
+     "claude_c_M": 46,
+     "claude_lpr": 0.893,
+     "claude_delta": 0.1327
+    },
+    {
+     "e": "og det",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 9,
+     "claude_c_M": 52,
+     "claude_lpr": 0.883,
+     "claude_delta": 0.1488
+    },
+    {
+     "e": "til at",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 30,
+     "lokal_lpr": 0.879,
+     "lokal_delta": 0.0804
+    },
+    {
+     "e": "og bli",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 19,
+     "claude_lpr": 0.875,
+     "claude_delta": 0.0461
+    },
+    {
+     "e": "det ikkje",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 19,
+     "claude_lpr": 0.875,
+     "claude_delta": 0.0461
+    },
+    {
+     "e": "å vere",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 31,
+     "lokal_lpr": 0.847,
+     "lokal_delta": 0.0783
+    },
+    {
+     "e": "og at",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 20,
+     "lokal_lpr": 0.825,
+     "lokal_delta": 0.044
+    },
+    {
+     "e": "sjølv om",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 6,
+     "lokal_c_M": 38,
+     "lokal_lpr": 0.813,
+     "lokal_delta": 0.0923
+    },
+    {
+     "e": "ein ny",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 27,
+     "lokal_lpr": 0.782,
+     "lokal_delta": 0.058
+    },
+    {
+     "e": "dei ha",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 27,
+     "lokal_lpr": 0.782,
+     "lokal_delta": 0.058
+    },
+    {
+     "e": "kome i",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 21,
+     "claude_lpr": 0.777,
+     "claude_delta": 0.042
+    },
+    {
+     "e": "og på",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 3,
+     "claude_c_M": 21,
+     "claude_lpr": 0.777,
+     "claude_delta": 0.042
+    },
+    {
+     "e": "til ein",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 12,
+     "lokal_c_M": 80,
+     "lokal_lpr": 0.73,
+     "lokal_delta": 0.1762
+    },
+    {
+     "e": "som vere",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 17,
+     "lokal_c_M": 113,
+     "lokal_lpr": 0.723,
+     "lokal_delta": 0.2503
+    },
+    {
+     "e": "om å",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 29,
+     "claude_lpr": 0.712,
+     "claude_delta": 0.0539
+    },
+    {
+     "e": "å få",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 4,
+     "lokal_c_M": 29,
+     "lokal_lpr": 0.712,
+     "lokal_delta": 0.0539
+    }
+   ],
+   "trigram": [
+    {
+     "e": "det vere ein",
+     "modeller": [
+      "claude",
+      "lokal"
+     ],
+     "samsvar": true,
+     "claude_c_KI": 3,
+     "claude_c_M": 19,
+     "claude_lpr": 0.875,
+     "claude_delta": 0.0461,
+     "lokal_c_KI": 3,
+     "lokal_c_M": 19,
+     "lokal_lpr": 0.875,
+     "lokal_delta": 0.0461
+    },
+    {
+     "e": "og det vere",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 4,
+     "claude_c_M": 16,
+     "claude_lpr": 1.293,
+     "claude_delta": 0.081
+    },
+    {
+     "e": "i tillegg til",
+     "modeller": [
+      "lokal"
+     ],
+     "samsvar": false,
+     "lokal_c_KI": 5,
+     "lokal_c_M": 24,
+     "lokal_lpr": 1.098,
+     "lokal_delta": 0.0929
+    },
+    {
+     "e": "ein del av",
+     "modeller": [
+      "claude"
+     ],
+     "samsvar": false,
+     "claude_c_KI": 6,
+     "claude_c_M": 42,
+     "claude_lpr": 0.715,
+     "claude_delta": 0.0839
+    }
+   ],
+   "antislop_claude_T2": {
+    "2": [
+     {
+      "e": "i florø",
+      "f_KI": 5,
+      "f_M": 0,
+      "logratio": 4.433
+     },
+     {
+      "e": "noreg har",
+      "f_KI": 7,
+      "f_M": 1,
+      "logratio": 4.027
+     },
+     {
+      "e": "ansvaret for",
+      "f_KI": 6,
+      "f_M": 2,
+      "logratio": 3.488
+     },
+     {
+      "e": "og fjordane",
+      "f_KI": 5,
+      "f_M": 3,
+      "logratio": 3.046
+     },
+     {
+      "e": "kven som",
+      "f_KI": 5,
+      "f_M": 3,
+      "logratio": 3.046
+     },
+     {
+      "e": "vart skipa",
+      "f_KI": 5,
+      "f_M": 3,
+      "logratio": 3.046
+     },
+     {
+      "e": "kan få",
+      "f_KI": 5,
+      "f_M": 4,
+      "logratio": 2.823
+     },
+     {
+      "e": "som skal",
+      "f_KI": 5,
+      "f_M": 4,
+      "logratio": 2.823
+     },
+     {
+      "e": "er ofte",
+      "f_KI": 6,
+      "f_M": 7,
+      "logratio": 2.507
+     },
+     {
+      "e": "vekt på",
+      "f_KI": 6,
+      "f_M": 7,
+      "logratio": 2.507
+     },
+     {
+      "e": "skipa i",
+      "f_KI": 5,
+      "f_M": 7,
+      "logratio": 2.353
+     },
+     {
+      "e": "noreg og",
+      "f_KI": 5,
+      "f_M": 10,
+      "logratio": 2.035
+     },
+     {
+      "e": "har det",
+      "f_KI": 5,
+      "f_M": 12,
+      "logratio": 1.868
+     },
+     {
+      "e": "det kan",
+      "f_KI": 5,
+      "f_M": 12,
+      "logratio": 1.868
+     },
+     {
+      "e": "i noreg",
+      "f_KI": 24,
+      "f_M": 56,
+      "logratio": 1.817
+     },
+     {
+      "e": "er at",
+      "f_KI": 6,
+      "f_M": 15,
+      "logratio": 1.814
+     },
+     {
+      "e": "kan vere",
+      "f_KI": 5,
+      "f_M": 14,
+      "logratio": 1.725
+     },
+     {
+      "e": "slik at",
+      "f_KI": 9,
+      "f_M": 26,
+      "logratio": 1.648
+     },
+     {
+      "e": "som kan",
+      "f_KI": 5,
+      "f_M": 16,
+      "logratio": 1.6
+     },
+     {
+      "e": "til dømes",
+      "f_KI": 10,
+      "f_M": 38,
+      "logratio": 1.375
+     },
+     {
+      "e": "som har",
+      "f_KI": 10,
+      "f_M": 40,
+      "logratio": 1.325
+     },
+     {
+      "e": "i landet",
+      "f_KI": 5,
+      "f_M": 22,
+      "logratio": 1.297
+     },
+     {
+      "e": "mellom anna",
+      "f_KI": 11,
+      "f_M": 52,
+      "logratio": 1.156
+     },
+     {
+      "e": "og andre",
+      "f_KI": 5,
+      "f_M": 29,
+      "logratio": 1.032
+     },
+     {
+      "e": "er det",
+      "f_KI": 17,
+      "f_M": 95,
+      "logratio": 0.967
+     },
+     {
+      "e": "er i",
+      "f_KI": 5,
+      "f_M": 39,
+      "logratio": 0.744
+     },
+     {
+      "e": "har vore",
+      "f_KI": 5,
+      "f_M": 39,
+      "logratio": 0.744
+     },
+     {
+      "e": "det er",
+      "f_KI": 12,
+      "f_M": 97,
+      "logratio": 0.621
+     },
+     {
+      "e": "er den",
+      "f_KI": 5,
+      "f_M": 62,
+      "logratio": 0.29
+     },
+     {
+      "e": "som er",
+      "f_KI": 8,
+      "f_M": 94,
+      "logratio": 0.284
+     }
+    ],
+    "3": [
+     {
+      "e": "vart skipa i",
+      "f_KI": 5,
+      "f_M": 3,
+      "logratio": 3.047
+     }
+    ],
+    "4": []
+   }
+  }
+ },
+ "sprakradet_markorer": [
+  {
+   "id": "komplekst_og_viktig",
+   "gruppe": "stående frase",
+   "regex": "\\bkomplekse?t?\\s+og\\s+viktige?\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 14,
+   "sitat": "«Komplekst og viktig» og lignende er standardfraser som går igjen i de fleste tekstene.",
+   "merknad": ""
+  },
+  {
+   "id": "viktig_komponent",
+   "gruppe": "stående frase",
+   "regex": "\\bviktige?\\s+komponent\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«Viktig komponent», «innebærer» og «dette kan inkludere» er standardformuleringer",
+   "merknad": ""
+  },
+  {
+   "id": "innebærer",
+   "gruppe": "stående frase",
+   "regex": "\\binneb(?:ærer|er)\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«Viktig komponent», «innebærer» og «dette kan inkludere» er standardformuleringer",
+   "merknad": "nn-form «inneber» lagt til"
+  },
+  {
+   "id": "dette_kan_inkludere",
+   "gruppe": "stående frase",
+   "regex": "\\bdette\\s+kan\\s+inkludere\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«dette kan inkludere» er standardformuleringer",
+   "merknad": ""
+  },
+  {
+   "id": "dynamisk_felt",
+   "gruppe": "stående frase",
+   "regex": "\\bdynamiske?\\s+felt\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«Fiskeripolitikk er et dynamisk felt som krever kontinuerlig tilpasning og innovasjon.» … ordgyting",
+   "merknad": ""
+  },
+  {
+   "id": "kontinuerlig_tilpasning",
+   "gruppe": "stående frase",
+   "regex": "\\bkontinuerleg?\\s+tilpas\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«…krever kontinuerlig tilpasning og innovasjon.»",
+   "merknad": "nn «kontinuerleg» lagt til"
+  },
+  {
+   "id": "fleksibel_tilpasningsdyktig",
+   "gruppe": "stående frase",
+   "regex": "\\bfleksib\\w*\\s+og\\s+tilpasningsdykt\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "standardformuleringen «fleksibel og tilpasningsdyktig tilnærming» notert som et ordgytingsproblem",
+   "merknad": ""
+  },
+  {
+   "id": "aspekt",
+   "gruppe": "stående frase",
+   "regex": "\\baspekt(?:er|ene|a|ane)?\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«aspektene» og «kompleksiteten» i siste setning, som går igjen i mange tekster",
+   "merknad": ""
+  },
+  {
+   "id": "kompleksitet",
+   "gruppe": "stående frase",
+   "regex": "\\bkompleksitet(?:en|a)?\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«aspektene» og «kompleksiteten» … går igjen i mange tekster",
+   "merknad": ""
+  },
+  {
+   "id": "komplekst_felt",
+   "gruppe": "stående frase",
+   "regex": "\\bkomplekse?t?\\s+felt\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«I sammendrag er landbrukspolitikk et komplekst felt som krever et balansert syn …»",
+   "merknad": ""
+  },
+  {
+   "id": "balansert",
+   "gruppe": "stående frase",
+   "regex": "\\bbalanserte?\\s+(?:syn|linje|tilnærming)\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 14,
+   "sitat": "«Norge inntok en forsiktig og balansert linje» (s. 14); «et balansert syn» (s. 15)",
+   "merknad": ""
+  },
+  {
+   "id": "balansegang",
+   "gruppe": "stående frase",
+   "regex": "\\bbalansegang\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«Samlet sett er fiskeripolitikk en balansegang mellom ulike hensyn og interesser.»",
+   "merknad": ""
+  },
+  {
+   "id": "skjæringspunkt",
+   "gruppe": "stående frase",
+   "regex": "\\bskjæringspunkt\\w*\\s+mellom\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 14,
+   "sitat": "«Det er nettopp i skjæringspunktet mellom disse ulike målene at …»",
+   "merknad": ""
+  },
+  {
+   "id": "dypt_forankret",
+   "gruppe": "stående frase",
+   "regex": "\\bdj?y?u?pt\\s+forankr\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«Alt i alt er Norges forhold til NATO dypt forankret i landets historie …»",
+   "merknad": "nn «djupt» dekkes"
+  },
+  {
+   "id": "ikke_bare_ogsaa",
+   "gruppe": "stående frase",
+   "regex": "\\bikkj?e\\s+(?:bare|berre)\\b[^.!?]{0,80}?\\bogså\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "«Fiskerinæringen er ikke bare en økonomisk aktivitet; den er også en kulturell bærebjelke …»",
+   "merknad": "nn «ikkje berre» dekkes"
+  },
+  {
+   "id": "alt_i_alt",
+   "gruppe": "avslutningsformel",
+   "regex": "\\balt\\s+i\\s+alt\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "Oppsummeringsformuleringen «alt i alt … forankret» er registrert som feil.",
+   "merknad": ""
+  },
+  {
+   "id": "samlet_sett",
+   "gruppe": "avslutningsformel",
+   "regex": "\\bsaml(?:et|a)\\s+sett\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "Oppsummeringsformuleringen «samlet sett … balansegang» er notert som en tekstfeil",
+   "merknad": "nn «samla sett» lagt til"
+  },
+  {
+   "id": "i_sammendrag",
+   "gruppe": "avslutningsformel",
+   "regex": "\\bi\\s+sam(?:m|)(?:endrag|andrag)\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 15,
+   "sitat": "oppsummeringsformuleringen «[er] i sammendrag et komplekst felt» notert som feil",
+   "merknad": "nn «i samandrag» lagt til"
+  },
+  {
+   "id": "gjore_en_forskjell",
+   "gruppe": "kalk",
+   "regex": "\\bgj(?:ø|e)re?\\w*\\s+(?:en|ein|ei)\\s+(?:forskjell|skilnad)\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "gjøre en forskjell (av engelsk make a difference)",
+   "merknad": "fotnote 4; nn-former lagt til"
+  },
+  {
+   "id": "fanget_oyet",
+   "gruppe": "kalk",
+   "regex": "\\bfang\\w*\\s+(?:øyet|auget|blikket)\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "plutselig fanget øyet hans noe (ChatGPT)",
+   "merknad": ""
+  },
+  {
+   "id": "dypt_pust",
+   "gruppe": "kalk",
+   "regex": "\\b(?:et|eit)\\s+dj?y?u?pt\\s+pust\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "ho tok eit djupt pust (Copilot)",
+   "merknad": ""
+  },
+  {
+   "id": "tilfreds_med_aa",
+   "gruppe": "kalk",
+   "regex": "\\btilfreds\\s+med\\s+å\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "for no var han tilfreds med å vere i byen (Copilot)",
+   "merknad": ""
+  },
+  {
+   "id": "som_sine_egne_lommer",
+   "gruppe": "kalk",
+   "regex": "\\bsom\\s+sin(?:e)?\\s+eig?ne?\\s+lomm\\w*",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "begge kjente den [skogen] som sine egne lommer (Le Chat)",
+   "merknad": ""
+  },
+  {
+   "id": "med_en_x_stemme",
+   "gruppe": "kalk",
+   "regex": "\\bmed\\s+(?:en|ei|ein)\\s+\\w+\\s+stemme\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "sa hun med en stolt stemme (Le Chat)",
+   "merknad": ""
+  },
+  {
+   "id": "aktorene_involvert",
+   "gruppe": "kalk",
+   "regex": "\\b\\w+(?:ene|ane|a)\\s+involvert\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "de ulike aktørene involvert (Le Chat)",
+   "merknad": ""
+  },
+  {
+   "id": "ut_av_kontroll",
+   "gruppe": "kalk",
+   "regex": "\\but\\s+av\\s+kontroll\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "en kveld som hadde gått fullstendig ut av kontroll (NorMistral)",
+   "merknad": ""
+  },
+  {
+   "id": "ny_start",
+   "gruppe": "kalk",
+   "regex": "\\b(?:en|ein|ei)\\s+ny\\s+start\\b",
+   "flagg": "i",
+   "kilde": "Språkrådet (2025): Rapport fra test av språkroboter, sha256 73b84a52…a4702f",
+   "side": 10,
+   "sitat": "en kopp [kaffe] som kunne tilby henne en ny start (ChatGPT)",
+   "merknad": ""
+  },
+  {
+   "id": "tankestrek_uten_mellomrom",
+   "gruppe": "struktur",
+   "regex": "(?<=\\S)—(?=\\S)",
+   "flagg": "i",
+   "kilde": "oppgavespesifikasjon (strukturmarkør)",
+   "side": null,
+   "sitat": "tankestrek uten mellomrom (—)",
+   "merknad": "Norsk tankestrek med mellomrom ( – / — ) telles ikke"
+  },
+  {
+   "id": "title_case_overskrift",
+   "gruppe": "struktur",
+   "regex": "(?m)^(?=[^\\n]{3,80}$)(?:#+\\s*)?[A-ZÆØÅ][\\wæøå]*(?:\\s+(?:[A-ZÆØÅ][\\wæøå]*|og|i|for|av|på|til|med|eller|en|et|ei|ein|eit))*\\s+[A-ZÆØÅ][\\wæøå]+(?:\\s+[A-ZÆØÅ][\\wæøå]+)+\\s*$",
+   "flagg": "",
+   "kilde": "oppgavespesifikasjon (strukturmarkør)",
+   "side": null,
+   "sitat": "store forbokstaver i overskrifter etter engelsk mønster",
+   "merknad": "flagg uten i: egen linje, ≥3 ord med stor forbokstav, ingen sluttpunktum"
+  },
+  {
+   "id": "ikke_x_men_y",
+   "gruppe": "struktur",
+   "regex": "\\bikkj?e\\s+[^.,;!?\\n]{1,60},\\s*men\\b",
+   "flagg": "i",
+   "kilde": "oppgavespesifikasjon (strukturmarkør)",
+   "side": null,
+   "sitat": "«ikke X, men Y»",
+   "merknad": ""
+  },
+  {
+   "id": "tredelt_oppramsing",
+   "gruppe": "struktur",
+   "regex": "\\b[\\wæøå-]+(?:\\s[\\wæøå-]+){0,2},\\s[\\wæøå-]+(?:\\s[\\wæøå-]+){0,2},?\\s(?:og|eller)\\s[\\wæøå-]+",
+   "flagg": "i",
+   "kilde": "oppgavespesifikasjon (strukturmarkør)",
+   "side": null,
+   "sitat": "tredelte oppramsinger",
+   "merknad": "«A, B og C» med 1–3 ord per ledd"
+  },
+  {
+   "id": "punktliste_fet_tittel",
+   "gruppe": "struktur",
+   "regex": "(?m)^\\s*(?:[-*•]|\\d+[.)])\\s+\\*\\*[^*\\n]+\\*\\*",
+   "flagg": "i",
+   "kilde": "oppgavespesifikasjon (strukturmarkør)",
+   "side": null,
+   "sitat": "punktlister med fete titler",
+   "merknad": ""
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "nb": {
+  "inntak": {
+   "lemma": 290,
+   "bigram": 165,
+   "trigram": 20
+  },
+  "samsvar": {
+   "lemma": 54,
+   "bigram": 32,
+   "trigram": 2
+  },
+  "over_terskel_per_modell": {
+   "claude": {
+    "lemma": 764,
+    "bigram": 519,
+    "trigram": 51
+   },
+   "lokal": {
+    "lemma": 755,
+    "bigram": 521,
+    "trigram": 50
+   }
+  },
+  "n": {
+   "claude": [
+    35,
+    936,
+    209,
+    236
+   ],
+   "lokal": [
+    35,
+    936,
+    193,
+    236
+   ]
+  }
+ },
+ "nn": {
+  "inntak": {
+   "lemma": 107,
+   "bigram": 64,
+   "trigram": 4
+  },
+  "samsvar": {
+   "lemma": 15,
+   "bigram": 14,
+   "trigram": 1
+  },
+  "over_terskel_per_modell": {
+   "claude": {
+    "lemma": 388,
+    "bigram": 226,
+    "trigram": 15
+   },
+   "lokal": {
+    "lemma": 383,
+    "bigram": 228,
+    "trigram": 12
+   }
+  },
+  "n": {
+   "claude": [
+    35,
+    480,
+    214,
+    234
+   ],
+   "lokal": [
+    35,
+    480,
+    172,
+    234
+   ]
+  }
+ },
+ "terskel": 20,
+ "senket": false,
+ "inntak_ved_20": {
+  "nb": {
+   "lemma": 290,
+   "bigram": 165,
+   "trigram": 20
+  },
+  "nn": {
+   "lemma": 107,
+   "bigram": 64,
+   "trigram": 4
+  }
+ },
+ "sha256": "3cf27e29ec65df35390899f7c9226dd55e5e400d2068425497891bd9614789fd"
+}

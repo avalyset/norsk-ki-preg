@@ -1,0 +1,153 @@
+{
+ "fil": "data/validation-shard-0001-of-0001.jsonl",
+ "felt": [
+  "doc_type",
+  "id",
+  "lang_fasttext",
+  "lang_fasttext_conf",
+  "publish_year",
+  "text"
+ ],
+ "antall": {
+  "wikipedia_download_nbo": 11868,
+  "wikipedia_download_nno": 3247
+ },
+ "aar": {
+  "wikipedia_download_nbo|2021": 11868,
+  "wikipedia_download_nno|2021": 3247
+ },
+ "eksempler": {
+  "wikipedia_download_nbo": [
+   {
+    "id": "wikipedia_download_nbo_Manuel Alcalde_407451",
+    "doc_type": "wikipedia_download_nbo",
+    "publish_year": 2021,
+    "lang_fasttext": "no",
+    "lang_fasttext_conf": "0.956",
+    "text": "'''Manuel Alcalde''' (født 31. desember 1956, død 23. april 2004) var en spansk friidrettsutøver som spesialiserte seg i"
+   },
+   {
+    "id": "wikipedia_download_nbo_Go Ahead Eagles_212710",
+    "doc_type": "wikipedia_download_nbo",
+    "publish_year": 2021,
+    "lang_fasttext": "no",
+    "lang_fasttext_conf": "0.839",
+    "text": "'''Go Ahead Eagles''' er en nederlandsk fotballklubb fra byen Deventer i provinsen Overijssel. Klubben spiller for øyebl"
+   },
+   {
+    "id": "wikipedia_download_nbo_Melodi Grand Prix 2002_421524",
+    "doc_type": "wikipedia_download_nbo",
+    "publish_year": 2021,
+    "lang_fasttext": "no",
+    "lang_fasttext_conf": "0.898",
+    "text": "I '''2002''' ble det ikke arrangert noen norsk finale i '''Melodi Grand Prix'''. Årsaken var Norges dårlige plassering i"
+   },
+   {
+    "id": "wikipedia_download_nbo_Opptøyene i Kenya 2007–2008_132002",
+    "doc_type": "wikipedia_download_nbo",
+    "publish_year": 2021,
+    "lang_fasttext": "no",
+    "lang_fasttext_conf": "0.963",
+    "text": "'''Opptøyene i Kenya 2007–2008''' startet over hele Kenya 30. desember 2007 etter at Mwai Kibaki ble erklært som vinner "
+   },
+   {
+    "id": "wikipedia_download_nbo_Veme kirke_48081",
+    "doc_type": "wikipedia_download_nbo",
+    "publish_year": 2021,
+    "lang_fasttext": "no",
+    "lang_fasttext_conf": "0.969",
+    "text": "'''Veme kirke''' er en enskipet langkirke fra 1893 i Ringerike kommune, Viken fylke. Kirken er oppført i rød teglstein o"
+   },
+   {
+    "id": "wikipedia_download_nbo_Helge Stangnes_49585",
+    "doc_type": "wikipedia_download_nbo",
+    "publish_year": 2021,
+    "lang_fasttext": "no",
+    "lang_fasttext_conf": "0.541",
+    "text": "'''Helge Stangnes''' (født 6. november 1936 i Tranøy) er en norsk lyriker. Fra 1960 til 1991 arbeidet han som lærer ved "
+   },
+   {
+    "id": "wikipedia_download_nbo_Potetløp_56716",
+    "doc_type": "wikipedia_download_nbo",
+    "publish_year": 2021,
+    "lang_fasttext": "no",
+    "lang_fasttext_conf": "0.95",
+    "text": "Potetløp som tradisjonell ferdighetstevling og lek under feiringen av Norges grunnlovsdag blant en gruppe nordmenn i Bag"
+   },
+   {
+    "id": "wikipedia_download_nbo_Árni Magnússon-instituttet_62460",
+    "doc_type": "wikipedia_download_nbo",
+    "publish_year": 2021,
+    "lang_fasttext": "no",
+    "lang_fasttext_conf": "0.926",
+    "text": "'''Árni Magnússon-instituttet''' (islandsk ''Stofnun Árna Magnússonar'') er et akademisk institutt på Reykjavík, Island."
+   }
+  ],
+  "wikipedia_download_nno": [
+   {
+    "id": "wikipedia_download_nno_Folkefront_4394",
+    "doc_type": "wikipedia_download_nno",
+    "publish_year": 2021,
+    "lang_fasttext": "no",
+    "lang_fasttext_conf": "0.614",
+    "text": "Nemninga '''Folkefront''' blir vanlegvis bruka om dei alliansane som blei inngått på venstresida i europeisk politikk fo"
+   },
+   {
+    "id": "wikipedia_download_nno_Cupvinnarcupfinalen i fotball 1994_130923",
+    "doc_type": "wikipedia_download_nno",
+    "publish_year": 2021,
+    "lang_fasttext": "nn",
+    "lang_fasttext_conf": "0.34",
+    "text": "'''Cupvinnarcupfinalen i fotball 1994''' fann stad i Parken i København 4. mai 1994, framfor 33 765 tilskodarar. London-"
+   },
+   {
+    "id": "wikipedia_download_nno_Piperviken småkyrkje_142631",
+    "doc_type": "wikipedia_download_nno",
+    "publish_year": 2021,
+    "lang_fasttext": "nn",
+    "lang_fasttext_conf": "0.709",
+    "text": "'''Piperviken småkyrkje''' ('''Pipervikskyrkja''') var ei småkyrkje som låg i Munkedamsveien 12 i Oslo, men hadde hovedf"
+   },
+   {
+    "id": "wikipedia_download_nno_Vitskap i 1877_73508",
+    "doc_type": "wikipedia_download_nno",
+    "publish_year": 2021,
+    "lang_fasttext": "nn",
+    "lang_fasttext_conf": "0.364",
+    "text": "'''Vitskapsåret 1877''' er ei oversikt over hendingar, prisvinnarar, fødde og døde personar tilknytte vitskap i 1877. *T"
+   },
+   {
+    "id": "wikipedia_download_nno_Kapillarrøyrviskosimeter_100770",
+    "doc_type": "wikipedia_download_nno",
+    "publish_year": 2021,
+    "lang_fasttext": "nn",
+    "lang_fasttext_conf": "0.589",
+    "text": "'''Kapillarrøyrviskosimeter''' er eit instrument til å måle viskositeten til væsker. For å måle viskositeten til ei væsk"
+   },
+   {
+    "id": "wikipedia_download_nno_Troisdorf_21571",
+    "doc_type": "wikipedia_download_nno",
+    "publish_year": 2021,
+    "lang_fasttext": "nn",
+    "lang_fasttext_conf": "0.792",
+    "text": "'''Troisdorf''' er ein by i Tyskland i delstaten Nordrhein-Westfalen med om lag 75 000 innbyggjarar. Byen ligg i ''kreis"
+   },
+   {
+    "id": "wikipedia_download_nno_Eiji Kawashima_54162",
+    "doc_type": "wikipedia_download_nno",
+    "publish_year": 2021,
+    "lang_fasttext": "no",
+    "lang_fasttext_conf": "0.415",
+    "text": "'''Eiji Kawashima''' () er ein japansk fotballspelar som har spela som keeper for Kawasaki Frontale i J-ligaen i Japan, "
+   },
+   {
+    "id": "wikipedia_download_nno_Hammaren i øyret_112604",
+    "doc_type": "wikipedia_download_nno",
+    "publish_year": 2021,
+    "lang_fasttext": "nn",
+    "lang_fasttext_conf": "0.876",
+    "text": "Hammaren i venstre øyret: (A) sett frå baksida (B) '''Hammaren''' (av latin ''malleus'' «hammar») er ein liten hammarfor"
+   }
+  ]
+ }
+}
