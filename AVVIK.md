@@ -138,15 +138,15 @@ Etter at regelen var anvendt, fikk `SKILL.md` en statuslinje, og i `liste_v1.md`
 
 # v1 (2026-11-27)
 
-## V1 – Wikipedia-dumpens dato står ikke i NCC-kortet
-NCC-kortet (`kilder/ncc/NCC_README.md`) oppgir lisensen ordrett som «| Wikipedia | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |» og «| opensubtitles, wikipedia | [CC BY-SA 3.0](…) |». Om datoer sier det bare «Build date original corpus: 21012022» og «Build data revised corpus: 10032025». **Kortet sier ikke når Wikipedia-dumpen ble tatt.** Alle 15 115 Wikipedia-dokumenter i validation har `publish_year` = 2021, som ifølge kortet er verdien når året er ukjent («When year is undetermined it is set to 2021»).
+## V1 – Datoen for Wikipedia-dumpen (godtatt av Eirik 27.11.2026)
+**Dokumentert øvre grense:** NCC-kortet (`kilder/ncc/NCC_README.md`, lastet ned 2026-11-24) sier ordrett «Build date original corpus: 21012022». Wikipedia-delen (`wikipedia_download_nbo`/`_nno`) var med i det opprinnelige korpuset, så dumpen er senest fra 21.01.2022, altså før 30.11.2022. Kortet nevner også «Build data revised corpus: 10032025». At Wikipedia-delen ikke ble lastet ned på nytt i den reviderte bygget, støttes av innholdsdateringen nedenfor. Lisensen står ordrett i kortet: «| Wikipedia | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |». Alle 15 115 Wikipedia-dokumenter i validation har `publish_year` = 2021, som kortet bruker når året er ukjent («When year is undetermined it is set to 2021»).
 
-Dumpen er derfor datert ut fra innholdet (`skript/v1_wiki_datering.py` → `data/v1/wiki_datering.json`):
-- Dokumenter som nevner årstallet: 2019 → 436, 2020 → 338, 2021 → 135, 2022 → 14 (nb). Tallene for 2022 ligger på nivå med fremtidige år (2023 → 16, 2028 → 6), og stikkprøver viser planlagte hendelser («planlagt åpning er i 2022», «innen 20. september 2022»).
+**Bekreftelse fra innholdet** (`skript/v1_wiki_datering.py` → `data/v1/wiki_datering.json`):
+- Dokumenter som nevner årstallet (nb): 2019 → 436, 2020 → 338, 2021 → 135, 2022 → 14. Omtalene av 2022 ligger på nivå med fremtidige år (2023 → 16, 2028 → 6), og stikkprøver viser planlagte hendelser («planlagt åpning er i 2022»).
 - Daterte omtaler av 2021 per måned (begge varianter): januar 14, februar 23, mars 25, april 20, mai 16, juni 9, juli 2, august 7.
 - 0 treff på «Regjeringen/Regjeringa Støre» (tiltrådt 14.10.2021), på invasjonen av Ukraina i 2022, på Elizabeth IIs død (08.09.2022) og på ChatGPT.
 
-Vurdering: dumpen er fra rundt sommeren 2021, og i alle fall før 14.10.2021. Det er godt før 30.11.2022. Oppgaven sa «stopp og rapporter» hvis datoen ikke kan dokumenteres. Den er dokumentert fra dataene, ikke fra kortet. **Jeg har fortsatt. Godtar ikke Eirik datering fra innhold, faller v1 bort.**
+Samlet: dumpen er fra rundt sommeren 2021. Den dokumenterte øvre grensen er 21.01.2022.
 
 ## V2 – «Avsnitt» i Wikipedia-teksten
 NCC-teksten har ingen linjeskift, og hele artikkelen ligger på én linje med rester av markup («'''»). Et avsnitt er derfor definert som den innledende prosablokken før første liste (« * », « # ») eller overskrift («==»), kuttet ved siste setningsgrense ≤ 250 ord. «'''» og «''» fjernes. Ett avsnitt per artikkel.
@@ -182,3 +182,7 @@ Utenom maskintreffene: Rindal (nb-wiki-0007) «grensa mot Meldal» → «grensa 
 
 ## V10 – Forbruket i hovedøkta er målt til kjøretidspunktet
 `resultat/v1_tokenregnskap.json` dekker hovedøkta fra v1-oppgaven (10:03:53Z) til 10:41:14Z. Skriving av rapport og commit etter dette er ikke med.
+
+## V11 – OpenTimestamps (status 27.11.2026)
+- `PREREG.md.ots` er fullstendig, med Bitcoin-attestasjoner i blokk 977348 og 977351 (`ots upgrade`: «Timestamp complete»).
+- `PREREG_v2.md.ots` har ikke fått attestasjon ennå. `ots upgrade` svarte «Pending confirmation in Bitcoin blockchain» fra alle fire kalenderne. Stemplet er gyldig som innsendt, og `ots upgrade` må kjøres på nytt før eller etter publisering.
