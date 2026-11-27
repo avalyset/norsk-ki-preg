@@ -1,0 +1,434 @@
+[
+ {
+  "parti": 1,
+  "fil": "tekster_001.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "menneske",
+    "nb-wiki-0016"
+   ],
+   [
+    "ki",
+    "nb-ki-0012"
+   ],
+   [
+    "ki",
+    "nb-ki-0004"
+   ],
+   [
+    "menneske",
+    "nb-wiki-0004"
+   ],
+   [
+    "ki",
+    "nb-ki-0001"
+   ]
+  ]
+ },
+ {
+  "parti": 2,
+  "fil": "tekster_002.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "ki",
+    "nb-ki-0007"
+   ],
+   [
+    "ki",
+    "nb-ki-0014"
+   ],
+   [
+    "menneske",
+    "nb-wiki-0019"
+   ],
+   [
+    "ki",
+    "nb-ki-0015"
+   ],
+   [
+    "menneske",
+    "nb-wiki-0002"
+   ]
+  ]
+ },
+ {
+  "parti": 3,
+  "fil": "tekster_003.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "menneske",
+    "nb-wiki-0008"
+   ],
+   [
+    "menneske",
+    "nb-wiki-0010"
+   ],
+   [
+    "ki",
+    "nb-ki-0018"
+   ],
+   [
+    "ki",
+    "nb-ki-0003"
+   ],
+   [
+    "ki",
+    "nb-ki-0016"
+   ]
+  ]
+ },
+ {
+  "parti": 4,
+  "fil": "tekster_004.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "ki",
+    "nb-ki-0013"
+   ],
+   [
+    "ki",
+    "nb-ki-0017"
+   ],
+   [
+    "menneske",
+    "nb-wiki-0007"
+   ],
+   [
+    "menneske",
+    "nb-wiki-0003"
+   ],
+   [
+    "menneske",
+    "nb-wiki-0006"
+   ]
+  ]
+ },
+ {
+  "parti": 5,
+  "fil": "tekster_005.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "ki",
+    "nb-ki-0010"
+   ],
+   [
+    "menneske",
+    "nb-wiki-0012"
+   ],
+   [
+    "menneske",
+    "nb-wiki-0015"
+   ],
+   [
+    "ki",
+    "nb-ki-0002"
+   ],
+   [
+    "menneske",
+    "nb-wiki-0018"
+   ]
+  ]
+ },
+ {
+  "parti": 6,
+  "fil": "tekster_006.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "menneske",
+    "nb-wiki-0001"
+   ],
+   [
+    "ki",
+    "nb-ki-0009"
+   ],
+   [
+    "ki",
+    "nb-ki-0008"
+   ],
+   [
+    "menneske",
+    "nb-wiki-0017"
+   ],
+   [
+    "ki",
+    "nb-ki-0019"
+   ]
+  ]
+ },
+ {
+  "parti": 7,
+  "fil": "tekster_007.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "menneske",
+    "nb-wiki-0011"
+   ],
+   [
+    "menneske",
+    "nb-wiki-0013"
+   ],
+   [
+    "menneske",
+    "nb-wiki-0014"
+   ],
+   [
+    "ki",
+    "nb-ki-0011"
+   ],
+   [
+    "menneske",
+    "nb-wiki-0005"
+   ]
+  ]
+ },
+ {
+  "parti": 8,
+  "fil": "tekster_008.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "menneske",
+    "nb-wiki-0000"
+   ],
+   [
+    "ki",
+    "nb-ki-0000"
+   ],
+   [
+    "ki",
+    "nb-ki-0005"
+   ],
+   [
+    "menneske",
+    "nb-wiki-0009"
+   ],
+   [
+    "ki",
+    "nb-ki-0006"
+   ]
+  ]
+ },
+ {
+  "parti": 9,
+  "fil": "tekster_009.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "ki",
+    "nn-ki-0014"
+   ],
+   [
+    "menneske",
+    "nn-wiki-0008"
+   ],
+   [
+    "ki",
+    "nn-ki-0015"
+   ],
+   [
+    "menneske",
+    "nn-wiki-0005"
+   ],
+   [
+    "menneske",
+    "nn-wiki-0012"
+   ]
+  ]
+ },
+ {
+  "parti": 10,
+  "fil": "tekster_010.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "ki",
+    "nn-ki-0011"
+   ],
+   [
+    "ki",
+    "nn-ki-0009"
+   ],
+   [
+    "ki",
+    "nn-ki-0010"
+   ],
+   [
+    "menneske",
+    "nn-wiki-0003"
+   ],
+   [
+    "ki",
+    "nn-ki-0004"
+   ]
+  ]
+ },
+ {
+  "parti": 11,
+  "fil": "tekster_011.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "ki",
+    "nn-ki-0001"
+   ],
+   [
+    "ki",
+    "nn-ki-0000"
+   ],
+   [
+    "menneske",
+    "nn-wiki-0002"
+   ],
+   [
+    "menneske",
+    "nn-wiki-0016"
+   ],
+   [
+    "menneske",
+    "nn-wiki-0018"
+   ]
+  ]
+ },
+ {
+  "parti": 12,
+  "fil": "tekster_012.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "menneske",
+    "nn-wiki-0015"
+   ],
+   [
+    "menneske",
+    "nn-wiki-0009"
+   ],
+   [
+    "menneske",
+    "nn-wiki-0013"
+   ],
+   [
+    "menneske",
+    "nn-wiki-0011"
+   ],
+   [
+    "ki",
+    "nn-ki-0019"
+   ]
+  ]
+ },
+ {
+  "parti": 13,
+  "fil": "tekster_013.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "menneske",
+    "nn-wiki-0001"
+   ],
+   [
+    "menneske",
+    "nn-wiki-0006"
+   ],
+   [
+    "menneske",
+    "nn-wiki-0007"
+   ],
+   [
+    "ki",
+    "nn-ki-0008"
+   ],
+   [
+    "ki",
+    "nn-ki-0005"
+   ]
+  ]
+ },
+ {
+  "parti": 14,
+  "fil": "tekster_014.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "menneske",
+    "nn-wiki-0014"
+   ],
+   [
+    "ki",
+    "nn-ki-0002"
+   ],
+   [
+    "ki",
+    "nn-ki-0018"
+   ],
+   [
+    "menneske",
+    "nn-wiki-0017"
+   ],
+   [
+    "ki",
+    "nn-ki-0013"
+   ]
+  ]
+ },
+ {
+  "parti": 15,
+  "fil": "tekster_015.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "menneske",
+    "nn-wiki-0004"
+   ],
+   [
+    "ki",
+    "nn-ki-0017"
+   ],
+   [
+    "ki",
+    "nn-ki-0006"
+   ],
+   [
+    "ki",
+    "nn-ki-0016"
+   ],
+   [
+    "menneske",
+    "nn-wiki-0010"
+   ]
+  ]
+ },
+ {
+  "parti": 16,
+  "fil": "tekster_016.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "menneske",
+    "nn-wiki-0000"
+   ],
+   [
+    "ki",
+    "nn-ki-0003"
+   ],
+   [
+    "ki",
+    "nn-ki-0012"
+   ],
+   [
+    "ki",
+    "nn-ki-0007"
+   ],
+   [
+    "menneske",
+    "nn-wiki-0019"
+   ]
+  ]
+ }
+]
