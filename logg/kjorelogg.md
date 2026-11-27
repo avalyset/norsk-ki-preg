@@ -28,3 +28,6 @@
 
 ## 2026-11-27 – publiseringsklargjøring
 - V1 omskrevet (NCC-byggedato som øvre grense), V11 OTS, V12 lisenser, V13 filter-repo. README, LISENSER.md, CITATION.cff, .zenodo.json. Frys-lesing a–f: ett treff (31b399c = sha-suffiks, ikke commit), rettet B14-sitatformat og NCC-kortmerknad i rapporten.
+
+## 2026-11-27 – publisert
+- Zenodo (direkte opplasting): DOI 10.5281/zenodo.24586253 (concept 10.5281/zenodo.24586252). Fil norsk-ki-preg_v1.0.0_2026-11-27.tar.gz, md5 aed9df6ba9e5a3509d465332a6059a64, sha256 53b06682e8d814c25e1ba6de8c92902e51bae423a8b934582907d1bd95354f3d, bygd med git archive fra 0fab264.

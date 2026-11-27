@@ -2,6 +2,8 @@
 
 En skill for Claude som retter KI-preg i norsk tekst (bokmål og nynorsk), med en målt overbruksliste og forhåndsregistrert validering.
 
+DOI: [10.5281/zenodo.24586253](https://doi.org/10.5281/zenodo.24586253) (versjon 1.0.0; alle versjoner: [10.5281/zenodo.24586252](https://doi.org/10.5281/zenodo.24586252))
+
 ## Sammendrag
 
 norsk-ki-preg er en Markdown-skill for Claude som retter KI-preg i bokmål og nynorsk. Den har en fast regel om aldri å legge til navn, tall, datoer eller kilder som ikke står i teksten. Grunnlaget er liste_v2: ord og fraser som Claude Opus 5.5 og NorMistral-7B overbruker i faktatekst sammenlignet med norsk Wikipedia, 475 på bokmål og 175 på nynorsk. Skillen ble sammenlignet med anti-ai-writing v2.1.0 på et urørt sett med 20 KI-tekster og 20 Wikipedia-avsnitt per målform, etter forhåndsregistreringen PREREG v2 (sha256 1e810888865cbdd66761dce6db88178f9374a1c5ee8dda3e1f0f694e4633000c). Målet R er forekomsten av markørene fra lista i KI-tekst etter vask, delt på forekomsten i menneskeskrevet tekst. Etter beslutningsregelen er skillen ikke bedre: R_engelsk − R_norsk var −0,107 [−0,185; −0,039] på bokmål og −0,055 [−0,122; 0,010] på nynorsk. Den endret menneskeskrevet tekst langt mindre: median normalisert redigeringsavstand (M3) var 0,002 og 0,003, mot 0,339 og 0,272. Den la ikke til innhold i noen av 80 tekster. anti-ai-writing la til navngitte kilder eller fakta fra utenfor kildeteksten i 4 av 80. Det er ikke sjekket om tilskrivingene er riktige. Kjent begrensning: grunnregelen lot 25 av 40 KI-tekster stå urørt. Lisenser: Apache-2.0 for kode og skill, MIT for delen fra anti-ai-writing, CC BY-SA 3.0 for data og liste_v2.
@@ -41,7 +43,7 @@ Se `LISENSER.md` og AVVIK V12.
 
 ## Sitering
 
-Botten Nicolaysen, E. (2026). *norsk-ki-preg: en skill som retter KI-preg i norsk tekst* (versjon 1.0.0) [programvare og data]. Se `CITATION.cff`.
+Botten Nicolaysen, E. (2026). *norsk-ki-preg: en skill som retter KI-preg i norsk tekst* (versjon 1.0.0) [programvare og data]. Zenodo. https://doi.org/10.5281/zenodo.24586253. Se `CITATION.cff`.
 
 ## KI-erklæring
 
