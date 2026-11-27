@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Hvis du bruker dette, siter det slik / If you use this work, please cite it as below."
+title: "norsk-ki-preg: en norsk skill som retter KI-preg og språkfeil"
+type: software
+version: 1.0.0
+date-released: "2026-11-27"
+authors:
+  - family-names: "Botten Nicolaysen"
+    given-names: "Eirik"
+    orcid: "https://orcid.org/0009-0001-9188-6788"
+    affiliation: "EcoDeco AS"
+abstract: "norsk-ki-preg is a skill for Claude, written in Markdown, that corrects AI style and language errors in Norwegian text in Bokmål and Nynorsk without adding content. Layer 1 builds on liste_v2: words and phrases that Claude Opus 5.5 and NorMistral-7B overuse in expository text compared with Norwegian Wikipedia, 475 items for Bokmål and 175 for Nynorsk. The skill was validated against anti-ai-writing v2.1.0 on an untouched set of 20 AI texts and 20 Wikipedia paragraphs per variety, following the preregistration PREREG v2 (sha256 1e810888865cbdd66761dce6db88178f9374a1c5ee8dda3e1f0f694e4633000c). Under the rule, the skill is not better. R_English − R_Norwegian was −0.107 [−0.185; −0.039] for Bokmål and −0.055 [−0.122; 0.010] for Nynorsk. The skill changed human-written text far less, with median M3 0.002 and 0.003 against 0.339 and 0.272, and it added content to none of 80 texts. anti-ai-writing added named sources or facts that are not in the source text to 4 of 80. Whether the attributions are correct has not been checked. A known limitation is that the basic rule left 25 of 40 AI texts untouched. Licences: Apache-2.0 for code and skill, MIT for layer 2 from anti-ai-writing, CC BY-SA 3.0 for data and liste_v2."
+license:
+  - Apache-2.0
+  - MIT
+  - CC-BY-SA-3.0
+keywords:
+  - norsk
+  - bokmål
+  - nynorsk
+  - språkvask
+  - Claude skill
+  - forhåndsregistrering

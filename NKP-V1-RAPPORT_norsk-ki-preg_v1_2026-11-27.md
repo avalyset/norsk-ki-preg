@@ -44,10 +44,10 @@ Skill v1 la til noe i **0 av 80** tekster. anti-ai-writing tilføyde navngitte k
 | norsk v1 | nn | 40 | 0 | 0 | **0** (0 / 0) |
 
 Tilføyelsene fra anti-ai-writing, ordrett:
-- nb-ki-0003: «Ifølge Giorgio Vasari gjorde han dette etter å ha hørt noen tilskrive skulpturen en annen kunstner.». «Ifølge en kjent fortelling» → «Ifølge Giorgio Vasari»
-- nb-wiki-0003: «Statuen ble bestilt av den franske kardinalen Jean de Bilhères, som var den franske kongens utsending i Roma.». «som representerte Michelangelo i Roma» → «som var den franske kongens utsending i Roma» (endret påstand)
-- nn-wiki-0003: «Mykje av den moderne kvantefeltteorien kjem frå han, mellom anna ein variasjonsmetode og rørslelikningane for kvantefelt.». «differensiell form av fysisk integrering» → «ein variasjonsmetode», «kvantekostnadene» → «ladningskvantet» o.a. (påstander byttet ut fra egen kunnskap)
-- nb-wiki-0007: «Nederst i bygda ligger Aune, ved grensa mot Surnadal, bare 45 moh., mens grensa mot Orkland lengst oppe i bygda ligger på 280 moh.». «grensa mot Meldal» → «grensa mot Orkland» (endret påstand fra egen kunnskap, ikke fanget maskinelt) Ikke fanget maskinelt.
+- nb-ki-0003: «Ifølge Giorgio Vasari gjorde han dette etter å ha hørt noen tilskrive skulpturen en annen kunstner.» Endring: «Ifølge en kjent fortelling» → «Ifølge Giorgio Vasari».
+- nb-wiki-0003: «Statuen ble bestilt av den franske kardinalen Jean de Bilhères, som var den franske kongens utsending i Roma.» Endring: «som representerte Michelangelo i Roma» → «som var den franske kongens utsending i Roma» (endret påstand).
+- nn-wiki-0003: «Mykje av den moderne kvantefeltteorien kjem frå han, mellom anna ein variasjonsmetode og rørslelikningane for kvantefelt.» Endring: «differensiell form av fysisk integrering» → «ein variasjonsmetode», «kvantekostnadene» → «ladningskvantet» o.a. (påstander byttet ut fra egen kunnskap).
+- nb-wiki-0007: «Nederst i bygda ligger Aune, ved grensa mot Surnadal, bare 45 moh., mens grensa mot Orkland lengst oppe i bygda ligger på 280 moh.» Endring: «grensa mot Meldal» → «grensa mot Orkland» (endret påstand fra egen kunnskap, ikke fanget maskinelt).
 
 Skill v1 hadde 0 maskintreff i alle 80 tekstene, og ingen tilføyelse ble funnet ved lesing. Én av de fire anti-ai-writing-tilføyelsene ble funnet utenom maskinen (AVVIK V9).
 
@@ -58,15 +58,15 @@ Skill v1 skal la tekst uten markører stå urørt. Regelen slo til for 15 av 20 
 ## 5. Forløpere
 
 - **Fase A, røyktest (24.11.2026):** anti-ai-writing på norsk avistekst. Resultatet var at fase B trengtes, utløst av nynorsk. Se `NKP-ROYK-RAPPORT_norsk-ki-preg_v1_2026-11-24.md` og `BESLUTNING.md`.
-- **Fase B og skill v0 (24.–27.11.2026):** liste_v1 målt på avisfortsettelser, skill v0 og validering etter `PREREG.md`. Resultatet var «ikke bedre», fordi målestokken ikke skilte KI fra menneske på bokmål (R før vask 1,01; AVVIK B16). Se `NKP-FASEB-RAPPORT_norsk-ki-preg_v1_2026-11-27.md`, `liste_v1.md` og skill v0 i commit 0e40005. v1 retter målestokken: lista er målt på faktatekst mot Wikipedia, og valideringen bruker et nytt, urørt sett.
+- **Fase B og skill v0 (24.–27.11.2026):** liste_v1 målt på avisfortsettelser, skill v0 og validering etter `PREREG.md`. Resultatet var «ikke bedre», fordi målestokken ikke skilte KI fra menneske på bokmål (R før vask 1,01; AVVIK B16). Se `NKP-FASEB-RAPPORT_norsk-ki-preg_v1_2026-11-27.md`, `liste_v1.md` og skill v0 i commit c947a62. v1 retter målestokken: lista er målt på faktatekst mot Wikipedia, og valideringen bruker et nytt, urørt sett.
 
 ## 6. PREREG og tidsstempler
 
-`PREREG_v2.md` sha256 `1e810888865cbdd66761dce6db88178f9374a1c5ee8dda3e1f0f694e4633000c`, låst 27.11 i commit 5793a12 før skill v1, KI-generering og validering. OpenTimestamps: `PREREG_v2.md.ots` (commit 9437e54). `ots upgrade` 27.11: v2 venter fortsatt på Bitcoin-attestasjon (AVVIK V11). PREREG v1 (`PREREG.md`, sha256 f3e13a9c…dd521df9) er fullstendig attestert i blokk 977348 og 977351. Skill v1 ble committet før første vaskekall (a43d89d). `liste_v2.json` sha256 `3cf27e29ec65df35390899f7c9226dd55e5e400d2068425497891bd9614789fd`.
+`PREREG_v2.md` sha256 `1e810888865cbdd66761dce6db88178f9374a1c5ee8dda3e1f0f694e4633000c`, låst 27.11 i commit e953736 før skill v1, KI-generering og validering. OpenTimestamps: `PREREG_v2.md.ots` (commit db336a0). `ots upgrade` 27.11: v2 venter fortsatt på Bitcoin-attestasjon (AVVIK V11). PREREG v1 (`PREREG.md`, sha256 f3e13a9c…dd521df9) er fullstendig attestert i blokk 977348 og 977351. Skill v1 ble committet før første vaskekall (3f5fb8f). `liste_v2.json` sha256 `3cf27e29ec65df35390899f7c9226dd55e5e400d2068425497891bd9614789fd`.
 
 ## 7. Menneskelig referanse: dato og lisens
 
-Kilde: NCC (NbAiLab/NCC), validation-shard-0001, `wikipedia_download_nbo` og `wikipedia_download_nno`. Lisensen står i NCC-kortet (`kilder/ncc/NCC_README.md`), ordrett: «| Wikipedia | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |».
+Kilde: NCC (NbAiLab/NCC), validation-shard-0001, `wikipedia_download_nbo` og `wikipedia_download_nno`. Lisensen står i NCC-kortet (`kilder/ncc/NCC_README.md`, ikke med i deponeringstarballen, AVVIK V12), ordrett: «| Wikipedia | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |».
 
 Dato (AVVIK V1, godtatt): kortet sier ordrett «Build date original corpus: 21012022». Det er den dokumenterte øvre grensen for dumpen, før 30.11.2022. Innholdet bekrefter det: daterte omtaler av 2021 stopper i juli og august 2021, omtaler av 2022 gjelder planlagte hendelser, og det er 0 treff på regjeringen Støre (14.10.2021), invasjonen av Ukraina, Elizabeth IIs død og ChatGPT.
 

@@ -4,7 +4,7 @@
 
 **Svar (mekanisk etter BESLUTNING.md):** Ja, fase B trengs. Nynorsk: R = 3,70, 95 % KI [1,47; 8,52]. Nedre grense er over 1. Bokmål: R = 1,43 [0,69; 2,90], ikke signifikant. Fase B er ikke startet.
 
-Låste filer: BESLUTNING.md sha256 `bf251ffb…75d671a1` (commit 1e0588e, før datauttrekk). markorer_v0.json sha256 `6ddb4448…31b399c` (commit c6010e6, før generering).
+Låste filer: BESLUTNING.md sha256 `bf251ffb…75d671a1` (commit 0631922, før datauttrekk). markorer_v0.json sha256 `6ddb4448…31b399c` (commit 8b5c13b, før generering).
 
 ## 1. Forbruk og lokale modeller
 
