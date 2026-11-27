@@ -15,3 +15,7 @@
 ## 2026-11-27 – B12 og B14 lukket fra disk (ingen modellkall)
 - `skript/tokenregnskap.py` → `resultat/tokenregnskap.json` og `resultat/tokenregnskap_hovedokt.json`: 9,6M = siste forespørsel per kall, 39,5M = dobbelttelt linjesum, dedupliserte summer 19,4M (subagenter) og 46,6M (hovedøkt).
 - `skript/tilfoyelser.py` + `skript/tilfoyelser_klasse.py` → `resultat/tilfoyelser*.json`: ekte tilføyelser 4/80 (anti-ai-writing) mot 0/80 (norsk v0).
+
+## 2026-11-27 – v1: PREREG v2 låst
+- PREREG_v2.md sha256 1e810888865cbdd66761dce6db88178f9374a1c5ee8dda3e1f0f694e4633000c, commit 5793a12, OTS PREREG_v2.md.ots (3 kalendere, venter på Bitcoin-attestasjon).
+- liste_v2.json sha256 3cf27e29ec65df35390899f7c9226dd55e5e400d2068425497891bd9614789fd.
