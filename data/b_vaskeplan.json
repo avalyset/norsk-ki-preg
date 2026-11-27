@@ -1,0 +1,434 @@
+[
+ {
+  "parti": 1,
+  "fil": "scratchpad/w/tekster_001.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "ki",
+    "nb-val_emne-004"
+   ],
+   [
+    "ki",
+    "nb-val_emne-002"
+   ],
+   [
+    "ki",
+    "nb-val_emne-010"
+   ],
+   [
+    "ki",
+    "nb-val_emne-016"
+   ],
+   [
+    "ki",
+    "nb-val_emne-007"
+   ]
+  ]
+ },
+ {
+  "parti": 2,
+  "fil": "scratchpad/w/tekster_002.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "ki",
+    "nb-val_emne-018"
+   ],
+   [
+    "menneske",
+    "nb-val_menneske-004"
+   ],
+   [
+    "ki",
+    "nb-val_emne-005"
+   ],
+   [
+    "menneske",
+    "nb-val_menneske-013"
+   ],
+   [
+    "menneske",
+    "nb-val_menneske-001"
+   ]
+  ]
+ },
+ {
+  "parti": 3,
+  "fil": "scratchpad/w/tekster_003.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "menneske",
+    "nb-val_menneske-016"
+   ],
+   [
+    "menneske",
+    "nb-val_menneske-018"
+   ],
+   [
+    "menneske",
+    "nb-val_menneske-017"
+   ],
+   [
+    "menneske",
+    "nb-val_menneske-005"
+   ],
+   [
+    "ki",
+    "nb-val_emne-003"
+   ]
+  ]
+ },
+ {
+  "parti": 4,
+  "fil": "scratchpad/w/tekster_004.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "menneske",
+    "nb-val_menneske-011"
+   ],
+   [
+    "menneske",
+    "nb-val_menneske-008"
+   ],
+   [
+    "menneske",
+    "nb-val_menneske-012"
+   ],
+   [
+    "ki",
+    "nb-val_emne-015"
+   ],
+   [
+    "menneske",
+    "nb-val_menneske-010"
+   ]
+  ]
+ },
+ {
+  "parti": 5,
+  "fil": "scratchpad/w/tekster_005.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "menneske",
+    "nb-val_menneske-015"
+   ],
+   [
+    "ki",
+    "nb-val_emne-001"
+   ],
+   [
+    "ki",
+    "nb-val_emne-009"
+   ],
+   [
+    "ki",
+    "nb-val_emne-014"
+   ],
+   [
+    "ki",
+    "nb-val_emne-013"
+   ]
+  ]
+ },
+ {
+  "parti": 6,
+  "fil": "scratchpad/w/tekster_006.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "menneske",
+    "nb-val_menneske-009"
+   ],
+   [
+    "menneske",
+    "nb-val_menneske-003"
+   ],
+   [
+    "menneske",
+    "nb-val_menneske-002"
+   ],
+   [
+    "menneske",
+    "nb-val_menneske-019"
+   ],
+   [
+    "menneske",
+    "nb-val_menneske-000"
+   ]
+  ]
+ },
+ {
+  "parti": 7,
+  "fil": "scratchpad/w/tekster_007.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "ki",
+    "nb-val_emne-019"
+   ],
+   [
+    "ki",
+    "nb-val_emne-008"
+   ],
+   [
+    "ki",
+    "nb-val_emne-011"
+   ],
+   [
+    "ki",
+    "nb-val_emne-006"
+   ],
+   [
+    "menneske",
+    "nb-val_menneske-014"
+   ]
+  ]
+ },
+ {
+  "parti": 8,
+  "fil": "scratchpad/w/tekster_008.txt",
+  "variant": "nb",
+  "innhold": [
+   [
+    "menneske",
+    "nb-val_menneske-006"
+   ],
+   [
+    "ki",
+    "nb-val_emne-017"
+   ],
+   [
+    "ki",
+    "nb-val_emne-012"
+   ],
+   [
+    "ki",
+    "nb-val_emne-000"
+   ],
+   [
+    "menneske",
+    "nb-val_menneske-007"
+   ]
+  ]
+ },
+ {
+  "parti": 9,
+  "fil": "scratchpad/w/tekster_009.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "menneske",
+    "nn-val_menneske-011"
+   ],
+   [
+    "menneske",
+    "nn-val_menneske-004"
+   ],
+   [
+    "menneske",
+    "nn-val_menneske-010"
+   ],
+   [
+    "ki",
+    "nn-val_emne-012"
+   ],
+   [
+    "menneske",
+    "nn-val_menneske-007"
+   ]
+  ]
+ },
+ {
+  "parti": 10,
+  "fil": "scratchpad/w/tekster_010.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "menneske",
+    "nn-val_menneske-014"
+   ],
+   [
+    "ki",
+    "nn-val_emne-014"
+   ],
+   [
+    "menneske",
+    "nn-val_menneske-006"
+   ],
+   [
+    "ki",
+    "nn-val_emne-017"
+   ],
+   [
+    "ki",
+    "nn-val_emne-015"
+   ]
+  ]
+ },
+ {
+  "parti": 11,
+  "fil": "scratchpad/w/tekster_011.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "ki",
+    "nn-val_emne-010"
+   ],
+   [
+    "menneske",
+    "nn-val_menneske-002"
+   ],
+   [
+    "ki",
+    "nn-val_emne-001"
+   ],
+   [
+    "ki",
+    "nn-val_emne-006"
+   ],
+   [
+    "menneske",
+    "nn-val_menneske-009"
+   ]
+  ]
+ },
+ {
+  "parti": 12,
+  "fil": "scratchpad/w/tekster_012.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "menneske",
+    "nn-val_menneske-000"
+   ],
+   [
+    "ki",
+    "nn-val_emne-000"
+   ],
+   [
+    "ki",
+    "nn-val_emne-002"
+   ],
+   [
+    "ki",
+    "nn-val_emne-011"
+   ],
+   [
+    "menneske",
+    "nn-val_menneske-008"
+   ]
+  ]
+ },
+ {
+  "parti": 13,
+  "fil": "scratchpad/w/tekster_013.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "ki",
+    "nn-val_emne-004"
+   ],
+   [
+    "menneske",
+    "nn-val_menneske-012"
+   ],
+   [
+    "ki",
+    "nn-val_emne-013"
+   ],
+   [
+    "ki",
+    "nn-val_emne-018"
+   ],
+   [
+    "menneske",
+    "nn-val_menneske-016"
+   ]
+  ]
+ },
+ {
+  "parti": 14,
+  "fil": "scratchpad/w/tekster_014.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "menneske",
+    "nn-val_menneske-013"
+   ],
+   [
+    "menneske",
+    "nn-val_menneske-003"
+   ],
+   [
+    "menneske",
+    "nn-val_menneske-015"
+   ],
+   [
+    "menneske",
+    "nn-val_menneske-017"
+   ],
+   [
+    "menneske",
+    "nn-val_menneske-018"
+   ]
+  ]
+ },
+ {
+  "parti": 15,
+  "fil": "scratchpad/w/tekster_015.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "ki",
+    "nn-val_emne-008"
+   ],
+   [
+    "ki",
+    "nn-val_emne-005"
+   ],
+   [
+    "menneske",
+    "nn-val_menneske-005"
+   ],
+   [
+    "ki",
+    "nn-val_emne-007"
+   ],
+   [
+    "ki",
+    "nn-val_emne-009"
+   ]
+  ]
+ },
+ {
+  "parti": 16,
+  "fil": "scratchpad/w/tekster_016.txt",
+  "variant": "nn",
+  "innhold": [
+   [
+    "ki",
+    "nn-val_emne-019"
+   ],
+   [
+    "ki",
+    "nn-val_emne-003"
+   ],
+   [
+    "menneske",
+    "nn-val_menneske-001"
+   ],
+   [
+    "menneske",
+    "nn-val_menneske-019"
+   ],
+   [
+    "ki",
+    "nn-val_emne-016"
+   ]
+  ]
+ }
+]

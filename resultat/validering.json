@@ -1,0 +1,119 @@
+{
+ "nb": {
+  "n_KI": 20,
+  "n_menneske": 20,
+  "n_menneske_vasket": 20,
+  "v0+liste_v1": {
+   "rate_menneske": 99.62,
+   "rate_KI_for_vask": 100.61,
+   "rate_KI_etter_no": 98.51,
+   "rate_KI_etter_en": 90.96,
+   "R_no": 0.989,
+   "R_en": 0.913
+  },
+  "R_en_minus_R_no": {
+   "est": -0.076,
+   "KI": [
+    -0.135,
+    -0.023
+   ],
+   "n_endelige": 10000
+  },
+  "M3_no_minus_M3_en": {
+   "est": -0.0794,
+   "KI": [
+    -0.1105,
+    -0.0497
+   ]
+  },
+  "bare_v0": {
+   "rate_menneske": 5.32,
+   "rate_KI_for_vask": 8.72,
+   "rate_KI_etter_no": 8.53,
+   "rate_KI_etter_en": 6.34,
+   "R_no": 1.603,
+   "R_en": 1.192
+  },
+  "M3_menneske_no": {
+   "median": 0.0101,
+   "snitt": 0.0112,
+   "uendret": 0
+  },
+  "M3_KI_no": {
+   "median": 0.0,
+   "uendret": 11
+  },
+  "M3_menneske_en": {
+   "median": 0.0581,
+   "snitt": 0.0906,
+   "uendret": 0
+  },
+  "M3_KI_en": {
+   "median": 0.2257,
+   "uendret": 0
+  },
+  "R_vilkar": false,
+  "M3_vilkar": true
+ },
+ "nn": {
+  "n_KI": 20,
+  "n_menneske": 20,
+  "n_menneske_vasket": 20,
+  "v0+liste_v1": {
+   "rate_menneske": 71.06,
+   "rate_KI_for_vask": 119.41,
+   "rate_KI_etter_no": 115.93,
+   "rate_KI_etter_en": 116.89,
+   "R_no": 1.631,
+   "R_en": 1.645
+  },
+  "R_en_minus_R_no": {
+   "est": 0.014,
+   "KI": [
+    -0.056,
+    0.079
+   ],
+   "n_endelige": 10000
+  },
+  "M3_no_minus_M3_en": {
+   "est": -0.104,
+   "KI": [
+    -0.1542,
+    -0.0593
+   ]
+  },
+  "bare_v0": {
+   "rate_menneske": 3.15,
+   "rate_KI_for_vask": 9.89,
+   "rate_KI_etter_no": 10.08,
+   "rate_KI_etter_en": 8.82,
+   "R_no": 3.2,
+   "R_en": 2.8
+  },
+  "M3_menneske_no": {
+   "median": 0.0137,
+   "snitt": 0.021,
+   "uendret": 0
+  },
+  "M3_KI_no": {
+   "median": 0.0011,
+   "uendret": 9
+  },
+  "M3_menneske_en": {
+   "median": 0.0655,
+   "snitt": 0.125,
+   "uendret": 0
+  },
+  "M3_KI_en": {
+   "median": 0.1652,
+   "uendret": 0
+  },
+  "R_vilkar": false,
+  "M3_vilkar": true
+ },
+ "beslutning": {
+  "R_minst_en": false,
+  "M3_begge": true,
+  "norsk_skill_bedre": false
+ }
+}

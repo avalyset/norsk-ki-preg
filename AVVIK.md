@@ -92,3 +92,18 @@ nn: 181 av 275 avsnitt er fra 1990–1994, og 15 er bøker. nb er fra 2000–201
 
 ## B12 – To tokenmål
 PREREG §7 bruker `subagent_tokens` (harnessens tall, lik konteksten i siste forespørsel): 6 245 229 for generering. Summerer man alle forespørsler i hver subagent (hvert kall har to forespørsler: lesing av fila og svar, og begge teller hele den bufrede konteksten), blir det 17 371 849. Taket måles etter PREREG-målet. Begge tallene rapporteres.
+
+## B13 – Vask i validering: mekanisme og uttrekk
+32 Explore-kall (16 per skill), 5 tekster per kall. Skillen ble lest fra disk: den norske fra `skills/norsk-ki-preg/`, den engelske fra pluginkatalogen til anti-ai-writing v2.1.0. Omskrivingsblokken hentes med `skript/samle_vask_b.py`. Overskriften varierer mellom «### Omskriving», «**Omskriving**» og «Rewrite», og skriptet godtar alle tre. Alle 32 kall svarte, med 5 svar hvert (160 tekster). Ingen kall ble kjørt på nytt, og ingen ble drept. Fire engelske kall brukte 5–6 minutter. De ble sjekket fra disk innenfor 10-minuttersgrensen.
+
+## B14 – Den engelske skillen svarer på norsk og bytter replikkstrek
+anti-ai-writing forbyr alle streker. På norske tekster gjør den derfor replikkstrek om til «», og det gjør M3 høyere på menneskelig tekst. Den legger også til navn og fakta som ikke står i kilden (for eksempel forskernavn i en tekst om rødming, og «over tre hundre år» i stedet for «nesten tre hundre år»). Dette er ikke en del av regelen. M2 fanger det bare delvis, og det er notert beskrivende.
+
+## B15 – Den norske skillen lar halvparten av KI-tekstene stå urørt
+Grunnregelen «la tekst uten markører stå urørt» ga «Ingen endringer» for 11 av 20 nb-KI og 9 av 20 nn-KI. Ingen av de 40 menneskelige tekstene ble returnert uendret. De har OCR-feil som skillen retter (orddeling, «Øog» osv.), og derfor er M3 > 0 også for dem. Dette forklarer det meste av resultatet: lag 1-elementene er vanlige ord som bare teller ved opphopning, og Claudes fritekst (T2/T3) utløser dem sjelden.
+
+## B16 – M1 skiller dårlig mellom KI og menneske i bokmål
+Før vask er raten 100,61 (KI) mot 99,62 (menneske) per 1000 ord i nb, altså R ≈ 1,01. Lag 1-elementene er målt på T1 (fortsettelser), mens validerings-KI er T2/T3 (fritekst) og menneskereferansen er OCR-avis. Mesteparten av M1 er vanlige lemmaer (`mange`, `mene`, `før`) som forekommer i all tekst. I nn er R før vask 1,68, men det kan delvis være normskiftet (B8). Med bare markorer_v0 er R før vask 1,64 (nb) og 3,14 (nn). Regelen anvendes uendret.
+
+## B17 – Etter-validering: bare status og presiseringer endret
+Etter at regelen var anvendt, fikk `SKILL.md` en statuslinje, og i `liste_v1.md` ble sjangerforbeholdet presisert (nn har 15 bokavsnitt) og en setning rettet. `README.md` fikk oppdatert status. Ingen regel i skillen og ingen element i `liste_v1.json` er endret (sha256 336068c3…4c4a298f, uendret).

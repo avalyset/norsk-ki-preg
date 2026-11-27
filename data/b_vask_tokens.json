@@ -1,0 +1,162 @@
+{
+ "no_tekster_015.txt": {
+  "harness": 85454,
+  "sum": 419728,
+  "har_svar": true
+ },
+ "en_tekster_011.txt": {
+  "harness": 129049,
+  "sum": 1041618,
+  "har_svar": true
+ },
+ "no_tekster_011.txt": {
+  "harness": 90287,
+  "sum": 483372,
+  "har_svar": true
+ },
+ "en_tekster_012.txt": {
+  "harness": 128310,
+  "sum": 810253,
+  "har_svar": true
+ },
+ "en_tekster_001.txt": {
+  "harness": 130783,
+  "sum": 940352,
+  "har_svar": true
+ },
+ "en_tekster_015.txt": {
+  "harness": 129922,
+  "sum": 1040831,
+  "har_svar": true
+ },
+ "no_tekster_009.txt": {
+  "harness": 86694,
+  "sum": 476202,
+  "har_svar": true
+ },
+ "en_tekster_005.txt": {
+  "harness": 119762,
+  "sum": 792901,
+  "har_svar": true
+ },
+ "no_tekster_010.txt": {
+  "harness": 86078,
+  "sum": 521714,
+  "har_svar": true
+ },
+ "no_tekster_008.txt": {
+  "harness": 86171,
+  "sum": 475140,
+  "har_svar": true
+ },
+ "en_tekster_006.txt": {
+  "harness": 117138,
+  "sum": 757746,
+  "har_svar": true
+ },
+ "en_tekster_010.txt": {
+  "harness": 119429,
+  "sum": 1006893,
+  "har_svar": true
+ },
+ "no_tekster_001.txt": {
+  "harness": 85767,
+  "sum": 474332,
+  "har_svar": true
+ },
+ "en_tekster_013.txt": {
+  "harness": 119554,
+  "sum": 762578,
+  "har_svar": true
+ },
+ "no_tekster_012.txt": {
+  "harness": 88636,
+  "sum": 455536,
+  "har_svar": true
+ },
+ "en_tekster_009.txt": {
+  "harness": 120529,
+  "sum": 1011961,
+  "har_svar": true
+ },
+ "en_tekster_014.txt": {
+  "harness": 118008,
+  "sum": 999621,
+  "har_svar": true
+ },
+ "no_tekster_006.txt": {
+  "harness": 81029,
+  "sum": 464748,
+  "har_svar": true
+ },
+ "en_tekster_016.txt": {
+  "harness": 123804,
+  "sum": 1020317,
+  "har_svar": true
+ },
+ "en_tekster_002.txt": {
+  "harness": 117991,
+  "sum": 788923,
+  "har_svar": true
+ },
+ "no_tekster_003.txt": {
+  "harness": 86166,
+  "sum": 743040,
+  "har_svar": true
+ },
+ "no_tekster_005.txt": {
+  "harness": 86625,
+  "sum": 556734,
+  "har_svar": true
+ },
+ "en_tekster_004.txt": {
+  "harness": 119756,
+  "sum": 762982,
+  "har_svar": true
+ },
+ "no_tekster_016.txt": {
+  "harness": 92224,
+  "sum": 487134,
+  "har_svar": true
+ },
+ "no_tekster_004.txt": {
+  "harness": 86548,
+  "sum": 475810,
+  "har_svar": true
+ },
+ "en_tekster_003.txt": {
+  "harness": 120478,
+  "sum": 764406,
+  "har_svar": true
+ },
+ "no_tekster_007.txt": {
+  "harness": 88221,
+  "sum": 479144,
+  "har_svar": true
+ },
+ "en_tekster_008.txt": {
+  "harness": 124501,
+  "sum": 999906,
+  "har_svar": true
+ },
+ "no_tekster_014.txt": {
+  "harness": 88358,
+  "sum": 526224,
+  "har_svar": true
+ },
+ "en_tekster_007.txt": {
+  "harness": 126127,
+  "sum": 732064,
+  "har_svar": true
+ },
+ "no_tekster_013.txt": {
+  "harness": 85721,
+  "sum": 430618,
+  "har_svar": true
+ },
+ "no_tekster_002.txt": {
+  "harness": 88130,
+  "sum": 435444,
+  "har_svar": true
+ }
+}

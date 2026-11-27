@@ -1,0 +1,42 @@
+{
+ "nb|en|ki": {
+  "n": 20,
+  "snitt": 0.9878,
+  "min": 0.9633
+ },
+ "nb|en|menneske": {
+  "n": 20,
+  "snitt": 0.9874,
+  "min": 0.9763
+ },
+ "nb|no|ki": {
+  "n": 20,
+  "snitt": 0.9985,
+  "min": 0.9908
+ },
+ "nb|no|menneske": {
+  "n": 20,
+  "snitt": 0.9921,
+  "min": 0.9781
+ },
+ "nn|en|ki": {
+  "n": 20,
+  "snitt": 0.9881,
+  "min": 0.9097
+ },
+ "nn|en|menneske": {
+  "n": 20,
+  "snitt": 0.9894,
+  "min": 0.9778
+ },
+ "nn|no|ki": {
+  "n": 20,
+  "snitt": 0.9971,
+  "min": 0.9761
+ },
+ "nn|no|menneske": {
+  "n": 20,
+  "snitt": 0.9945,
+  "min": 0.9866
+ }
+}

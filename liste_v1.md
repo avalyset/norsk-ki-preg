@@ -1,10 +1,12 @@
 # liste_v1 – målt KI-overbruk i norsk (bokmål og nynorsk)
 
-Versjon v1, 27.11.2026. Bygd etter PREREG.md §5 (sha256 f3e13a9c…). Status: **foreløpig, målt på avisfortsettelser.** Lista gjelder én sjanger (NB-aviser), to modeller (Claude Opus 5.5 og NorMistral-7B) og små utvalg (240 og 185 par). Den er ikke en generell liste over norsk KI-stil.
+Versjon v1, 27.11.2026. Bygd etter PREREG.md §5 (sha256 f3e13a9c…). Status: **foreløpig, målt på avisfortsettelser.** Lista gjelder i hovedsak én sjanger (NB-aviser; nynorskutvalget har også 15 bokavsnitt, AVVIK B8), to modeller (Claude Opus 5.5 og NorMistral-7B) og små utvalg (240 og 185 par). Den er ikke en generell liste over norsk KI-stil.
+
+Validering 27.11.2026 (NKP-FASEB-RAPPORT): en skill bygd på lista (norsk-ki-preg v0) senket ikke markørraten mer enn anti-ai-writing v2.1.0. Lista er frosset (liste_v1.json, sha256 336068c3…4c4a298f) og er ikke endret etter valideringen.
 
 ## Slik er lista laget
 
-- Oppgave: T1, fortsettelse av en avisavsnitt-halvdel. Menneskereferansen er den ekte andre halvdelen.
+- Oppgave: T1, fortsettelse av første halvdel av et avisavsnitt. Menneskereferansen er den ekte andre halvdelen.
 - Mål: LPR = ln(p_KI/p_M), der p er andelen tekster der elementet forekommer, med Jeffreys-glatting (c+0,5)/(n+1).
 - Inntak: LPR ≥ ln 2 (minst dobbelt så vanlig hos KI) og c_KI + c_M ≥ 20. Egennavn og tall er utelatt.
 - «Samsvar» betyr at elementet passerer for både Claude og NorMistral. Det er de sikreste elementene.

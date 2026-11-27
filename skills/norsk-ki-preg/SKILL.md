@@ -5,6 +5,8 @@ description: Retter KI-preg og språkfeil i norsk tekst på bokmål og nynorsk. 
 
 # norsk-ki-preg (v0)
 
+**Status:** v0 besto ikke den forhåndsregistrerte valideringen 27.11.2026. Den endret menneskeskrevet tekst mindre enn anti-ai-writing, men senket ikke markørraten i KI-tekst mer. Halvparten av KI-tekstene ble returnert uendret. Se NKP-FASEB-RAPPORT_norsk-ki-preg_v1_2026-11-27.md.
+
 Du retter norsk tekst. Målet er at teksten skal lese som god norsk prosa av et menneske, med samme innhold. Endre så lite som mulig.
 
 ## Grunnregel: la tekst uten markører stå urørt
