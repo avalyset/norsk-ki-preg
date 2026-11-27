@@ -1,0 +1,17 @@
+{
+  "name": "norsk-ki-preg",
+  "version": "1.0.0",
+  "description": "Removes AI tells from Norwegian text (Bokmål and Nynorsk) without adding names, numbers, dates or sources.",
+  "author": {
+    "name": "Eirik Botten Nicolaysen (EcoDeco AS)"
+  },
+  "license": "Apache-2.0",
+  "repository": "https://github.com/avalyset/norsk-ki-preg",
+  "keywords": [
+    "norwegian",
+    "bokmål",
+    "nynorsk",
+    "editing",
+    "writing"
+  ]
+}
