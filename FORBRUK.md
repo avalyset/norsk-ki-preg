@@ -47,3 +47,6 @@ Lokal modell: `hf.co/ltg/normistral-7b-warm-instruct:Q4_K_M`, 100 fortsettelser,
 | **Sum** | | **145** | **≈ 10,3M** < tak 12M → ingen kutt |
 
 Margin ≈ 1,7M (14 %). Hvis de første 10 genereringskallene i snitt bruker over 62k per kall, kuttes fritekst til 25 per variant før resten startes. Regelen er låst i PREREG.md.
+
+# DEL 2 – steg 7 budsjettsjekk (2026-11-27)
+Anslag 10,3M < tak 12M → **ingen kutt**. Fritekst 50/50, validering 20/20, fortsettelser 240/185. Kontrollpunkt: snittet av `subagent_tokens` for de 10 første genereringskallene sammenlignes med 62k.

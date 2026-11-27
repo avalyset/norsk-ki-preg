@@ -86,3 +86,9 @@ nn: 181 av 275 avsnitt er fra 1990–1994, og 15 er bøker. nb er fra 2000–201
 - nn-referansen er mest fra 1990–1994 (B8). Lemmaer som `òg` (27/0) og `verte` (lavere hos KI) gjenspeiler trolig normskifte og ikke bare KI-preg.
 - Antislop-frasene er overflate-n-gram og filtrerer ikke egennavn. Derfor kommer «sogn og fjordane» med. Lemmalistene utelater PROPN og tall, slik PREREG sier.
 - NorMistral skriver noen ganger metakommentarer («den opphavlege teksten»). Slike treff er modellatferd, ikke norsk KI-stil.
+
+## B11 – Innsamlingsfeil i overvåkingen (ingen datatap)
+`samle_b.py -v` tolket `-v` som filmønster, så overvåkingen fant 0 partier og ble aldri ferdig. Feilen er rettet. En opptelling fra disk viste at alle 113 partiene hadde 5 svar hver, og ingen kall ble kjørt på nytt.
+
+## B12 – To tokenmål
+PREREG §7 bruker `subagent_tokens` (harnessens tall, lik konteksten i siste forespørsel): 6 245 229 for generering. Summerer man alle forespørsler i hver subagent (hvert kall har to forespørsler: lesing av fila og svar, og begge teller hele den bufrede konteksten), blir det 17 371 849. Taket måles etter PREREG-målet. Begge tallene rapporteres.
