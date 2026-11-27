@@ -1,0 +1,167 @@
+{
+ "klassifisert": [
+  {
+   "skill": "en",
+   "nr": "nb-wiki-0016",
+   "klasse": "OMFORMULERING",
+   "beskrivelse": "«siste halvdel av 1800-tallet» → «mellom 1850 og 1900»",
+   "kilde": "menneske",
+   "variant": "nb",
+   "maskinelt": true
+  },
+  {
+   "skill": "en",
+   "nr": "nb-wiki-0019",
+   "klasse": "OMFORMULERING",
+   "beskrivelse": "«De forteller at» → «Ifølge gruppen selv»",
+   "kilde": "menneske",
+   "variant": "nb",
+   "maskinelt": true
+  },
+  {
+   "skill": "en",
+   "nr": "nb-wiki-0002",
+   "klasse": "OMFORMULERING",
+   "beskrivelse": "«Fra 1.1. 2020» → «1. januar 2020»; prostata-eksempelet omformet",
+   "kilde": "menneske",
+   "variant": "nb",
+   "maskinelt": true
+  },
+  {
+   "skill": "en",
+   "nr": "nb-wiki-0010",
+   "klasse": "OMFORMULERING",
+   "beskrivelse": "«datteren … som Sara har sammen med sin eksmann» → «Faren er Saras eksmann»",
+   "kilde": "menneske",
+   "variant": "nb",
+   "maskinelt": true
+  },
+  {
+   "skill": "en",
+   "nr": "nb-ki-0003",
+   "klasse": "TILFØYD",
+   "beskrivelse": "«Ifølge en kjent fortelling» → «Ifølge Giorgio Vasari»",
+   "kilde": "ki",
+   "variant": "nb",
+   "maskinelt": true,
+   "setning": "Ifølge Giorgio Vasari gjorde han dette etter å ha hørt noen tilskrive skulpturen en annen kunstner."
+  },
+  {
+   "skill": "en",
+   "nr": "nb-wiki-0003",
+   "klasse": "TILFØYD",
+   "beskrivelse": "«som representerte Michelangelo i Roma» → «som var den franske kongens utsending i Roma» (endret påstand)",
+   "kilde": "menneske",
+   "variant": "nb",
+   "maskinelt": true,
+   "setning": "Statuen ble bestilt av den franske kardinalen Jean de Bilhères, som var den franske kongens utsending i Roma."
+  },
+  {
+   "skill": "en",
+   "nr": "nb-wiki-0006",
+   "klasse": "OMFORMULERING",
+   "beskrivelse": "«PR-katastrofe» → «skandale i pressen»; «Alex'» genitiv",
+   "kilde": "menneske",
+   "variant": "nb",
+   "maskinelt": true
+  },
+  {
+   "skill": "en",
+   "nr": "nb-wiki-0015",
+   "klasse": "OMFORMULERING",
+   "beskrivelse": "«det er trolig at … kommer fra klassisismen» → «stammer trolig fra klassisismen»",
+   "kilde": "menneske",
+   "variant": "nb",
+   "maskinelt": true
+  },
+  {
+   "skill": "en",
+   "nr": "nb-wiki-0014",
+   "klasse": "OMFORMULERING",
+   "beskrivelse": "«sju større chakraer» → «sju hovedchakraer»",
+   "kilde": "menneske",
+   "variant": "nb",
+   "maskinelt": true
+  },
+  {
+   "skill": "en",
+   "nr": "nb-wiki-0000",
+   "klasse": "RETTING",
+   "beskrivelse": "«Bagdat» → «Bağdat»; «midt på 1300-tallet» → «rundt 1350» (omformulering)",
+   "kilde": "menneske",
+   "variant": "nb",
+   "maskinelt": true
+  },
+  {
+   "skill": "en",
+   "nr": "nb-ki-0000",
+   "klasse": "OMFORMULERING",
+   "beskrivelse": "«600-tallet» → «det 7. århundre»",
+   "kilde": "ki",
+   "variant": "nb",
+   "maskinelt": true
+  },
+  {
+   "skill": "en",
+   "nr": "nn-wiki-0012",
+   "klasse": "OMFORMULERING",
+   "beskrivelse": "«ca. 140 km2» → «om lag 140 km²»",
+   "kilde": "menneske",
+   "variant": "nn",
+   "maskinelt": true
+  },
+  {
+   "skill": "en",
+   "nr": "nn-wiki-0003",
+   "klasse": "TILFØYD",
+   "beskrivelse": "«differensiell form av fysisk integrering» → «ein variasjonsmetode», «kvantekostnadene» → «ladningskvantet» o.a. (påstander byttet ut fra egen kunnskap)",
+   "kilde": "menneske",
+   "variant": "nn",
+   "maskinelt": true,
+   "setning": "Mykje av den moderne kvantefeltteorien kjem frå han, mellom anna ein variasjonsmetode og rørslelikningane for kvantefelt."
+  },
+  {
+   "skill": "en",
+   "nr": "nn-wiki-0014",
+   "klasse": "OMFORMULERING",
+   "beskrivelse": "omskriving av setningen om bussane",
+   "kilde": "menneske",
+   "variant": "nn",
+   "maskinelt": true
+  },
+  {
+   "skill": "en",
+   "nr": "nb-wiki-0007",
+   "klasse": "TILFØYD",
+   "beskrivelse": "«grensa mot Meldal» → «grensa mot Orkland» (endret påstand fra egen kunnskap, ikke fanget maskinelt)",
+   "kilde": "menneske",
+   "variant": "nb",
+   "setning": "Nederst i bygda ligger Aune, ved grensa mot Surnadal, bare 45 moh., mens grensa mot Orkland lengst oppe i bygda ligger på 280 moh.",
+   "maskinelt": false
+  }
+ ],
+ "tabell": {
+  "en|nb": {
+   "n": 40,
+   "maskintreff": 11,
+   "OMFORMULERING": 8,
+   "TILFØYD": 3,
+   "tilføyd_ki": 1,
+   "tilføyd_menneske": 2,
+   "RETTING": 1
+  },
+  "en|nn": {
+   "n": 40,
+   "maskintreff": 3,
+   "OMFORMULERING": 2,
+   "TILFØYD": 1,
+   "tilføyd_menneske": 1
+  },
+  "no|nb": {
+   "n": 40
+  },
+  "no|nn": {
+   "n": 40
+  }
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "en|nb|menneske": {
+  "n": 20,
+  "egennavn": 4,
+  "tall": 3,
+  "dato": 4,
+  "kilde_ord": 1,
+  "nye_setninger": 6,
+  "navn_tall_dato_kilde": 7,
+  "noe": 9
+ },
+ "en|nb|alle": {
+  "n": 40,
+  "egennavn": 5,
+  "tall": 4,
+  "dato": 4,
+  "kilde_ord": 1,
+  "nye_setninger": 6,
+  "navn_tall_dato_kilde": 9,
+  "noe": 11
+ },
+ "en|alle|alle": {
+  "n": 80,
+  "egennavn": 5,
+  "tall": 4,
+  "dato": 4,
+  "kilde_ord": 1,
+  "nye_setninger": 9,
+  "navn_tall_dato_kilde": 9,
+  "noe": 14
+ },
+ "en|nb|ki": {
+  "n": 20,
+  "egennavn": 1,
+  "tall": 1,
+  "dato": 0,
+  "kilde_ord": 0,
+  "nye_setninger": 0,
+  "navn_tall_dato_kilde": 2,
+  "noe": 2
+ },
+ "en|nn|ki": {
+  "n": 20,
+  "egennavn": 0,
+  "tall": 0,
+  "dato": 0,
+  "kilde_ord": 0,
+  "nye_setninger": 0,
+  "navn_tall_dato_kilde": 0,
+  "noe": 0
+ },
+ "en|nn|alle": {
+  "n": 40,
+  "egennavn": 0,
+  "tall": 0,
+  "dato": 0,
+  "kilde_ord": 0,
+  "nye_setninger": 3,
+  "navn_tall_dato_kilde": 0,
+  "noe": 3
+ },
+ "en|nn|menneske": {
+  "n": 20,
+  "egennavn": 0,
+  "tall": 0,
+  "dato": 0,
+  "kilde_ord": 0,
+  "nye_setninger": 3,
+  "navn_tall_dato_kilde": 0,
+  "noe": 3
+ },
+ "no|nb|menneske": {
+  "n": 20,
+  "egennavn": 0,
+  "tall": 0,
+  "dato": 0,
+  "kilde_ord": 0,
+  "nye_setninger": 0,
+  "navn_tall_dato_kilde": 0,
+  "noe": 0
+ },
+ "no|nb|alle": {
+  "n": 40,
+  "egennavn": 0,
+  "tall": 0,
+  "dato": 0,
+  "kilde_ord": 0,
+  "nye_setninger": 0,
+  "navn_tall_dato_kilde": 0,
+  "noe": 0
+ },
+ "no|alle|alle": {
+  "n": 80,
+  "egennavn": 0,
+  "tall": 0,
+  "dato": 0,
+  "kilde_ord": 0,
+  "nye_setninger": 0,
+  "navn_tall_dato_kilde": 0,
+  "noe": 0
+ },
+ "no|nb|ki": {
+  "n": 20,
+  "egennavn": 0,
+  "tall": 0,
+  "dato": 0,
+  "kilde_ord": 0,
+  "nye_setninger": 0,
+  "navn_tall_dato_kilde": 0,
+  "noe": 0
+ },
+ "no|nn|ki": {
+  "n": 20,
+  "egennavn": 0,
+  "tall": 0,
+  "dato": 0,
+  "kilde_ord": 0,
+  "nye_setninger": 0,
+  "navn_tall_dato_kilde": 0,
+  "noe": 0
+ },
+ "no|nn|alle": {
+  "n": 40,
+  "egennavn": 0,
+  "tall": 0,
+  "dato": 0,
+  "kilde_ord": 0,
+  "nye_setninger": 0,
+  "navn_tall_dato_kilde": 0,
+  "noe": 0
+ },
+ "no|nn|menneske": {
+  "n": 20,
+  "egennavn": 0,
+  "tall": 0,
+  "dato": 0,
+  "kilde_ord": 0,
+  "nye_setninger": 0,
+  "navn_tall_dato_kilde": 0,
+  "noe": 0
+ }
+}

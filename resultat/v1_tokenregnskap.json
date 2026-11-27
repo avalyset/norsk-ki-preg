@@ -1,0 +1,71 @@
+{
+ "generering": {
+  "kall": 41,
+  "forespørsler": 41,
+  "input_tokens": 82,
+  "siste_input_tokens": 82,
+  "cache_creation_input_tokens": 1717671,
+  "siste_cache_creation_input_tokens": 1717671,
+  "cache_read_input_tokens": 42940,
+  "siste_cache_read_input_tokens": 42940,
+  "output_tokens": 69005,
+  "siste_output_tokens": 69005,
+  "sum": 1829698,
+  "uten_cache_lesing": 1786758,
+  "subagent_tokens": 1829698
+ },
+ "vask_no": {
+  "kall": 16,
+  "forespørsler": 54,
+  "input_tokens": 108,
+  "siste_input_tokens": 32,
+  "cache_creation_input_tokens": 863333,
+  "siste_cache_creation_input_tokens": 299816,
+  "cache_read_input_tokens": 2339397,
+  "siste_cache_read_input_tokens": 943949,
+  "output_tokens": 153932,
+  "siste_output_tokens": 136367,
+  "sum": 3356770,
+  "uten_cache_lesing": 1017373,
+  "subagent_tokens": 1380164
+ },
+ "vask_en": {
+  "kall": 16,
+  "forespørsler": 62,
+  "input_tokens": 124,
+  "siste_input_tokens": 32,
+  "cache_creation_input_tokens": 1230381,
+  "siste_cache_creation_input_tokens": 366280,
+  "cache_read_input_tokens": 3218313,
+  "siste_cache_read_input_tokens": 1244533,
+  "output_tokens": 390808,
+  "siste_output_tokens": 345666,
+  "sum": 4839626,
+  "uten_cache_lesing": 1621313,
+  "subagent_tokens": 1956511
+ },
+ "hovedøkt": {
+  "kall": 1,
+  "forespørsler": 56,
+  "input_tokens": 114,
+  "cache_creation_input_tokens": 1125208,
+  "cache_read_input_tokens": 18318473,
+  "output_tokens": 92776,
+  "sum": 19536571,
+  "uten_cache_lesing": 1218098,
+  "subagent_tokens": 0
+ },
+ "alle": {
+  "sum": 29562665,
+  "uten_cache_lesing": 5643542,
+  "forespørsler": 213,
+  "input_tokens": 428,
+  "cache_creation_input_tokens": 4936593,
+  "cache_read_input_tokens": 23919123,
+  "output_tokens": 706521
+ },
+ "hovedøkt_periode": [
+  "2026-11-27T10:03:53.416Z",
+  "2026-11-27T10:41:14.795Z"
+ ]
+}

@@ -71,3 +71,12 @@ Per tokentype (B, subagenter + hovedøkt): input 920, cache-skriving 7 617 557, 
 - Hvilket mål som tilsvarer Max-forbruk, **kan ikke avgjøres fra loggene** (ingen kvote eller vekting på disk).
 - Etter det låste PREREG-målet (A + overslag 0,8M) er forbruket ≈ 10,4M < 12M, så ingen kutt. Etter B er taket overskredet. Etter C er det ikke.
 - Lokalt: NorMistral 564 tekster, e5-small for M2 på CPU. Ingen betalte API-er og ingen nøkler.
+
+# v1 – faktisk (2026-11-27)
+Sum per forespørsel, `resultat/v1_tokenregnskap.json`:
+- KI-generering: 1,83M (41 kall)
+- vask med skill v1: 3,36M
+- vask med anti-ai-writing: 4,84M
+- hovedøkt: 19,54M (10:03–10:41Z)
+
+**I alt 29,56M, eller 5,64M uten cache-lesing.** Ikke noe tak i denne runden.

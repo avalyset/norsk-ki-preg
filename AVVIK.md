@@ -158,3 +158,27 @@ simplemma kjenner median 74 % av ordene i nynorsk Wikipedia. Med terskelen 0,85 
 - KI-tekstene er alle T2-faktatekster fra fase B: 25 fritekst-emner og 10 tidligere valideringsemner per modell og variant, til sammen 35. De tidligere valideringsemnene ble brukt i v0-valideringen, men ikke til å bygge en liste.
 - Byggesettet er begrenset til avsnitt på minst 150 ord (nb 936, nn 480), fordi prevalens øker med tekstlengden og KI-tekstene er 150–250 ord. Median antall ord: KI 209/193 (nb Claude/NorMistral) og 214/172 (nn), Wikipedia 236/234.
 - Terskelen c ≥ 20 ga 475 elementer (nb) og 175 (nn), så den ble ikke senket.
+
+## V5 – Rensing av KI-tekstene og avslaget på Holsdagen
+`skript/v1_samle_ki.py` fjerner en innledende overskriftslinje (≤ 8 ord, uten sluttpunktum) i 29 av 40 tekster. Teksten deles også på linjer som bare er «---», deler som begynner med «Merknad» droppes, og den lengste resten beholdes (to tekster: Norheimsund kyrkje og Holsdagen, forsøk 2). Regelen er mekanisk, men ble formulert etter at svarene var lest. Den står ikke i PREREG v2 §4.
+
+nn-wiki-0009 (Holsdagen): første svar var et avslag («Eg kan ikkje skrive denne faktateksten utan å finne på fakta»). Etter PREREG v2 §4 ble kallet kjørt én gang til. Andre svar er en generell tekst om bygdedager i Hallingdal med en merknad om at detaljene mangler. Det regnes som svar, og paret er med.
+
+## V6 – Terskelen i grunnregelen er kalibrert på byggesettet
+Grunnregelen i SKILL.md (omtrent 1 av 7 ord i nb, 1 av 9 i nn) er satt ut fra tettheten av lag 1-ord i byggesettet (Wikipedia ≥ 150 ord, 300 per variant) mot fase B-faktatekstene fra Claude:
+- nb: menneske p90 13,3, KI p10 15,9 per 100 ord
+- nn: menneske p90 10,2, KI p10 11,5 per 100 ord
+
+Kalibreringen er gjort på de samme dataene som lista er bygd fra, så skillet er optimistisk. Valideringssettet er ikke brukt.
+
+## V7 – Skill v1 lar de fleste KI-tekstene stå urørt
+«Ingen endringer» (M3 = 0) ble gitt for 15 av 20 nb-KI og 10 av 20 nn-KI. Grunnregelen slår altså til oftere enn i v0. Det er hovedgrunnen til at R-vilkåret feiler. Skillen ser opphopningen dårligere enn M1 teller den, og M1 teller også substantiv og alle bigram.
+
+## V8 – Valideringsavsnittene fra Wikipedia har rester av markup
+Prosafilteret slapp gjennom bildetekster («Polititenestemenn i Australia 2006.», «Plasseringa av Yanbian (gul)»), tomme parenteser («Arid Uka ()»), listefragmenter («*1996: A. T.») og lisenslinjer («*Denne artikkelen bygger på … frå, den …»). anti-ai-writing stryker mange av disse, og det gir høyere M3 for den skillen. Den norske skillen lar dem stort sett stå. Begge skills fikk de samme tekstene, så regelen er anvendt uendret.
+
+## V9 – B14 i v1: anti-ai-writing endrer fakta fra egen kunnskap
+Utenom maskintreffene: Rindal (nb-wiki-0007) «grensa mot Meldal» → «grensa mot Orkland». Det ble funnet fordi skillen nevnte endringen i svaret sitt. Sammen med Pietà («som representerte Michelangelo» → «den franske kongens utsending») og Schwinger (fagtermer byttet ut) er dette endrede påstander, ikke nye navn. Maskinen fanger dem bare delvis. Tallord og omformulerte påstander kan fortsatt mangle i tellingen.
+
+## V10 – Forbruket i hovedøkta er målt til kjøretidspunktet
+`resultat/v1_tokenregnskap.json` dekker hovedøkta fra v1-oppgaven (10:03:53Z) til 10:41:14Z. Skriving av rapport og commit etter dette er ikke med.

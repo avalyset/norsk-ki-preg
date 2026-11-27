@@ -6,13 +6,16 @@ Status:
 - Fase A fullført 2026-11-24. Beslutning: fase B trengs (utløst av nynorsk). Se NKP-ROYK-RAPPORT_norsk-ki-preg_v1_2026-11-24.md.
 - Fase B fullført 2026-11-27: målt liste (`liste_v1.json`, `liste_v1.md`) og norsk skill v0 (`skills/norsk-ki-preg/`). Valideringsregelen i PREREG.md ga **ikke bedre**: den norske skillen endret menneskeskrevet tekst mindre, men senket ikke markørraten mer enn anti-ai-writing. Se NKP-FASEB-RAPPORT_norsk-ki-preg_v1_2026-11-27.md.
 
+- v1 fullført 2026-11-27: Wikipedia-referanse, `liste_v2`, skill v1 og ny validering etter `PREREG_v2.md`. Resultat: **ikke bedre** etter regelen (R-vilkåret feiler), men skill v1 endrer menneskelig tekst nesten ikke og legger aldri til innhold (0/80 mot 4/80). Se NKP-V1-RAPPORT_norsk-ki-preg_v1_2026-11-27.md.
+
 Forhåndsregistrering: `PREREG.md` (sha256 f3e13a9c…dd521df9, OpenTimestamps i `PREREG.md.ots`). Ikke publisert.
 
 Struktur:
 - `BESLUTNING.md` – låst beslutningsregel for fase A (sha256 i `logg/kjorelogg.md`)
 - `PREREG.md` – låst plan for fase B
 - `liste_v1.json`, `liste_v1.md` – målt liste (fase B)
-- `skills/norsk-ki-preg/` – norsk skill v0 (Markdown)
+- `PREREG_v2.md`, `liste_v2.json`, `liste_v2.md` – v1 (Wikipedia-referanse)
+- `skills/norsk-ki-preg/` – norsk skill v1 (Markdown; v0 i commit 0e40005), med `NOTICE.md`
 - `markorer_v0.json` – frosset markørliste (Språkrådet 2025 + strukturmarkører)
 - `data/` – NCC-utvalg, genererte tekster, vaskede tekster (JSONL)
 - `skript/` – uttrekk, generering, måling

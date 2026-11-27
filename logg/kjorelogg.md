@@ -19,3 +19,9 @@
 ## 2026-11-27 – v1: PREREG v2 låst
 - PREREG_v2.md sha256 1e810888865cbdd66761dce6db88178f9374a1c5ee8dda3e1f0f694e4633000c, commit 5793a12, OTS PREREG_v2.md.ots (3 kalendere, venter på Bitcoin-attestasjon).
 - liste_v2.json sha256 3cf27e29ec65df35390899f7c9226dd55e5e400d2068425497891bd9614789fd.
+
+## 2026-11-27 – skill v1 committet før vask: a43d89d
+
+## 2026-11-27 – v1 validering og rapport
+- Vask 32/32, 160 tekster. Beslutning PREREG v2: ikke bedre (R nb -0,107 [-0,185; -0,039], nn -0,055 [-0,122; 0,010]; M3 ja i begge). B14: v1 0/80, anti-ai-writing 4/80.
+- Rapport: NKP-V1-RAPPORT_norsk-ki-preg_v1_2026-11-27.md. OTS for PREREG_v2 venter på Bitcoin.
