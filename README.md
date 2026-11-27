@@ -18,7 +18,7 @@ Kopier mappa `skills/norsk-ki-preg/` til skill-mappa i Claude (for eksempel `~/.
 
 ## Innhold
 
-- `skills/norsk-ki-preg/`: skill v1 (`NOTICE.md` viser hva som er hentet fra anti-ai-writing og endret). Skill v0 ligger i commit c947a62.
+- `skills/norsk-ki-preg/`: skill v1 (`NOTICE.md` viser hva som er hentet fra anti-ai-writing og endret). Skill v0 ligger i commit 43c1d9a.
 - `liste_v2.json`, `liste_v2.md`: målt liste (v1). `liste_v1.*` er fase B.
 - `PREREG_v2.md` og `PREREG_v2.md.ots`: forhåndsregistrering for v1. `PREREG.md` og `PREREG.md.ots` gjelder fase B.
 - `NKP-V1-RAPPORT_norsk-ki-preg_v1_2026-11-27.md`: hovedrapporten.

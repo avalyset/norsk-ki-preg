@@ -96,7 +96,7 @@ Kilde: transkriptene til de 145 subagentkallene (`tasks/*.output` → `subagents
 - **9 602 479 = `subagent_tokens`** = summen av de fire feltene i **siste** forespørsel i hvert kall: input 290 + cache-skriving 1 792 965 + cache-lesing 7 042 246 + output 766 978. Det er kontekststørrelsen ved slutten av kallet, ikke forbruket. Tidligere forespørsler i samme kall er ikke med. Tallet stemmer med `usage.subagent_tokens` i harnessvarslene (for eksempel en_tekster_011: 129 049 i begge).
 - **39 510 121 = summen over alle `assistant`-linjer**: input 1 334 + cache-skriving 10 736 512 + cache-lesing 26 852 704 + output 1 919 571. Tallet er **dobbelttelt**. Transkriptet skriver én linje per innholdsblokk, og alle linjene i en forespørsel gjentar samme `usage`. 223 forespørsler har flere linjer, alle med identisk `usage`.
 - **Riktig sum per forespørsel** (deduplisert på `message.id`, 341 forespørsler): input 682 + cache-skriving 6 005 748 + cache-lesing 12 509 507 + output 918 540 = **19 434 477**.
-- **Hovedøkta i DEL 2** (`45403c01….jsonl`, ikke-sidekjede, fra «kjør del 2» 09:18:31Z til commit 73e966f 09:52:52Z, 83 forespørsler, `resultat/tokenregnskap_hovedokt.json`): input 238 + cache-skriving 1 611 809 + cache-lesing 44 916 488 + output 98 351 = **46 626 886**. Overslaget i PREREG §7 (≈ 0,8M) var altså for lavt med en faktor på rundt 58. Det er cache-lesing av en lang kontekst.
+- **Hovedøkta i DEL 2** (`45403c01….jsonl`, ikke-sidekjede, fra «kjør del 2» 09:18:31Z til commit 96dbacb 09:52:52Z, 83 forespørsler, `resultat/tokenregnskap_hovedokt.json`): input 238 + cache-skriving 1 611 809 + cache-lesing 44 916 488 + output 98 351 = **46 626 886**. Overslaget i PREREG §7 (≈ 0,8M) var altså for lavt med en faktor på rundt 58. Det er cache-lesing av en lang kontekst.
 
 **Hva som samsvarer med forbruk mot Max kan ikke avgjøres fra loggene.** Loggene inneholder ingen Max-kvote eller -vekting. Hvordan cache-lesing, cache-skriving og output vektes mot Max-grensen, er ikke dokumentert i noe på disk. Det nærmeste målet på faktisk behandlede tokens er summen per forespørsel: 19,4M for subagentene og 66,1M med hovedøkta. Uten cache-lesing er tallene 6,9M og 8,6M. 9,6M er ikke et forbruksmål.
 
@@ -198,3 +198,12 @@ Utenom maskintreffene: Rindal (nb-wiki-0007) «grensa mot Meldal» → «grensa 
 `kilder/sprakradet_2025.pdf` og `kilder/sprakradet_2025.txt` er fjernet fra alle commits med `git filter-repo --invert-paths` (27.11.2026). Backup før rensingen: `~/dev/norsk-ki-preg-backup_2026-11-27_pre-filter-repo.bundle` (sha256 `ffb1b35f513c7b6b6bf0d958ff4d5c5aaf9965b3ad5a11be9ad8021b6757198a`, `git bundle verify`: «is okay»).
 
 Verifisering etter rensingen: ingen av stiene finnes i `git log --all`, og blob-ene `8603cc77…` (PDF) og `51605f2b…` (tekst) finnes ikke (`git cat-file -e`). Alle 26 commits fikk nye hashverdier. Tabellen fra gammel til ny hash står i `logg/filter-repo-commit-map.txt`, og hashene i de gjeldende dokumentene er oppdatert. Eldre commits inneholder fortsatt de gamle hashene i teksten sin.
+
+## V14 – Lokale stier vasket (stifelter, ikke måledata)
+Stier som inneholdt det lokale brukernavnet, er byttet ut med nøytrale relative stier i hele historikken (`git filter-repo --replace-text`, 27.11.2026). Det gjelder:
+- `/private/tmp/claude-501/-Users-…-avalyset/<økt>/scratchpad/` → `scratchpad/`, i feltet `fil` i `data/b_partier.json` og `data/b_vaskeplan.json` og i tilsvarende stier i eldre versjoner
+- `/Users/…/dev/norsk-ki-preg/` → `./`, i eldre versjoner av `logg/lokal_b_*.log`
+
+Endringen gjelder bare stifelter og loggstier. Ingen tekster, tellinger eller målinger er endret. De låste og hashforankrede filene (PREREG.md, PREREG_v2.md, liste_v1.json, liste_v2.json, markorer_v0.json) inneholdt ikke brukernavnet, så sha256-summene deres er uendret. Etter rensingen gir både `git log --all -p` og treet 0 treff på brukernavnet.
+
+Backup før rensingen: `~/dev/norsk-ki-preg-backup_2026-11-27_pre-stivask.bundle` (sha256 `016f3dcfd0b198868337c22b12424a5cf6cf073ebee4c809c0f77b2b5c71277c`, «is okay»). Ny tabell fra gammel til ny hash står nederst i `logg/filter-repo-commit-map.txt`.

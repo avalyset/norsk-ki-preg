@@ -21,9 +21,9 @@ Taket på 12M gjaldt etter det låste PREREG-målet (A + overslag), som gir ≈ 
 Generering, opptalt fra disk etter at overvåkingen var stoppet (AVVIK B11): før 113 ferdige, 0 manglende, 0 feilet; etter det samme. Ingenting ble kjørt på nytt. Vask: 32 av 32 kall svarte (160 tekster), ingen nye kjøringer (B13).
 
 ## 2. PREREG
-`PREREG.md` sha256 `f3e13a9cc266c2970ee9c3f4cf694e71c192c8fd38d7dacb1ab47398dd521df9`, låst 24.11 (commit 0e29caf) før all fase B-generering. OpenTimestamps: `PREREG.md.ots` (commit ce2df09), oppgradert 27.11 (commit d676d77) med Bitcoin-attestasjoner (blokk 977348 og 977351). Lokal `ots verify` krever egen Bitcoin-node.
+`PREREG.md` sha256 `f3e13a9cc266c2970ee9c3f4cf694e71c192c8fd38d7dacb1ab47398dd521df9`, låst 24.11 (commit 0e29caf) før all fase B-generering. OpenTimestamps: `PREREG.md.ots` (commit ce2df09), oppgradert 27.11 (commit cc9d68f) med Bitcoin-attestasjoner (blokk 977348 og 977351). Lokal `ots verify` krever egen Bitcoin-node.
 
-`liste_v1.json` frosset før valideringsvasken: sha256 `336068c35ca1cfa967cd390e43a451d41f49b21a94743c48760c1ace4c4a298f` (commit 9b125ef). Uendret etter valideringen.
+`liste_v1.json` frosset før valideringsvasken: sha256 `336068c35ca1cfa967cd390e43a451d41f49b21a94743c48760c1ace4c4a298f` (commit 82b9846). Uendret etter valideringen.
 
 ## 3. Datautvalg
 | Variant | Kilde | År | Kandidater | Utvalg |
