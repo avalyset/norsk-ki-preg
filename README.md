@@ -16,10 +16,13 @@ A skill for Claude that removes AI tells from Norwegian text.
 
 ## Bruk
 
+Katalogpluginen (Claude-katalogen) ligger i `plugin/`: manifest, skillen, README, LICENSE og NOTICE, uten data og skript.
+
 Kopier mappa `skills/norsk-ki-preg/` til skill-mappa i Claude (for eksempel `~/.claude/skills/norsk-ki-preg/`). Skillen er bare Markdown: `SKILL.md`, `references/` og `NOTICE.md`. Den svarer med en omskriving og en liste over endringer, eller med «Ingen endringer».
 
 ## Innhold
 
+- `plugin/`: katalogpluginen (kopi av skill v1 med `.claude-plugin/plugin.json`).
 - `skills/norsk-ki-preg/`: skill v1 (`NOTICE.md` viser hva som er hentet fra anti-ai-writing og endret). Skill v0 ligger i commit 43c1d9a.
 - `liste_v2.json`, `liste_v2.md`: målt liste (v1). `liste_v1.*` er fase B.
 - `PREREG_v2.md` og `PREREG_v2.md.ots`: forhåndsregistrering for v1. `PREREG.md` og `PREREG.md.ots` gjelder fase B.
