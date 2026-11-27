@@ -1,4 +1,4 @@
-> **Lag 2, gjenbrukt uendret fra anti-ai-writing v2.1.0** (avectats7, MIT-lisens, se `references/KREDITERING.md`).
+> **Lag 2, gjenbrukt fra anti-ai-writing v2.1.0 med endringer** (avectats7, MIT-lisens, se `references/KREDITERING.md` og `NOTICE.md`). Alt som ber deg legge til navn, tall, datoer, kilder, påstander eller annet innhold, er fjernet. Den absolutte regelen i SKILL.md går foran alt i denne fila.
 > **Ikke målt for norsk.** Denne fila er på engelsk og ble ikke testet i norsk-ki-preg. Bruk den bare som støtte når lag 1 ikke dekker et mønster, og bare når du ser mønsteret i teksten.
 
 # Discourse Rewrites: How to Fix the Structural Layer
@@ -9,9 +9,9 @@ Layer 1 fixes are substitutions. Layer 2 fixes are moves: cut a paragraph, reord
 
 **Guardrail 1: never fake the mess.** Inventing a tangent for a client email, or a fake uncertainty in a proposal, is worse than the tell it replaces. If there is no real aside, do not manufacture one. Cut instead of adding.
 
-**Guardrail 2: the fix is subtraction first.** Six of the eight habits are fixed by deleting something. Try deletion before you try addition.
+**Guardrail 2: the fix is subtraction first.** Six of the eight habits are fixed by deleting something. Delete; never add (changed in norsk-ki-preg v1).
 
-**Guardrail 3: stay inside the budget.** Under 40 words, zero additions. Under 200, one. Under 800, two. Above 800, three. The length bands and what applies in each are in `discourse-tells.md`.
+**Guardrail 3 (changed in norsk-ki-preg v1): zero additions at every length.** The length bands and what applies in each are in `lag2-discourse-tells.md`.
 
 ---
 
@@ -22,11 +22,8 @@ Layer 1 fixes are substitutions. Layer 2 fixes are moves: cut a paragraph, reord
 - Fix 3: stop manufacturing closure
 - Fix 4: name the feeling
 - Fix 5: open on content
-- Fix 6: name something real
-- Fix 7: assume shared history
+- Fix 6: weaken or cut the vague claim
 - Fix 8: cut the epilogue, break the flatness
-- Additions: address, jumps, ambivalence
-- The three tests every addition has to pass
 - Register playbooks
 - Sequence-level editing
 - What to do when the fix costs clarity
@@ -146,34 +143,9 @@ After:
 
 ---
 
-## Fix 6: name something real
+## Fix 6: weaken or cut the vague claim
 
-The move: for each claim, add the specific. If the specific is unavailable, weaken the claim to what you can support, or cut it.
-
-| Vague | Named |
-|---|---|
-| industry benchmarks suggest a lower cost per lead is achievable | Redmann's Louisiana competitors are bidding $38 to $52 on the same terms; we're at $71 |
-| a lot of teams run into this | Guava hit this at ETH Bogotá and solved it by moving check-in to the door |
-| there's a well-known principle here | Ogilvy's rule: the headline is 80% of the spend |
-| we saw strong performance | 412 registrations against a 300 target, 61% from the LATAM list |
-
-This is the single most convertible fix, because in professional writing the named version is also the more useful version.
-
----
-
-## Fix 7: assume shared history
-
-The move: delete every clause that re-explains something the recipient lived through. Reference it by name instead.
-
-Before:
-> As you know, we've been managing your Google Ads account since June, focusing primarily on personal injury keywords in the Louisiana market, with the goal of reducing cost per acquisition while maintaining lead volume. With that context in mind, here are this month's results.
-
-After:
-> August numbers. CPA is down to $58 from $71, volume held at 43 leads.
-
-If the email will be forwarded to someone without the history, put the context at the bottom under a heading, not at the top.
-
----
+The move (changed in norsk-ki-preg v1): weaken the claim to what the text itself supports, or cut it. Never add the specific.
 
 ## Fix 8: cut the epilogue, break the flatness
 
@@ -199,45 +171,11 @@ After:
 
 ---
 
-## Additions: address, jumps, ambivalence
-
-Budget first. Under 40 words, none of these. Under 200, one. Under 800, two. Never all three in a piece shorter than a page.
-
-**Direct address.** A parenthetical to the reader, or a line that acknowledges they are there.
-> (You were on the call, so skip the next paragraph.)
-> If you've already seen the deck, the only new thing is on slide 6.
-
-**Time jump.** Reach back or forward without a smoothing transition. No "as previously mentioned," no "building on this."
-> Anyway. We tried the opposite in June and it failed for a completely different reason.
-
-**Ambivalence.** State the case against your own recommendation, or concede the self-interested part. It goes after the recommendation, in the same paragraph, never before it.
-> The honest version: I want to run it because I want the case study. It also happens to be the cheapest option you have.
-
-Two constraints on this one. In client-facing work, never pair it with an open item from Fix 2: one of the two reads as candour, both together read as a writer who has lost the thread. And skip it entirely where the deliverable is the decision itself, such as a proposal, a scope document, or a legal position.
-
-**Emotion labels are not on this list.** Naming a feeling is a restore for personal essays, first-person posts, internal messages, and founder updates. It is not one for client work, where the right emotional register is usually none. The physicalised version still comes out; it just gets replaced by the fact, not by a feeling.
-
----
-
-## The three tests every addition has to pass
-
-Run these before an addition ships. Any failure means cut, not soften.
-
-**The source test.** Point at where it came from: a line in the draft, a message in the thread, a figure in the data, a doubt the writer actually voiced. If you cannot point at it, you wrote fiction into someone's business correspondence. This is the operational version of "never fake the mess," and it is the only version that survives a deadline.
-
-**The budget test.** Count the additions. Compare to the length band. Over budget means the least-sourced one comes out.
-
-**The repetition test.** Look at the writer's last three pieces. If the same addition appears in all three, it has stopped being a human signal and become a house style. Skip it this time.
-
----
-
 ## Register playbooks
 
 ### Client email
 
 Apply: 1, 3, 5, 6, 7, 8. Skip 2 unless the loose end is real, relevant, and carries owner, date, and consequence.
-
-One addition, and it is a choice between two, never both: the open item or the concession after the recommendation. Both in the same email reads as a lost account.
 
 The shape that works: decision or number first, evidence second, ask third, stop. Vary which of the seven openers carries the first line across a run of emails, or the shape itself becomes the tell.
 
@@ -286,13 +224,11 @@ The corpus evidence for this: five different models writing to the same prompt l
 
 Layer 2 fixes can make a piece worse. The failure modes, and what to do:
 
-**The cut takeaway leaves the point unmade.** The evidence was too weak to carry it. Strengthen the evidence rather than restoring the sentence. If the evidence cannot be strengthened, restore the sentence and note it.
+**The cut takeaway leaves the point unmade.** The evidence was too weak to carry it. Do not add evidence (norsk-ki-preg v1). Restore the sentence and note it.
 
 **The hanging thread reads as disorganised.** It was not a real loose end, it was noise. Cut it.
 
 **The ambivalence reads as a lack of confidence.** Wrong placement. Ambivalence belongs after the recommendation, never before it. "Do X. The case against is Y." Not "I'm not sure, but maybe X."
-
-**The named specific is wrong.** Worse than vague. Verify every number and name added during a Layer 2 edit, or mark it clearly for the writer to confirm in the Notes block.
 
 **The blunt version reads as rude in the client's culture.** Register beats the rule. Note it and keep the politeness.
 

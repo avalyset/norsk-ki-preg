@@ -1,4 +1,4 @@
-> **Lag 2, gjenbrukt uendret fra anti-ai-writing v2.1.0** (avectats7, MIT-lisens, se `references/KREDITERING.md`).
+> **Lag 2, gjenbrukt fra anti-ai-writing v2.1.0 med endringer** (avectats7, MIT-lisens, se `references/KREDITERING.md` og `NOTICE.md`). Alt som ber deg legge til navn, tall, datoer, kilder, påstander eller annet innhold, er fjernet. Den absolutte regelen i SKILL.md går foran alt i denne fila.
 > **Ikke målt for norsk.** Denne fila er på engelsk og ble ikke testet i norsk-ki-preg. Bruk den bare som støtte når lag 1 ikke dekker et mønster, og bare når du ser mønsteret i teksten.
 
 # Discourse Tells: The Structural Layer
@@ -34,7 +34,6 @@ Some of these rules are wrong for some registers. See "Where this layer does not
 - The ten dimensions, and which reach short form
 - Applying by length: the triage table
 - Eight habits to cut
-- Six signals to restore, and the budget that limits them
 - The Claude-specific fingerprint
 - Batch convergence
 - When v2 becomes the tell
@@ -50,13 +49,13 @@ StoryScope measured 304 features across ten discourse dimensions. The eight habi
 
 | Dimension | Which way AI leans | Reaches short form? |
 |---|---|---|
-| Plot / theme | Over-explains the theme, moralises, ties every thread to one point | Yes — habit 1, signal 5 |
+| Plot / theme | Over-explains the theme, moralises, ties every thread to one point | Yes — habit 1 |
 | Events | Tighter causal chains, protagonist-driven and internally-resolved endings | Yes — habits 2, 3 |
 | Agents (character) | Emotion shown through the body, not named; characters introduced by external description | Yes — habit 4, habit 5 |
 | Setting | Opens on scene; setting mirrors the character's inner state | Yes — habit 5 |
 | Situatedness | Vague allusions over named works; reverent to genre, avoids subversion | Yes — habit 6 |
-| Perspective | Uniform voice; rarely breaks the fourth wall or addresses the reader | Yes — signal 1 |
-| Temporal structure | Single-track and linear; few time jumps, front-loaded reveals | Partly — signal 2 (a delayed reveal rarely fits an email) |
+| Perspective | Uniform voice; rarely breaks the fourth wall or addresses the reader | Yes (signal removed in norsk-ki-preg v1) |
+| Temporal structure | Single-track and linear; few time jumps, front-loaded reveals | Partly (signal removed in norsk-ki-preg v1) |
 | Revelation | Less withholding, less suspense, discloses early | Rarely — needs narrative length |
 | Social networks | Simpler relational topology, fewer integrated subplots | Rarely — fiction-specific |
 | Style | (surface: word choice, syntax, rhythm) | Layer 1, not here |
@@ -71,12 +70,12 @@ The corpus is fiction averaging 4,753 words. A twelve-word chat message has no r
 
 Check the length band before anything else.
 
-| Band | What applies | Additions allowed |
+| Band | What applies | Additions allowed (norsk-ki-preg v1: none in every band) |
 |---|---|---|
 | Under 40 words (chat, DM, subject line, push, button) | Three checks only: no scaffolding (greeting, sign-off, paragraph architecture), one concrete specific, no stated takeaway | None |
-| 40 to 200 words (most emails, Slack posts, short social) | Habits 1, 5, 6, 7, 8. Skip 2 and 3: there is no room for a second thread and no decision large enough to leave open | One |
-| 200 to 800 words (client update, long post, blog intro, page copy) | All eight habits | Two |
-| Over 800 words (report, essay, deck narrative, sequence copy) | All eight habits plus time jumps and genuine thread structure | Three |
+| 40 to 200 words (most emails, Slack posts, short social) | Habits 1, 5, 6, 7, 8. Skip 2 and 3: there is no room for a second thread and no decision large enough to leave open | None |
+| 200 to 800 words (client update, long post, blog intro, page copy) | All eight habits | None |
+| Over 800 words (report, essay, deck narrative, sequence copy) | All eight habits | None |
 
 One rule applies at every band, including under 40 words: batch convergence. It measures difference between pieces rather than structure inside one, so it works on a set of five-word messages exactly as well as on a set of essays. For most short-form writing it is the only rule with real purchase.
 
@@ -130,7 +129,7 @@ Finding: AI keeps references non-specific 72% of the time versus 50%. Humans nam
 
 In short form: "industry research suggests," "a lot of teams are seeing this," "there's a well-known principle about." No names, no numbers, no dates, no sources.
 
-Rule: every paragraph that makes a claim names something real. A company, a tool, a date, a figure, a person, a specific past conversation. If nothing can be named, the claim is not ready.
+Rule (changed in norsk-ki-preg v1): weaken the claim to what the text itself supports, or cut it. Never add a name, number, date or source that is not already in the text.
 
 ### 7. The front-loaded context
 
@@ -147,66 +146,6 @@ Finding: Claude specifically favours epilogues and quiet, careful endings, with 
 In short form: the message ends, then continues for one more paragraph of warm wrap-up. "Happy to jump on a call if any of this is unclear. Either way, great work this quarter." Everything at the same volume, no sentence louder than the rest.
 
 Rule: cut the last paragraph and read again. If nothing is lost, it was the epilogue. And let one sentence be louder than the others.
-
----
-
-## Six signals to restore, and the budget that limits them
-
-These are things human writers do that models under-produce. Every one of them is an addition, and additions are where this layer does damage. A cut that goes too far leaves a flat draft. An addition that goes too far leaves a lie.
-
-Three constraints govern all six. They are not advice.
-
-**The addition budget.** Under 40 words: zero additions. Under 200: one. Under 800: two. Above 800: three. Count them. A draft carrying four is not more human, it is performing.
-
-**The source test.** For every addition, point at where it came from: a line in the draft, a message in the thread, a number in the data, a doubt the writer actually expressed. If you cannot point at it, you invented it, and it comes out. This is the operational form of "never fake the mess." Advice does not survive a deadline; a test does.
-
-**The register gate.** Signals 4 and 5 do not apply everywhere. Each says where below.
-
-When the register bars a restore, that is not a reason to skip the matching cut. Habit 4 comes out of a client email even though signal 4 cannot go in. The fix is deletion, not substitution: report what happened and stop.
-
-### 1. Direct address and asides
-
-Finding: humans break the fourth wall 67% versus 39% and address the reader directly 28% versus 7%.
-
-Restore: a parenthetical aside, a rhetorical turn to the reader, an acknowledgement that someone is reading. "(You already know how that went.)" "Skip this part if you were on the call."
-
-### 2. Time jumps and shared history
-
-Finding: humans score higher on chronological discontinuity (2.40 vs 2.12), anachrony, and nonlinear framing for delayed disclosure.
-
-Restore: reach backward or forward without smoothing the transition. "Anyway. Back in June we tried the opposite and it failed for a different reason."
-
-### 3. Named specifics
-
-The counterpart to habit 6. Names, numbers, dates, prices, tools, places.
-
-### 4. Plain emotion labels
-
-The counterpart to habit 4. "I'm frustrated." "This one worries me." "I don't love it."
-
-Register gate: personal essays, first-person social posts, internal team messages, founder updates, and anything the writer signs alone. Not client deliverables, proposals, reporting, or marketing copy. In paid work the correct emotional register is usually none, and a named feeling reads as a bid for sympathy from someone who is paying for a result.
-
-In a gated register, habit 4 is still cut. "My stomach dropped when the numbers came in" becomes "the numbers came in at $71," not "the numbers worried me."
-
-### 5. Admitted ambivalence
-
-Finding: humans present morally ambivalent protagonists 59% of the time versus 38%, and integrate competing threads rather than aligning everything to one point (42% vs 21%).
-
-Restore: state the case against your own recommendation, or admit the self-interested reason.
-
-Two hard constraints, both learned from client work rather than from the corpus.
-
-**Position.** The concession comes after the recommendation, in the same paragraph, never before it and never instead of it. "Do X. The case against is Y." Never "I'm not sure, but maybe X." The first is a professional showing their work. The second is a professional asking the client to decide for them.
-
-**Exclusivity.** In any piece a client is paying for, choose one: an open item (habit 2) or a stated doubt about your own recommendation (this one). Not both. Each on its own reads as candour. Together they read as someone who has lost control of the account, and the reader is right to read it that way.
-
-Register gate: applies where the writer owns the recommendation. Does not apply where the deliverable is the decision itself, such as a formal proposal, a scope document, or a legal position.
-
-### 6. Variance in shape
-
-Finding: human stories occupy a rarer, more dispersed region of the feature space (mean rarity percentile 0.71 vs 0.49). The five models cluster together; the human sits outside the cluster.
-
-Restore: do not write every piece to the same template. See "Batch convergence" below.
 
 ---
 
@@ -279,8 +218,7 @@ Ten questions. Any yes in 1 to 5, or any no in 6 to 10, needs a fix.
 
 Then three budget checks before shipping:
 
-- Is the piece inside its addition budget for its length band?
-- Can every addition be traced to something real in the draft, the thread, or the data?
+- Has nothing been added: no names, numbers, dates, sources or claims that are not in the draft? (norsk-ki-preg v1)
 - Does the piece carry both an open item and a stated doubt? If it is client-facing, cut one.
 
 ---

@@ -3,7 +3,7 @@
 ## Tredelte oppramsinger («A, B og C»)
 Målt i røyktesten: KI-tekst på nynorsk hadde langt flere tredelte oppramsinger enn menneskeskrevet avistekst. Det var hovedgrunnen til at R ble utløst.
 - Én oppramsing i en tekst er normalt. Rør den ikke.
-- Ved to eller flere i samme avsnitt, eller når leddene er abstrakte fyllord («økonomiske, sosiale og kulturelle aspekter»): behold det leddet som bærer innhold, og stryk resten. Alternativt kan oppramsingen deles i egne setninger med konkret innhold.
+- Ved to eller flere i samme avsnitt, eller når leddene er abstrakte fyllord («økonomiske, sosiale og kulturelle aspekter»): behold det leddet som bærer innhold, og stryk resten. Alternativt kan oppramsingen deles i egne setninger, bare med innhold som allerede står i teksten.
 - Konkrete lister med ulikt innhold («brød, melk og egg») er ikke et KI-tegn.
 - Oppramsingsregelen «1, 2 og 3» må være grammatisk riktig. Språkrådet (s. 15–16) viser feil som «ikke bare X; den er også Y, bidrar til Z».
 

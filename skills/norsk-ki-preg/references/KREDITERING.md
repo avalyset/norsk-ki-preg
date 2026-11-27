@@ -1,6 +1,6 @@
 # Kreditering
 
-Filene `references/lag2-discourse-tells.md` og `references/lag2-discourse-rewrites.md` er kopiert uendret fra anti-ai-writing v2.1.0 (github.com/avectats7/anti-ai-writing). Kopien inneholder bare et innledende merknadsfelt. Lisens:
+Filene `references/lag2-discourse-tells.md` og `references/lag2-discourse-rewrites.md` bygger på anti-ai-writing v2.1.0 (github.com/avectats7/anti-ai-writing). I v1 er de endret: alt som ber om tilføyelser er fjernet. Endringene står i `NOTICE.md`. Lisens:
 
 ```
 MIT License

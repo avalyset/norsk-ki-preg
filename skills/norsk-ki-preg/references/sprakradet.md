@@ -38,5 +38,5 @@ Kilde: Språkrådet (2025), *Rapport fra test av språkroboter*. Sidetall i pare
 - **ut av kontroll** (s. 10): en kveld som hadde gått fullstendig ut av kontroll (NorMistral)
 - **ny start** (s. 10): en kopp [kaffe] som kunne tilby henne en ny start (ChatGPT)
 
-Grep: stående fraser strykes eller byttes mot konkret innhold. Avslutningsformler («alt i alt», «samlet sett», «i sammendrag») strykes sammen med oppsummeringen de innleder, hvis oppsummeringen bare gjentar teksten. Kalker byttes mot norsk idiom («gjøre en forskjell» → «bety noe», «ha noe å si»; «tok et dypt pust» → «pustet dypt»; «ut av kontroll» kan stå i mange sammenhenger, så vurder den).
+Grep: stående fraser strykes eller byttes mot innhold som allerede står i teksten. Legg aldri til nytt innhold. Avslutningsformler («alt i alt», «samlet sett», «i sammendrag») strykes sammen med oppsummeringen de innleder, hvis oppsummeringen bare gjentar teksten. Kalker byttes mot norsk idiom («gjøre en forskjell» → «bety noe», «ha noe å si»; «tok et dypt pust» → «pustet dypt»; «ut av kontroll» kan stå i mange sammenhenger, så vurder den).
 
