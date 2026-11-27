@@ -9,7 +9,7 @@ DEL 1 er ferdig. DEL 2 starter først på «kjør del 2».
 ≈ 10,3M tokens (145 kall), mot taket på 12M. Ingen kutt planlagt. Kontrollpunkt etter 10 kall (> 62k per kall → fritekst kuttes til 25). Se FORBRUK.md.
 
 ## PREREG
-`PREREG.md` sha256 `f3e13a9cc266c2970ee9c3f4cf694e71c192c8fd38d7dacb1ab47398dd521df9`, commit a256f18. OTS: `PREREG.md.ots` (commit e274359), sendt til 3 kalendere, venter på Bitcoin-bekreftelse (`ots upgrade` senere).
+`PREREG.md` sha256 `f3e13a9cc266c2970ee9c3f4cf694e71c192c8fd38d7dacb1ab47398dd521df9`, commit a256f18. OTS: `PREREG.md.ots` (commit e274359), oppgradert 27.11 med Bitcoin-attestasjoner fra 3 kalendere (fullstendig stempel; lokal `ots verify` krever egen Bitcoin-node).
 
 ## Datautvalg
 | Variant | Kilde | År | Kandidater | Utvalg |
