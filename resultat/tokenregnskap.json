@@ -1,0 +1,3698 @@
+{
+ "oppsummert": {
+  "vask_en": {
+   "kall": 16,
+   "forespørsler": 65,
+   "linje_input_tokens": 392,
+   "forsp_input_tokens": 130,
+   "siste_input_tokens": 32,
+   "linje_cache_creation_input_tokens": 3421539,
+   "forsp_cache_creation_input_tokens": 1303326,
+   "siste_cache_creation_input_tokens": 381895,
+   "linje_cache_read_input_tokens": 9919652,
+   "forsp_cache_read_input_tokens": 3520930,
+   "siste_cache_read_input_tokens": 1301863,
+   "linje_output_tokens": 891769,
+   "forsp_output_tokens": 407020,
+   "siste_output_tokens": 281351
+  },
+  "generering": {
+   "kall": 113,
+   "forespørsler": 226,
+   "linje_input_tokens": 678,
+   "forsp_input_tokens": 452,
+   "siste_input_tokens": 226,
+   "linje_cache_creation_input_tokens": 4490546,
+   "forsp_cache_creation_input_tokens": 3454382,
+   "siste_cache_creation_input_tokens": 1036164,
+   "linje_cache_read_input_tokens": 12183529,
+   "forsp_cache_read_input_tokens": 7316280,
+   "siste_cache_read_input_tokens": 4867249,
+   "linje_output_tokens": 697096,
+   "forsp_output_tokens": 355506,
+   "siste_output_tokens": 341590
+  },
+  "vask_no": {
+   "kall": 16,
+   "forespørsler": 50,
+   "linje_input_tokens": 264,
+   "forsp_input_tokens": 100,
+   "siste_input_tokens": 32,
+   "linje_cache_creation_input_tokens": 2824427,
+   "forsp_cache_creation_input_tokens": 1248040,
+   "siste_cache_creation_input_tokens": 374906,
+   "linje_cache_read_input_tokens": 4749523,
+   "forsp_cache_read_input_tokens": 1672297,
+   "siste_cache_read_input_tokens": 873134,
+   "linje_output_tokens": 330706,
+   "forsp_output_tokens": 156014,
+   "siste_output_tokens": 144037
+  },
+  "ALLE": {
+   "kall": 145,
+   "forespørsler": 341,
+   "linje_input_tokens": 1334,
+   "forsp_input_tokens": 682,
+   "siste_input_tokens": 290,
+   "linje_cache_creation_input_tokens": 10736512,
+   "forsp_cache_creation_input_tokens": 6005748,
+   "siste_cache_creation_input_tokens": 1792965,
+   "linje_cache_read_input_tokens": 26852704,
+   "forsp_cache_read_input_tokens": 12509507,
+   "siste_cache_read_input_tokens": 7042246,
+   "linje_output_tokens": 1919571,
+   "forsp_output_tokens": 918540,
+   "siste_output_tokens": 766978
+  },
+  "modeller": [
+   "claude-opus-5-5"
+  ]
+ },
+ "per_kall": {
+  "/en_tekster_014.txt": {
+   "ledd": "vask_en",
+   "linjer": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 208618,
+    "cache_read_input_tokens": 744041,
+    "output_tokens": 46936
+   },
+   "forespørsler": 5,
+   "per_forsp": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 81464,
+    "cache_read_input_tokens": 307060,
+    "output_tokens": 21989
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7882,
+    "cache_read_input_tokens": 97359,
+    "output_tokens": 12765
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_032.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37858,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2356
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28577,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1239
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9281,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1117
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/no_tekster_012.txt": {
+   "ledd": "vask_no",
+   "linjer": {
+    "input_tokens": 14,
+    "cache_creation_input_tokens": 109603,
+    "cache_read_input_tokens": 323691,
+    "output_tokens": 22228
+   },
+   "forespørsler": 4,
+   "per_forsp": {
+    "input_tokens": 8,
+    "cache_creation_input_tokens": 78188,
+    "cache_read_input_tokens": 156768,
+    "output_tokens": 11130
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 18113,
+    "cache_read_input_tokens": 60075,
+    "output_tokens": 10446
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/en_tekster_004.txt": {
+   "ledd": "vask_en",
+   "linjer": {
+    "input_tokens": 24,
+    "cache_creation_input_tokens": 214230,
+    "cache_read_input_tokens": 500512,
+    "output_tokens": 48216
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 77283,
+    "cache_read_input_tokens": 120335,
+    "output_tokens": 20223
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 47809,
+    "cache_read_input_tokens": 53251,
+    "output_tokens": 18694
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_034.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37502,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 3556
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28399,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1839
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9103,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1717
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_013.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37718,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2164
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28507,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1143
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9211,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1021
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/no_tekster_010.txt": {
+   "ledd": "vask_no",
+   "linjer": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 222717,
+    "cache_read_input_tokens": 281432,
+    "output_tokens": 17547
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 78815,
+    "cache_read_input_tokens": 97447,
+    "output_tokens": 8099
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 24637,
+    "cache_read_input_tokens": 54178,
+    "output_tokens": 7261
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_058.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36916,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 14060
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28106,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 7091
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8810,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 6969
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_043.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37506,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2608
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28401,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1365
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9105,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1243
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_109.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36622,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 13438
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27959,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 6780
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8663,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 6658
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_060.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36486,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 7716
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27891,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 3919
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8595,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 3797
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_087.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38066,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5168
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28681,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2645
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9385,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2523
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_096.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37958,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5590
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28627,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2856
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9331,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2734
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_094.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38314,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 4410
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28805,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2266
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9509,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2144
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_053.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36460,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 8618
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27878,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 4370
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8582,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 4248
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/no_tekster_009.txt": {
+   "ledd": "vask_no",
+   "linjer": {
+    "input_tokens": 16,
+    "cache_creation_input_tokens": 176276,
+    "cache_read_input_tokens": 279946,
+    "output_tokens": 19964
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 77972,
+    "cache_read_input_tokens": 96704,
+    "output_tokens": 9443
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 24537,
+    "cache_read_input_tokens": 53435,
+    "output_tokens": 8720
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_075.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38326,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5892
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28811,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 3007
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9515,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2885
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_068.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38408,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5602
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28852,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2862
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9556,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2740
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_036.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37942,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2362
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28619,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1242
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9323,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1120
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_097.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38354,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5866
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28825,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2994
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9529,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2872
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_101.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36500,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 9478
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27898,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 4800
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8602,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 4678
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_023.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37384,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 1702
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28340,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 912
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9044,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 790
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_104.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36660,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 18130
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27978,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 9126
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8682,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 9004
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/no_tekster_015.txt": {
+   "ledd": "vask_no",
+   "linjer": {
+    "input_tokens": 14,
+    "cache_creation_input_tokens": 163750,
+    "cache_read_input_tokens": 236677,
+    "output_tokens": 19287
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 76792,
+    "cache_read_input_tokens": 96704,
+    "output_tokens": 9377
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 23357,
+    "cache_read_input_tokens": 53435,
+    "output_tokens": 8660
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/no_tekster_003.txt": {
+   "ledd": "vask_no",
+   "linjer": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 266713,
+    "cache_read_input_tokens": 454504,
+    "output_tokens": 21797
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 79001,
+    "cache_read_input_tokens": 97445,
+    "output_tokens": 8300
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 24825,
+    "cache_read_input_tokens": 54176,
+    "output_tokens": 7163
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_091.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38646,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 3324
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28971,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1736
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9675,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1588
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_081.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38290,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2968
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28793,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1558
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9497,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1410
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_061.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36674,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 18562
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27985,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 9342
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8689,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 9220
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_027.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38096,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5800
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28696,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2961
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9400,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2839
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_006.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 61405,
+    "cache_read_input_tokens": 86146,
+    "output_tokens": 1768
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 52239,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 945
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9166,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 823
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_015.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37594,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2008
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28445,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1065
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9149,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 943
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_044.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37588,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2100
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28442,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1111
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9146,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 989
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_113.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36574,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 14954
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27935,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 7538
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8639,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 7416
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_010.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 61653,
+    "cache_read_input_tokens": 86146,
+    "output_tokens": 2228
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 52363,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1175
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9290,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1053
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_077.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38302,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2812
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28799,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1467
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9503,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1345
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/en_tekster_012.txt": {
+   "ledd": "vask_en",
+   "linjer": {
+    "input_tokens": 22,
+    "cache_creation_input_tokens": 193328,
+    "cache_read_input_tokens": 549781,
+    "output_tokens": 67122
+   },
+   "forespørsler": 4,
+   "per_forsp": {
+    "input_tokens": 8,
+    "cache_creation_input_tokens": 73822,
+    "cache_read_input_tokens": 209930,
+    "output_tokens": 32082
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 13288,
+    "cache_read_input_tokens": 84311,
+    "output_tokens": 30709
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_028.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38016,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2340
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28656,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1231
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9360,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1109
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_025.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37668,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2492
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28482,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1307
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9186,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1185
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_057.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36434,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 8968
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27865,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 4545
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8569,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 4423
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_040.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37848,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2052
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28572,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1087
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9276,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 965
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_055.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36708,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 11580
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28002,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 5851
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8706,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 5729
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/en_tekster_008.txt": {
+   "ledd": "vask_en",
+   "linjer": {
+    "input_tokens": 28,
+    "cache_creation_input_tokens": 239668,
+    "cache_read_input_tokens": 703282,
+    "output_tokens": 56928
+   },
+   "forespørsler": 4,
+   "per_forsp": {
+    "input_tokens": 8,
+    "cache_creation_input_tokens": 90002,
+    "cache_read_input_tokens": 221720,
+    "output_tokens": 24579
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 12394,
+    "cache_read_input_tokens": 101385,
+    "output_tokens": 10720
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_047.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37392,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 1810
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28344,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 966
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9048,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 844
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_108.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36544,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 15368
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27920,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 7745
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8624,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 7623
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_007.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 61725,
+    "cache_read_input_tokens": 86146,
+    "output_tokens": 4626
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 52399,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2374
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9326,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2252
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_083.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38638,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 6192
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28967,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 3157
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9671,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 3035
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_076.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38358,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 6068
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28827,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 3095
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9531,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2973
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_106.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36576,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 16634
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27936,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 8378
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8640,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 8256
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/en_tekster_016.txt": {
+   "ledd": "vask_en",
+   "linjer": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 217672,
+    "cache_read_input_tokens": 744291,
+    "output_tokens": 58328
+   },
+   "forespørsler": 5,
+   "per_forsp": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 85988,
+    "cache_read_input_tokens": 307185,
+    "output_tokens": 27685
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 12345,
+    "cache_read_input_tokens": 97420,
+    "output_tokens": 14037
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/no_tekster_005.txt": {
+   "ledd": "vask_no",
+   "linjer": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 165295,
+    "cache_read_input_tokens": 372367,
+    "output_tokens": 19054
+   },
+   "forespørsler": 4,
+   "per_forsp": {
+    "input_tokens": 8,
+    "cache_creation_input_tokens": 77984,
+    "cache_read_input_tokens": 159466,
+    "output_tokens": 9397
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 15222,
+    "cache_read_input_tokens": 62762,
+    "output_tokens": 8639
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/no_tekster_006.txt": {
+   "ledd": "vask_no",
+   "linjer": {
+    "input_tokens": 16,
+    "cache_creation_input_tokens": 174090,
+    "cache_read_input_tokens": 279946,
+    "output_tokens": 10696
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 76879,
+    "cache_read_input_tokens": 96704,
+    "output_tokens": 4840
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 23444,
+    "cache_read_input_tokens": 53435,
+    "output_tokens": 4148
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/no_tekster_004.txt": {
+   "ledd": "vask_no",
+   "linjer": {
+    "input_tokens": 16,
+    "cache_creation_input_tokens": 175550,
+    "cache_read_input_tokens": 279954,
+    "output_tokens": 20290
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 77605,
+    "cache_read_input_tokens": 96708,
+    "output_tokens": 9637
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 24166,
+    "cache_read_input_tokens": 53439,
+    "output_tokens": 8941
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_004.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 61457,
+    "cache_read_input_tokens": 86146,
+    "output_tokens": 2196
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 52265,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1159
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9192,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1037
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_098.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38264,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2658
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28780,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1390
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9484,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1268
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_079.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38180,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5398
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28738,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2760
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9442,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2638
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/en_tekster_006.txt": {
+   "ledd": "vask_en",
+   "linjer": {
+    "input_tokens": 24,
+    "cache_creation_input_tokens": 212786,
+    "cache_read_input_tokens": 500512,
+    "output_tokens": 44424
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 76561,
+    "cache_read_input_tokens": 120335,
+    "output_tokens": 18327
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 47087,
+    "cache_read_input_tokens": 53251,
+    "output_tokens": 16798
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_045.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37570,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2146
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28433,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1134
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9137,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1012
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/en_tekster_009.txt": {
+   "ledd": "vask_en",
+   "linjer": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 215670,
+    "cache_read_input_tokens": 744415,
+    "output_tokens": 51850
+   },
+   "forespørsler": 5,
+   "per_forsp": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 84990,
+    "cache_read_input_tokens": 307247,
+    "output_tokens": 24443
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 11290,
+    "cache_read_input_tokens": 97477,
+    "output_tokens": 11760
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/en_tekster_002.txt": {
+   "ledd": "vask_en",
+   "linjer": {
+    "input_tokens": 22,
+    "cache_creation_input_tokens": 192618,
+    "cache_read_input_tokens": 549055,
+    "output_tokens": 47228
+   },
+   "forespørsler": 4,
+   "per_forsp": {
+    "input_tokens": 8,
+    "cache_creation_input_tokens": 73464,
+    "cache_read_input_tokens": 209567,
+    "output_tokens": 22132
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 13295,
+    "cache_read_input_tokens": 83946,
+    "output_tokens": 20748
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/no_tekster_002.txt": {
+   "ledd": "vask_no",
+   "linjer": {
+    "input_tokens": 14,
+    "cache_creation_input_tokens": 132683,
+    "cache_read_input_tokens": 279924,
+    "output_tokens": 22823
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 77821,
+    "cache_read_input_tokens": 96693,
+    "output_tokens": 10989
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 24397,
+    "cache_read_input_tokens": 53424,
+    "output_tokens": 10307
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_008.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 61225,
+    "cache_read_input_tokens": 86146,
+    "output_tokens": 5396
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 52149,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2759
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9076,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2637
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_100.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36642,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 9428
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27969,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 4775
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8673,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 4653
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_031.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37572,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 3850
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28434,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1986
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9138,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1864
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_018.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37650,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 3540
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28473,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1831
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9177,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1709
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_035.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37658,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2392
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28477,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1257
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9181,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1135
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_110.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36596,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 15378
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27946,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 7750
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8650,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 7628
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_095.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38644,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 6624
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28970,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 3373
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9674,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 3251
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_066.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38506,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5890
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28901,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 3006
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9605,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2884
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_085.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38294,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5886
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28795,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 3004
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9499,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2882
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_112.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36630,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 15728
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27963,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 7925
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8667,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 7803
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_092.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38552,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 6362
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28924,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 3242
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9628,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 3120
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_042.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37348,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 1914
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28322,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1018
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9026,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 896
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/no_tekster_013.txt": {
+   "ledd": "vask_no",
+   "linjer": {
+    "input_tokens": 14,
+    "cache_creation_input_tokens": 132779,
+    "cache_read_input_tokens": 279924,
+    "output_tokens": 17901
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 77869,
+    "cache_read_input_tokens": 96693,
+    "output_tokens": 8530
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 24445,
+    "cache_read_input_tokens": 53424,
+    "output_tokens": 7850
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_038.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37662,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2216
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28479,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1169
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9183,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1047
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/en_tekster_001.txt": {
+   "ledd": "vask_en",
+   "linjer": {
+    "input_tokens": 24,
+    "cache_creation_input_tokens": 245340,
+    "cache_read_input_tokens": 618352,
+    "output_tokens": 76636
+   },
+   "forespørsler": 4,
+   "per_forsp": {
+    "input_tokens": 8,
+    "cache_creation_input_tokens": 90636,
+    "cache_read_input_tokens": 222562,
+    "output_tokens": 35970
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 18259,
+    "cache_read_input_tokens": 96154,
+    "output_tokens": 16368
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_090.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38414,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2636
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28855,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1379
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9559,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1257
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_093.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38410,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 6388
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28853,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 3255
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9557,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 3133
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_022.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37770,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2282
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28533,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1202
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9237,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1080
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_105.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36584,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 17902
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27940,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 9012
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8644,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 8890
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/no_tekster_007.txt": {
+   "ledd": "vask_no",
+   "linjer": {
+    "input_tokens": 16,
+    "cache_creation_input_tokens": 176734,
+    "cache_read_input_tokens": 279946,
+    "output_tokens": 22448
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 78201,
+    "cache_read_input_tokens": 96704,
+    "output_tokens": 10713
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 24766,
+    "cache_read_input_tokens": 53435,
+    "output_tokens": 10018
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_089.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38406,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5930
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28851,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 3026
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9555,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2904
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_002.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 61239,
+    "cache_read_input_tokens": 86146,
+    "output_tokens": 4106
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 52156,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2114
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9083,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1992
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_064.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38194,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 4738
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28745,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2430
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9449,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2308
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_070.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38574,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5680
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28935,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2901
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9639,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2779
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_059.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36500,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 9008
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27898,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 4565
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8602,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 4443
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_103.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36594,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 16332
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27945,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 8227
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8649,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 8105
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/en_tekster_011.txt": {
+   "ledd": "vask_en",
+   "linjer": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 226231,
+    "cache_read_input_tokens": 747955,
+    "output_tokens": 67406
+   },
+   "forespørsler": 5,
+   "per_forsp": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 89642,
+    "cache_read_input_tokens": 309017,
+    "output_tokens": 32224
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 15292,
+    "cache_read_input_tokens": 98127,
+    "output_tokens": 15628
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_021.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37610,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5998
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28453,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 3060
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9157,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2938
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_049.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36592,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 9292
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27944,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 4707
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8648,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 4585
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/no_tekster_001.txt": {
+   "ledd": "vask_no",
+   "linjer": {
+    "input_tokens": 16,
+    "cache_creation_input_tokens": 176878,
+    "cache_read_input_tokens": 279946,
+    "output_tokens": 17492
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 78273,
+    "cache_read_input_tokens": 96704,
+    "output_tokens": 8211
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 24838,
+    "cache_read_input_tokens": 53435,
+    "output_tokens": 7492
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_046.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37790,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 4972
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28543,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2547
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9247,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2425
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/en_tekster_003.txt": {
+   "ledd": "vask_en",
+   "linjer": {
+    "input_tokens": 24,
+    "cache_creation_input_tokens": 213682,
+    "cache_read_input_tokens": 500508,
+    "output_tokens": 50192
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 77015,
+    "cache_read_input_tokens": 120333,
+    "output_tokens": 21211
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 47543,
+    "cache_read_input_tokens": 53249,
+    "output_tokens": 19684
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_102.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36598,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 8922
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27947,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 4522
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8651,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 4400
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/en_tekster_015.txt": {
+   "ledd": "vask_en",
+   "linjer": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 225200,
+    "cache_read_input_tokens": 745805,
+    "output_tokens": 69800
+   },
+   "forespørsler": 5,
+   "per_forsp": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 89758,
+    "cache_read_input_tokens": 307942,
+    "output_tokens": 33421
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 15732,
+    "cache_read_input_tokens": 97803,
+    "output_tokens": 16385
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_024.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37526,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2352
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28411,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1250
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9115,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1102
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_073.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38284,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5746
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28790,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2934
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9494,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2812
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_088.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38748,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 3154
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 29022,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1638
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9726,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1516
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_071.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38322,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5322
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28809,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2722
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9513,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2600
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_039.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37698,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 4618
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28497,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2370
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9201,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2248
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_084.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38086,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 4990
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28691,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2556
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9395,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2434
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_029.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37546,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 1898
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28421,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1010
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9125,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 888
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_016.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37602,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2436
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28449,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1279
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9153,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1157
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_050.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36502,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 8074
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27899,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 4098
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8603,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 3976
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_062.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36802,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 14068
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28049,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 7095
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8753,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 6973
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/no_tekster_011.txt": {
+   "ledd": "vask_no",
+   "linjer": {
+    "input_tokens": 16,
+    "cache_creation_input_tokens": 176616,
+    "cache_read_input_tokens": 279946,
+    "output_tokens": 26794
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 78142,
+    "cache_read_input_tokens": 96704,
+    "output_tokens": 12862
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 24707,
+    "cache_read_input_tokens": 53435,
+    "output_tokens": 12143
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_033.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37544,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2068
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28420,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1095
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9124,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 973
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_099.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38796,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 3168
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 29046,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1645
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9750,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1523
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_067.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37960,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 4478
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28628,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2300
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9332,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2178
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_080.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38642,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 3450
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28969,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1786
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9673,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1664
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_026.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37808,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 4532
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28552,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2327
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9256,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2205
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_107.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36650,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 17202
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27973,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 8662
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8677,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 8540
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_069.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37840,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2354
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28568,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1238
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9272,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1116
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_052.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36490,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 14422
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27893,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 7272
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8597,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 7150
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_086.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38298,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5230
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28797,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2676
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9501,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2554
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/en_tekster_007.txt": {
+   "ledd": "vask_en",
+   "linjer": {
+    "input_tokens": 22,
+    "cache_creation_input_tokens": 195790,
+    "cache_read_input_tokens": 476709,
+    "output_tokens": 59543
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 77867,
+    "cache_read_input_tokens": 120322,
+    "output_tokens": 25997
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 48406,
+    "cache_read_input_tokens": 53238,
+    "output_tokens": 24481
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_056.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36676,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 13106
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27986,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 6614
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8690,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 6492
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/en_tekster_010.txt": {
+   "ledd": "vask_en",
+   "linjer": {
+    "input_tokens": 26,
+    "cache_creation_input_tokens": 212852,
+    "cache_read_input_tokens": 744399,
+    "output_tokens": 49616
+   },
+   "forespørsler": 5,
+   "per_forsp": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 83584,
+    "cache_read_input_tokens": 307239,
+    "output_tokens": 23329
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9900,
+    "cache_read_input_tokens": 97461,
+    "output_tokens": 12066
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_078.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38230,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 4772
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28763,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2447
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9467,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2325
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_065.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38294,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5696
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28795,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2909
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9499,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2787
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_011.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37404,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 3802
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28350,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1962
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9054,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1840
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_009.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 61357,
+    "cache_read_input_tokens": 86146,
+    "output_tokens": 8066
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 52215,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 4094
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9142,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 3972
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_048.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37782,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 4350
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28539,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2236
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9243,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2114
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_051.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36414,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 9724
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27855,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 4923
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8559,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 4801
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_001.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 61283,
+    "cache_read_input_tokens": 86146,
+    "output_tokens": 2674
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 52178,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1398
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9105,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1276
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_082.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38180,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 3448
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28738,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1785
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9442,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1663
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_030.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37788,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2224
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28542,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1173
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9246,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1051
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_054.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36684,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 16900
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 27990,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 8511
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8694,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 8389
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_003.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 61501,
+    "cache_read_input_tokens": 86146,
+    "output_tokens": 2148
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 52287,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1135
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9214,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1013
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/no_tekster_016.txt": {
+   "ledd": "vask_no",
+   "linjer": {
+    "input_tokens": 16,
+    "cache_creation_input_tokens": 176486,
+    "cache_read_input_tokens": 279946,
+    "output_tokens": 30686
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 78077,
+    "cache_read_input_tokens": 96704,
+    "output_tokens": 14836
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 24642,
+    "cache_read_input_tokens": 53435,
+    "output_tokens": 14145
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_037.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37546,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2058
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28421,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1090
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9125,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 968
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_063.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38220,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 6208
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28758,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 3178
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9462,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 3030
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_074.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38412,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2948
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28854,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1535
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9558,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1413
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_041.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37922,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2316
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28609,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1219
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9313,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1097
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_072.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38424,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5554
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28860,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2851
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9564,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2703
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_020.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 38004,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2572
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28650,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1347
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9354,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1225
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/no_tekster_014.txt": {
+   "ledd": "vask_no",
+   "linjer": {
+    "input_tokens": 18,
+    "cache_creation_input_tokens": 222253,
+    "cache_read_input_tokens": 281428,
+    "output_tokens": 22525
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 78585,
+    "cache_read_input_tokens": 97445,
+    "output_tokens": 10598
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 24409,
+    "cache_read_input_tokens": 54176,
+    "output_tokens": 9771
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/en_tekster_005.txt": {
+   "ledd": "vask_en",
+   "linjer": {
+    "input_tokens": 22,
+    "cache_creation_input_tokens": 193064,
+    "cache_read_input_tokens": 549523,
+    "output_tokens": 50292
+   },
+   "forespørsler": 4,
+   "per_forsp": {
+    "input_tokens": 8,
+    "cache_creation_input_tokens": 73687,
+    "cache_read_input_tokens": 209801,
+    "output_tokens": 23667
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 13284,
+    "cache_read_input_tokens": 84180,
+    "output_tokens": 22296
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_111.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 36890,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 17404
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28093,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 8763
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 8797,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 8641
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_012.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37854,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2426
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28575,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1274
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9279,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1152
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_005.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 61785,
+    "cache_read_input_tokens": 86146,
+    "output_tokens": 2592
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 52429,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1357
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9356,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1235
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/en_tekster_013.txt": {
+   "ledd": "vask_en",
+   "linjer": {
+    "input_tokens": 24,
+    "cache_creation_input_tokens": 214790,
+    "cache_read_input_tokens": 500512,
+    "output_tokens": 47252
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 77563,
+    "cache_read_input_tokens": 120335,
+    "output_tokens": 19741
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 48089,
+    "cache_read_input_tokens": 53251,
+    "output_tokens": 18212
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "/no_tekster_008.txt": {
+   "ledd": "vask_no",
+   "linjer": {
+    "input_tokens": 16,
+    "cache_creation_input_tokens": 176004,
+    "cache_read_input_tokens": 279946,
+    "output_tokens": 19174
+   },
+   "forespørsler": 3,
+   "per_forsp": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 77836,
+    "cache_read_input_tokens": 96704,
+    "output_tokens": 9052
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 24401,
+    "cache_read_input_tokens": 53435,
+    "output_tokens": 8333
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_017.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37818,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 2236
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28557,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 1179
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9261,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 1057
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_019.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37608,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 4550
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28452,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2336
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9156,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2214
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  },
+  "oppg_014.txt": {
+   "ledd": "generering",
+   "linjer": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 37892,
+    "cache_read_input_tokens": 109923,
+    "output_tokens": 5202
+   },
+   "forespørsler": 2,
+   "per_forsp": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 28594,
+    "cache_read_input_tokens": 66850,
+    "output_tokens": 2662
+   },
+   "siste": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9298,
+    "cache_read_input_tokens": 43073,
+    "output_tokens": 2540
+   },
+   "modeller": [
+    "claude-opus-5-5"
+   ]
+  }
+ }
+}

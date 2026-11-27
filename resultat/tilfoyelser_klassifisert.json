@@ -1,0 +1,417 @@
+{
+ "klassifisert": [
+  {
+   "skill": "no",
+   "nr": "nn-val_menneske-005",
+   "variant": "nn",
+   "kilde": "menneske",
+   "klasse": "OCR",
+   "kildeform": "i. juli",
+   "treff": {
+    "egennavn": [],
+    "tall": [
+     "1"
+    ],
+    "dato": [],
+    "nye_setninger": 0
+   },
+   "setning": "Regjeringa gjer no framlegg om å gje dei som treng meir tid, høve til å røysta frå 1."
+  },
+  {
+   "skill": "en",
+   "nr": "nb-val_emne-004",
+   "variant": "nb",
+   "kilde": "ki",
+   "klasse": "TILFØYD",
+   "kildeform": "Forskere har pekt på at",
+   "treff": {
+    "egennavn": [
+     "Jong",
+     "Peter"
+    ],
+    "tall": [],
+    "dato": [],
+    "nye_setninger": 1
+   },
+   "setning": "Den nederlandske psykologen Peter de Jong og kollegaene hans har i flere forsøk funnet støtte for at rødming kan fungere som et sosialt signal."
+  },
+  {
+   "skill": "en",
+   "nr": "nb-val_emne-007",
+   "variant": "nb",
+   "kilde": "ki",
+   "klasse": "TILFØYD",
+   "kildeform": "Språkforskere har vist at",
+   "treff": {
+    "egennavn": [
+     "Núñez",
+     "Rafael",
+     "Sweetser"
+    ],
+    "tall": [
+     "2006"
+    ],
+    "dato": [
+     "2006"
+    ],
+    "nye_setninger": 0
+   },
+   "setning": "Rafael Núñez og Eve Sweetser viste i en studie fra 2006 at aymara, som snakkes i Andesfjellene, beskriver fortiden som noe som ligger foran, fordi den er kjent og «synlig»."
+  },
+  {
+   "skill": "en",
+   "nr": "nn-val_menneske-005",
+   "variant": "nn",
+   "kilde": "menneske",
+   "klasse": "OCR",
+   "kildeform": "i. juli",
+   "treff": {
+    "egennavn": [],
+    "tall": [
+     "1"
+    ],
+    "dato": [],
+    "nye_setninger": 0
+   },
+   "setning": "Regjeringa gjer no framlegg om at dei som treng meir tid, skal kunna røysta frå 1."
+  },
+  {
+   "skill": "no",
+   "nr": "nn-val_menneske-004",
+   "variant": "nn",
+   "kilde": "menneske",
+   "klasse": "OCR",
+   "kildeform": "Stats lause:2ol",
+   "treff": {
+    "egennavn": [],
+    "tall": [
+     "201"
+    ],
+    "dato": [],
+    "nye_setninger": 0
+   },
+   "setning": "Dei ti største asylsøkjargruppene i fjor kom frå desse landa: Jugoslavia: 1334, Somalia: 731, Sri Lanka: 556, Etiopia: 260, Iran: 244, Statslause: 201, Libanon: 179, Irak: 131, Polen: 120, Bulgaria: 79."
+  },
+  {
+   "skill": "no",
+   "nr": "nn-val_menneske-007",
+   "variant": "nn",
+   "kilde": "menneske",
+   "klasse": "OCR",
+   "kildeform": "Faksmile",
+   "treff": {
+    "egennavn": [
+     "Faksimile"
+    ],
+    "tall": [],
+    "dato": [],
+    "nye_setninger": 0
+   },
+   "setning": "Faksimile frå artikkel i Firda Folkeblad 1."
+  },
+  {
+   "skill": "en",
+   "nr": "nb-val_menneske-015",
+   "variant": "nb",
+   "kilde": "menneske",
+   "klasse": "OCR",
+   "kildeform": "Tbrgersen",
+   "treff": {
+    "egennavn": [
+     "Torgersen"
+    ],
+    "tall": [],
+    "dato": [],
+    "nye_setninger": 0
+   },
+   "setning": "Nedgangen i belegg ble tatt igjen med en liten prisøkning», sier Torgersen."
+  },
+  {
+   "skill": "en",
+   "nr": "nb-val_emne-014",
+   "variant": "nb",
+   "kilde": "ki",
+   "klasse": "OMFORMULERING",
+   "kildeform": "Riksteater-forestilling / Riksteateret",
+   "treff": {
+    "egennavn": [
+     "Riksteatret"
+    ],
+    "tall": [],
+    "dato": [],
+    "nye_setninger": 0
+   },
+   "setning": "Han og Solveig hadde gått på alle forestillingene til Riksteatret i førti år."
+  },
+  {
+   "skill": "no",
+   "nr": "nn-val_menneske-014",
+   "variant": "nn",
+   "kilde": "menneske",
+   "klasse": "OCR",
+   "kildeform": "1850-19 60-talet",
+   "treff": {
+    "egennavn": [],
+    "tall": [
+     "1960"
+    ],
+    "dato": [
+     "1960"
+    ],
+    "nye_setninger": 0
+   },
+   "setning": "I tida da fornorsking var offisiell norsk politikk (grovt sett 1850-1960-talet) var krava frå samisk hald i første rekke at elevar med samisk som heimespråk skulle få opplæring på samisk, ut frå argumentet at ein lærer best på morsmålet."
+  },
+  {
+   "skill": "en",
+   "nr": "nb-val_menneske-009",
+   "variant": "nb",
+   "kilde": "menneske",
+   "klasse": "OCR",
+   "kildeform": "garn kan det … / pålBoo-1900-tallet / ikke-vestlige land",
+   "treff": {
+    "egennavn": [
+     "Ungarn",
+     "Vesten"
+    ],
+    "tall": [
+     "1800"
+    ],
+    "dato": [
+     "1800"
+    ],
+    "nye_setninger": 0
+   },
+   "setning": "For Ungarn kan det være viktig å kunne vise at den ungarske minoriteten i Romania er sterk og homogen, og for Romania kan det være greit å ha en minoritet mindre."
+  },
+  {
+   "skill": "en",
+   "nr": "nn-val_menneske-012",
+   "variant": "nn",
+   "kilde": "menneske",
+   "klasse": "OCR",
+   "kildeform": "Øog Fjordane",
+   "treff": {
+    "egennavn": [
+     "Sogn"
+    ],
+    "tall": [],
+    "dato": [],
+    "nye_setninger": 0
+   },
+   "setning": "I Sogn og Fjordane og Møre og Romsdal vart det i fjor berre meldt 5 saker til det særskilde etterforskingsorganet som vurderer tilfelle der det er mistanke om overgrep."
+  },
+  {
+   "skill": "en",
+   "nr": "nn-val_menneske-004",
+   "variant": "nn",
+   "kilde": "menneske",
+   "klasse": "OCR",
+   "kildeform": "Stats lause:2ol",
+   "treff": {
+    "egennavn": [],
+    "tall": [
+     "201"
+    ],
+    "dato": [],
+    "nye_setninger": 0
+   },
+   "setning": "Dei ti største asylsøkjargruppene i fjor kom frå desse landa: Jugoslavia: 1334, Somalia: 731, Sri Lanka: 556, Etiopia: 260, Iran: 244, Statslause: 201, Libanon: 179, Irak: 131, Polen: 120, Bulgaria: 79."
+  },
+  {
+   "skill": "en",
+   "nr": "nn-val_menneske-007",
+   "variant": "nn",
+   "kilde": "menneske",
+   "klasse": "OCR",
+   "kildeform": "Faksmile",
+   "treff": {
+    "egennavn": [
+     "Faksimile"
+    ],
+    "tall": [],
+    "dato": [],
+    "nye_setninger": 0
+   },
+   "setning": "Faksimile frå artikkel i Firda Folkeblad 1."
+  },
+  {
+   "skill": "no",
+   "nr": "nb-val_menneske-009",
+   "variant": "nb",
+   "kilde": "menneske",
+   "klasse": "OCR",
+   "kildeform": "pålBoo-1900-tallet",
+   "treff": {
+    "egennavn": [],
+    "tall": [
+     "1800"
+    ],
+    "dato": [
+     "1800"
+    ],
+    "nye_setninger": 0
+   },
+   "setning": "Kvenske foreldre fikk høre dette i flere generasjoner på 1800-1900-tallet, og i dag blir innvandrere, særlig fra ikke-vestlige land, utsatt for dét samme."
+  },
+  {
+   "skill": "en",
+   "nr": "nb-val_emne-005",
+   "variant": "nb",
+   "kilde": "ki",
+   "klasse": "OMFORMULERING",
+   "kildeform": "Mange unge flytter ut for å ta utdanning eller finne arbeid, mens de eldre b[lir]",
+   "treff": {
+    "egennavn": [],
+    "tall": [],
+    "dato": [],
+    "nye_setninger": 1
+   },
+   "setning": "De unge flytter ut for å studere eller få jobb , de eldre blir boende ."
+  },
+  {
+   "skill": "no",
+   "nr": "nb-val_menneske-015",
+   "variant": "nb",
+   "kilde": "menneske",
+   "klasse": "OCR",
+   "kildeform": "Tbrgersen",
+   "treff": {
+    "egennavn": [
+     "Torgersen"
+    ],
+    "tall": [],
+    "dato": [],
+    "nye_setninger": 0
+   },
+   "setning": "Nedgangen i belegg ble tatt igjen med en liten prisøkning, sier Torgersen."
+  },
+  {
+   "skill": "en",
+   "nr": "nb-val_menneske-008",
+   "variant": "nb",
+   "kilde": "menneske",
+   "klasse": "OCR",
+   "kildeform": "I3.mars",
+   "treff": {
+    "egennavn": [],
+    "tall": [
+     "13"
+    ],
+    "dato": [],
+    "nye_setninger": 0
+   },
+   "setning": "Det hele avsluttes i Lakselv 13."
+  },
+  {
+   "skill": "no",
+   "nr": "nb-val_menneske-008",
+   "variant": "nb",
+   "kilde": "menneske",
+   "klasse": "OCR",
+   "kildeform": "I3.mars",
+   "treff": {
+    "egennavn": [],
+    "tall": [
+     "13"
+    ],
+    "dato": [],
+    "nye_setninger": 0
+   },
+   "setning": "Det hele avsluttes i Lakselv den 13."
+  },
+  {
+   "skill": "en",
+   "nr": "nb-val_emne-008",
+   "variant": "nb",
+   "kilde": "ki",
+   "klasse": "OMFORMULERING",
+   "kildeform": "kan selv små forskjeller, som en enkelt bokstav, vekke sterke følelser",
+   "treff": {
+    "egennavn": [],
+    "tall": [],
+    "dato": [],
+    "nye_setninger": 1
+   },
+   "setning": "Det er som regel der striden står , og den kan handle om én enkelt bokstav ."
+  },
+  {
+   "skill": "en",
+   "nr": "nb-val_emne-006",
+   "variant": "nb",
+   "kilde": "ki",
+   "klasse": "TILFØYD",
+   "kildeform": "Forskning på såkalt tilskuereffekt viser",
+   "treff": {
+    "egennavn": [
+     "Bibb",
+     "Darley",
+     "John",
+     "Latané"
+    ],
+    "tall": [
+     "1968"
+    ],
+    "dato": [
+     "1968"
+    ],
+    "nye_setninger": 1
+   },
+   "setning": "Forsøkene til de amerikanske sosialpsykologene Bibb Latané og John Darley fra 1968 la grunnlaget for det som kalles tilskuereffekten: Folk griper sjeldnere inn for å hjelpe når mange andre er til stede, fordi ansvaret oppleves som delt."
+  },
+  {
+   "skill": "no",
+   "nr": "nn-val_menneske-012",
+   "variant": "nn",
+   "kilde": "menneske",
+   "klasse": "OCR",
+   "kildeform": "Øog Fjordane",
+   "treff": {
+    "egennavn": [
+     "Sogn"
+    ],
+    "tall": [],
+    "dato": [],
+    "nye_setninger": 0
+   },
+   "setning": "I Sogn og Fjordane og Møre og Romsdal vart det i fjor berre meldt 5 saker til det særskilde etterforskingsorganet som vurderer tilfelle der det er mistanke om overgrep."
+  },
+  {
+   "skill": "en",
+   "nr": "nn-val_emne-000",
+   "variant": "nn",
+   "kilde": "ki",
+   "klasse": "TILFØYD",
+   "kildeform": "nesten tre hundre år",
+   "treff": "utenom maskinen (tallord)",
+   "setning": "og «Erasmus Montanus», har vore spela i over tre hundre år."
+  }
+ ],
+ "tabell": {
+  "en|nb": {
+   "n": 40,
+   "maskintreff": 9,
+   "tilføyd": 3,
+   "TILFØYD": 3,
+   "OCR": 3,
+   "OMFORMULERING": 3
+  },
+  "en|nn": {
+   "n": 40,
+   "maskintreff": 4,
+   "OCR": 4,
+   "tilføyd": 1,
+   "TILFØYD": 1
+  },
+  "no|nb": {
+   "n": 40,
+   "maskintreff": 3,
+   "OCR": 3
+  },
+  "no|nn": {
+   "n": 40,
+   "maskintreff": 5,
+   "OCR": 5
+  }
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "fra": "2026-11-27T09:18:31",
+ "til": "2026-11-27T09:52:52",
+ "foresp\u00f8rsler": 83,
+ "input_tokens": 238,
+ "cache_creation_input_tokens": 1611809,
+ "cache_read_input_tokens": 44916488,
+ "output_tokens": 98351,
+ "sum": 46626886
+}

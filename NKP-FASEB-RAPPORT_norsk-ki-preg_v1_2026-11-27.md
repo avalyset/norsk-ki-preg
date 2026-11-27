@@ -3,15 +3,20 @@
 **Beslutning etter PREREG-regelen: den norske skillen er ikke bedre.** R-vilkåret holder ikke i noen variant. I bokmål senker anti-ai-writing markørraten signifikant mer enn den norske skillen. M3-vilkåret holder i begge varianter: den norske skillen endrer menneskeskrevet tekst langt mindre.
 
 ## 1. Forbruk og kutt
-| Ledd | Kall | `subagent_tokens` | Sum alle forespørsler |
-|---|---|---|---|
-| Claude-generering | 113 | 6 245 229 | 17 371 849 |
-| Vask, norsk skill | 16 | 1 392 109 | 7 904 920 |
-| Vask, anti-ai-writing | 16 | 1 965 141 | 14 233 352 |
-| **Subagenter** | 145 | **9 602 479** | 39 510 121 |
-| Hovedøkt | – | ikke målt (≈ 0,8M) | – |
+Fra `message.usage` i transkriptene (AVVIK B12, FORBRUK.md). A = `subagent_tokens` (siste forespørsel per kall, harnessens tall). B = sum per forespørsel, deduplisert på `message.id`. C = B uten cache-lesing.
 
-Taket er 12M etter PREREG-målet (`subagent_tokens` + overslag for hovedøkta). Faktisk forbruk er ≈ 10,4M. **Ingen kutt.** Kontrollpunktet ble ikke utløst: snittet for de 10 første genereringskallene var 54,0k mot grensen 62k. Lokalt: NorMistral 564 tekster (81,7 min), e5-small på CPU. Ingen betalte API-er, ingen nøkler, ingen push.
+| Ledd | Kall | A | B | C |
+|---|---|---|---|---|
+| Claude-generering | 113 | 6 245 229 | 11 126 620 | 3 810 340 |
+| Vask, norsk skill | 16 | 1 392 109 | 3 076 451 | 1 404 154 |
+| Vask, anti-ai-writing | 16 | 1 965 141 | 5 231 406 | 1 710 476 |
+| **Subagenter** | 145 | **9 602 479** | **19 434 477** | **6 924 970** |
+| Hovedøkt (DEL 2) | – | – | 46 626 886 | 1 710 398 |
+| **Alt** | | | **66 061 363** | **8 635 368** |
+
+Det tidligere tallet 39,5M var dobbelttelt (én transkriptlinje per innholdsblokk med gjentatt `usage`). Overslaget for hovedøkta (0,8M) var for lavt med en faktor på rundt 58, nesten bare på grunn av cache-lesing. Hvilket mål som tilsvarer forbruk mot Max, kan ikke avgjøres fra loggene.
+
+Taket på 12M gjaldt etter det låste PREREG-målet (A + overslag), som gir ≈ 10,4M. **Ingen kutt.** Etter B er taket overskredet, etter C ikke. Kontrollpunktet ble ikke utløst: snittet for de 10 første genereringskallene var 54,0k mot grensen 62k. Lokalt: NorMistral 564 tekster (81,7 min), e5-small på CPU. Ingen betalte API-er, ingen nøkler, ingen push.
 
 Generering, opptalt fra disk etter at overvåkingen var stoppet (AVVIK B11): før 113 ferdige, 0 manglende, 0 feilet; etter det samme. Ingenting ble kjørt på nytt. Vask: 32 av 32 kall svarte (160 tekster), ingen nye kjøringer (B13).
 
@@ -73,7 +78,31 @@ Parret bootstrap 10 000 trekk, `default_rng(2026)`, nb før nn, R-trekk før M3-
 Hva som skjedde:
 - Den norske skillen gjør nesten ingenting med Claude-fritekst. Grunnregelen «la tekst uten markører stå urørt» slo til på halvparten av KI-tekstene (B15). Lag 1-lemmaene er vanlige ord som bare teller ved opphopning.
 - Den endret alle 40 menneskelige tekster litt, fordi den retter OCR-feil. M3 er likevel 5–8 ganger lavere enn for anti-ai-writing.
-- anti-ai-writing skriver om mye: den kutter avslutninger, bytter replikkstrek til «» og legger noen ganger til navn og fakta som ikke står i kilden (B14). Det senker markørraten noe i nb, men koster meningsbevaring og endrer menneskelig tekst mye.
+- anti-ai-writing skriver om mye: den kutter avslutninger og bytter replikkstrek til «». Det senker markørraten noe i nb, men endrer menneskelig tekst mye.
+- **Tilføyelser (B14, maskinell telling mot kilden og klassifisering fra disk):** anti-ai-writing la inn navn, tall eller påstander som ikke står i kilden i 4 av 80 tekster (nb 3/40, nn 1/40, alle KI-tekster). Den norske skillen gjorde det i 0 av 80. Begge skills rekonstruerer de samme OCR-skadene i menneskelig tekst (nb 3, nn 4–5). De er ikke regnet som tilføyelser.
+
+| Skill | Variant | Maskintreff | OCR | Omformulering | Ekte tilføyelse |
+|---|---|---|---|---|---|
+| anti-ai-writing | nb | 9 | 3 | 3 | 3 |
+| anti-ai-writing | nn | 4 | 4 | 0 | 1 (tallord, funnet utenom maskinen) |
+| norsk v0 | nb | 3 | 3 | 0 | 0 |
+| norsk v0 | nn | 5 | 5 | 0 | 0 |
+
+Eksempler, ordrett fra `data/b_vasket.jsonl`:
+
+*anti-ai-writing*
+1. nb-val_emne-004 (TILFØYD): «Den nederlandske psykologen Peter de Jong og kollegaene hans har i flere forsøk funnet støtte for at rødming kan fungere som et sosialt signal.» Kilden har: «Forskere har pekt på at».
+2. nb-val_emne-007 (TILFØYD): «Rafael Núñez og Eve Sweetser viste i en studie fra 2006 at aymara, som snakkes i Andesfjellene, beskriver fortiden som noe som ligger foran». Kilden har: «Språkforskere har vist at».
+3. nb-val_emne-006 (TILFØYD): «Forsøkene til de amerikanske sosialpsykologene Bibb Latané og John Darley fra 1968 la grunnlaget for det som kalles tilskuereffekten». Kilden har: «Forskning på såkalt tilskuereffekt viser».
+4. nn-val_emne-000 (TILFØYD, endret faktapåstand): «har vore spela i over tre hundre år». Kilden har: «nesten tre hundre år».
+5. nb-val_menneske-009 (OCR): «For Ungarn kan det være viktig å kunne vise at den ungarske minoriteten i Romania er sterk og homogen». Kilden har: «garn kan det være viktig».
+
+*norsk v0* (alle treff er OCR-rekonstruksjoner)
+1. nn-val_menneske-005: «høve til å røysta frå 1. juli valåret». Kilden har: «frå i. juli valåret».
+2. nn-val_menneske-004: «Iran: 244, Statslause: 201, Libanon: 179». Kilden har: «Stats lause:2ol».
+3. nb-val_menneske-015: «Nedgangen i belegg ble tatt igjen med en liten prisøkning, sier Torgersen.» Kilden har: «sier Tbrgersen.»
+4. nn-val_menneske-012: «I Sogn og Fjordane og Møre og Romsdal vart det i fjor berre meldt 5 saker». Kilden har: «Øog Fjordane Øog Møre Øog Romsdal».
+5. nb-val_menneske-008: «Det hele avsluttes i Lakselv den 13. mars». Kilden har: «den I3.mars».
 - M1 skiller nesten ikke KI fra menneske i bokmål før vask (R = 1,01, B16). Valideringen har derfor lite å måle en nedgang mot. Lista er målt på fortsettelser (T1), mens validerings-KI er fritekst (T2/T3) mot OCR-avis.
 - Sirkularitet: lista er grunnlaget for både skillen og M1. Med bare markorer_v0 er R_no høyere enn R_en i begge varianter, og bildet er det samme.
 
@@ -88,8 +117,8 @@ Hva som skjedde:
 - B3 NLOD-kildene utelatt. B4 anker bare på formelen. B5 nn 0 tekster 2000–2020 → 1990–2020.
 - B6 emne kan være et OCR-fragment. **B7 nn-filteret justert etter låsing.** B8 nn skjevt i tid (normskifte).
 - B9 NorMistral: én tekst mangler. B10 tolkningsforbehold for NorMistral-lista.
-- B11 overvåkingsfeil (`-v`), ingen datatap og ingen nye kjøringer. B12 to tokenmål.
-- B13 vaskemekanisme, 32/32. B14 engelsk skill bytter replikkstrek og legger til fakta. B15 norsk skill lar 20 av 40 KI-tekster stå urørt. B16 M1 skiller dårlig i nb. B17 bare status og presiseringer endret etter valideringen.
+- B11 overvåkingsfeil (`-v`), ingen datatap og ingen nye kjøringer. **B12 lukket:** 9,6M = siste forespørsel per kall, 39,5M = dobbelttelt linjesum, riktig sum 19,4M (subagenter) + 46,6M (hovedøkt).
+- B13 vaskemekanisme, 32/32. **B14 lukket:** tilføyelser i 4/80 (engelsk) mot 0/80 (norsk). B15 norsk skill lar 20 av 40 KI-tekster stå urørt. B16 M1 skiller dårlig i nb. B17 bare status og presiseringer endret etter valideringen.
 
 ## 9. Neste steg
 Valideringen sier at v0 ikke slår anti-ai-writing på markørrate. Den sier også at v0 er langt skånsommere mot menneskelig tekst. En v1 bør måles på fritekst (T2/T3) i stedet for fortsettelser, fordi det er der skillen faktisk skal brukes. Den bør også ha en referanse som ikke er OCR-avis. Det krever ny PREREG. Ingenting er publisert eller pushet.

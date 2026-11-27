@@ -90,14 +90,42 @@ nn: 181 av 275 avsnitt er fra 1990–1994, og 15 er bøker. nb er fra 2000–201
 ## B11 – Innsamlingsfeil i overvåkingen (ingen datatap)
 `samle_b.py -v` tolket `-v` som filmønster, så overvåkingen fant 0 partier og ble aldri ferdig. Feilen er rettet. En opptelling fra disk viste at alle 113 partiene hadde 5 svar hver, og ingen kall ble kjørt på nytt.
 
-## B12 – To tokenmål
-PREREG §7 bruker `subagent_tokens` (harnessens tall, lik konteksten i siste forespørsel): 6 245 229 for generering. Summerer man alle forespørsler i hver subagent (hvert kall har to forespørsler: lesing av fila og svar, og begge teller hele den bufrede konteksten), blir det 17 371 849. Taket måles etter PREREG-målet. Begge tallene rapporteres.
+## B12 – To tokenmål (lukket 27.11 fra disk, `skript/tokenregnskap.py` → `resultat/tokenregnskap.json`)
+Kilde: transkriptene til de 145 subagentkallene (`tasks/*.output` → `subagents/agent-*.jsonl`), feltet `message.usage` på hver `assistant`-linje: `input_tokens`, `cache_creation_input_tokens`, `cache_read_input_tokens` og `output_tokens`. Alle kall har `message.model` = `claude-opus-5-5`.
+
+- **9 602 479 = `subagent_tokens`** = summen av de fire feltene i **siste** forespørsel i hvert kall: input 290 + cache-skriving 1 792 965 + cache-lesing 7 042 246 + output 766 978. Det er kontekststørrelsen ved slutten av kallet, ikke forbruket. Tidligere forespørsler i samme kall er ikke med. Tallet stemmer med `usage.subagent_tokens` i harnessvarslene (for eksempel en_tekster_011: 129 049 i begge).
+- **39 510 121 = summen over alle `assistant`-linjer**: input 1 334 + cache-skriving 10 736 512 + cache-lesing 26 852 704 + output 1 919 571. Tallet er **dobbelttelt**. Transkriptet skriver én linje per innholdsblokk, og alle linjene i en forespørsel gjentar samme `usage`. 223 forespørsler har flere linjer, alle med identisk `usage`.
+- **Riktig sum per forespørsel** (deduplisert på `message.id`, 341 forespørsler): input 682 + cache-skriving 6 005 748 + cache-lesing 12 509 507 + output 918 540 = **19 434 477**.
+- **Hovedøkta i DEL 2** (`45403c01….jsonl`, ikke-sidekjede, fra «kjør del 2» 09:18:31Z til commit 32a14cc 09:52:52Z, 83 forespørsler, `resultat/tokenregnskap_hovedokt.json`): input 238 + cache-skriving 1 611 809 + cache-lesing 44 916 488 + output 98 351 = **46 626 886**. Overslaget i PREREG §7 (≈ 0,8M) var altså for lavt med en faktor på rundt 58. Det er cache-lesing av en lang kontekst.
+
+**Hva som samsvarer med forbruk mot Max kan ikke avgjøres fra loggene.** Loggene inneholder ingen Max-kvote eller -vekting. Hvordan cache-lesing, cache-skriving og output vektes mot Max-grensen, er ikke dokumentert i noe på disk. Det nærmeste målet på faktisk behandlede tokens er summen per forespørsel: 19,4M for subagentene og 66,1M med hovedøkta. Uten cache-lesing er tallene 6,9M og 8,6M. 9,6M er ikke et forbruksmål.
+
+Konsekvens for taket: PREREG §7 definerte taket som `subagent_tokens` + overslag for hovedøkta. Etter den definisjonen er forbruket ≈ 10,4M < 12M. Etter summen per forespørsel er taket overskredet (19,4M bare for subagentene). Utenom cache-lesing er forbruket under taket (8,6M i alt). Ingen kutt ble gjort, fordi regelen ble anvendt etter det låste målet.
 
 ## B13 – Vask i validering: mekanisme og uttrekk
 32 Explore-kall (16 per skill), 5 tekster per kall. Skillen ble lest fra disk: den norske fra `skills/norsk-ki-preg/`, den engelske fra pluginkatalogen til anti-ai-writing v2.1.0. Omskrivingsblokken hentes med `skript/samle_vask_b.py`. Overskriften varierer mellom «### Omskriving», «**Omskriving**» og «Rewrite», og skriptet godtar alle tre. Alle 32 kall svarte, med 5 svar hvert (160 tekster). Ingen kall ble kjørt på nytt, og ingen ble drept. Fire engelske kall brukte 5–6 minutter. De ble sjekket fra disk innenfor 10-minuttersgrensen.
 
-## B14 – Den engelske skillen svarer på norsk og bytter replikkstrek
-anti-ai-writing forbyr alle streker. På norske tekster gjør den derfor replikkstrek om til «», og det gjør M3 høyere på menneskelig tekst. Den legger også til navn og fakta som ikke står i kilden (for eksempel forskernavn i en tekst om rødming, og «over tre hundre år» i stedet for «nesten tre hundre år»). Dette er ikke en del av regelen. M2 fanger det bare delvis, og det er notert beskrivende.
+## B14 – Tilføyelser i vasken (lukket 27.11 fra disk, `skript/tilfoyelser.py` + `skript/tilfoyelser_klasse.py`)
+Den engelske skillen forbyr alle streker, og derfor gjør den replikkstrek om til «» i norske tekster. Det gjør M3 høyere på menneskelig tekst.
+
+Tilføyelser er telt maskinelt i alle 160 vaskede tekster mot kildeteksten, uten modellkall:
+- Egennavn: Stanza PROPN der form og lemma mangler i kilden. Kilden sjekkes også uten mellomrom.
+- Tall: sifferstrenger.
+- Datoer: måneds- og ukedagsnavn og årstall.
+- Nye påstander (proxy): setninger med ≥ 3 innholdslemmaer der minst halvparten mangler i kilden.
+
+Hvert maskintreff er deretter klassifisert ved lesing fra disk som TILFØYD, OCR (rekonstruksjon av et skadet ord eller tall i kilden) eller OMFORMULERING.
+
+| Skill | Variant | Tekster | Maskintreff | Av dem OCR | Av dem omformulering | **Ekte tilføyelse** |
+|---|---|---|---|---|---|---|
+| anti-ai-writing | nb | 40 | 9 | 3 | 3 | **3** (alle KI) |
+| anti-ai-writing | nn | 40 | 4 | 4 | 0 | **1** (KI, tallord, funnet utenom maskinen) |
+| norsk v0 | nb | 40 | 3 | 3 | 0 | **0** |
+| norsk v0 | nn | 40 | 5 | 5 | 0 | **0** |
+
+De ekte tilføyelsene er navngitte forskere og årstall som erstatter «forskere har …» (nb-val_emne-004, -006, -007), og «nesten tre hundre år» → «over tre hundre år» (nn-val_emne-000). Begge skills rekonstruerer de samme OCR-skadene i menneskelig tekst (for eksempel «I3.mars» → «13. mars»). Det er rettinger, ikke tilføyelser.
+
+Begrensning: tallord og endrede påstander uten nye navn eller tall fanges ikke av maskinen. nn-val_emne-000 er funnet fordi den engelske skillen selv nevnte endringen i svaret.
 
 ## B15 – Den norske skillen lar halvparten av KI-tekstene stå urørt
 Grunnregelen «la tekst uten markører stå urørt» ga «Ingen endringer» for 11 av 20 nb-KI og 9 av 20 nn-KI. Ingen av de 40 menneskelige tekstene ble returnert uendret. De har OCR-feil som skillen retter (orddeling, «Øog» osv.), og derfor er M3 > 0 også for dem. Dette forklarer det meste av resultatet: lag 1-elementene er vanlige ord som bare teller ved opphopning, og Claudes fritekst (T2/T3) utløser dem sjelden.

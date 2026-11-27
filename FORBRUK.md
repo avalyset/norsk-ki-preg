@@ -51,13 +51,23 @@ Margin ≈ 1,7M (14 %). Hvis de første 10 genereringskallene i snitt bruker ove
 # DEL 2 – steg 7 budsjettsjekk (2026-11-27)
 Anslag 10,3M < tak 12M → **ingen kutt**. Fritekst 50/50, validering 20/20, fortsettelser 240/185. Kontrollpunkt: snittet av `subagent_tokens` for de 10 første genereringskallene sammenlignes med 62k.
 
-# DEL 2 – faktisk (2026-11-27)
-| Ledd | Kall | `subagent_tokens` (PREREG §7) | Per kall | Sum alle forespørsler |
-|---|---|---|---|---|
-| Claude-generering (Explore, 5 per kall) | 113 | 6 245 229 | 55 268 | 17 371 849 |
-| Vask, norsk skill | 16 | 1 392 109 | 87 007 | 7 904 920 |
-| Vask, anti-ai-writing | 16 | 1 965 141 | 122 821 | 14 233 352 |
-| **Subagenter i alt** | 145 | **9 602 479** | | 39 510 121 |
-| Hovedøkt | 1 | ikke målt (overslag ≈ 0,8M) | | |
+# DEL 2 – faktisk (2026-11-27, revidert etter B12)
+Kilde: `message.usage` i transkriptene (`resultat/tokenregnskap.json`, `resultat/tokenregnskap_hovedokt.json`). Tre mål, se AVVIK B12:
 
-Mot taket: ≈ 10,4M < 12M. **Ingen kutt** (fritekst 50/50, validering 20/20, fortsettelser 240/185). Kontrollpunktet etter 10 kall ble ikke utløst (snitt under 62k). Tallene i kolonnen «Sum alle forespørsler» teller den bufrede konteksten for hver forespørsel (AVVIK B12). Lokalt: NorMistral 564 tekster, e5-small for M2 på CPU. Ingen betalte API-er og ingen nøkler.
+| Ledd | Kall / forespørsler | A: `subagent_tokens` (siste forespørsel) | B: sum per forespørsel (dedupl.) | C: B uten cache-lesing | Linjesum (dobbelttelt) |
+|---|---|---|---|---|---|
+| Claude-generering | 113 / 226 | 6 245 229 | 11 126 620 | 3 810 340 | 17 371 849 |
+| Vask, norsk skill | 16 / 50 | 1 392 109 | 3 076 451 | 1 404 154 | 7 904 920 |
+| Vask, anti-ai-writing | 16 / 65 | 1 965 141 | 5 231 406 | 1 710 476 | 14 233 352 |
+| **Subagenter** | 145 / 341 | **9 602 479** | **19 434 477** | **6 924 970** | 39 510 121 |
+| Hovedøkt (09:18–09:52Z) | 1 / 83 | – | 46 626 886 | 1 710 398 | – |
+| **Alt** | | | **66 061 363** | **8 635 368** | |
+
+Per tokentype (B, subagenter + hovedøkt): input 920, cache-skriving 7 617 557, cache-lesing 57 425 995, output 1 016 891.
+
+- A er kontekststørrelsen ved slutten av hvert kall (harnessens `subagent_tokens`), ikke forbruk.
+- B er alle behandlede tokens.
+- C utelater cache-lesing.
+- Hvilket mål som tilsvarer Max-forbruk, **kan ikke avgjøres fra loggene** (ingen kvote eller vekting på disk).
+- Etter det låste PREREG-målet (A + overslag 0,8M) er forbruket ≈ 10,4M < 12M, så ingen kutt. Etter B er taket overskredet. Etter C er det ikke.
+- Lokalt: NorMistral 564 tekster, e5-small for M2 på CPU. Ingen betalte API-er og ingen nøkler.

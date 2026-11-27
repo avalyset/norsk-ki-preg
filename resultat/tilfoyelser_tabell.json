@@ -1,0 +1,128 @@
+{
+ "no|nn|ki": {
+  "n": 20,
+  "egennavn": 0,
+  "tall": 0,
+  "dato": 0,
+  "nye_setninger": 0,
+  "navn_tall_dato": 0,
+  "noe": 0
+ },
+ "no|nn|alle": {
+  "n": 40,
+  "egennavn": 2,
+  "tall": 3,
+  "dato": 1,
+  "nye_setninger": 0,
+  "navn_tall_dato": 5,
+  "noe": 5
+ },
+ "no|alle|alle": {
+  "n": 80,
+  "egennavn": 3,
+  "tall": 5,
+  "dato": 2,
+  "nye_setninger": 0,
+  "navn_tall_dato": 8,
+  "noe": 8
+ },
+ "no|nn|menneske": {
+  "n": 20,
+  "egennavn": 2,
+  "tall": 3,
+  "dato": 1,
+  "nye_setninger": 0,
+  "navn_tall_dato": 5,
+  "noe": 5
+ },
+ "en|nn|ki": {
+  "n": 20,
+  "egennavn": 0,
+  "tall": 0,
+  "dato": 0,
+  "nye_setninger": 0,
+  "navn_tall_dato": 0,
+  "noe": 0
+ },
+ "en|nn|alle": {
+  "n": 40,
+  "egennavn": 2,
+  "tall": 2,
+  "dato": 0,
+  "nye_setninger": 0,
+  "navn_tall_dato": 4,
+  "noe": 4
+ },
+ "en|alle|alle": {
+  "n": 80,
+  "egennavn": 8,
+  "tall": 6,
+  "dato": 3,
+  "nye_setninger": 4,
+  "navn_tall_dato": 11,
+  "noe": 13
+ },
+ "en|nn|menneske": {
+  "n": 20,
+  "egennavn": 2,
+  "tall": 2,
+  "dato": 0,
+  "nye_setninger": 0,
+  "navn_tall_dato": 4,
+  "noe": 4
+ },
+ "en|nb|ki": {
+  "n": 20,
+  "egennavn": 4,
+  "tall": 2,
+  "dato": 2,
+  "nye_setninger": 4,
+  "navn_tall_dato": 4,
+  "noe": 6
+ },
+ "en|nb|alle": {
+  "n": 40,
+  "egennavn": 6,
+  "tall": 4,
+  "dato": 3,
+  "nye_setninger": 4,
+  "navn_tall_dato": 7,
+  "noe": 9
+ },
+ "en|nb|menneske": {
+  "n": 20,
+  "egennavn": 2,
+  "tall": 2,
+  "dato": 1,
+  "nye_setninger": 0,
+  "navn_tall_dato": 3,
+  "noe": 3
+ },
+ "no|nb|menneske": {
+  "n": 20,
+  "egennavn": 1,
+  "tall": 2,
+  "dato": 1,
+  "nye_setninger": 0,
+  "navn_tall_dato": 3,
+  "noe": 3
+ },
+ "no|nb|alle": {
+  "n": 40,
+  "egennavn": 1,
+  "tall": 2,
+  "dato": 1,
+  "nye_setninger": 0,
+  "navn_tall_dato": 3,
+  "noe": 3
+ },
+ "no|nb|ki": {
+  "n": 20,
+  "egennavn": 0,
+  "tall": 0,
+  "dato": 0,
+  "nye_setninger": 0,
+  "navn_tall_dato": 0,
+  "noe": 0
+ }
+}

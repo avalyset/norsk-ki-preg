@@ -11,3 +11,7 @@
 - `skript/maal_m2_val.py` → `resultat/validering_m2.json`.
 - liste_v1.json sha256 336068c3…4c4a298f uendret.
 - Rapport: NKP-FASEB-RAPPORT_norsk-ki-preg_v1_2026-11-27.md.
+
+## 2026-11-27 – B12 og B14 lukket fra disk (ingen modellkall)
+- `skript/tokenregnskap.py` → `resultat/tokenregnskap.json` og `resultat/tokenregnskap_hovedokt.json`: 9,6M = siste forespørsel per kall, 39,5M = dobbelttelt linjesum, dedupliserte summer 19,4M (subagenter) og 46,6M (hovedøkt).
+- `skript/tilfoyelser.py` + `skript/tilfoyelser_klasse.py` → `resultat/tilfoyelser*.json`: ekte tilføyelser 4/80 (anti-ai-writing) mot 0/80 (norsk v0).
